@@ -39,7 +39,7 @@
   <p>Biblyx ("the app", "we", "us") is built and operated by an individual developer (not a legal entity), based in Azerbaijan. This Privacy Policy applies to all users of the app, including international and European Union users, and explains what data is collected, how it is used, who it may be shared with, and your rights.</p>
 
   <h2>2. Data Controller</h2>
-  <p>The party responsible for processing your data: an individual developer (Galbinur), Azerbaijan.<br>
+  <p>Data Controller: Galbinur, an individual developer residing in Azerbaijan (not a registered company).<br>
   Contact: biblyx.support@gmail.com</p>
   <p>All privacy-related requests, including the rights listed below, can be sent to this address.</p>
 
@@ -47,10 +47,10 @@
   <ul>
     <li><b>Account data:</b> via Supabase Auth, your email (if you signed up with email/password or Google) and a unique user ID. For anonymous use, only an anonymous device session identifier is stored.</li>
     <li><b>Cloud Sync data</b> (only if you sign in): your app settings, WordLab (your saved words), book metadata (title, author, reading progress), bookmarks and highlights. The book file itself is never sent off your device — it stays local.</li>
-    <li><b>AI translation data:</b> the word/sentence/paragraph text you translate is sent to OpenAI through a secure server function (Supabase Edge Function) to produce a translation/analysis result. This text is not permanently stored by us.</li>
-    <li><b>Usage statistics</b> (Firebase Analytics): anonymous counts and categories of which features are used. Book titles, looked-up words, or personal text are never sent to analytics.</li>
+    <li><b>AI translation data:</b> the word/sentence/paragraph text you translate is sent to OpenAI through a secure server function (Supabase Edge Function) to produce a translation/analysis result. This text is processed under OpenAI's applicable data-processing policies and is not permanently stored by us. Biblyx does not use this text to train AI models.</li>
+    <li><b>Usage statistics</b> (Firebase Analytics): anonymous counts and categories of which features are used. Book titles, looked-up words, or personal text are never sent to analytics. Depending on platform and settings, Firebase may automatically collect some additional technical interaction and diagnostic data.</li>
     <li><b>Crash reports</b> (Firebase Crashlytics): if the app crashes unexpectedly, technical diagnostic data is sent automatically so we can find and fix issues.</li>
-    <li><b>Abuse-prevention identifier:</b> to prevent abuse of the daily free AI quota (e.g. signing out to obtain a new free quota), your device's unique identifier (Android ID) is stored together with a daily usage counter. This identifier is not used for advertising or tracking and is not linked to your personal profile.</li>
+    <li><b>Abuse-prevention identifier:</b> to prevent abuse of the daily free AI quota (e.g. signing out to obtain a new free quota), a device-generated identifier is processed together with a daily usage counter, solely for abuse and quota-fraud prevention. It is not used for advertising, profiling, or tracking, and is not linked to your personal profile.</li>
   </ul>
 
   <h2>4. Legal Basis for Processing (for European Union users)</h2>
@@ -75,14 +75,14 @@
   <p>Your book files (PDF, EPUB, etc.) are stored only on your device and are never uploaded to our servers. Only metadata about the book (title, reading progress, etc.) is synced — never the book's content.</p>
 
   <h2>7. Data Retention</h2>
-  <p>Your account data is kept for as long as your account is active. When you delete your account, all account and sync data is deleted immediately and permanently (in-app: Settings → Account → Delete account). The daily abuse-prevention counter (Section 3) is recorded separately per calendar date, is not linked to your personal profile, and is not accumulated into a long-term usage history tied to your identity.</p>
+  <p>Your account data is kept for as long as your account is active. When you delete your account, all account and sync data is deleted immediately and permanently (in-app: Account → Delete my account). The daily abuse-prevention counter (Section 3) is recorded separately per calendar date, is not linked to your personal profile, and is not accumulated into a long-term usage history tied to your identity.</p>
 
   <h2>8. Your Rights</h2>
   <p>Whether you live in Azerbaijan or in the European Union (GDPR), you have the following rights:</p>
   <ul>
     <li>The right to access your data</li>
     <li>The right to correct inaccurate data</li>
-    <li>The right to erasure ("right to be forgotten") — available instantly in-app via Settings → Account → Delete account</li>
+    <li>The right to erasure ("right to be forgotten") — available instantly in-app via Account → Delete my account, or by requesting it at biblyx.support@gmail.com</li>
     <li>The right to data portability (export)</li>
     <li>The right to withdraw consent at any time</li>
     <li>The right to object to processing</li>
@@ -100,7 +100,7 @@
 
   <h2>12. Contact</h2>
   <p>For questions: biblyx.support@gmail.com<br>
-  This document has been prepared with the laws of the Republic of Azerbaijan in mind.</p>
+  This Privacy Policy is designed to comply with applicable privacy laws, including GDPR requirements for users in the European Economic Area, and has been prepared with the laws of the Republic of Azerbaijan in mind.</p>
 
   <div class="lang-divider"><b>Azərbaycan dilində</b> — aşağıda</div>
 
@@ -111,17 +111,17 @@
   <p>Biblyx ("tətbiq", "biz", "bizim") fərdi developer tərəfindən (hüquqi şəxs deyil, fiziki şəxs kimi), Azərbaycanda hazırlanır və idarə olunur. Bu Məxfilik Siyasəti tətbiqi yükləyib istifadə edən bütün istifadəçilərə, o cümlədən beynəlxalq və Avropa İttifaqı sakinlərinə şamil olunur.</p>
 
   <h2>2. Məlumat Nəzarətçisi</h2>
-  <p>Məlumatlarınızın emalına görə məsul şəxs: fərdi developer (Galbinur), Azərbaycan.<br>
+  <p>Data Controller (Məlumat Nəzarətçisi): Galbinur — fərdi developer, Azərbaycanda yaşayır (şirkət deyil).<br>
   Əlaqə: biblyx.support@gmail.com</p>
 
   <h2>3. Topladığımız Məlumatlar</h2>
   <ul>
     <li><b>Hesab məlumatları:</b> Supabase Auth vasitəsilə email və unikal istifadəçi ID-si. Anonim istifadə zamanı yalnız anonim cihaz sessiya identifikatoru saxlanılır.</li>
     <li><b>Cloud Sync məlumatları</b> (yalnız hesaba giriş etsəniz): ayarlar, WordLab, kitab metadatası, əlfəcinlər, vurğulamalar. Kitab faylının özü heç vaxt cihazınızdan kənara göndərilmir.</li>
-    <li><b>AI tərcümə məlumatları:</b> tərcümə etdiyiniz mətn Supabase Edge Function vasitəsilə OpenAI-ə göndərilir; bizim tərəfimizdən daimi saxlanılmır.</li>
-    <li><b>İstifadə statistikası</b> (Firebase Analytics): anonim say/kateqoriya məlumatları, kitab adları/mətnlər heç vaxt göndərilmir.</li>
+    <li><b>AI tərcümə məlumatları:</b> tərcümə etdiyiniz mətn Supabase Edge Function vasitəsilə OpenAI-ə göndərilir. Bu mətn OpenAI-nin tətbiq olunan data-emalı siyasətinə uyğun emal olunur, bizim tərəfimizdən daimi saxlanılmır və süni intellekt modellərini öyrətmək üçün istifadə edilmir.</li>
+    <li><b>İstifadə statistikası</b> (Firebase Analytics): anonim say/kateqoriya məlumatları, kitab adları/mətnlər heç vaxt göndərilmir. Platformadan asılı olaraq Firebase əlavə texniki diaqnostika məlumatlarını da avtomatik toplaya bilər.</li>
     <li><b>Xəta hesabatları</b> (Firebase Crashlytics).</li>
-    <li><b>Sui-istifadədən qorunma identifikatoru:</b> gündəlik pulsuz AI limitinin sui-istifadəsinin qarşısını almaq üçün cihazınızın unikal identifikatoru (Android ID) gündəlik istifadə sayğacı ilə birlikdə saxlanılır. Reklam/izləmə üçün istifadə olunmur.</li>
+    <li><b>Sui-istifadədən qorunma identifikatoru:</b> gündəlik pulsuz AI limitinin sui-istifadəsinin qarşısını almaq üçün cihaz tərəfindən yaradılan bir identifikator gündəlik istifadə sayğacı ilə birlikdə emal olunur. Yalnız sui-istifadədən qorunma məqsədilə istifadə olunur — reklam, profilləmə və ya izləmə üçün deyil.</li>
   </ul>
 
   <h2>4. Emalın Hüquqi Əsası (Avropa İttifaqı sakinləri üçün)</h2>
@@ -138,10 +138,10 @@
   <p>Kitab fayllarınız yalnız cihazınızda saxlanılır, serverlərimizə heç vaxt yüklənmir.</p>
 
   <h2>7. Verilənlərin Saxlanma Müddəti</h2>
-  <p>Hesab aktiv olduğu müddətcə saxlanılır; silindikdə dərhal və qalıcı silinir (Ayarlar → Hesab → Hesabı sil). Gündəlik sui-istifadə sayğacı yalnız təqvim tarixi üzrə qeyd olunur, şəxsi profillə əlaqələndirilmir.</p>
+  <p>Hesab aktiv olduğu müddətcə saxlanılır; silindikdə dərhal və qalıcı silinir (tətbiqdə: Hesab → Hesabımı sil). Gündəlik sui-istifadə sayğacı yalnız təqvim tarixi üzrə qeyd olunur, şəxsi profillə əlaqələndirilmir.</p>
 
   <h2>8. Hüquqlarınız</h2>
-  <p>Giriş, düzəliş, silinmə, portativlik (export), razılığın geri götürülməsi, emala etiraz. Əlaqə: biblyx.support@gmail.com. AB sakinləri nəzarət orqanına şikayət edə bilər.</p>
+  <p>Giriş, düzəliş, silinmə (tətbiqdə Hesab → Hesabımı sil, və ya biblyx.support@gmail.com ünvanına yazaraq), portativlik (export), razılığın geri götürülməsi, emala etiraz. Əlaqə: biblyx.support@gmail.com. AB sakinləri nəzarət orqanına şikayət edə bilər.</p>
 
   <h2>9. Uşaqların Məxfiliyi</h2>
   <p>Tətbiq 13 yaşından kiçik (ABŞ, COPPA) və ya yaşadığınız ölkədə tətbiq olunan daha yüksək yaşdan kiçik şəxslər üçün nəzərdə tutulmayıb.</p>
@@ -153,7 +153,7 @@
   <p>Bu siyasət zaman-zaman yenilənə bilər.</p>
 
   <h2>12. Əlaqə</h2>
-  <p>biblyx.support@gmail.com — Azərbaycan Respublikasının qanunvericiliyi nəzərə alınmaqla tərtib olunub.</p>
+  <p>biblyx.support@gmail.com — bu sənəd tətbiq olunan məxfilik qanunlarına, o cümlədən GDPR tələblərinə uyğun hazırlanıb və Azərbaycan Respublikasının qanunvericiliyi nəzərə alınmaqla tərtib olunub.</p>
 
 </div>
 </body>
