@@ -61,6 +61,11 @@
   .btn-primary{background:var(--teal-deep); color:#fff;}
   .btn-secondary{background:transparent; color:var(--ink); border:1px solid var(--rule);}
   .btn svg{width:20px; height:20px;}
+  .btn-disabled{
+    background:transparent; color:var(--dim); border:1px solid var(--rule);
+    cursor:default; pointer-events:none;
+  }
+  .btn-disabled:hover{transform:none;}
 
   /* How it works */
   .steps{padding-top:64px; padding-bottom:64px; border-top:1px solid var(--rule);}
@@ -158,10 +163,10 @@
   <h1>Learn languages<br>by reading books</h1>
   <p class="lead">Import any EPUB, PDF, or TXT book, tap a word for an instant translation, and turn what you read into vocabulary you actually remember.</p>
   <div class="cta-row">
-    <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.biblyx.app">
+    <span class="btn btn-disabled" role="button" aria-disabled="true">
       <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 3.6v16.8c0 .5.6.8 1 .5l14-8.4c.4-.3.4-.9 0-1.2l-14-8.4c-.4-.3-1 0-1 .5z"/></svg>
-      Get it on Google Play
-    </a>
+      Coming soon to Google Play
+    </span>
     <a class="btn btn-secondary" href="#how">See how it works</a>
   </div>
 </header>
