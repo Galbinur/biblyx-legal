@@ -1,9 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://biblyx.com/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://biblyx.com/az/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://biblyx.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://biblyx.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://biblyx.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://biblyx.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/tr/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://biblyx.com/az/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://biblyx.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://biblyx.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://biblyx.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://biblyx.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/az/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://biblyx.com/az/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://biblyx.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://biblyx.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://biblyx.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://biblyx.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/de/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://biblyx.com/az/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://biblyx.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://biblyx.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://biblyx.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://biblyx.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/es/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://biblyx.com/az/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://biblyx.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://biblyx.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://biblyx.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://biblyx.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/fr/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://biblyx.com/az/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://biblyx.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://biblyx.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://biblyx.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://biblyx.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/it/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://biblyx.com/az/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://biblyx.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://biblyx.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://biblyx.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://biblyx.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/ru/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://biblyx.com/az/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://biblyx.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://biblyx.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://biblyx.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://biblyx.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/"/>
   </url>
   <url>
     <loc>https://biblyx.com/privacy-policy.html</loc>
