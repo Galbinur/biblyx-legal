@@ -118,12 +118,30 @@
   }
   .btn-disabled:hover{transform:none;}
 
-  /* Hero demo loop */
+  /* Hero film */
   .hero-media{
-    max-width:640px; margin:48px auto 0; border-radius:20px; overflow:hidden;
+    position:relative; max-width:640px; margin:48px auto 0; border-radius:20px; overflow:hidden;
     box-shadow:0 24px 64px -24px rgba(20,56,59,.35); aspect-ratio:16/9; background:#06181a;
+    cursor:pointer;
   }
+  .hero-media img{display:block; width:100%; height:100%; object-fit:cover;}
   .hero-video{display:block; width:100%; height:100%; object-fit:cover;}
+  .hero-play{
+    position:absolute; inset:0; display:flex; flex-direction:column; align-items:center;
+    justify-content:center; gap:14px; background:linear-gradient(rgba(6,24,26,.15), rgba(6,24,26,.4));
+    border:none; padding:0; width:100%; height:100%;
+  }
+  .hero-play .circle{
+    width:72px; height:72px; border-radius:50%; background:rgba(255,253,249,.94);
+    display:flex; align-items:center; justify-content:center; transition:transform .15s ease;
+    box-shadow:0 8px 24px rgba(0,0,0,.35);
+  }
+  .hero-play:hover .circle{transform:scale(1.06);}
+  .hero-play .circle svg{width:26px; height:26px; margin-left:3px;}
+  .hero-play .label{
+    font-family:inherit; font-weight:600; font-size:15px; color:#fff; letter-spacing:.01em;
+    text-shadow:0 1px 6px rgba(0,0,0,.4);
+  }
 
   /* How it works */
   .steps{padding-top:64px; padding-bottom:64px; border-top:1px solid var(--rule);}
@@ -227,18 +245,21 @@
     </span>
     <a class="btn btn-secondary" href="#how">See how it works</a>
   </div>
-  <div class="hero-media">
-    <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="hero-loop-poster.jpg" aria-label="Biblyx: tap any word in a book for an instant translation">
-      <source src="hero-loop.mp4" type="video/mp4">
-    </video>
+  <div class="hero-media" id="heroMedia">
+    <img src="biblyx-film-poster.jpg" alt="Biblyx — watch the film" width="1920" height="1080">
+    <button class="hero-play" type="button" onclick="playHeroFilm()" aria-label="Watch the film, 43 seconds">
+      <span class="circle">
+        <svg viewBox="0 0 24 24" fill="#14383b"><path d="M8 5v14l11-7z"/></svg>
+      </span>
+      <span class="label">Watch the film · 0:43</span>
+    </button>
   </div>
 </header>
 <script>
-  if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    document.addEventListener('DOMContentLoaded', function () {
-      var v = document.querySelector('.hero-video');
-      if (v) { v.removeAttribute('autoplay'); v.pause(); }
-    });
+  function playHeroFilm() {
+    document.getElementById('heroMedia').innerHTML =
+      '<video class="hero-video" controls autoplay playsinline preload="none">' +
+      '<source src="biblyx-film.mp4" type="video/mp4"></video>';
   }
 </script>
 
