@@ -17,6 +17,7 @@
 <meta name="description" content="Import EPUB, PDF, or TXT books, tap any word to translate it, and turn what you read into vocabulary you actually remember.">
 <link rel="canonical" href="https://biblyx.com/">
 <meta name="theme-color" content="#14383b">
+<link rel="icon" href="/icon-512.png" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -199,7 +200,7 @@
     <a href="#how">How it works</a>
     <a href="#features">Features</a>
     <a href="#premium">Premium</a>
-    <a href="mailto:support@biblyx.com">Contact</a>
+    <a href="#contact">Contact</a>
   </div>
 </nav>
 
@@ -300,15 +301,28 @@
 
 <footer class="wrap">
   <div class="foot-row">
-    <div>© 2026 Biblyx. Made in Azerbaijan.</div>
+    <div>© 2026 Biblyx. All rights reserved.</div>
     <div class="foot-links">
       <a href="/privacy-policy.html">Privacy Policy</a>
       <a href="/terms.html">Terms of Service</a>
       <a href="/account-deletion.html">Delete Account</a>
-      <a href="mailto:support@biblyx.com">support@biblyx.com</a>
+      <a href="mailto:support@biblyx.com" id="contact" class="js-copy-email">support@biblyx.com</a>
     </div>
   </div>
 </footer>
+
+<script>
+  document.querySelectorAll('.js-copy-email').forEach(function (link) {
+    link.addEventListener('click', function () {
+      if (!navigator.clipboard) return;
+      var original = link.textContent;
+      navigator.clipboard.writeText('support@biblyx.com').then(function () {
+        link.textContent = 'Copied!';
+        setTimeout(function () { link.textContent = original; }, 1500);
+      });
+    });
+  });
+</script>
 
 </body>
 </html>
