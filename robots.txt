@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://biblyx.com/sitemap.xml
