@@ -56,17 +56,38 @@
       "@type": "Organization",
       "name": "Biblyx",
       "url": "https://biblyx.com/",
-      "logo": "https://biblyx.com/og-image.png",
-      "email": "support@biblyx.com"
+      "logo": "https://biblyx.com/apple-touch-icon.png",
+      "email": "support@biblyx.com",
+      "sameAs": [
+        "https://instagram.com/biblyxapp",
+        "https://x.com/biblyx",
+        "https://youtube.com/@Biblyx",
+        "https://tiktok.com/@biblyxapp"
+      ]
     },
     {
       "@type": "WebSite",
       "name": "Biblyx",
       "url": "https://biblyx.com/"
+    },
+    {
+      "@type": "MobileApplication",
+      "name": "Biblyx",
+      "description": "Импортируйте книги в форматах EPUB, PDF или TXT, нажмите на любое слово для мгновенного перевода и превратите прочитанное в словарный запас, который вы действительно запомните.",
+      "operatingSystem": "Android",
+      "applicationCategory": "EducationApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
     }
   ]
 }
 </script>
+<!-- aggregateRating/installUrl intentionally omitted until Biblyx has a live
+     Play Store listing with real ratings — fabricating either would violate
+     Google's structured-data policies. Add both the day the app goes live. -->
 <style>
   :root{
     --bg:#faf6f0; --surface:#fffdf9; --ink:#14383b; --dim:#6b7570;
@@ -132,29 +153,24 @@
   }
   .btn-disabled:hover{transform:none;}
 
-  .hero-media{
-    position:relative; max-width:640px; margin:48px auto 0; border-radius:20px; overflow:hidden;
-    box-shadow:0 24px 64px -24px rgba(20,56,59,.35); aspect-ratio:16/9; background:#06181a;
-    cursor:pointer;
+  /* Showcase */
+  .showcase{padding-top:8px; padding-bottom:8px;}
+  .showcase h2{font-size:13px; text-transform:uppercase; letter-spacing:.12em; color:var(--dim); text-align:center; margin-bottom:32px; font-family:inherit; font-weight:700;}
+  .showcase-grid{display:grid; grid-template-columns:repeat(3, 1fr); gap:20px; max-width:720px; margin:0 auto;}
+  .showcase-grid figure{margin:0;}
+  .showcase-grid img{display:block; width:100%; height:auto; border-radius:16px; box-shadow:0 16px 40px -16px rgba(20,56,59,.3);}
+  .showcase-grid figcaption{font-size:13.5px; color:var(--dim); text-align:center; margin-top:12px;}
+  @media (max-width:720px){
+    .showcase-grid{grid-template-columns:1fr; max-width:280px;}
   }
-  .hero-media img{display:block; width:100%; height:100%; object-fit:cover;}
-  .hero-video{display:block; width:100%; height:100%; object-fit:cover;}
-  .hero-play{
-    position:absolute; inset:0; display:flex; flex-direction:column; align-items:center;
-    justify-content:center; gap:14px; background:linear-gradient(rgba(6,24,26,.15), rgba(6,24,26,.4));
-    border:none; padding:0; width:100%; height:100%;
-  }
-  .hero-play .circle{
-    width:72px; height:72px; border-radius:50%; background:rgba(255,253,249,.94);
-    display:flex; align-items:center; justify-content:center; transition:transform .15s ease;
-    box-shadow:0 8px 24px rgba(0,0,0,.35);
-  }
-  .hero-play:hover .circle{transform:scale(1.06);}
-  .hero-play .circle svg{width:26px; height:26px; margin-left:3px;}
-  .hero-play .label{
-    font-family:inherit; font-weight:600; font-size:15px; color:#fff; letter-spacing:.01em;
-    text-shadow:0 1px 6px rgba(0,0,0,.4);
-  }
+
+  /* FAQ */
+  .faq{padding-top:64px; padding-bottom:64px; border-top:1px solid var(--rule);}
+  .faq h2{font-size:32px; text-align:center; margin:0 0 44px;}
+  .faq-list{max-width:720px; margin:0 auto; display:flex; flex-direction:column; gap:14px;}
+  .faq-item{background:var(--surface); border:1px solid var(--rule); border-radius:14px; padding:22px 26px;}
+  .faq-item h3{font-size:16px; margin:0 0 8px; font-family:inherit;}
+  .faq-item p{font-size:14.5px; color:var(--dim); margin:0; line-height:1.65;}
 
   .steps{padding-top:64px; padding-bottom:64px; border-top:1px solid var(--rule);}
   .steps h2{font-size:13px; text-transform:uppercase; letter-spacing:.12em; color:var(--dim); text-align:center; margin-bottom:40px; font-family:inherit; font-weight:700;}
@@ -231,6 +247,7 @@
     <a href="#how">Как это работает</a>
     <a href="#features">Возможности</a>
     <a href="#premium">Premium</a>
+    <a href="#faq">Вопросы</a>
     <a href="#contact">Контакты</a>
   </div>
   <select class="lang-switch" onchange="location.href=this.value">
@@ -268,23 +285,25 @@
     </span>
     <a class="btn btn-secondary" href="#how">Посмотреть, как это работает</a>
   </div>
-  <div class="hero-media" id="heroMedia">
-    <img src="/biblyx-film-poster.jpg" alt="Biblyx — смотреть фильм" width="1920" height="1080">
-    <button class="hero-play" type="button" onclick="playHeroFilm()" aria-label="Смотреть фильм, 43 секунды">
-      <span class="circle">
-        <svg viewBox="0 0 24 24" fill="#14383b"><path d="M8 5v14l11-7z"/></svg>
-      </span>
-      <span class="label">Смотреть фильм · 0:43</span>
-    </button>
-  </div>
 </header>
-<script>
-  function playHeroFilm() {
-    document.getElementById('heroMedia').innerHTML =
-      '<video class="hero-video" controls autoplay playsinline preload="none">' +
-      '<source src="/biblyx-film.mp4" type="video/mp4"></video>';
-  }
-</script>
+
+<section class="showcase wrap">
+  <h2>Посмотрите в приложении</h2>
+  <div class="showcase-grid">
+    <figure>
+      <img src="/screens/library.jpg" alt="Главный экран Biblyx с библиотекой книг пользователя и сводкой WordLab" loading="lazy" width="720" height="1280">
+      <figcaption>Ваша собственная библиотека, ваш собственный темп</figcaption>
+    </figure>
+    <figure>
+      <img src="/screens/sentence-flashcard.jpg" alt="Карточка Biblyx: слово 'de' со значением и предложением из книги" loading="lazy" width="720" height="1280">
+      <figcaption>Карточки сохраняют предложение, в котором вы нашли слово</figcaption>
+    </figure>
+    <figure>
+      <img src="/screens/vocabulary-levels.jpg" alt="Экран WordLab Biblyx: словарный запас с разбивкой по уровню CEFR от A1 до C2" loading="lazy" width="720" height="1280">
+      <figcaption>Ваш словарный запас под контролем — от A1 до C2</figcaption>
+    </figure>
+  </div>
+</section>
 
 <section class="steps wrap" id="how">
   <h2>Как это работает</h2>
@@ -316,15 +335,23 @@
     </div>
     <div class="feature">
       <h3>Перевод по нажатию</h3>
-      <p>Мгновенный перевод любого слова или предложения, не покидая страницу.</p>
+      <p>Мгновенный перевод, произношение, часть речи и уровень CEFR для любого слова — не покидая страницу.</p>
     </div>
     <div class="feature">
-      <h3>Словарь WordLab</h3>
-      <p>Каждое сохранённое слово живёт в одном месте, полностью составленном из того, что вы читаете.</p>
+      <h3>Настоящее предложение, настоящая память</h3>
+      <p>Карточки используют точное предложение из вашей книги, с выделенным словом — никогда не пустая карточка.</p>
     </div>
     <div class="feature">
-      <h3>Карточки и тесты</h3>
-      <p>Интервальное повторение и быстрые тесты, благодаря которым новые слова действительно запоминаются.</p>
+      <h3>Смотрите, как растёт ваш словарный запас, от A1 до C2</h3>
+      <p>Каждое сохранённое слово автоматически получает уровень, поэтому WordLab показывает ваш прогресс по уровню CEFR, а не просто количеством слов.</p>
+    </div>
+    <div class="feature">
+      <h3>Никогда не забывайте трудные слова</h3>
+      <p>Слова, с которыми у вас постоянно возникают трудности, отмечаются автоматически, поэтому время повторения уходит именно туда, где оно действительно нужно.</p>
+    </div>
+    <div class="feature">
+      <h3>Интервальное повторение, сделанное правильно</h3>
+      <p>Карточки и быстрые тесты возвращают сохранённые слова как раз перед тем, как вы бы их забыли.</p>
     </div>
     <div class="feature">
       <h3>Поиск и выделение</h3>
@@ -343,6 +370,116 @@
   <p>Каждому читателю доступна дневная квота переводов на основе ИИ. Premium снимает дневной лимит — помесячно, раз в полгода или ежегодно.</p>
 </section>
 
+<section class="faq wrap" id="faq">
+  <h2>Часто задаваемые вопросы</h2>
+  <div class="faq-list">
+      <div class="faq-item">
+        <h3>Biblyx бесплатен?</h3>
+        <p>Да. Каждому читателю доступна бесплатная дневная квота переводов на основе ИИ. Premium снимает дневной лимит — по месячному, полугодовому или годовому плану.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Какие форматы книг можно импортировать?</h3>
+        <p>EPUB, PDF и TXT. Ваши книги остаются на вашем устройстве — Biblyx никогда не требует загружать их куда-либо.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Работает ли Biblyx офлайн?</h3>
+        <p>Чтение и выделение всегда работают офлайн. Встроенный словарь охватывает распространённые слова без подключения к интернету; для новых переводов на основе ИИ нужно подключение.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Как Biblyx отслеживает мой уровень словарного запаса?</h3>
+        <p>Каждое сохранённое слово автоматически получает уровень от A1 до C2 (CEFR), и WordLab показывает весь ваш словарный запас с разбивкой по уровням, поэтому ваш прогресс никогда не остаётся догадкой.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Нужен ли мне аккаунт?</h3>
+        <p>Нет. Biblyx полностью работает без аккаунта. Входите в систему только если хотите сохранить резервную копию словарного запаса и прогресса и синхронизировать их между устройствами.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Какие языки поддерживает Biblyx?</h3>
+        <p>Интерфейс Biblyx доступен на 8 языках — английском, турецком, азербайджанском, немецком, испанском, французском, итальянском и русском — и вы можете читать и переводить книги на языке, который изучаете.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Есть ли Biblyx для iPhone?</h3>
+        <p>Biblyx выходит сначала на Android, через Google Play. Поддержка iOS запланирована на будущий релиз.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Чем Biblyx отличается от обычного словаря или приложения с карточками?</h3>
+        <p>Biblyx строит ваш словарный запас на основе реальных книг, которые вы читаете, а не общих списков слов. Каждое сохранённое слово хранит точное предложение, в котором вы его нашли, поэтому карточки используют настоящий контекст вместо пустой карточки.</p>
+      </div>
+  </div>
+</section>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+
+    {
+      "@type": "Question",
+      "name": "Biblyx бесплатен?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Да. Каждому читателю доступна бесплатная дневная квота переводов на основе ИИ. Premium снимает дневной лимит — по месячному, полугодовому или годовому плану."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Какие форматы книг можно импортировать?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "EPUB, PDF и TXT. Ваши книги остаются на вашем устройстве — Biblyx никогда не требует загружать их куда-либо."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Работает ли Biblyx офлайн?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Чтение и выделение всегда работают офлайн. Встроенный словарь охватывает распространённые слова без подключения к интернету; для новых переводов на основе ИИ нужно подключение."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Как Biblyx отслеживает мой уровень словарного запаса?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Каждое сохранённое слово автоматически получает уровень от A1 до C2 (CEFR), и WordLab показывает весь ваш словарный запас с разбивкой по уровням, поэтому ваш прогресс никогда не остаётся догадкой."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Нужен ли мне аккаунт?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Нет. Biblyx полностью работает без аккаунта. Входите в систему только если хотите сохранить резервную копию словарного запаса и прогресса и синхронизировать их между устройствами."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Какие языки поддерживает Biblyx?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Интерфейс Biblyx доступен на 8 языках — английском, турецком, азербайджанском, немецком, испанском, французском, итальянском и русском — и вы можете читать и переводить книги на языке, который изучаете."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Есть ли Biblyx для iPhone?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Biblyx выходит сначала на Android, через Google Play. Поддержка iOS запланирована на будущий релиз."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Чем Biblyx отличается от обычного словаря или приложения с карточками?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Biblyx строит ваш словарный запас на основе реальных книг, которые вы читаете, а не общих списков слов. Каждое сохранённое слово хранит точное предложение, в котором вы его нашли, поэтому карточки используют настоящий контекст вместо пустой карточки."
+      }
+    }
+  ]
+}
+</script>
 <footer class="wrap">
   <div class="foot-social">
     <a href="https://instagram.com/biblyxapp" target="_blank" rel="noopener" aria-label="Biblyx в Instagram">

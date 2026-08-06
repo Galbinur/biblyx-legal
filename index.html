@@ -55,17 +55,38 @@
       "@type": "Organization",
       "name": "Biblyx",
       "url": "https://biblyx.com/",
-      "logo": "https://biblyx.com/og-image.png",
-      "email": "support@biblyx.com"
+      "logo": "https://biblyx.com/apple-touch-icon.png",
+      "email": "support@biblyx.com",
+      "sameAs": [
+        "https://instagram.com/biblyxapp",
+        "https://x.com/biblyx",
+        "https://youtube.com/@Biblyx",
+        "https://tiktok.com/@biblyxapp"
+      ]
     },
     {
       "@type": "WebSite",
       "name": "Biblyx",
       "url": "https://biblyx.com/"
+    },
+    {
+      "@type": "MobileApplication",
+      "name": "Biblyx",
+      "description": "Import EPUB, PDF, or TXT books, tap any word to translate it, and turn what you read into vocabulary you actually remember.",
+      "operatingSystem": "Android",
+      "applicationCategory": "EducationApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
     }
   ]
 }
 </script>
+<!-- aggregateRating/installUrl intentionally omitted until Biblyx has a live
+     Play Store listing with real ratings — fabricating either would violate
+     Google's structured-data policies. Add both the day the app goes live. -->
 <style>
   :root{
     --bg:#faf6f0; --surface:#fffdf9; --ink:#14383b; --dim:#6b7570;
@@ -133,30 +154,24 @@
   }
   .btn-disabled:hover{transform:none;}
 
-  /* Hero film */
-  .hero-media{
-    position:relative; max-width:640px; margin:48px auto 0; border-radius:20px; overflow:hidden;
-    box-shadow:0 24px 64px -24px rgba(20,56,59,.35); aspect-ratio:16/9; background:#06181a;
-    cursor:pointer;
+  /* Showcase */
+  .showcase{padding-top:8px; padding-bottom:8px;}
+  .showcase h2{font-size:13px; text-transform:uppercase; letter-spacing:.12em; color:var(--dim); text-align:center; margin-bottom:32px; font-family:inherit; font-weight:700;}
+  .showcase-grid{display:grid; grid-template-columns:repeat(3, 1fr); gap:20px; max-width:720px; margin:0 auto;}
+  .showcase-grid figure{margin:0;}
+  .showcase-grid img{display:block; width:100%; height:auto; border-radius:16px; box-shadow:0 16px 40px -16px rgba(20,56,59,.3);}
+  .showcase-grid figcaption{font-size:13.5px; color:var(--dim); text-align:center; margin-top:12px;}
+  @media (max-width:720px){
+    .showcase-grid{grid-template-columns:1fr; max-width:280px;}
   }
-  .hero-media img{display:block; width:100%; height:100%; object-fit:cover;}
-  .hero-video{display:block; width:100%; height:100%; object-fit:cover;}
-  .hero-play{
-    position:absolute; inset:0; display:flex; flex-direction:column; align-items:center;
-    justify-content:center; gap:14px; background:linear-gradient(rgba(6,24,26,.15), rgba(6,24,26,.4));
-    border:none; padding:0; width:100%; height:100%;
-  }
-  .hero-play .circle{
-    width:72px; height:72px; border-radius:50%; background:rgba(255,253,249,.94);
-    display:flex; align-items:center; justify-content:center; transition:transform .15s ease;
-    box-shadow:0 8px 24px rgba(0,0,0,.35);
-  }
-  .hero-play:hover .circle{transform:scale(1.06);}
-  .hero-play .circle svg{width:26px; height:26px; margin-left:3px;}
-  .hero-play .label{
-    font-family:inherit; font-weight:600; font-size:15px; color:#fff; letter-spacing:.01em;
-    text-shadow:0 1px 6px rgba(0,0,0,.4);
-  }
+
+  /* FAQ */
+  .faq{padding-top:64px; padding-bottom:64px; border-top:1px solid var(--rule);}
+  .faq h2{font-size:32px; text-align:center; margin:0 0 44px;}
+  .faq-list{max-width:720px; margin:0 auto; display:flex; flex-direction:column; gap:14px;}
+  .faq-item{background:var(--surface); border:1px solid var(--rule); border-radius:14px; padding:22px 26px;}
+  .faq-item h3{font-size:16px; margin:0 0 8px; font-family:inherit;}
+  .faq-item p{font-size:14.5px; color:var(--dim); margin:0; line-height:1.65;}
 
   /* How it works */
   .steps{padding-top:64px; padding-bottom:64px; border-top:1px solid var(--rule);}
@@ -237,6 +252,7 @@
     <a href="#how">How it works</a>
     <a href="#features">Features</a>
     <a href="#premium">Premium</a>
+    <a href="#faq">FAQ</a>
     <a href="#contact">Contact</a>
   </div>
   <select class="lang-switch" onchange="location.href=this.value">
@@ -274,23 +290,25 @@
     </span>
     <a class="btn btn-secondary" href="#how">See how it works</a>
   </div>
-  <div class="hero-media" id="heroMedia">
-    <img src="/biblyx-film-poster.jpg" alt="Biblyx — watch the film" width="1920" height="1080">
-    <button class="hero-play" type="button" onclick="playHeroFilm()" aria-label="Watch the film, 43 seconds">
-      <span class="circle">
-        <svg viewBox="0 0 24 24" fill="#14383b"><path d="M8 5v14l11-7z"/></svg>
-      </span>
-      <span class="label">Watch the film · 0:43</span>
-    </button>
-  </div>
 </header>
-<script>
-  function playHeroFilm() {
-    document.getElementById('heroMedia').innerHTML =
-      '<video class="hero-video" controls autoplay playsinline preload="none">' +
-      '<source src="/biblyx-film.mp4" type="video/mp4"></video>';
-  }
-</script>
+
+<section class="showcase wrap">
+  <h2>See it in the app</h2>
+  <div class="showcase-grid">
+    <figure>
+      <img src="/screens/library.jpg" alt="Biblyx home screen showing the user's book library and Word Lab summary" loading="lazy" width="720" height="1280">
+      <figcaption>Your own library, your own pace</figcaption>
+    </figure>
+    <figure>
+      <img src="/screens/sentence-flashcard.jpg" alt="Biblyx flashcard showing the word ‘de’ with its meaning and the sentence from the book" loading="lazy" width="720" height="1280">
+      <figcaption>Flashcards keep the sentence you found the word in</figcaption>
+    </figure>
+    <figure>
+      <img src="/screens/vocabulary-levels.jpg" alt="Biblyx Word Lab screen showing vocabulary broken down by CEFR level from A1 to C2" loading="lazy" width="720" height="1280">
+      <figcaption>Your vocabulary, tracked from A1 to C2</figcaption>
+    </figure>
+  </div>
+</section>
 
 <section class="steps wrap" id="how">
   <h2>How it works</h2>
@@ -322,15 +340,23 @@
     </div>
     <div class="feature">
       <h3>Tap-to-translate</h3>
-      <p>An instant translation for any word or sentence, without leaving the page.</p>
+      <p>An instant translation, pronunciation, part of speech, and CEFR level for any word — without leaving the page.</p>
     </div>
     <div class="feature">
-      <h3>WordLab vocabulary</h3>
-      <p>Every word you save lives in one place, grown entirely from what you read.</p>
+      <h3>Real sentence, real memory</h3>
+      <p>Flashcards use the exact sentence from your book, with the word highlighted — never a blank card.</p>
     </div>
     <div class="feature">
-      <h3>Flashcards &amp; quizzes</h3>
-      <p>Spaced repetition and quick quizzes that make new words actually stick.</p>
+      <h3>Watch your vocabulary grow, A1 to C2</h3>
+      <p>Every word you save is leveled automatically, so Word Lab shows your progress by CEFR level, not just a word count.</p>
+    </div>
+    <div class="feature">
+      <h3>Never forget the hard ones</h3>
+      <p>Words you keep struggling with are flagged automatically, so review time goes where it's actually needed.</p>
+    </div>
+    <div class="feature">
+      <h3>Spaced repetition, done right</h3>
+      <p>Flashcards and quick quizzes bring saved words back right before you'd forget them.</p>
     </div>
     <div class="feature">
       <h3>Search &amp; highlight</h3>
@@ -349,6 +375,116 @@
   <p>Every reader gets a daily allowance of AI-powered translations included. Premium removes the daily limit — monthly, six-month, or yearly.</p>
 </section>
 
+<section class="faq wrap" id="faq">
+  <h2>Frequently asked questions</h2>
+  <div class="faq-list">
+      <div class="faq-item">
+        <h3>Is Biblyx free?</h3>
+        <p>Yes. Every reader gets a free daily allowance of AI-powered translations. Premium removes the daily limit with a monthly, six-month, or yearly plan.</p>
+      </div>
+      <div class="faq-item">
+        <h3>What book formats can I import?</h3>
+        <p>EPUB, PDF, and TXT. Your books stay on your device — Biblyx doesn't require uploading them anywhere.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Does Biblyx work offline?</h3>
+        <p>Reading and highlighting always work offline. A built-in dictionary covers common words without an internet connection; new AI translations need one.</p>
+      </div>
+      <div class="faq-item">
+        <h3>How does Biblyx track my vocabulary level?</h3>
+        <p>Every word you save is automatically leveled from A1 to C2 (CEFR), and Word Lab shows your whole vocabulary broken down by level, so your progress is never a guess.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Do I need an account?</h3>
+        <p>No. Biblyx works fully without an account. Sign in only if you want your vocabulary and progress backed up and synced across devices.</p>
+      </div>
+      <div class="faq-item">
+        <h3>What languages does Biblyx support?</h3>
+        <p>The Biblyx interface is available in 8 languages — English, Turkish, Azerbaijani, German, Spanish, French, Italian, and Russian — and you can read and translate books in the language you’re learning.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Is Biblyx available on iPhone?</h3>
+        <p>Biblyx is launching first on Android, via Google Play. iOS support is planned for a future release.</p>
+      </div>
+      <div class="faq-item">
+        <h3>How is Biblyx different from a regular dictionary or flashcard app?</h3>
+        <p>Biblyx builds your vocabulary from the real books you read, not generic word lists. Every saved word keeps the exact sentence you found it in, so flashcards use real context instead of a blank card.</p>
+      </div>
+  </div>
+</section>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+
+    {
+      "@type": "Question",
+      "name": "Is Biblyx free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Every reader gets a free daily allowance of AI-powered translations. Premium removes the daily limit with a monthly, six-month, or yearly plan."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What book formats can I import?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "EPUB, PDF, and TXT. Your books stay on your device — Biblyx doesn't require uploading them anywhere."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Biblyx work offline?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reading and highlighting always work offline. A built-in dictionary covers common words without an internet connection; new AI translations need one."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Biblyx track my vocabulary level?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every word you save is automatically leveled from A1 to C2 (CEFR), and Word Lab shows your whole vocabulary broken down by level, so your progress is never a guess."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need an account?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Biblyx works fully without an account. Sign in only if you want your vocabulary and progress backed up and synced across devices."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What languages does Biblyx support?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Biblyx interface is available in 8 languages — English, Turkish, Azerbaijani, German, Spanish, French, Italian, and Russian — and you can read and translate books in the language you’re learning."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Biblyx available on iPhone?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Biblyx is launching first on Android, via Google Play. iOS support is planned for a future release."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is Biblyx different from a regular dictionary or flashcard app?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Biblyx builds your vocabulary from the real books you read, not generic word lists. Every saved word keeps the exact sentence you found it in, so flashcards use real context instead of a blank card."
+      }
+    }
+  ]
+}
+</script>
 <footer class="wrap">
   <div class="foot-social">
     <a href="https://instagram.com/biblyxapp" target="_blank" rel="noopener" aria-label="Biblyx on Instagram">

@@ -56,17 +56,38 @@
       "@type": "Organization",
       "name": "Biblyx",
       "url": "https://biblyx.com/",
-      "logo": "https://biblyx.com/og-image.png",
-      "email": "support@biblyx.com"
+      "logo": "https://biblyx.com/apple-touch-icon.png",
+      "email": "support@biblyx.com",
+      "sameAs": [
+        "https://instagram.com/biblyxapp",
+        "https://x.com/biblyx",
+        "https://youtube.com/@Biblyx",
+        "https://tiktok.com/@biblyxapp"
+      ]
     },
     {
       "@type": "WebSite",
       "name": "Biblyx",
       "url": "https://biblyx.com/"
+    },
+    {
+      "@type": "MobileApplication",
+      "name": "Biblyx",
+      "description": "EPUB, PDF veya TXT kitap içe aktar, herhangi bir kelimeye dokunarak anında çevir ve okuduklarını gerçekten hatırlayacağın bir kelime dağarcığına dönüştür.",
+      "operatingSystem": "Android",
+      "applicationCategory": "EducationApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
     }
   ]
 }
 </script>
+<!-- aggregateRating/installUrl intentionally omitted until Biblyx has a live
+     Play Store listing with real ratings — fabricating either would violate
+     Google's structured-data policies. Add both the day the app goes live. -->
 <style>
   :root{
     --bg:#faf6f0; --surface:#fffdf9; --ink:#14383b; --dim:#6b7570;
@@ -132,29 +153,24 @@
   }
   .btn-disabled:hover{transform:none;}
 
-  .hero-media{
-    position:relative; max-width:640px; margin:48px auto 0; border-radius:20px; overflow:hidden;
-    box-shadow:0 24px 64px -24px rgba(20,56,59,.35); aspect-ratio:16/9; background:#06181a;
-    cursor:pointer;
+  /* Showcase */
+  .showcase{padding-top:8px; padding-bottom:8px;}
+  .showcase h2{font-size:13px; text-transform:uppercase; letter-spacing:.12em; color:var(--dim); text-align:center; margin-bottom:32px; font-family:inherit; font-weight:700;}
+  .showcase-grid{display:grid; grid-template-columns:repeat(3, 1fr); gap:20px; max-width:720px; margin:0 auto;}
+  .showcase-grid figure{margin:0;}
+  .showcase-grid img{display:block; width:100%; height:auto; border-radius:16px; box-shadow:0 16px 40px -16px rgba(20,56,59,.3);}
+  .showcase-grid figcaption{font-size:13.5px; color:var(--dim); text-align:center; margin-top:12px;}
+  @media (max-width:720px){
+    .showcase-grid{grid-template-columns:1fr; max-width:280px;}
   }
-  .hero-media img{display:block; width:100%; height:100%; object-fit:cover;}
-  .hero-video{display:block; width:100%; height:100%; object-fit:cover;}
-  .hero-play{
-    position:absolute; inset:0; display:flex; flex-direction:column; align-items:center;
-    justify-content:center; gap:14px; background:linear-gradient(rgba(6,24,26,.15), rgba(6,24,26,.4));
-    border:none; padding:0; width:100%; height:100%;
-  }
-  .hero-play .circle{
-    width:72px; height:72px; border-radius:50%; background:rgba(255,253,249,.94);
-    display:flex; align-items:center; justify-content:center; transition:transform .15s ease;
-    box-shadow:0 8px 24px rgba(0,0,0,.35);
-  }
-  .hero-play:hover .circle{transform:scale(1.06);}
-  .hero-play .circle svg{width:26px; height:26px; margin-left:3px;}
-  .hero-play .label{
-    font-family:inherit; font-weight:600; font-size:15px; color:#fff; letter-spacing:.01em;
-    text-shadow:0 1px 6px rgba(0,0,0,.4);
-  }
+
+  /* FAQ */
+  .faq{padding-top:64px; padding-bottom:64px; border-top:1px solid var(--rule);}
+  .faq h2{font-size:32px; text-align:center; margin:0 0 44px;}
+  .faq-list{max-width:720px; margin:0 auto; display:flex; flex-direction:column; gap:14px;}
+  .faq-item{background:var(--surface); border:1px solid var(--rule); border-radius:14px; padding:22px 26px;}
+  .faq-item h3{font-size:16px; margin:0 0 8px; font-family:inherit;}
+  .faq-item p{font-size:14.5px; color:var(--dim); margin:0; line-height:1.65;}
 
   .steps{padding-top:64px; padding-bottom:64px; border-top:1px solid var(--rule);}
   .steps h2{font-size:13px; text-transform:uppercase; letter-spacing:.12em; color:var(--dim); text-align:center; margin-bottom:40px; font-family:inherit; font-weight:700;}
@@ -231,6 +247,7 @@
     <a href="#how">Nasıl çalışır</a>
     <a href="#features">Özellikler</a>
     <a href="#premium">Premium</a>
+    <a href="#faq">SSS</a>
     <a href="#contact">İletişim</a>
   </div>
   <select class="lang-switch" onchange="location.href=this.value">
@@ -268,23 +285,25 @@
     </span>
     <a class="btn btn-secondary" href="#how">Nasıl çalıştığını gör</a>
   </div>
-  <div class="hero-media" id="heroMedia">
-    <img src="/biblyx-film-poster.jpg" alt="Biblyx — filmi izle" width="1920" height="1080">
-    <button class="hero-play" type="button" onclick="playHeroFilm()" aria-label="Filmi izle, 43 saniye">
-      <span class="circle">
-        <svg viewBox="0 0 24 24" fill="#14383b"><path d="M8 5v14l11-7z"/></svg>
-      </span>
-      <span class="label">Filmi izle · 0:43</span>
-    </button>
-  </div>
 </header>
-<script>
-  function playHeroFilm() {
-    document.getElementById('heroMedia').innerHTML =
-      '<video class="hero-video" controls autoplay playsinline preload="none">' +
-      '<source src="/biblyx-film.mp4" type="video/mp4"></video>';
-  }
-</script>
+
+<section class="showcase wrap">
+  <h2>Uygulamada gör</h2>
+  <div class="showcase-grid">
+    <figure>
+      <img src="/screens/library.jpg" alt="Biblyx ana ekranı: kullanıcının kitap kütüphanesi ve WordLab özeti" loading="lazy" width="720" height="1280">
+      <figcaption>Kendi kütüphanen, kendi hızın</figcaption>
+    </figure>
+    <figure>
+      <img src="/screens/sentence-flashcard.jpg" alt="Biblyx fleş kartı: 'de' kelimesi, anlamı ve kitaptan alınan cümle" loading="lazy" width="720" height="1280">
+      <figcaption>Fleş kartlar, kelimeyi bulduğun cümleyi saklar</figcaption>
+    </figure>
+    <figure>
+      <img src="/screens/vocabulary-levels.jpg" alt="Biblyx WordLab ekranı: kelime dağarcığının A1'den C2'ye CEFR seviyesine göre dağılımı" loading="lazy" width="720" height="1280">
+      <figcaption>Kelime dağarcığın, A1'den C2'ye izlenir</figcaption>
+    </figure>
+  </div>
+</section>
 
 <section class="steps wrap" id="how">
   <h2>Nasıl çalışır</h2>
@@ -316,15 +335,23 @@
     </div>
     <div class="feature">
       <h3>Dokunarak çeviri</h3>
-      <p>Sayfadan ayrılmadan herhangi bir kelime veya cümle için anında çeviri.</p>
+      <p>Herhangi bir kelime için anında çeviri, telaffuz, sözcük türü ve CEFR seviyesi — sayfadan ayrılmadan.</p>
     </div>
     <div class="feature">
-      <h3>WordLab kelime dağarcığı</h3>
-      <p>Kaydettiğin her kelime tek bir yerde yaşar, tamamen okuduklarından büyür.</p>
+      <h3>Gerçek cümle, gerçek hafıza</h3>
+      <p>Fleş kartlar, kelimeyi bulduğun kitaptaki cümleyi kullanır, kelime vurgulanmış halde — asla boş bir kart değil.</p>
     </div>
     <div class="feature">
-      <h3>Fleş kartlar &amp; testler</h3>
-      <p>Yeni kelimelerin gerçekten akılda kalmasını sağlayan aralıklı tekrar ve hızlı testler.</p>
+      <h3>Kelime dağarcığın A1'den C2'ye büyüsün</h3>
+      <p>Kaydettiğin her kelime otomatik olarak seviyelendirilir, böylece WordLab ilerlemeni sadece sayı olarak değil, CEFR seviyesine göre gösterir.</p>
+    </div>
+    <div class="feature">
+      <h3>Zorlandığın kelimeleri asla unutma</h3>
+      <p>Sürekli zorlandığın kelimeler otomatik olarak işaretlenir, böylece tekrar zamanın gerçekten ihtiyaç duyulan yere gider.</p>
+    </div>
+    <div class="feature">
+      <h3>Doğru aralıklı tekrar</h3>
+      <p>Fleş kartlar ve hızlı testler, kaydettiğin kelimeleri tam unutmadan önce geri getirir.</p>
     </div>
     <div class="feature">
       <h3>Arama &amp; vurgulama</h3>
@@ -343,6 +370,116 @@
   <p>Her okuyucuya günlük bir yapay zeka destekli çeviri hakkı dahildir. Premium günlük sınırı kaldırır — aylık, altı aylık veya yıllık.</p>
 </section>
 
+<section class="faq wrap" id="faq">
+  <h2>Sıkça sorulan sorular</h2>
+  <div class="faq-list">
+      <div class="faq-item">
+        <h3>Biblyx ücretsiz mi?</h3>
+        <p>Evet. Her okuyucuya günlük ücretsiz bir yapay zeka çeviri hakkı verilir. Premium, günlük sınırı kaldırır — aylık, altı aylık veya yıllık planla.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Hangi kitap formatlarını içe aktarabilirim?</h3>
+        <p>EPUB, PDF ve TXT. Kitapların cihazında kalır — Biblyx onları hiçbir yere yüklemeni gerektirmez.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Biblyx çevrimdışı çalışır mı?</h3>
+        <p>Okuma ve vurgulama her zaman çevrimdışı çalışır. Yaygın kelimeler için yerleşik bir sözlük internet bağlantısı olmadan da çalışır; yeni yapay zeka çevirileri için internet gerekir.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Biblyx kelime seviyemi nasıl takip ediyor?</h3>
+        <p>Kaydettiğin her kelime otomatik olarak A1'den C2'ye (CEFR) seviyelendirilir ve WordLab tüm kelime dağarcığını seviyeye göre gösterir, böylece ilerlemen asla tahminden ibaret olmaz.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Hesap oluşturmam gerekiyor mu?</h3>
+        <p>Hayır. Biblyx hesap olmadan tamamen çalışır. Kelime dağarcığının ve ilerlemenin yedeklenmesini ve cihazlar arasında senkronize edilmesini istersen giriş yap.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Biblyx hangi dilleri destekliyor?</h3>
+        <p>Biblyx arayüzü 8 dilde sunulur — İngilizce, Türkçe, Azerbaycan Türkçesi, Almanca, İspanyolca, Fransızca, İtalyanca ve Rusça — ve öğrendiğin dilde kitap okuyup çeviri yapabilirsin.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Biblyx iPhone'da var mı?</h3>
+        <p>Biblyx önce Android'de, Google Play üzerinden yayınlanıyor. iOS desteği ileride planlanıyor.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Biblyx normal bir sözlük veya fleş kart uygulamasından nasıl farklı?</h3>
+        <p>Biblyx, genel kelime listeleri yerine gerçekten okuduğun kitaplardan kelime dağarcığı oluşturur. Kaydedilen her kelime, bulunduğu cümleyi tam olarak saklar, böylece fleş kartlar boş bir kart yerine gerçek bağlam kullanır.</p>
+      </div>
+  </div>
+</section>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+
+    {
+      "@type": "Question",
+      "name": "Biblyx ücretsiz mi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Evet. Her okuyucuya günlük ücretsiz bir yapay zeka çeviri hakkı verilir. Premium, günlük sınırı kaldırır — aylık, altı aylık veya yıllık planla."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Hangi kitap formatlarını içe aktarabilirim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "EPUB, PDF ve TXT. Kitapların cihazında kalır — Biblyx onları hiçbir yere yüklemeni gerektirmez."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Biblyx çevrimdışı çalışır mı?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Okuma ve vurgulama her zaman çevrimdışı çalışır. Yaygın kelimeler için yerleşik bir sözlük internet bağlantısı olmadan da çalışır; yeni yapay zeka çevirileri için internet gerekir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Biblyx kelime seviyemi nasıl takip ediyor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Kaydettiğin her kelime otomatik olarak A1'den C2'ye (CEFR) seviyelendirilir ve WordLab tüm kelime dağarcığını seviyeye göre gösterir, böylece ilerlemen asla tahminden ibaret olmaz."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Hesap oluşturmam gerekiyor mu?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hayır. Biblyx hesap olmadan tamamen çalışır. Kelime dağarcığının ve ilerlemenin yedeklenmesini ve cihazlar arasında senkronize edilmesini istersen giriş yap."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Biblyx hangi dilleri destekliyor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Biblyx arayüzü 8 dilde sunulur — İngilizce, Türkçe, Azerbaycan Türkçesi, Almanca, İspanyolca, Fransızca, İtalyanca ve Rusça — ve öğrendiğin dilde kitap okuyup çeviri yapabilirsin."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Biblyx iPhone'da var mı?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Biblyx önce Android'de, Google Play üzerinden yayınlanıyor. iOS desteği ileride planlanıyor."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Biblyx normal bir sözlük veya fleş kart uygulamasından nasıl farklı?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Biblyx, genel kelime listeleri yerine gerçekten okuduğun kitaplardan kelime dağarcığı oluşturur. Kaydedilen her kelime, bulunduğu cümleyi tam olarak saklar, böylece fleş kartlar boş bir kart yerine gerçek bağlam kullanır."
+      }
+    }
+  ]
+}
+</script>
 <footer class="wrap">
   <div class="foot-social">
     <a href="https://instagram.com/biblyxapp" target="_blank" rel="noopener" aria-label="Instagram'da Biblyx">
