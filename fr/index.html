@@ -80,14 +80,15 @@
         "@type": "Offer",
         "price": "0",
         "priceCurrency": "USD"
-      }
+      },
+      "installUrl": "https://play.google.com/store/apps/details?id=com.biblyx.app"
     }
   ]
 }
 </script>
-<!-- aggregateRating/installUrl intentionally omitted until Biblyx has a live
-     Play Store listing with real ratings — fabricating either would violate
-     Google's structured-data policies. Add both the day the app goes live. -->
+<!-- aggregateRating intentionally still omitted — Biblyx just went live with
+     zero reviews; fabricating a rating would violate Google's structured-data
+     policies. Add once there are real Play Store reviews to report. -->
 <style>
   :root{
     --bg:#faf6f0; --surface:#fffdf9; --ink:#14383b; --dim:#6b7570;
@@ -279,10 +280,10 @@
   <h1>Apprendre une langue<br>en lisant des livres</h1>
   <p class="lead">Importez n'importe quel livre EPUB, PDF ou TXT, touchez un mot pour une traduction instantanée et transformez votre lecture en vocabulaire que vous retenez vraiment.</p>
   <div class="cta-row">
-    <span class="btn btn-disabled" role="button" aria-disabled="true">
+    <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.biblyx.app" target="_blank" rel="noopener">
       <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 3.6v16.8c0 .5.6.8 1 .5l14-8.4c.4-.3.4-.9 0-1.2l-14-8.4c-.4-.3-1 0-1 .5z"/></svg>
-      Bientôt sur Google Play
-    </span>
+      Disponible sur Google Play
+    </a>
     <a class="btn btn-secondary" href="#how">Voir comment ça marche</a>
   </div>
 </header>

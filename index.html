@@ -79,14 +79,15 @@
         "@type": "Offer",
         "price": "0",
         "priceCurrency": "USD"
-      }
+      },
+      "installUrl": "https://play.google.com/store/apps/details?id=com.biblyx.app"
     }
   ]
 }
 </script>
-<!-- aggregateRating/installUrl intentionally omitted until Biblyx has a live
-     Play Store listing with real ratings — fabricating either would violate
-     Google's structured-data policies. Add both the day the app goes live. -->
+<!-- aggregateRating intentionally still omitted — Biblyx just went live with
+     zero reviews; fabricating a rating would violate Google's structured-data
+     policies. Add once there are real Play Store reviews to report. -->
 <style>
   :root{
     --bg:#faf6f0; --surface:#fffdf9; --ink:#14383b; --dim:#6b7570;
@@ -284,10 +285,10 @@
   <h1>Learn languages<br>by reading books</h1>
   <p class="lead">Import any EPUB, PDF, or TXT book, tap a word for an instant translation, and turn what you read into vocabulary you actually remember.</p>
   <div class="cta-row">
-    <span class="btn btn-disabled" role="button" aria-disabled="true">
+    <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.biblyx.app" target="_blank" rel="noopener">
       <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 3.6v16.8c0 .5.6.8 1 .5l14-8.4c.4-.3.4-.9 0-1.2l-14-8.4c-.4-.3-1 0-1 .5z"/></svg>
-      Coming soon to Google Play
-    </span>
+      Get it on Google Play
+    </a>
     <a class="btn btn-secondary" href="#how">See how it works</a>
   </div>
 </header>
@@ -404,7 +405,7 @@
       </div>
       <div class="faq-item">
         <h3>Is Biblyx available on iPhone?</h3>
-        <p>Biblyx is launching first on Android, via Google Play. iOS support is planned for a future release.</p>
+        <p>Biblyx is available first on Android, via Google Play. iOS support is planned for a future release.</p>
       </div>
       <div class="faq-item">
         <h3>How is Biblyx different from a regular dictionary or flashcard app?</h3>
@@ -471,7 +472,7 @@
       "name": "Is Biblyx available on iPhone?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Biblyx is launching first on Android, via Google Play. iOS support is planned for a future release."
+        "text": "Biblyx is available first on Android, via Google Play. iOS support is planned for a future release."
       }
     },
     {

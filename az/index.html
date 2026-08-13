@@ -80,14 +80,15 @@
         "@type": "Offer",
         "price": "0",
         "priceCurrency": "USD"
-      }
+      },
+      "installUrl": "https://play.google.com/store/apps/details?id=com.biblyx.app"
     }
   ]
 }
 </script>
-<!-- aggregateRating/installUrl intentionally omitted until Biblyx has a live
-     Play Store listing with real ratings — fabricating either would violate
-     Google's structured-data policies. Add both the day the app goes live. -->
+<!-- aggregateRating intentionally still omitted — Biblyx just went live with
+     zero reviews; fabricating a rating would violate Google's structured-data
+     policies. Add once there are real Play Store reviews to report. -->
 <style>
   :root{
     --bg:#faf6f0; --surface:#fffdf9; --ink:#14383b; --dim:#6b7570;
@@ -279,10 +280,10 @@
   <h1>Kitab oxuyaraq<br>dil öyrən</h1>
   <p class="lead">İstənilən EPUB, PDF və ya TXT kitabı idxal et, sözə toxunaraq anında tərcümə al və oxuduqlarını əsl yadda saxladığın söz ehtiyatına çevir.</p>
   <div class="cta-row">
-    <span class="btn btn-disabled" role="button" aria-disabled="true">
+    <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.biblyx.app" target="_blank" rel="noopener">
       <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 3.6v16.8c0 .5.6.8 1 .5l14-8.4c.4-.3.4-.9 0-1.2l-14-8.4c-.4-.3-1 0-1 .5z"/></svg>
-      Tezliklə Google Play-də
-    </span>
+      Google Play-də əldə et
+    </a>
     <a class="btn btn-secondary" href="#how">Necə işlədiyinə bax</a>
   </div>
 </header>
