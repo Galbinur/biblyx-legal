@@ -535,5 +535,27 @@
   });
 </script>
 
+<script>
+  // Forward this page's utm_* query params to the Google Play link as Play's
+  // "referrer" param, so Play Console's Acquisition report (Tracked channels
+  // > UTM) can attribute installs to the social bio link that sent the click.
+  (function () {
+    var pageParams = new URLSearchParams(window.location.search);
+    var utmKeys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term'];
+    var refParts = [];
+    utmKeys.forEach(function (key) {
+      var value = pageParams.get(key);
+      if (value) refParts.push(key + '=' + value);
+    });
+    if (!refParts.length) return;
+    var referrer = refParts.join('&');
+    document.querySelectorAll('a[href*="play.google.com/store/apps/details"]').forEach(function (link) {
+      var url = new URL(link.href);
+      url.searchParams.set('referrer', referrer);
+      link.href = url.toString();
+    });
+  })();
+</script>
+
 </body>
 </html>
