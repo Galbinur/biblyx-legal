@@ -1,0 +1,8 @@
+# Short, branded links that forward straight to the Play Store listing with
+# UTM attribution (Google Play reads UTM only inside the encoded `referrer`).
+# 302, not 301, so a destination can be changed later without browsers
+# caching the old one. Convention: dil-okuma-app docs/marketing.md, "UTM tracking".
+
+# YouTube: the hero film's description
+/yt   https://play.google.com/store/apps/details?id=com.biblyx.app&referrer=utm_source%3Dyoutube%26utm_medium%3Dvideo%26utm_campaign%3Dhero_film 302
+/yt/  https://play.google.com/store/apps/details?id=com.biblyx.app&referrer=utm_source%3Dyoutube%26utm_medium%3Dvideo%26utm_campaign%3Dhero_film 302
