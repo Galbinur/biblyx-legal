@@ -37,7 +37,7 @@
 
   <a class="back-link" href="/">← Biblyx</a>
   <h1>Biblyx — Privacy Policy</h1>
-  <div class="meta">Last updated: July 18, 2026</div>
+  <div class="meta">Last updated: October 13, 2026</div>
 
   <h2>1. Introduction</h2>
   <p>Biblyx ("the app", "we", "us") is built and operated by an individual developer (not a legal entity), based in Azerbaijan. This Privacy Policy applies to all users of the app, including international and European Union users, and explains what data is collected, how it is used, who it may be shared with, and your rights.</p>
@@ -50,8 +50,8 @@
   <h2>3. Data We Collect</h2>
   <ul>
     <li><b>Account data:</b> via Supabase Auth, your email (if you signed up with email/password or Google) and a unique user ID. For anonymous use, only an anonymous device session identifier is stored.</li>
-    <li><b>Cloud Sync data</b> (only if you sign in): your app settings, WordLab (your saved words), metadata about content you import (title, author, reading progress), bookmarks and highlights. The imported file itself is never sent off your device — it stays local.</li>
-    <li><b>AI translation data:</b> the word/sentence/paragraph text you translate is sent to OpenAI through a secure server function (Supabase Edge Function) to produce a translation/analysis result. This text is processed under OpenAI's applicable data-processing policies and is not permanently stored by us. Biblyx does not use this text to train AI models.</li>
+    <li><b>Cloud Sync data</b> (only if you sign in): your app settings; WordLab (your saved words, the book sentence each word appeared in, and your notes); metadata about content you import (such as title, author, reading progress); bookmarks; highlights, including the highlighted text; and the text you translate, with its translation. The imported file itself is never sent off your device — it stays local.</li>
+    <li><b>AI translation data:</b> the word/sentence/paragraph text you translate is sent to OpenAI through a secure server function (Supabase Edge Function) to produce a translation/analysis result. This text is processed under OpenAI's applicable data-processing policies and is not stored on our servers — except that, if you sign in, the text and its translation are saved to your account for Cloud Sync and kept until you delete your account. Biblyx does not use this text to train AI models.</li>
     <li><b>Usage statistics</b> (Firebase Analytics): anonymous counts and categories of which features are used. Titles of imported content, looked-up words, or personal text are never sent to analytics. Depending on platform and settings, Firebase may automatically collect some additional technical interaction and diagnostic data.</li>
     <li><b>Crash reports</b> (Firebase Crashlytics): if the app crashes unexpectedly, technical diagnostic data is sent automatically so we can find and fix issues.</li>
     <li><b>Abuse-prevention identifier:</b> to prevent abuse of the daily free AI quota (e.g. signing out to obtain a new free quota), a device-generated identifier is processed together with a daily usage counter, solely for abuse and quota-fraud prevention. It is not used for advertising, profiling, or tracking, and is not linked to your personal profile.</li>
@@ -76,7 +76,7 @@
   <p>We do not directly control these third parties' data-handling practices; we recommend reviewing their policies.</p>
 
   <h2>6. Local-First Principle</h2>
-  <p>Files you import (PDF, EPUB, TXT, and other supported formats) are stored only on your device and are never uploaded to our servers. Only metadata about that content (title, reading progress, etc.) is synced — never the content itself.</p>
+  <p>Files you import (PDF, EPUB, TXT, and other supported formats) are stored only on your device and are never uploaded to our servers. If you sign in, only the following is synced: metadata (such as title, author, reading progress); the text you highlight or translate; for each word you save to WordLab, the sentence from the book where it appeared (saved automatically); and your notes on saved words. The rest of the file's content is never synced.</p>
   <p>Biblyx is only a software tool that lets users manage and read content they import; it does not provide, distribute, license, or verify that content.</p>
 
   <h2>7. Data Retention</h2>
@@ -110,7 +110,7 @@
   <div class="lang-divider"><b>Azərbaycan dilində</b> — aşağıda</div>
 
   <h1>Biblyx — Məxfilik Siyasəti</h1>
-  <div class="meta">Son yenilənmə: 18 iyul 2026</div>
+  <div class="meta">Son yenilənmə: 13 oktyabr 2026</div>
 
   <h2>1. Giriş</h2>
   <p>Biblyx ("tətbiq", "biz", "bizim") Azərbaycanda fəaliyyət göstərən müstəqil developer tərəfindən hazırlanır və idarə olunur. Bu Məxfilik Siyasəti tətbiqi yükləyib istifadə edən bütün istifadəçilərə, o cümlədən beynəlxalq və Avropa İttifaqı sakinlərinə şamil olunur.</p>
@@ -122,8 +122,8 @@
   <h2>3. Topladığımız Məlumatlar</h2>
   <ul>
     <li><b>Hesab məlumatları:</b> Supabase Auth vasitəsilə email və unikal istifadəçi ID-si. Anonim istifadə zamanı yalnız anonim cihaz sessiya identifikatoru saxlanılır.</li>
-    <li><b>Cloud Sync məlumatları</b> (yalnız hesaba giriş etsəniz): ayarlar, WordLab, idxal etdiyiniz materiallara aid metadata, əlfəcinlər, vurğulamalar. İdxal etdiyiniz faylın özü heç vaxt cihazınızdan kənara ötürülmür.</li>
-    <li><b>AI tərcümə məlumatları:</b> tərcümə etdiyiniz mətn Supabase Edge Function vasitəsilə OpenAI-ə göndərilir. Bu mətn OpenAI-nin məlumatların emalına dair öz siyasətinə uyğun işlənir, bizim tərəfimizdən daimi saxlanılmır və süni intellekt modellərini öyrətmək üçün istifadə edilmir.</li>
+    <li><b>Cloud Sync məlumatları</b> (yalnız hesaba giriş etsəniz): tətbiq ayarlarınız; WordLab (söz siyahınız, hər sözün kitabda keçdiyi cümlə və qeydləriniz); idxal etdiyiniz materiallara aid metadata (məsələn, ad, müəllif, oxuma proqresi); əlfəcinlər; vurğulamalar, vurğulanmış mətn daxil olmaqla; tərcümə etdiyiniz mətn və onun tərcüməsi. İdxal etdiyiniz faylın özü heç vaxt cihazınızdan kənara ötürülmür — yalnız cihazınızda lokal saxlanılır.</li>
+    <li><b>AI tərcümə məlumatları:</b> tərcümə etdiyiniz söz/cümlə/paraqraf mətni təhlükəsiz server funksiyası (Supabase Edge Function) vasitəsilə OpenAI-ə göndərilir ki, tərcümə/analiz nəticəsi əldə edilsin. Bu mətn OpenAI-nin məlumatların emalına dair öz siyasətinə uyğun işlənir və serverlərimizdə saxlanılmır — yalnız hesaba giriş etmisinizsə, mətn və onun tərcüməsi Cloud Sync üçün hesabınıza yazılır və hesabınızı silənə qədər qalır. Biblyx bu mətnlərdən süni intellekt modellərini öyrətmək üçün istifadə etmir.</li>
     <li><b>İstifadə statistikası</b> (Firebase Analytics): anonim say/kateqoriya məlumatları, materialların adları/mətnlər heç vaxt göndərilmir. Platformadan asılı olaraq Firebase əlavə texniki istifadə və diaqnostika məlumatlarını da avtomatik toplaya bilər.</li>
     <li><b>Xəta hesabatları</b> (Firebase Crashlytics).</li>
     <li><b>Sui-istifadədən qorunma identifikatoru:</b> gündəlik pulsuz AI limitinin sui-istifadəsinin qarşısını almaq üçün cihaz tərəfindən yaradılan bir identifikator gündəlik istifadə sayğacı ilə birlikdə emal olunur. Yalnız sui-istifadədən qorunma məqsədilə istifadə olunur — reklam, profilləmə və ya izləmə üçün deyil.</li>
@@ -140,7 +140,7 @@
   </ul>
 
   <h2>6. Lokal-Əvvəlcə Prinsipi</h2>
-  <p>İdxal etdiyiniz fayllar (PDF, EPUB, TXT və dəstəklənən digər formatlar) yalnız cihazınızda saxlanılır, serverlərimizə heç vaxt yüklənmir.</p>
+  <p>İdxal etdiyiniz fayllar (PDF, EPUB, TXT və dəstəklənən digər formatlar) yalnız cihazınızda saxlanılır və serverlərimizə heç vaxt yüklənmir. Hesaba giriş etsəniz, yalnız bunlar sinxronizasiya edilir: metadata (məsələn, ad, müəllif, oxuma proqresi); vurğuladığınız və ya tərcümə etdiyiniz mətn; WordLab-a saxladığınız hər söz üçün onun kitabda keçdiyi cümlə (avtomatik saxlanılır); və saxlanmış sözlərə yazdığınız qeydlər. Faylın qalan məzmunu heç vaxt sinxronizasiya edilmir.</p>
   <p>Biblyx yalnız istifadəçilərin idxal etdiyi məzmunu idarə etmək və oxumaq imkanı verən proqram vasitəsidir; bu məzmunu təqdim etmir, yaymır, lisenziyalaşdırmır və ya yoxlamır.</p>
 
   <h2>7. Verilənlərin Saxlanma Müddəti</h2>
