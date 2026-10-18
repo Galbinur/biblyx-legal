@@ -58,16 +58,17 @@
   <p>Deleting your account permanently removes, immediately:</p>
   <ul>
     <li>Your account itself (email address, user ID, sign-in credentials)</li>
+    <li>Sign-in session records (IP address and device type)</li>
     <li>Cloud Sync data: app settings, WordLab (saved words and their translations), reading progress and metadata for imported books, bookmarks, highlights</li>
     <li>Your premium subscription entitlement record (this does not cancel any active subscription billing — see note below)</li>
     <li>Daily AI-translation usage counters tied to your account</li>
     <li>Abuse-prevention records linked to your user ID (phone-model hash records and recent request times)</li>
   </ul>
-  <p>This is a permanent, one-time deletion — there is no grace period or recovery option afterward. Copies may remain in our database provider's automatic backups for up to 30 days until they are overwritten; we never restore deleted accounts from them.</p>
+  <p>This is a permanent, one-time deletion — there is no grace period or recovery option afterward. Copies may remain for a limited time in backups kept by our database provider under its own retention rules; we never restore deleted accounts from them.</p>
 
   <h2>4. What isn't affected by in-app deletion</h2>
   <ul>
-    <li><b>Files stored only on your device</b> (imported PDF/EPUB/TXT books, local-only vocabulary if you never signed in): these are never uploaded to our servers in the first place, so deleting your account doesn't touch them. To remove them, uninstall the app or clear its local storage from your device's Settings.</li>
+    <li><b>Data stored on your device</b>: your imported books (PDF/EPUB/TXT) and the app's local copy of your library, WordLab words, bookmarks, highlights and settings stay on this device — deleting your account removes only the copy on our server. To remove them, uninstall the app or clear its storage in your device's Settings.</li>
     <li><b>An active Premium subscription's billing</b>: deleting your account removes our record that you're entitled to Premium, but it does <b>not</b> cancel the underlying Google Play subscription itself — Google Play would keep charging you on its normal renewal schedule until you separately cancel it. If you don't want to keep being charged, cancel it first in Google Play's subscription settings, or via <b>Manage subscription</b> on the app's Premium screen, before deleting your account. Google Play and RevenueCat (our subscription service) keep their own purchase records under their own policies.</li>
     <li><b>Device-level abuse-prevention counts</b>: our server keeps a daily translation count keyed to your device's Android ID, not to your account, so it can't be matched to your account when you delete it. These counts are deleted automatically after 90 days.</li>
   </ul>
@@ -84,7 +85,7 @@
   <div class="steps">
     <ol>
       <li>Biblyx tətbiqini açın və (daxil olmamısınızsa) hesabınıza daxil olun.</li>
-      <li>Menyunu (yuxarı sol küncdəki siyahı ikonu) açın və yuxarıdakı <b>email ünvanınıza</b> ("Hesabı idarə et" yazısı ilə göstərilir) toxunun.</li>
+      <li>Menyunu (yuxarı sol küncdəki siyahı ikonu) açın və yuxarıdakı <b>e-poçt ünvanınıza</b> ("Hesabı idarə et" yazısı ilə göstərilir) toxunun.</li>
       <li><b>Hesabımı sil</b> düyməsinə basın.</li>
       <li>Təsdiq ekranında silinməni təsdiqləyin.</li>
     </ol>
@@ -92,24 +93,25 @@
   <p>Təsdiqlədikdən dərhal sonra silinmə baş verir — gözləmə müddəti yoxdur.</p>
 
   <h2>2. Tətbiqə girişiniz yoxdursa?</h2>
-  <p><b>support@biblyx.com</b> ünvanına, hesabınızla əlaqəli email-dən (və ya hesabınızı tanıya biləcəyimiz kifayət qədər məlumatla) yazın və silinməni tələb edin. Hesabınızı siləcək və email ilə təsdiq edəcəyik.</p>
+  <p><b>support@biblyx.com</b> ünvanına, hesabınızla əlaqəli e-poçt ünvanından (və ya hesabınızı tanıya biləcəyimiz kifayət qədər məlumatla) yazın və silinməni tələb edin. Hesabınızı siləcək və e-poçt ilə təsdiq edəcəyik.</p>
 
   <h2>3. Nə silinir</h2>
   <p>Hesabınızı silmək dərhal, qalıcı olaraq bunları silir:</p>
   <ul>
-    <li>Hesabın özü (email ünvanı, istifadəçi ID-si, giriş məlumatları)</li>
-    <li>Cloud Sync məlumatları: tətbiq ayarları, WordLab (saxlanmış sözlər və tərcümələri), idxal edilmiş kitabların oxuma irəliləyişi/metadata, əlfəcinlər, vurğulamalar</li>
-    <li>Premium abunəlik hüququ qeydi (bu, aktiv abunəliyin özünü LƏĞV ETMİR — aşağıdakı qeydə bax)</li>
-    <li>Hesabınıza bağlı gündəlik AI-tərcümə istifadə sayğacları</li>
+    <li>Hesabın özü (e-poçt ünvanı, istifadəçi ID-si, giriş məlumatları)</li>
+    <li>Giriş sessiyası qeydləri (IP ünvanı və cihaz növü)</li>
+    <li>Cloud Sync məlumatları: tətbiq ayarları, WordLab (saxladığınız sözlər və onların tərcümələri), idxal edilmiş kitabların oxuma irəliləyişi və məlumatları, əlfəcinlər, vurğulamalar</li>
+    <li>Premium abunəlik hüququ qeydi (bu, aktiv abunəliyin özünü LƏĞV ETMİR — aşağıdakı qeydə baxın)</li>
+    <li>Hesabınıza bağlı gündəlik AI tərcümə istifadə sayları</li>
     <li>İstifadəçi ID-nizə bağlı sui-istifadədən qorunma qeydləri (telefon modeli hash-i qeydləri və son sorğu vaxtları)</li>
   </ul>
-  <p>Bu, birdəfəlik, qalıcı silinmədir — gözləmə müddəti və ya sonradan bərpa imkanı yoxdur. Nüsxələr verilənlər bazası təminatçımızın avtomatik ehtiyat nüsxələrində, üzərinə yazılana qədər, 30 günə qədər qala bilər; silinmiş hesabları onlardan heç vaxt bərpa etmirik.</p>
+  <p>Bu, birdəfəlik, qalıcı silinmədir — gözləmə müddəti və ya sonradan bərpa imkanı yoxdur. Nüsxələr verilənlər bazası təminatçımızın öz qaydaları ilə saxladığı ehtiyat nüsxələrdə məhdud müddət qala bilər; silinmiş hesabları onlardan heç vaxt bərpa etmirik.</p>
 
-  <h2>4. Tətbiq-daxili silinmənin toxunmadığı şeylər</h2>
+  <h2>4. Tətbiqdaxili silinmənin toxunmadığı şeylər</h2>
   <ul>
-    <li><b>Yalnız cihazınızda saxlanılan fayllar</b> (idxal etdiyiniz PDF/EPUB/TXT kitablar, heç vaxt hesaba daxil olmadıqda yalnız lokal söz ehtiyatı): bunlar heç vaxt serverlərimizə yüklənməyib, ona görə hesab silinməsi onlara toxunmur. Silmək üçün tətbiqi cihazınızdan kaldırın və ya cihazın Ayarlarından tətbiqin lokal yaddaşını təmizləyin.</li>
-    <li><b>Aktiv Premium abunəliyinin ödənişi</b>: hesabı silmək bizim tərəfimizdəki "Premium hüququ var" qeydini silir, amma Google Play-dəki əsl abunəliyi <b>ləğv etmir</b> — ayrıca ləğv etməsəniz, Google Play adi yeniləmə cədvəli üzrə sizdən ödəniş almağa davam edəcək. Ödəniş davam etməsin istəyirsinizsə, hesabı silməzdən əvvəl abunəliyi Google Play-in abunəlik ayarlarından və ya tətbiqin Premium ekranındakı <b>Abunəliyi idarə et</b> düyməsi ilə ləğv edin. Google Play və RevenueCat (abunəlik xidmətimiz) öz satınalma qeydlərini öz siyasətlərinə uyğun saxlayır.</li>
-    <li><b>Cihaz səviyyəsində sui-istifadədən qorunma sayları</b>: serverimiz hesabınıza deyil, cihazınızın Android ID-sinə bağlı gündəlik tərcümə sayı saxlayır, ona görə hesabı silərkən onu hesabınızla uyğunlaşdırmaq mümkün olmur. Bu saylar 90 gündən sonra avtomatik silinir.</li>
+    <li><b>Cihazınızda saxlanılan məlumatlar</b>: idxal etdiyiniz kitablar (PDF/EPUB/TXT) və tətbiqin kitabxananızın, WordLab sözlərinizin, əlfəcinlərinizin, vurğulamalarınızın və ayarlarınızın lokal nüsxəsi bu cihazda qalır — hesabı silmək yalnız serverimizdəki nüsxəni silir. Onları silmək üçün tətbiqi cihazınızdan silin və ya cihazın Ayarlarından tətbiqin yaddaşını təmizləyin.</li>
+    <li><b>Aktiv Premium abunəliyinin ödənişi</b>: hesabı silmək bizim tərəfimizdəki "Premium hüququ var" qeydini silir, amma Google Play-dəki əsl abunəliyi <b>ləğv etmir</b> — ayrıca ləğv etməsəniz, Google Play adi yeniləmə cədvəli üzrə sizdən ödəniş almağa davam edəcək. Ödənişin davam etməməsini istəyirsinizsə, hesabı silməzdən əvvəl abunəliyi Google Play-in abunəlik ayarlarından və ya tətbiqin Premium ekranındakı <b>Abunəliyi idarə et</b> düyməsi ilə ləğv edin. Google Play və RevenueCat (abunəlik xidmətimiz) öz satınalma qeydlərini öz siyasətlərinə uyğun saxlayır.</li>
+    <li><b>Cihaz səviyyəsində sui-istifadədən qorunma sayları</b>: serverimiz hesabınıza deyil, cihazınızın Android ID-sinə bağlı gündəlik tərcümə sayı saxlayır, ona görə hesabı silərkən onu hesabınızla əlaqələndirmək mümkün olmur. Bu saylar 90 gündən sonra avtomatik silinir.</li>
   </ul>
 
   <h2>5. Suallar</h2>

@@ -50,15 +50,16 @@
   <h2>3. Data We Process</h2>
   <p>We process only the data the app needs to work:</p>
   <ul>
-    <li><b>Account:</b> when you first open the app, an anonymous account (a random user ID) is created automatically, so the free daily limit works without registration. If you sign in with email, we store your email address; your password is kept only in protected (hashed) form. If you sign in with Google, we receive your email address and, from your Google profile, your name and profile picture link. Premium requires signing in.</li>
-    <li><b>Text you translate:</b> when you tap a word, that word and the sentence it is in are sent for translation; when you select a passage, the passage is sent. When you import a book whose language the app cannot recognise on your device, up to 1,500 characters from its first pages and its title are sent once, only to detect the language. This text passes through our server function to OpenAI, which returns the result. Our server does not store it, and no account details (such as your email) are sent to OpenAI. Under its API terms, OpenAI does not use this data to train its models and may keep it for up to 30 days to detect abuse. Biblyx does not use it to train AI models either. If you are signed in, your translations are also saved to your account (see Cloud Sync).</li>
+    <li><b>Account:</b> when you first open the app, an anonymous account (a random user ID) is created automatically, so the free daily limit works without registration. If you sign in with email, we store your email address; your password is kept only in protected (hashed) form. If you sign in with Google, we receive your email address and, from your Google profile, your name and profile picture link. For security, our sign-in provider (Supabase) also stores the IP address and device/app type (user agent) of each sign-in session. Premium requires signing in.</li>
+    <li><b>Text you translate:</b> when you tap a word, that word and the text around it (usually its sentence) are sent for translation; when you select a passage, the passage is sent. When you import a book whose language the app cannot recognise on your device, up to 1,500 characters from its first pages and its title are sent once, only to detect the language. This text passes through our server function to OpenAI, which returns the result. Our server does not store it, and no account details (such as your email) are sent to OpenAI. Under its API terms, OpenAI does not use this data to train its models and may keep it for about 30 days, and longer only where the law requires it. Biblyx does not use it to train AI models either. If you are signed in, your translations are also saved to your account (see Cloud Sync).</li>
     <li><b>Cloud Sync (only when you are signed in):</b> your settings; WordLab — your saved words with their translations, the book sentence each word came from, your notes and your review progress; book details such as title, author, language and reading progress, plus a fingerprint (hash) of the file used to recognise the same book on your other devices — never the file itself; bookmarks; highlights, including the highlighted text; the translations you looked up; and a list of items you deleted, so the deletion also reaches your other devices.</li>
-    <li><b>Purchases:</b> payments are made through Google Play; we never see your card details. RevenueCat, the service we use to manage subscriptions, receives your user ID and the purchase details from Google Play (product, dates and status) to confirm your subscription. On our server we store only your Premium plan and its expiry date.</li>
+    <li><b>Purchases:</b> payments are made through Google Play; we never see your card details. RevenueCat, the service we use to manage subscriptions, receives your user ID each time the app starts, for every user, so the app can check whether you have Premium, together with basic technical data such as app version, platform and approximate country. If you buy, it also receives the purchase details from Google Play (such as product, price, dates and status). On our server we store only your Premium plan and its expiry date.</li>
     <li><b>Usage statistics (Firebase Analytics):</b> counts and categories of how features are used (for example, that a translation was made), not linked to your account. Book titles, file contents, the words you look up and your notes are never sent to analytics. Firebase also collects standard technical data, such as device model, system version, approximate country and an ID for this app installation.</li>
-    <li><b>Crash reports (Firebase Crashlytics):</b> if the app crashes, technical error data (such as the error trace, device model and system version) is sent so we can fix the problem. It is not linked to your account.</li>
+    <li><b>Crash reports (Firebase Crashlytics):</b> if the app crashes or runs into an error, technical error data (such as the error trace, device model and system version) is sent so we can fix the problem. It is not linked to your account.</li>
     <li><b>App integrity check (Firebase App Check):</b> the app asks Google Play to confirm that requests to our server come from the genuine Biblyx app, which blocks fake requests.</li>
-    <li><b>Abuse prevention:</b> to stop the free daily limit from being bypassed (for example by reinstalling the app or switching accounts), our server keeps your device's Android ID with a daily translation count (so the count survives a reinstall); a hash of your phone's model details (the same for every phone of that model) with the date and your user ID; a daily translation count per account; and the times of your requests from the last day, to limit bursts. These records are used only for this purpose, never for advertising or profiling.</li>
-    <li><b>On your device:</b> your books, library and saved words are stored on your device. If Android backup is turned on, Android may back up the app's data to your own Google account; sign-in data is excluded from this backup. That backup is managed by Google under your account, and we cannot access it.</li>
+    <li><b>Connection data:</b> like any online service, the services the app connects to (Supabase, Google and RevenueCat) receive your IP address when the app connects to them.</li>
+    <li><b>Abuse prevention:</b> to stop the free daily limit from being bypassed (for example by reinstalling the app or switching accounts), our server keeps your device's Android ID with a daily usage count (so the count survives a reinstall); a hash of your phone's model details (the same for every phone of that model) with the date and your user ID; a daily usage count per account; and the times of your requests from the last day, to limit bursts. These records are used only for this purpose, never for advertising or profiling.</li>
+    <li><b>On your device:</b> your books, library and saved words are stored on your device. If Android backup is turned on, Android may back up the app's data, including your imported books, to your own Google account; sign-in data is excluded from this backup. That backup is managed by Google under your account, and we cannot access it.</li>
   </ul>
 
   <h2>4. Legal Bases (for users in the EU/EEA)</h2>
@@ -71,25 +72,27 @@
   <h2>5. Service Providers and International Transfers</h2>
   <p>We use the following service providers. Each processes data only to provide its service to us, under its own privacy policy:</p>
   <ul>
-    <li><b>Supabase</b> — Database, sign-in, Cloud Sync, our server functions and account emails (such as sign-up confirmation and password reset). Our database is located in the EU (Frankfurt, Germany). <a href="https://supabase.com/privacy">supabase.com/privacy</a></li>
+    <li><b>Supabase</b> — Database, sign-in, Cloud Sync and our server functions. Our database is located in the EU (Frankfurt, Germany). <a href="https://supabase.com/privacy">supabase.com/privacy</a></li>
     <li><b>OpenAI</b> — AI translation and language detection for the text described in Section 3. <a href="https://openai.com/policies/privacy-policy">openai.com/policies/privacy-policy</a></li>
-    <li><b>Google</b> — Firebase Analytics, Crashlytics and App Check, Google Sign-In, Google Play billing, Android backup, and Google Cloud (BigQuery), where we analyse the usage statistics. <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+    <li><b>Google</b> — Firebase Analytics, Crashlytics and App Check, Google Sign-In, Google Play billing, Android backup, Gmail (our support inbox), and Google Cloud (BigQuery), where we analyse the usage statistics. <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
     <li><b>RevenueCat</b> — Subscription management for Premium. <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a></li>
+    <li><b>Resend</b> — Sends account emails (such as sign-up confirmation and password reset) and our replies to support emails. <a href="https://resend.com/legal/privacy-policy">resend.com/legal/privacy-policy</a></li>
+    <li><b>Cloudflare</b> — Forwards the emails you send to our support address to our inbox. <a href="https://www.cloudflare.com/privacypolicy/">cloudflare.com/privacypolicy/</a></li>
   </ul>
   <p>Some of these providers process data outside the EU and Azerbaijan, mainly in the United States. Where the law requires it, these transfers rely on safeguards such as the EU Standard Contractual Clauses. We do not sell your data, and the app shows no ads.</p>
 
   <h2>6. Your Books Stay on Your Device</h2>
-  <p>Files you import (PDF, EPUB, TXT and other supported formats) are stored only on your device and are never uploaded — not to us and not to our providers. Only the pieces described in Section 3 leave your device: the text you translate, a one-time language sample, and, if you sign in, your Cloud Sync data. The rest of a book's content is never sent.</p>
+  <p>Files you import (PDF, EPUB and TXT) are stored on your device. The app never uploads them, either to us or to our service providers: it sends only the pieces described in Section 3 — the text you translate, a one-time language sample, and, if you sign in, your Cloud Sync data. The rest of a book's content is never sent. If Android backup is turned on, Android itself may include the app's data, including imported files, in the backup to your own Google account (see Section 3).</p>
   <p>Biblyx is a software tool for reading content you import; it does not provide, distribute, license or check that content.</p>
 
   <h2>7. How Long We Keep Data</h2>
   <ul>
-    <li><b>Account and Cloud Sync data:</b> until you delete your account. Deletion is immediate and permanent. Copies may remain in our database provider's automatic backups for up to 30 days until they are overwritten; we never restore deleted accounts from them.</li>
-    <li><b>If you never sign in:</b> our server holds only a random anonymous ID and the daily counts below; it holds no email and no synced content. Uninstalling the app deletes the data on your device.</li>
+    <li><b>Account, sign-in session and Cloud Sync data:</b> until you delete your account. Deletion in our live database is immediate and permanent. Copies may remain for a limited time in backups kept by our database provider under its own retention rules; we never restore deleted accounts from them.</li>
+    <li><b>If you never sign in:</b> our server holds only a random anonymous ID with its sign-in session data (IP address and device type) and the daily counts below; it holds no email and no synced content. Anonymous accounts are not deleted automatically at the moment. Uninstalling the app deletes the data on your device.</li>
     <li><b>Abuse-prevention records:</b> 90 days; request times 1 day. When you delete your account, the records linked to your user ID are deleted at once. The Android ID counts are not linked to your account and are deleted after 90 days.</li>
     <li><b>Premium status:</b> deleted with your account. Google Play and RevenueCat keep their own purchase records under their own policies. Deleting your account or the app does not cancel a subscription; cancel it in Google Play.</li>
-    <li><b>Analytics and crash data:</b> analytics data is kept for at most 14 months, including the copy in our Google Cloud project (BigQuery) used for analysis; crash reports are kept for 90 days.</li>
-    <li><b>OpenAI:</b> up to 30 days on OpenAI's side, as described in Section 3.</li>
+    <li><b>Analytics and crash data:</b> event-level analytics data is kept for up to 14 months and then deleted automatically; aggregated reports that identify no one may be kept longer. The copy in our Google Cloud project (BigQuery) used for analysis is deleted after at most 14 months. Crash reports are kept for 90 days.</li>
+    <li><b>OpenAI:</b> about 30 days on OpenAI's side, and longer only where the law requires it (Section 3).</li>
     <li><b>On your device:</b> until you delete it or uninstall the app.</li>
   </ul>
 
@@ -114,7 +117,7 @@
 
   <h2>12. Contact</h2>
   <p>For questions: support@biblyx.com</p>
-  <p>This policy is written to meet the EU General Data Protection Regulation (GDPR) for users in the EU/EEA, with the laws of the Republic of Azerbaijan in mind.</p>
+  <p>This policy was prepared with the EU General Data Protection Regulation (GDPR) and the laws of the Republic of Azerbaijan in mind.</p>
 
   <div class="lang-divider"><b>Azərbaycan dilində</b> — aşağıda</div>
 
@@ -132,18 +135,19 @@
   <h2>3. Emal Etdiyimiz Məlumatlar</h2>
   <p>Yalnız tətbiqin işləməsi üçün lazım olan məlumatları emal edirik:</p>
   <ul>
-    <li><b>Hesab:</b> tətbiqi ilk dəfə açdığınızda avtomatik olaraq anonim hesab (təsadüfi istifadəçi ID-si) yaradılır ki, pulsuz gündəlik limit qeydiyyatsız işləsin. Email ilə daxil olsanız, email ünvanınızı saxlayırıq; parolunuz yalnız qorunan (hash edilmiş) formada saxlanılır. Google ilə daxil olsanız, email ünvanınızı, Google profilinizdən isə adınızı və profil şəklinizin linkini alırıq. Premium üçün hesaba daxil olmaq lazımdır.</li>
-    <li><b>Tərcümə etdiyiniz mətn:</b> bir sözə toxunduqda həmin söz və onun olduğu cümlə tərcümə üçün göndərilir; bir parça seçdikdə həmin parça göndərilir. Dilini tətbiqin cihazınızda tanıya bilmədiyi kitab idxal etdikdə kitabın ilk səhifələrindən 1 500 simvola qədər mətn və kitabın adı yalnız dili təyin etmək üçün bir dəfə göndərilir. Bu mətn server funksiyamız vasitəsilə OpenAI-ə ötürülür və nəticə geri qaytarılır. Serverimiz bu mətni saxlamır, OpenAI-ə isə heç bir hesab məlumatı (məsələn, email ünvanınız) göndərilmir. OpenAI öz API şərtlərinə əsasən bu məlumatlardan modellərini öyrətmək üçün istifadə etmir və sui-istifadəni aşkarlamaq üçün onları 30 günə qədər saxlaya bilər. Biblyx də bu mətnlərdən süni intellekt modellərini öyrətmək üçün istifadə etmir. Hesaba daxil olmusunuzsa, tərcümələriniz hesabınızda da saxlanılır (bax: Cloud Sync).</li>
+    <li><b>Hesab:</b> tətbiqi ilk dəfə açdığınızda avtomatik olaraq anonim hesab (təsadüfi istifadəçi ID-si) yaradılır ki, pulsuz gündəlik limit qeydiyyatsız işləsin. E-poçt ilə daxil olsanız, e-poçt ünvanınızı saxlayırıq; parolunuz yalnız qorunan (hash edilmiş) formada saxlanılır. Google ilə daxil olsanız, e-poçt ünvanınızı, Google profilinizdən isə adınızı və profil şəklinizin linkini alırıq. Təhlükəsizlik üçün giriş təminatçımız (Supabase) hər giriş sessiyasının IP ünvanını və cihaz/tətbiq növünü (user agent) də saxlayır. Premium üçün hesaba daxil olmaq lazımdır.</li>
+    <li><b>Tərcümə etdiyiniz mətn:</b> bir sözə toxunduqda həmin söz və onun ətrafındakı mətn (adətən olduğu cümlə) tərcümə üçün göndərilir; bir parça seçdikdə həmin parça göndərilir. Dilini tətbiqin cihazınızda tanıya bilmədiyi kitab idxal etdikdə kitabın ilk səhifələrindən 1 500 simvola qədər mətn və kitabın adı yalnız dili təyin etmək üçün bir dəfə göndərilir. Bu mətn server funksiyamız vasitəsilə OpenAI-ə ötürülür və nəticə geri qaytarılır. Serverimiz bu mətni saxlamır, OpenAI-ə isə heç bir hesab məlumatı (məsələn, e-poçt ünvanınız) göndərilmir. OpenAI öz API şərtlərinə əsasən bu məlumatlardan modellərini öyrətmək üçün istifadə etmir və onları təxminən 30 gün, yalnız qanun tələb etdikdə isə daha uzun müddət saxlaya bilər. Biblyx də bu mətnlərdən süni intellekt modellərini öyrətmək üçün istifadə etmir. Hesaba daxil olmusunuzsa, tərcümələriniz hesabınızda da saxlanılır (baxın: Cloud Sync).</li>
     <li><b>Cloud Sync (yalnız hesaba daxil olduqda):</b> ayarlarınız; WordLab — saxladığınız sözlər və onların tərcümələri, hər sözün götürüldüyü kitab cümləsi, qeydləriniz və təkrar irəliləyişiniz; ad, müəllif, dil və oxuma irəliləyişi kimi kitab məlumatları, həmçinin eyni kitabı digər cihazlarınızda tanımaq üçün faylın barmaq izi (hash) — heç vaxt faylın özü yox; əlfəcinlər; vurğulamalar, vurğulanmış mətn daxil olmaqla; baxdığınız tərcümələr; və sildiyiniz elementlərin siyahısı ki, silinmə digər cihazlarınıza da çatsın.</li>
-    <li><b>Satınalmalar:</b> ödənişlər Google Play vasitəsilə edilir; kart məlumatlarınızı heç vaxt görmürük. Abunəlikləri idarə etmək üçün istifadə etdiyimiz RevenueCat xidməti abunəliyinizi təsdiqləmək üçün istifadəçi ID-nizi və Google Play-dən satınalma məlumatlarını (məhsul, tarixlər və status) alır. Serverimizdə yalnız Premium planınızı və onun bitmə tarixini saxlayırıq.</li>
+    <li><b>Satınalmalar:</b> ödənişlər Google Play vasitəsilə edilir; kart məlumatlarınızı heç vaxt görmürük. Abunəlikləri idarə etmək üçün istifadə etdiyimiz RevenueCat xidməti Premium-unuzun olub-olmadığını yoxlamaq üçün tətbiq hər dəfə açılanda, bütün istifadəçilər üzrə, istifadəçi ID-nizi tətbiq versiyası, platforma və təxmini ölkə kimi əsas texniki məlumatlarla birlikdə alır. Satınalma etsəniz, Google Play-dən satınalma məlumatlarını (məhsul, qiymət, tarixlər və status kimi) da alır. Serverimizdə yalnız Premium planınızı və onun bitmə tarixini saxlayırıq.</li>
     <li><b>İstifadə statistikası (Firebase Analytics):</b> funksiyaların necə istifadə olunduğuna dair say və kateqoriyalar (məsələn, tərcümə edildiyi), hesabınızla əlaqələndirilmədən. Kitab adları, faylların məzmunu, baxdığınız sözlər və qeydləriniz heç vaxt analitikaya göndərilmir. Firebase həmçinin cihaz modeli, sistem versiyası, təxmini ölkə və bu tətbiq quraşdırmasının ID-si kimi standart texniki məlumatları toplayır.</li>
-    <li><b>Xəta hesabatları (Firebase Crashlytics):</b> tətbiq qəflətən bağlanarsa, problemi düzəldə bilməyimiz üçün texniki xəta məlumatları (xətanın izi, cihaz modeli və sistem versiyası kimi) göndərilir. Bu məlumatlar hesabınızla əlaqələndirilmir.</li>
+    <li><b>Xəta hesabatları (Firebase Crashlytics):</b> tətbiq qəflətən bağlanarsa və ya işində xəta baş verərsə, problemi düzəldə bilməyimiz üçün texniki xəta məlumatları (xətanın izi, cihaz modeli və sistem versiyası kimi) göndərilir. Bu məlumatlar hesabınızla əlaqələndirilmir.</li>
     <li><b>Tətbiqin həqiqiliyinin yoxlanması (Firebase App Check):</b> tətbiq serverimizə gedən sorğuların həqiqi Biblyx tətbiqindən gəldiyini Google Play vasitəsilə təsdiqlədir; bu, saxta sorğuların qarşısını alır.</li>
-    <li><b>Sui-istifadənin qarşısının alınması:</b> pulsuz gündəlik limitin yan keçilməsinin (məsələn, tətbiqi yenidən quraşdırmaqla və ya hesab dəyişməklə) qarşısını almaq üçün serverimiz cihazınızın Android ID-sini gündəlik tərcümə sayı ilə birlikdə (say yenidən quraşdırmadan sonra da qalsın deyə), telefon modelinizə aid məlumatların hash-ini (həmin modelin bütün telefonlarında eynidir) tarix və istifadəçi ID-niz ilə birlikdə, hər hesab üzrə gündəlik tərcümə sayını və həddən artıq sıx sorğuların qarşısını almaq üçün son bir gündəki sorğularınızın vaxtlarını saxlayır. Bu qeydlər yalnız bu məqsədlə istifadə olunur, heç vaxt reklam və ya profilləmə üçün yox.</li>
-    <li><b>Cihazınızda:</b> kitablarınız, kitabxananız və saxladığınız sözlər cihazınızda saxlanılır. Android ehtiyat nüsxəsi (backup) aktivdirsə, Android tətbiqin məlumatlarını sizin öz Google hesabınıza köçürə bilər; giriş məlumatları bu ehtiyat nüsxəyə daxil edilmir. Bu ehtiyat nüsxəni Google sizin hesabınız altında idarə edir, bizim ona girişimiz yoxdur.</li>
+    <li><b>Bağlantı məlumatları:</b> hər bir onlayn xidmətdə olduğu kimi, tətbiqin qoşulduğu xidmətlər (Supabase, Google və RevenueCat) tətbiq onlara qoşulanda IP ünvanınızı alır.</li>
+    <li><b>Sui-istifadənin qarşısının alınması:</b> pulsuz gündəlik limitin yan keçilməsinin (məsələn, tətbiqi yenidən quraşdırmaqla və ya hesab dəyişməklə) qarşısını almaq üçün serverimiz cihazınızın Android ID-sini gündəlik istifadə sayı ilə birlikdə (say yenidən quraşdırmadan sonra da qalsın deyə), telefon modelinizə aid məlumatların hash-ini (həmin modelin bütün telefonlarında eynidir) tarix və istifadəçi ID-niz ilə birlikdə, hər hesab üzrə gündəlik istifadə sayını və həddən artıq sıx sorğuların qarşısını almaq üçün son bir gündəki sorğularınızın vaxtlarını saxlayır. Bu qeydlər yalnız bu məqsədlə istifadə olunur, heç vaxt reklam və ya profilləmə üçün yox.</li>
+    <li><b>Cihazınızda:</b> kitablarınız, kitabxananız və saxladığınız sözlər cihazınızda saxlanılır. Android ehtiyat nüsxəsi (backup) aktivdirsə, Android tətbiqin məlumatlarını, o cümlədən idxal etdiyiniz kitabları sizin öz Google hesabınıza köçürə bilər; giriş məlumatları bu ehtiyat nüsxəyə daxil edilmir. Bu ehtiyat nüsxəni Google sizin hesabınız altında idarə edir, bizim ona girişimiz yoxdur.</li>
   </ul>
 
-  <h2>4. Emalın Hüquqi Əsasları (AB/AİZ istifadəçiləri üçün)</h2>
+  <h2>4. Emalın Hüquqi Əsasları (Aİ/AİZ istifadəçiləri üçün)</h2>
   <p>Avropa İqtisadi Zonasındasınızsa, aşağıdakı hüquqi əsaslara istinad edirik:</p>
   <ul>
     <li><b>Müqavilənin icrası:</b> hesabınızı, tərcüməni, Cloud Sync-i və Premium-u təmin etmək üçün.</li>
@@ -153,25 +157,27 @@
   <h2>5. Xidmət Təminatçıları və Beynəlxalq Ötürmə</h2>
   <p>Aşağıdakı xidmət təminatçılarından istifadə edirik. Hər biri məlumatları yalnız bizə öz xidmətini göstərmək üçün, öz məxfilik siyasətinə uyğun emal edir:</p>
   <ul>
-    <li><b>Supabase</b> — Verilənlər bazası, giriş, Cloud Sync, server funksiyalarımız və hesab emailləri (qeydiyyat təsdiqi və parolun bərpası kimi). Verilənlər bazamız Avropa İttifaqında (Frankfurt, Almaniya) yerləşir. <a href="https://supabase.com/privacy">supabase.com/privacy</a></li>
+    <li><b>Supabase</b> — Verilənlər bazası, giriş, Cloud Sync və server funksiyalarımız. Verilənlər bazamız Avropa İttifaqında (Frankfurt, Almaniya) yerləşir. <a href="https://supabase.com/privacy">supabase.com/privacy</a></li>
     <li><b>OpenAI</b> — Bölmə 3-də göstərilən mətnin süni intellektlə tərcüməsi və dilinin təyini. <a href="https://openai.com/policies/privacy-policy">openai.com/policies/privacy-policy</a></li>
-    <li><b>Google</b> — Firebase Analytics, Crashlytics və App Check, Google ilə giriş, Google Play ödənişləri, Android ehtiyat nüsxəsi və istifadə statistikasını təhlil etdiyimiz Google Cloud (BigQuery). <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+    <li><b>Google</b> — Firebase Analytics, Crashlytics və App Check, Google ilə giriş, Google Play ödənişləri, Android ehtiyat nüsxəsi, Gmail (dəstək poçt qutumuz) və istifadə statistikasını təhlil etdiyimiz Google Cloud (BigQuery). <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
     <li><b>RevenueCat</b> — Premium abunəliklərinin idarə olunması. <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a></li>
+    <li><b>Resend</b> — Hesabla bağlı e-poçt məktublarının (qeydiyyat təsdiqi və parolun bərpası kimi) və dəstək müraciətlərinə cavablarımızın göndərilməsi. <a href="https://resend.com/legal/privacy-policy">resend.com/legal/privacy-policy</a></li>
+    <li><b>Cloudflare</b> — Dəstək ünvanımıza göndərdiyiniz e-poçt məktublarının poçt qutumuza yönləndirilməsi. <a href="https://www.cloudflare.com/privacypolicy/">cloudflare.com/privacypolicy/</a></li>
   </ul>
   <p>Bu təminatçıların bəziləri məlumatları Avropa İttifaqı və Azərbaycandan kənarda, əsasən ABŞ-da emal edir. Qanun tələb etdikdə bu ötürmələr Aİ-nin Standart Müqavilə Şərtləri (Standard Contractual Clauses) kimi qoruma tədbirlərinə əsaslanır. Məlumatlarınızı satmırıq və tətbiqdə reklam yoxdur.</p>
 
   <h2>6. Kitablarınız Cihazınızda Qalır</h2>
-  <p>İdxal etdiyiniz fayllar (PDF, EPUB, TXT və dəstəklənən digər formatlar) yalnız cihazınızda saxlanılır və heç vaxt yüklənmir — nə bizə, nə də xidmət təminatçılarımıza. Cihazınızdan yalnız Bölmə 3-də göstərilən hissələr çıxır: tərcümə etdiyiniz mətn, birdəfəlik dil nümunəsi və hesaba daxil olmusunuzsa, Cloud Sync məlumatlarınız. Kitabın qalan məzmunu heç vaxt göndərilmir.</p>
+  <p>İdxal etdiyiniz fayllar (PDF, EPUB və TXT) cihazınızda saxlanılır. Tətbiq onları heç vaxt nə bizə, nə də xidmət təminatçılarımıza yükləmir: yalnız Bölmə 3-də göstərilən hissələri göndərir — tərcümə etdiyiniz mətn, birdəfəlik dil nümunəsi və hesaba daxil olmusunuzsa, Cloud Sync məlumatlarınız. Kitabın qalan məzmunu heç vaxt göndərilmir. Android ehtiyat nüsxəsi aktivdirsə, Android özü tətbiqin məlumatlarını, o cümlədən idxal etdiyiniz faylları sizin öz Google hesabınızdakı ehtiyat nüsxəyə daxil edə bilər (baxın: Bölmə 3).</p>
   <p>Biblyx idxal etdiyiniz məzmunu oxumaq üçün proqram vasitəsidir; bu məzmunu təqdim etmir, yaymır, lisenziyalaşdırmır və yoxlamır.</p>
 
   <h2>7. Məlumatların Saxlanma Müddəti</h2>
   <ul>
-    <li><b>Hesab və Cloud Sync məlumatları:</b> hesabınızı silənə qədər. Silinmə dərhal və qalıcıdır. Nüsxələr verilənlər bazası təminatçımızın avtomatik ehtiyat nüsxələrində, üzərinə yazılana qədər, 30 günə qədər qala bilər; silinmiş hesabları onlardan heç vaxt bərpa etmirik.</li>
-    <li><b>Hesaba heç daxil olmasanız:</b> serverimizdə yalnız təsadüfi anonim ID və aşağıdakı gündəlik saylar saxlanılır; email və sinxronlaşdırılmış məzmun yoxdur. Tətbiqi silmək cihazınızdakı məlumatları silir.</li>
+    <li><b>Hesab, giriş sessiyası və Cloud Sync məlumatları:</b> hesabınızı silənə qədər. Canlı verilənlər bazamızda silinmə dərhal və qalıcıdır. Nüsxələr verilənlər bazası təminatçımızın öz qaydaları ilə saxladığı ehtiyat nüsxələrdə məhdud müddət qala bilər; silinmiş hesabları onlardan heç vaxt bərpa etmirik.</li>
+    <li><b>Hesaba heç daxil olmasanız:</b> serverimizdə yalnız təsadüfi anonim ID, onun giriş sessiyası məlumatları (IP ünvanı və cihaz növü) və aşağıdakı gündəlik saylar saxlanılır; e-poçt və sinxronlaşdırılmış məzmun yoxdur. Anonim hesablar hazırda avtomatik silinmir. Tətbiqi silmək cihazınızdakı məlumatları silir.</li>
     <li><b>Sui-istifadədən qorunma qeydləri:</b> 90 gün; sorğu vaxtları 1 gün. Hesabınızı sildikdə istifadəçi ID-nizə bağlı qeydlər dərhal silinir. Android ID üzrə saylar hesabınızla əlaqələndirilmir və 90 gündən sonra silinir.</li>
     <li><b>Premium statusu:</b> hesabınızla birlikdə silinir. Google Play və RevenueCat öz satınalma qeydlərini öz siyasətlərinə uyğun saxlayır. Hesabı və ya tətbiqi silmək abunəliyi ləğv etmir; onu Google Play-də ləğv edin.</li>
-    <li><b>Analitika və xəta məlumatları:</b> analitika məlumatları ən çoxu 14 ay saxlanılır, təhlil üçün Google Cloud layihəmizdəki (BigQuery) nüsxə də daxil olmaqla; xəta hesabatları 90 gün saxlanılır.</li>
-    <li><b>OpenAI:</b> Bölmə 3-də göstərildiyi kimi, OpenAI tərəfində 30 günə qədər.</li>
+    <li><b>Analitika və xəta məlumatları:</b> hadisə səviyyəsində analitika məlumatları 14 aya qədər saxlanılır və sonra avtomatik silinir; heç kimi tanıtmayan ümumiləşdirilmiş hesabatlar daha uzun saxlanıla bilər. Təhlil üçün Google Cloud layihəmizdəki (BigQuery) nüsxə ən çoxu 14 aydan sonra silinir. Xəta hesabatları 90 gün saxlanılır.</li>
+    <li><b>OpenAI:</b> OpenAI tərəfində təxminən 30 gün, yalnız qanun tələb etdikdə daha uzun (Bölmə 3).</li>
     <li><b>Cihazınızda:</b> siz silənə və ya tətbiqi silənə qədər.</li>
   </ul>
 
@@ -180,23 +186,23 @@
   <ul>
     <li>məlumatlarınızın surətini vermək (giriş və portativlik);</li>
     <li>yanlış məlumatları düzəltmək;</li>
-    <li>məlumatlarınızı silmək. Hesaba daxil olmusunuzsa, bunu özünüz edə bilərsiniz: menyunu açın, email ünvanınıza toxunun, sonra "Hesabımı sil" düyməsinə basın. İstənilən şəxs bunu email ilə də tələb edə bilər;</li>
+    <li>məlumatlarınızı silmək. Hesaba daxil olmusunuzsa, bunu özünüz edə bilərsiniz: menyunu açın, e-poçt ünvanınıza toxunun, sonra "Hesabımı sil" düyməsinə basın. İstənilən şəxs bunu e-poçt ilə də tələb edə bilər;</li>
     <li>emalı məhdudlaşdırmaq və ya qanuni maraq əsasında aparılan emala etiraz etmək.</li>
   </ul>
-  <p>support@biblyx.com ünvanına yazın; bir ay ərzində cavab veririk. AB/AİZ-dəsinizsə, öz ölkənizin məlumatların qorunması orqanına da şikayət edə bilərsiniz.</p>
+  <p>support@biblyx.com ünvanına yazın; bir ay ərzində cavab veririk. Aİ/AİZ-dəsinizsə, öz ölkənizin məlumatların qorunması orqanına da şikayət edə bilərsiniz.</p>
 
   <h2>9. Uşaqların Məxfiliyi</h2>
   <p>Biblyx 13 yaşından və ya yaşadığınız ölkədə tətbiq olunan daha yüksək minimum yaşdan (bəzi Aİ ölkələrində 16 yaşa qədər) kiçik uşaqlar üçün nəzərdə tutulmayıb və onların məlumatlarını bilərəkdən toplamırıq. Bir uşağın bizə məlumat verdiyini düşünürsünüzsə, bizimlə əlaqə saxlayın, həmin məlumatları siləcəyik.</p>
 
   <h2>10. Təhlükəsizlik</h2>
-  <p>Məlumatlar şifrələnmiş bağlantılarla (HTTPS) ötürülür. Cihazınızdakı giriş məlumatları şifrələnmiş yaddaşda saxlanılır, serverimizdə isə hər hesab yalnız öz məlumatlarına çata bilər. Heç bir sistem 100% təhlükəsiz deyil, amma məlumatlarınızı qorumaq üçün çalışırıq.</p>
+  <p>Məlumatlar şifrələnmiş bağlantılarla (HTTPS) ötürülür. Cihazınızdakı giriş məlumatları şifrələnmiş yaddaşda saxlanılır, serverimizdə isə hər hesab yalnız öz məlumatlarına çata bilər. Heç bir sistem tam təhlükəsiz deyil, amma məlumatlarınızı qorumaq üçün çalışırıq.</p>
 
   <h2>11. Dəyişikliklər</h2>
   <p>Bu siyasəti zaman-zaman yeniləyə bilərik. Yuxarıdakı "Son yenilənmə" tarixi onun sonuncu dəfə nə vaxt dəyişdiyini göstərir.</p>
 
   <h2>12. Əlaqə</h2>
   <p>Suallarınız üçün: support@biblyx.com</p>
-  <p>Bu siyasət AB/AİZ istifadəçiləri üçün Aİ-nin Ümumi Məlumatların Qorunması Reqlamentinə (GDPR) uyğun, Azərbaycan Respublikasının qanunvericiliyi nəzərə alınmaqla hazırlanıb.</p>
+  <p>Bu siyasət Aİ-nin Ümumi Məlumatların Qorunması Reqlamenti (GDPR) və Azərbaycan Respublikasının qanunvericiliyi nəzərə alınmaqla hazırlanıb.</p>
 
 </div>
 </body>
