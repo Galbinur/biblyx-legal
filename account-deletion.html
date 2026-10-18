@@ -38,13 +38,13 @@
 
   <a class="back-link" href="/">← Biblyx</a>
   <h1>Biblyx — Delete Your Account</h1>
-  <div class="meta">Last updated: July 24, 2026</div>
+  <div class="meta">Last updated: October 18, 2026</div>
 
   <h2>1. Delete your account in the app (fastest way)</h2>
   <div class="steps">
     <ol>
       <li>Open the Biblyx app and sign in (if not already signed in).</li>
-      <li>Open the menu (drawer icon, top-left) and tap <b>Account</b>.</li>
+      <li>Open the menu (drawer icon, top-left) and tap your <b>email address</b> at the top (shown with "Manage account").</li>
       <li>Tap <b>Delete my account</b>.</li>
       <li>Confirm the deletion when prompted.</li>
     </ol>
@@ -61,13 +61,15 @@
     <li>Cloud Sync data: app settings, WordLab (saved words and their translations), reading progress and metadata for imported books, bookmarks, highlights</li>
     <li>Your premium subscription entitlement record (this does not cancel any active subscription billing — see note below)</li>
     <li>Daily AI-translation usage counters tied to your account</li>
+    <li>Abuse-prevention records linked to your user ID (phone-model hash records and recent request times)</li>
   </ul>
-  <p>This is a permanent, one-time deletion — there is no 90-day grace period or recovery option afterward.</p>
+  <p>This is a permanent, one-time deletion — there is no grace period or recovery option afterward. Copies may remain in our database provider's automatic backups for up to 30 days until they are overwritten; we never restore deleted accounts from them.</p>
 
   <h2>4. What isn't affected by in-app deletion</h2>
   <ul>
     <li><b>Files stored only on your device</b> (imported PDF/EPUB/TXT books, local-only vocabulary if you never signed in): these are never uploaded to our servers in the first place, so deleting your account doesn't touch them. To remove them, uninstall the app or clear its local storage from your device's Settings.</li>
-    <li><b>An active Premium subscription's billing</b>: deleting your account removes our record that you're entitled to Premium, but it does <b>not</b> cancel the underlying Google Play subscription itself — Google Play would keep charging you on its normal renewal schedule until you separately cancel it. Cancel first from Google Play → Menu → Subscriptions, or from the app's own Premium screen, before deleting your account, if you don't want to keep being charged.</li>
+    <li><b>An active Premium subscription's billing</b>: deleting your account removes our record that you're entitled to Premium, but it does <b>not</b> cancel the underlying Google Play subscription itself — Google Play would keep charging you on its normal renewal schedule until you separately cancel it. If you don't want to keep being charged, cancel it first in Google Play's subscription settings, or via <b>Manage subscription</b> on the app's Premium screen, before deleting your account. Google Play and RevenueCat (our subscription service) keep their own purchase records under their own policies.</li>
+    <li><b>Device-level abuse-prevention counts</b>: our server keeps a daily translation count keyed to your device's Android ID, not to your account, so it can't be matched to your account when you delete it. These counts are deleted automatically after 90 days.</li>
   </ul>
 
   <h2>5. Questions</h2>
@@ -76,13 +78,13 @@
   <div class="lang-divider"><b>Azərbaycan dilində</b> — aşağıda</div>
 
   <h1>Biblyx — Hesabınızı Silin</h1>
-  <div class="meta">Son yenilənmə: 24 iyul 2026</div>
+  <div class="meta">Son yenilənmə: 18 oktyabr 2026</div>
 
   <h2>1. Tətbiqdə hesabı silin (ən sürətli yol)</h2>
   <div class="steps">
     <ol>
       <li>Biblyx tətbiqini açın və (daxil olmamısınızsa) hesabınıza daxil olun.</li>
-      <li>Menyunu (yuxarı sol küncdəki siyahı ikonu) açın və <b>Hesab</b> sətrinə basın.</li>
+      <li>Menyunu (yuxarı sol küncdəki siyahı ikonu) açın və yuxarıdakı <b>email ünvanınıza</b> ("Hesabı idarə et" yazısı ilə göstərilir) toxunun.</li>
       <li><b>Hesabımı sil</b> düyməsinə basın.</li>
       <li>Təsdiq ekranında silinməni təsdiqləyin.</li>
     </ol>
@@ -99,13 +101,15 @@
     <li>Cloud Sync məlumatları: tətbiq ayarları, WordLab (saxlanmış sözlər və tərcümələri), idxal edilmiş kitabların oxuma irəliləyişi/metadata, əlfəcinlər, vurğulamalar</li>
     <li>Premium abunəlik hüququ qeydi (bu, aktiv abunəliyin özünü LƏĞV ETMİR — aşağıdakı qeydə bax)</li>
     <li>Hesabınıza bağlı gündəlik AI-tərcümə istifadə sayğacları</li>
+    <li>İstifadəçi ID-nizə bağlı sui-istifadədən qorunma qeydləri (telefon modeli hash-i qeydləri və son sorğu vaxtları)</li>
   </ul>
-  <p>Bu, birdəfəlik, qalıcı silinmədir — 90 günlük gözləmə müddəti və ya sonradan bərpa imkanı yoxdur.</p>
+  <p>Bu, birdəfəlik, qalıcı silinmədir — gözləmə müddəti və ya sonradan bərpa imkanı yoxdur. Nüsxələr verilənlər bazası təminatçımızın avtomatik ehtiyat nüsxələrində, üzərinə yazılana qədər, 30 günə qədər qala bilər; silinmiş hesabları onlardan heç vaxt bərpa etmirik.</p>
 
   <h2>4. Tətbiq-daxili silinmənin toxunmadığı şeylər</h2>
   <ul>
     <li><b>Yalnız cihazınızda saxlanılan fayllar</b> (idxal etdiyiniz PDF/EPUB/TXT kitablar, heç vaxt hesaba daxil olmadıqda yalnız lokal söz ehtiyatı): bunlar heç vaxt serverlərimizə yüklənməyib, ona görə hesab silinməsi onlara toxunmur. Silmək üçün tətbiqi cihazınızdan kaldırın və ya cihazın Ayarlarından tətbiqin lokal yaddaşını təmizləyin.</li>
-    <li><b>Aktiv Premium abunəliyinin ödənişi</b>: hesabı silmək bizim tərəfimizdəki "Premium hüququ var" qeydini silir, amma Google Play-dəki əsl abunəliyi <b>ləğv etmir</b> — ayrıca ləğv etməsəniz, Google Play adi yeniləmə cədvəli üzrə sizdən ödəniş almağa davam edəcək. Əvvəlcə Google Play → Menyu → Abunəliklər-dən, ya da tətbiqin öz Premium ekranından ləğv edin.</li>
+    <li><b>Aktiv Premium abunəliyinin ödənişi</b>: hesabı silmək bizim tərəfimizdəki "Premium hüququ var" qeydini silir, amma Google Play-dəki əsl abunəliyi <b>ləğv etmir</b> — ayrıca ləğv etməsəniz, Google Play adi yeniləmə cədvəli üzrə sizdən ödəniş almağa davam edəcək. Ödəniş davam etməsin istəyirsinizsə, hesabı silməzdən əvvəl abunəliyi Google Play-in abunəlik ayarlarından və ya tətbiqin Premium ekranındakı <b>Abunəliyi idarə et</b> düyməsi ilə ləğv edin. Google Play və RevenueCat (abunəlik xidmətimiz) öz satınalma qeydlərini öz siyasətlərinə uyğun saxlayır.</li>
+    <li><b>Cihaz səviyyəsində sui-istifadədən qorunma sayları</b>: serverimiz hesabınıza deyil, cihazınızın Android ID-sinə bağlı gündəlik tərcümə sayı saxlayır, ona görə hesabı silərkən onu hesabınızla uyğunlaşdırmaq mümkün olmur. Bu saylar 90 gündən sonra avtomatik silinir.</li>
   </ul>
 
   <h2>5. Suallar</h2>
