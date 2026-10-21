@@ -14,7 +14,7 @@
 </script>
 
 <title>Biblyx — Learn languages by reading</title>
-<meta name="description" content="Import EPUB, PDF, or TXT books, tap any word to translate it, and turn what you read into vocabulary you actually remember.">
+<meta name="description" content="Biblyx is a book reader for language learners. Open your own EPUB, PDF or TXT books, tap any word to see its meaning in that sentence, and save it as a flashcard.">
 <link rel="canonical" href="https://biblyx.com/">
 <link rel="alternate" hreflang="en" href="https://biblyx.com/">
 <link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/">
@@ -37,16 +37,17 @@
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Biblyx">
+<meta property="og:locale" content="en_US">
 <meta property="og:url" content="https://biblyx.com/">
 <meta property="og:title" content="Biblyx — Learn languages by reading">
-<meta property="og:description" content="Import EPUB, PDF, or TXT books, tap any word to translate it, and turn what you read into vocabulary you actually remember.">
+<meta property="og:description" content="Biblyx is a book reader for language learners. Open your own EPUB, PDF or TXT books, tap any word to see its meaning in that sentence, and save it as a flashcard.">
 <meta property="og:image" content="https://biblyx.com/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Biblyx — Learn languages by reading">
-<meta name="twitter:description" content="Import EPUB, PDF, or TXT books, tap any word to translate it, and turn what you read into vocabulary you actually remember.">
+<meta name="twitter:description" content="Biblyx is a book reader for language learners. Open your own EPUB, PDF or TXT books, tap any word to see its meaning in that sentence, and save it as a flashcard.">
 <meta name="twitter:image" content="https://biblyx.com/og-image.png">
 
 <script type="application/ld+json">
@@ -74,9 +75,9 @@
     {
       "@type": "MobileApplication",
       "name": "Biblyx",
-      "description": "Import EPUB, PDF, or TXT books, tap any word to translate it, and turn what you read into vocabulary you actually remember.",
+      "description": "Biblyx is a book reader for language learners. Open your own EPUB, PDF or TXT books, tap any word to see its meaning in that sentence, and save it as a flashcard.",
       "operatingSystem": "Android",
-      "applicationCategory": "EducationApplication",
+      "applicationCategory": "EducationalApplication",
       "offers": {
         "@type": "Offer",
         "price": "0",
@@ -230,6 +231,16 @@
     .steps-grid, .feature-grid{grid-template-columns:1fr;}
     .foot-row{flex-direction:column; align-items:flex-start;}
   }
+  .cta-note{font-size:13px; color:var(--dim); margin:14px 0 0;}
+  .foot-langs{display:flex; flex-wrap:wrap; gap:6px 16px; font-size:13.5px; margin-bottom:18px;}
+  .foot-langs a{color:var(--dim); text-decoration:none;}
+  .foot-langs a:hover, .foot-langs a[aria-current]{color:var(--ink);}
+  .foot-made{font-size:13.5px; color:var(--dim); margin:0 0 14px;}
+  @media (max-width:720px){
+    .hero{padding-top:16px; padding-bottom:48px;}
+    .hero .mark{display:none;}
+    .hero p.lead{font-size:17px; margin-bottom:24px;}
+  }
 </style>
 </head>
 <body>
@@ -258,7 +269,7 @@
     <a href="#faq">FAQ</a>
     <a href="#contact">Contact</a>
   </div>
-  <select class="lang-switch" onchange="location.href=this.value">
+  <select class="lang-switch" aria-label="Language" onchange="location.href=this.value">
       <option value="/" selected>English</option>
       <option value="/tr/">Türkçe</option>
       <option value="/az/">Azərbaycan</option>
@@ -287,14 +298,15 @@
     <circle cx="200" cy="200" r="21" fill="var(--gold)"></circle>
   </svg>
   <h1>Learn languages<br>by reading books</h1>
-  <p class="lead">Import any EPUB, PDF, or TXT book, tap a word for an instant translation, and turn what you read into vocabulary you actually remember.</p>
+  <p class="lead">Biblyx is a book reader for language learners. Open your own EPUB, PDF or TXT books, tap any word to see what it means in that sentence, and save it as a flashcard.</p>
   <div class="cta-row">
-    <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.biblyx.app" target="_blank" rel="noopener">
+    <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.biblyx.app&amp;referrer=utm_source%3Dbiblyx.com%26utm_medium%3Dwebsite%26utm_campaign%3Dlanding_en" target="_blank" rel="noopener">
       <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 3.6v16.8c0 .5.6.8 1 .5l14-8.4c.4-.3.4-.9 0-1.2l-14-8.4c-.4-.3-1 0-1 .5z"/></svg>
       Get it on Google Play
     </a>
     <a class="btn btn-secondary" href="#how">See how it works</a>
   </div>
+  <p class="cta-note">For Android</p>
 </header>
 
 <section class="showcase wrap">
@@ -321,17 +333,17 @@
     <div class="step">
       <div class="num">1</div>
       <h3>Read</h3>
-      <p>Import your own books and read them in a calm, focus-friendly reader — no dictionary tabs, no context-switching.</p>
+      <p>Import your own books, or start with one of 29 short stories and tales in 10 languages, and read in a calm reader with no dictionary tabs to switch to.</p>
     </div>
     <div class="step">
       <div class="num">2</div>
       <h3>Tap</h3>
-      <p>Tap any word or phrase for an instant translation, then save it to WordLab — your own vocabulary, built from real sentences.</p>
+      <p>Tap any word to see its meaning in that sentence, or select a passage to translate it. Save the words you want to keep to WordLab.</p>
     </div>
     <div class="step">
       <div class="num">3</div>
       <h3>Remember</h3>
-      <p>Spaced-repetition flashcards and quizzes bring saved words back right before you'd forget them.</p>
+      <p>Spaced-repetition flashcards bring saved words back after 1, 3, 7, 14 and 30 days, then at longer intervals.</p>
     </div>
   </div>
 </section>
@@ -340,44 +352,44 @@
   <h2>Everything you need, nothing you don't</h2>
   <div class="feature-grid">
     <div class="feature">
-      <h3>EPUB, PDF &amp; TXT support</h3>
-      <p>Bring your own library — novels, articles, textbooks, short stories.</p>
+      <h3>Your own EPUB, PDF and TXT books</h3>
+      <p>Import EPUB, TXT and text-based PDF files, or open them with Biblyx from a file manager, browser or email. A table of contents takes you to any chapter.</p>
     </div>
     <div class="feature">
-      <h3>Tap-to-translate</h3>
-      <p>An instant translation, pronunciation, part of speech, and CEFR level for any word — without leaving the page.</p>
+      <h3>Meaning that fits the sentence</h3>
+      <p>The AI translates each word for the sentence you are reading and adds its part of speech, base form and an estimated CEFR level. Listen to it with your phone's text-to-speech voice.</p>
     </div>
     <div class="feature">
-      <h3>Real sentence, real memory</h3>
-      <p>Flashcards use the exact sentence from your book, with the word highlighted — never a blank card.</p>
+      <h3>Idioms and expressions</h3>
+      <p>When a word is part of an idiom or expression, you see both meanings and can save either one as a card.</p>
     </div>
     <div class="feature">
-      <h3>Watch your vocabulary grow, A1 to C2</h3>
-      <p>Every word you save is leveled automatically, so Word Lab shows your progress by CEFR level, not just a word count.</p>
+      <h3>Grammar at a glance</h3>
+      <p>See the article of German, Spanish, French, Italian and Portuguese nouns, and the parts of compound words.</p>
     </div>
     <div class="feature">
-      <h3>Never forget the hard ones</h3>
-      <p>Words you keep struggling with are flagged automatically, so review time goes where it's actually needed.</p>
+      <h3>Flashcards with real context</h3>
+      <p>Every saved word keeps the sentence from your book, and you can add your own note to the card.</p>
     </div>
     <div class="feature">
-      <h3>Spaced repetition, done right</h3>
-      <p>Flashcards and quick quizzes bring saved words back right before you'd forget them.</p>
+      <h3>Review your way</h3>
+      <p>Choose 10, 20 or 30 cards per review, undo an answer, or mark a card "I already know this". Words you keep forgetting are marked as struggling, and a quick multiple-choice test adds extra practice.</p>
     </div>
     <div class="feature">
-      <h3>Search &amp; highlight</h3>
-      <p>Find any passage inside a book and highlight it for later, in EPUB or PDF.</p>
+      <h3>Export to Anki or CSV</h3>
+      <p>Export your vocabulary as an .apkg file you can import into Anki, or as a CSV file for a spreadsheet. Only words are exported, never the text of your books.</p>
     </div>
     <div class="feature">
-      <h3>Cloud Sync, optional</h3>
-      <p>Your books stay on your device. Sign in only if you want your vocabulary and progress backed up.</p>
+      <h3>Search, highlights and sync</h3>
+      <p>Search inside a book, add bookmarks and highlight in four colors. Sign in to sync saved words, review progress, bookmarks and highlights between devices; book files stay on your device.</p>
     </div>
   </div>
 </section>
 
 <section class="premium wrap" id="premium">
   <div class="badge">Premium</div>
-  <h2>Unlimited translations, whenever you need them</h2>
-  <p>Every reader gets a daily allowance of AI-powered translations included. Premium removes the daily limit — monthly, six-month, or yearly.</p>
+  <h2>No daily limit on AI translations</h2>
+  <p>Reading, WordLab, export and sync need no subscription, and there are no ads. AI translations of words and passages use a daily allowance. Premium removes the daily limit (fair use applies), with a monthly, six-month or yearly plan.</p>
 </section>
 
 <section class="faq wrap" id="faq">
@@ -385,35 +397,39 @@
   <div class="faq-list">
       <div class="faq-item">
         <h3>Is Biblyx free?</h3>
-        <p>Yes. Every reader gets a free daily allowance of AI-powered translations. Premium removes the daily limit with a monthly, six-month, or yearly plan.</p>
+        <p>Yes. Reading, WordLab, export, reminders and sync need no subscription, and there are no ads. AI translations of words and passages use a daily allowance. Premium removes the daily limit (fair use applies), with a monthly, six-month or yearly plan.</p>
       </div>
       <div class="faq-item">
         <h3>What book formats can I import?</h3>
-        <p>EPUB, PDF, and TXT. Your books stay on your device — Biblyx doesn't require uploading them anywhere.</p>
+        <p>EPUB, TXT and text-based PDF. Scanned PDFs, which are only images of pages, can't be read word by word. Your book files stay on your device and aren't uploaded to Biblyx's servers.</p>
       </div>
       <div class="faq-item">
         <h3>Does Biblyx work offline?</h3>
-        <p>Reading always works offline, and passages you've already translated stay available. A built-in dictionary covers common words without an internet connection. New AI translations, and highlighting a passage that hasn't been translated yet, need a connection.</p>
+        <p>Yes, for reading and for reviewing your flashcards. Looking up a new word or translating a passage needs an internet connection.</p>
       </div>
       <div class="faq-item">
         <h3>How does Biblyx track my vocabulary level?</h3>
-        <p>Every word you save is automatically leveled from A1 to C2 (CEFR), and Word Lab shows your whole vocabulary broken down by level, so your progress is never a guess.</p>
+        <p>Every word you save gets an estimated CEFR level from A1 to C2, and WordLab shows your saved words by level.</p>
       </div>
       <div class="faq-item">
         <h3>Do I need an account?</h3>
-        <p>No. Biblyx works fully without an account. Sign in only if you want your vocabulary and progress backed up and synced across devices.</p>
+        <p>No account is needed to read and translate. Sign in with email or Google to sync your saved words, review progress, bookmarks and highlights between devices, or to buy Premium.</p>
       </div>
       <div class="faq-item">
-        <h3>What languages does Biblyx support?</h3>
-        <p>The Biblyx interface is available in 10 languages — English, Turkish, Azerbaijani, German, Spanish, French, Italian, Russian, Polish, and Portuguese — and you can read and translate books in the language you’re learning.</p>
+        <h3>Which languages can I learn?</h3>
+        <p>Books in English, German, Spanish, French, Italian, Russian, Polish, Portuguese, Turkish and Azerbaijani can be translated; Swedish, Dutch, Ukrainian and Tajik are in beta. Books in other languages can be read, but not translated. The interface is available in the same 10 languages, and meanings appear in your interface language.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Can I export my words to Anki?</h3>
+        <p>Yes. WordLab exports your words as an .apkg file you can import into Anki, with ready-made cards, or as a CSV file for Excel or Google Sheets. Only words are exported, never the text of your books.</p>
       </div>
       <div class="faq-item">
         <h3>Is Biblyx available on iPhone?</h3>
-        <p>Biblyx is available first on Android, via Google Play. iOS support is planned for a future release.</p>
+        <p>Not yet. Biblyx is available on Android through Google Play. An iOS version is planned, but there is no date yet.</p>
       </div>
       <div class="faq-item">
-        <h3>How is Biblyx different from a regular dictionary or flashcard app?</h3>
-        <p>Biblyx builds your vocabulary from the real books you read, not generic word lists. Every saved word keeps the exact sentence you found it in, so flashcards use real context instead of a blank card.</p>
+        <h3>How is Biblyx different from a dictionary or a flashcard app?</h3>
+        <p>Biblyx builds your vocabulary from the books you read, not from ready-made word lists. Each meaning is fitted to the sentence you are reading, and each saved word keeps that sentence on its card.</p>
       </div>
   </div>
 </section>
@@ -422,13 +438,12 @@
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-
     {
       "@type": "Question",
       "name": "Is Biblyx free?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Every reader gets a free daily allowance of AI-powered translations. Premium removes the daily limit with a monthly, six-month, or yearly plan."
+        "text": "Yes. Reading, WordLab, export, reminders and sync need no subscription, and there are no ads. AI translations of words and passages use a daily allowance. Premium removes the daily limit (fair use applies), with a monthly, six-month or yearly plan."
       }
     },
     {
@@ -436,7 +451,7 @@
       "name": "What book formats can I import?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "EPUB, PDF, and TXT. Your books stay on your device — Biblyx doesn't require uploading them anywhere."
+        "text": "EPUB, TXT and text-based PDF. Scanned PDFs, which are only images of pages, can't be read word by word. Your book files stay on your device and aren't uploaded to Biblyx's servers."
       }
     },
     {
@@ -444,7 +459,7 @@
       "name": "Does Biblyx work offline?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Reading always works offline, and passages you've already translated stay available. A built-in dictionary covers common words without an internet connection. New AI translations, and highlighting a passage that hasn't been translated yet, need a connection."
+        "text": "Yes, for reading and for reviewing your flashcards. Looking up a new word or translating a passage needs an internet connection."
       }
     },
     {
@@ -452,7 +467,7 @@
       "name": "How does Biblyx track my vocabulary level?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Every word you save is automatically leveled from A1 to C2 (CEFR), and Word Lab shows your whole vocabulary broken down by level, so your progress is never a guess."
+        "text": "Every word you save gets an estimated CEFR level from A1 to C2, and WordLab shows your saved words by level."
       }
     },
     {
@@ -460,15 +475,23 @@
       "name": "Do I need an account?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. Biblyx works fully without an account. Sign in only if you want your vocabulary and progress backed up and synced across devices."
+        "text": "No account is needed to read and translate. Sign in with email or Google to sync your saved words, review progress, bookmarks and highlights between devices, or to buy Premium."
       }
     },
     {
       "@type": "Question",
-      "name": "What languages does Biblyx support?",
+      "name": "Which languages can I learn?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Biblyx interface is available in 10 languages — English, Turkish, Azerbaijani, German, Spanish, French, Italian, Russian, Polish, and Portuguese — and you can read and translate books in the language you’re learning."
+        "text": "Books in English, German, Spanish, French, Italian, Russian, Polish, Portuguese, Turkish and Azerbaijani can be translated; Swedish, Dutch, Ukrainian and Tajik are in beta. Books in other languages can be read, but not translated. The interface is available in the same 10 languages, and meanings appear in your interface language."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I export my words to Anki?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. WordLab exports your words as an .apkg file you can import into Anki, with ready-made cards, or as a CSV file for Excel or Google Sheets. Only words are exported, never the text of your books."
       }
     },
     {
@@ -476,15 +499,15 @@
       "name": "Is Biblyx available on iPhone?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Biblyx is available first on Android, via Google Play. iOS support is planned for a future release."
+        "text": "Not yet. Biblyx is available on Android through Google Play. An iOS version is planned, but there is no date yet."
       }
     },
     {
       "@type": "Question",
-      "name": "How is Biblyx different from a regular dictionary or flashcard app?",
+      "name": "How is Biblyx different from a dictionary or a flashcard app?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Biblyx builds your vocabulary from the real books you read, not generic word lists. Every saved word keeps the exact sentence you found it in, so flashcards use real context instead of a blank card."
+        "text": "Biblyx builds your vocabulary from the books you read, not from ready-made word lists. Each meaning is fitted to the sentence you are reading, and each saved word keeps that sentence on its card."
       }
     }
   ]
@@ -515,12 +538,25 @@
       </svg>
     </a>
   </div>
+  <nav class="foot-langs" aria-label="This site in other languages">
+    <a href="/" hreflang="en" lang="en" aria-current="page">English</a>
+    <a href="/tr/" hreflang="tr" lang="tr">Türkçe</a>
+    <a href="/az/" hreflang="az" lang="az">Azərbaycan</a>
+    <a href="/de/" hreflang="de" lang="de">Deutsch</a>
+    <a href="/es/" hreflang="es" lang="es">Español</a>
+    <a href="/fr/" hreflang="fr" lang="fr">Français</a>
+    <a href="/it/" hreflang="it" lang="it">Italiano</a>
+    <a href="/ru/" hreflang="ru" lang="ru">Русский</a>
+    <a href="/pl/" hreflang="pl" lang="pl">Polski</a>
+    <a href="/pt/" hreflang="pt" lang="pt">Português</a>
+  </nav>
+  <p class="foot-made">Made by Galbinur Guliyev, an independent developer in Azerbaijan.</p>
   <div class="foot-row">
     <div>© 2026 Biblyx. All rights reserved.</div>
     <div class="foot-links">
-      <a href="/privacy-policy.html">Privacy Policy</a>
-      <a href="/terms.html">Terms of Service</a>
-      <a href="/account-deletion.html">Delete Account</a>
+      <a href="/privacy-policy">Privacy Policy</a>
+      <a href="/terms">Terms of Service</a>
+      <a href="/account-deletion">Delete Account</a>
       <a href="mailto:support@biblyx.com" id="contact" class="js-copy-email">support@biblyx.com</a>
     </div>
   </div>

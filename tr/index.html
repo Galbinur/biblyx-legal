@@ -14,7 +14,7 @@
 </script>
 
 <title>Biblyx — Kitap okuyarak dil öğren</title>
-<meta name="description" content="EPUB, PDF veya TXT kitap içe aktar, herhangi bir kelimeye dokunarak anında çevir ve okuduklarını gerçekten hatırlayacağın bir kelime dağarcığına dönüştür.">
+<meta name="description" content="Biblyx, kitap okuyarak dil öğrenenler için bir EPUB, PDF ve TXT okuyucu uygulaması. Kendi kitaplarını aç, herhangi bir kelimeye dokunup o cümledeki anlamını gör ve kart olarak kaydet.">
 <link rel="canonical" href="https://biblyx.com/tr/">
 <link rel="alternate" hreflang="en" href="https://biblyx.com/">
 <link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/">
@@ -40,14 +40,14 @@
 <meta property="og:locale" content="tr_TR">
 <meta property="og:url" content="https://biblyx.com/tr/">
 <meta property="og:title" content="Biblyx — Kitap okuyarak dil öğren">
-<meta property="og:description" content="EPUB, PDF veya TXT kitap içe aktar, herhangi bir kelimeye dokunarak anında çevir ve okuduklarını gerçekten hatırlayacağın bir kelime dağarcığına dönüştür.">
+<meta property="og:description" content="Biblyx, kitap okuyarak dil öğrenenler için bir EPUB, PDF ve TXT okuyucu uygulaması. Kendi kitaplarını aç, herhangi bir kelimeye dokunup o cümledeki anlamını gör ve kart olarak kaydet.">
 <meta property="og:image" content="https://biblyx.com/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Biblyx — Kitap okuyarak dil öğren">
-<meta name="twitter:description" content="EPUB, PDF veya TXT kitap içe aktar, herhangi bir kelimeye dokunarak anında çevir ve okuduklarını gerçekten hatırlayacağın bir kelime dağarcığına dönüştür.">
+<meta name="twitter:description" content="Biblyx, kitap okuyarak dil öğrenenler için bir EPUB, PDF ve TXT okuyucu uygulaması. Kendi kitaplarını aç, herhangi bir kelimeye dokunup o cümledeki anlamını gör ve kart olarak kaydet.">
 <meta name="twitter:image" content="https://biblyx.com/og-image.png">
 
 <script type="application/ld+json">
@@ -75,9 +75,9 @@
     {
       "@type": "MobileApplication",
       "name": "Biblyx",
-      "description": "EPUB, PDF veya TXT kitap içe aktar, herhangi bir kelimeye dokunarak anında çevir ve okuduklarını gerçekten hatırlayacağın bir kelime dağarcığına dönüştür.",
+      "description": "Biblyx, kitap okuyarak dil öğrenenler için bir EPUB, PDF ve TXT okuyucu uygulaması. Kendi kitaplarını aç, herhangi bir kelimeye dokunup o cümledeki anlamını gör ve kart olarak kaydet.",
       "operatingSystem": "Android",
-      "applicationCategory": "EducationApplication",
+      "applicationCategory": "EducationalApplication",
       "offers": {
         "@type": "Offer",
         "price": "0",
@@ -225,6 +225,16 @@
     .steps-grid, .feature-grid{grid-template-columns:1fr;}
     .foot-row{flex-direction:column; align-items:flex-start;}
   }
+  .cta-note{font-size:13px; color:var(--dim); margin:14px 0 0;}
+  .foot-langs{display:flex; flex-wrap:wrap; gap:6px 16px; font-size:13.5px; margin-bottom:18px;}
+  .foot-langs a{color:var(--dim); text-decoration:none;}
+  .foot-langs a:hover, .foot-langs a[aria-current]{color:var(--ink);}
+  .foot-made{font-size:13.5px; color:var(--dim); margin:0 0 14px;}
+  @media (max-width:720px){
+    .hero{padding-top:16px; padding-bottom:48px;}
+    .hero .mark{display:none;}
+    .hero p.lead{font-size:17px; margin-bottom:24px;}
+  }
 </style>
 </head>
 <body>
@@ -253,7 +263,7 @@
     <a href="#faq">SSS</a>
     <a href="#contact">İletişim</a>
   </div>
-  <select class="lang-switch" onchange="location.href=this.value">
+  <select class="lang-switch" aria-label="Dil" onchange="location.href=this.value">
       <option value="/">English</option>
       <option value="/tr/" selected>Türkçe</option>
       <option value="/az/">Azərbaycan</option>
@@ -282,14 +292,15 @@
     <circle cx="200" cy="200" r="21" fill="var(--gold)"></circle>
   </svg>
   <h1>Kitap okuyarak<br>dil öğren</h1>
-  <p class="lead">İstediğin EPUB, PDF veya TXT kitabı içe aktar, bir kelimeye dokunarak anında çevirisini al ve okuduklarını gerçekten aklında kalan bir kelime dağarcığına dönüştür.</p>
+  <p class="lead">Biblyx, kitap okuyarak dil öğrenenler için bir EPUB, PDF ve TXT okuyucu uygulaması. Kendi kitaplarını aç, herhangi bir kelimeye dokunup o cümlede ne anlama geldiğini gör ve kart olarak kaydet.</p>
   <div class="cta-row">
-    <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.biblyx.app" target="_blank" rel="noopener">
+    <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.biblyx.app&amp;referrer=utm_source%3Dbiblyx.com%26utm_medium%3Dwebsite%26utm_campaign%3Dlanding_tr" target="_blank" rel="noopener">
       <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 3.6v16.8c0 .5.6.8 1 .5l14-8.4c.4-.3.4-.9 0-1.2l-14-8.4c-.4-.3-1 0-1 .5z"/></svg>
-      Google Play'de edinin
+      Google Play'den indir
     </a>
     <a class="btn btn-secondary" href="#how">Nasıl çalıştığını gör</a>
   </div>
+  <p class="cta-note">Android için</p>
 </header>
 
 <section class="showcase wrap">
@@ -300,7 +311,7 @@
       <figcaption>Kendi kütüphanen, kendi hızın</figcaption>
     </figure>
     <figure>
-      <img src="/screens/tr/sentence-flashcard.jpg" alt="Biblyx fleş kartı: 'incident' kelimesi, anlamı (olay) ve kitaptan alınan cümle" loading="lazy" width="720" height="1280">
+      <img src="/screens/tr/sentence-flashcard.jpg" alt="Biblyx kelime kartı: 'mystery' kelimesi, anlamı (gizem) ve kitaptan alınan cümle" loading="lazy" width="720" height="1280">
       <figcaption>Fleş kartlar, kelimeyi bulduğun cümleyi saklar</figcaption>
     </figure>
     <figure>
@@ -316,17 +327,17 @@
     <div class="step">
       <div class="num">1</div>
       <h3>Oku</h3>
-      <p>Kendi kitaplarını içe aktar ve sakin, dikkat dağıtmayan bir okuyucuda oku — sözlük sekmeleri yok, bağlam değişimi yok.</p>
+      <p>Kendi kitaplarını içe aktar ya da 10 dilde 29 kısa öykü ve masaldan biriyle başla. Sözlük sekmeleri arasında gidip gelmeden, sakin bir okuyucuda oku.</p>
     </div>
     <div class="step">
       <div class="num">2</div>
       <h3>Dokun</h3>
-      <p>Herhangi bir kelimeye veya ifadeye dokunarak anında çeviri al, sonra WordLab'a kaydet — gerçek cümlelerden oluşan kendi kelime dağarcığın.</p>
+      <p>Herhangi bir kelimeye dokunup o cümledeki anlamını gör ya da bir metin parçasını seçip çevir. Saklamak istediğin kelimeleri WordLab'a kaydet.</p>
     </div>
     <div class="step">
       <div class="num">3</div>
       <h3>Hatırla</h3>
-      <p>Aralıklı tekrar fleş kartları ve testler, kaydettiğin kelimeleri tam unutmadan önce geri getirir.</p>
+      <p>Kaydettiğin kelimeler, aralıklı tekrar kartlarıyla 1, 3, 7, 14 ve 30 gün sonra, ardından daha uzun aralıklarla yeniden karşına çıkar.</p>
     </div>
   </div>
 </section>
@@ -335,44 +346,44 @@
   <h2>İhtiyacın olan her şey, olmayan hiçbir şey</h2>
   <div class="feature-grid">
     <div class="feature">
-      <h3>EPUB, PDF &amp; TXT desteği</h3>
-      <p>Kendi kütüphaneni getir — romanlar, makaleler, ders kitapları, kısa hikayeler.</p>
+      <h3>Kendi EPUB, PDF ve TXT kitapların</h3>
+      <p>EPUB, TXT ve metin tabanlı PDF dosyalarını içe aktar ya da onları dosya yöneticisinden, tarayıcıdan veya e-postadan Biblyx ile aç. İçindekiler listesiyle istediğin bölüme geç.</p>
     </div>
     <div class="feature">
-      <h3>Dokunarak çeviri</h3>
-      <p>Herhangi bir kelime için anında çeviri, telaffuz, sözcük türü ve CEFR seviyesi — sayfadan ayrılmadan.</p>
+      <h3>Cümleye uygun anlam</h3>
+      <p>Her kelime, okuduğun cümleye uyacak şekilde AI ile çevrilir; sözcük türü, sözlük hâli ve tahmini CEFR seviyesi de gösterilir. Kelimeyi telefonunun metin okuma (TTS) sesiyle dinleyebilirsin.</p>
     </div>
     <div class="feature">
-      <h3>Gerçek cümle, gerçek hafıza</h3>
-      <p>Fleş kartlar, kelimeyi bulduğun kitaptaki cümleyi kullanır, kelime vurgulanmış halde — asla boş bir kart değil.</p>
+      <h3>Deyimler ve kalıp ifadeler</h3>
+      <p>Kelime bir deyimin ya da kalıp ifadenin parçasıysa iki anlamı da görürsün ve istediğini kart olarak kaydedebilirsin.</p>
     </div>
     <div class="feature">
-      <h3>Kelime dağarcığın A1'den C2'ye büyüsün</h3>
-      <p>Kaydettiğin her kelime otomatik olarak seviyelendirilir, böylece WordLab ilerlemeni sadece sayı olarak değil, CEFR seviyesine göre gösterir.</p>
+      <h3>Bir bakışta dil bilgisi</h3>
+      <p>Almanca, İspanyolca, Fransızca, İtalyanca ve Portekizce isimlerin artikellerini ve birleşik kelimelerin bileşenlerini gör.</p>
     </div>
     <div class="feature">
-      <h3>Zorlandığın kelimeleri asla unutma</h3>
-      <p>Sürekli zorlandığın kelimeler otomatik olarak işaretlenir, böylece tekrar zamanın gerçekten ihtiyaç duyulan yere gider.</p>
+      <h3>Gerçek bağlamlı kelime kartları</h3>
+      <p>Kaydettiğin her kelime, kitabındaki cümlesiyle birlikte saklanır; karta kendi notunu da ekleyebilirsin.</p>
     </div>
     <div class="feature">
-      <h3>Doğru aralıklı tekrar</h3>
-      <p>Fleş kartlar ve hızlı testler, kaydettiğin kelimeleri tam unutmadan önce geri getirir.</p>
+      <h3>İstediğin gibi tekrar et</h3>
+      <p>Her tekrar için 10, 20 veya 30 kart seç, bir cevabı geri al ya da kartı “Bunu zaten biliyorum” olarak işaretle. Sık sık unuttuğun kelimeler “Zorlandığın kelime” olarak işaretlenir; çoktan seçmeli Hızlı test de ek alıştırma sağlar.</p>
     </div>
     <div class="feature">
-      <h3>Arama &amp; vurgulama</h3>
-      <p>Bir kitabın içindeki herhangi bir pasajı bul ve sonrası için vurgula, EPUB veya PDF'de.</p>
+      <h3>Anki'ye veya CSV'ye dışa aktar</h3>
+      <p>Anki'ye aktarabileceğin bir .apkg dosyası ya da elektronik tablolar için bir CSV dosyası olarak kelimelerini dışa aktar. Yalnızca kelimeler dışa aktarılır; kitaplarının metni asla dahil edilmez.</p>
     </div>
     <div class="feature">
-      <h3>İsteğe bağlı Bulut Senkronizasyonu</h3>
-      <p>Kitapların cihazında kalır. Kelime dağarcığın ve ilerlemenin yedeklenmesini istersen giriş yap.</p>
+      <h3>Arama, vurgulama ve senkronizasyon</h3>
+      <p>Kitabın içinde arama yap, yer imi ekle ve dört renkte vurgula. Kaydettiğin kelimeleri, kart tekrarındaki ilerlemeni, yer imlerini ve vurgularını cihazlar arasında senkronize etmek için giriş yap; kitap dosyaları cihazında kalır.</p>
     </div>
   </div>
 </section>
 
 <section class="premium wrap" id="premium">
   <div class="badge">Premium</div>
-  <h2>İhtiyacın olduğunda sınırsız çeviri</h2>
-  <p>Her okuyucuya günlük bir yapay zeka destekli çeviri hakkı dahildir. Premium günlük sınırı kaldırır — aylık, altı aylık veya yıllık.</p>
+  <h2>AI çevirilerinde günlük sınır yok</h2>
+  <p>Okuma, WordLab, dışa aktarma ve senkronizasyon için abonelik gerekmez; reklam da yok. Kelimelerin ve metin parçalarının AI çevirisi günlük bir kullanım hakkıyla sınırlıdır. Premium günlük sınırı kaldırır (adil kullanım geçerlidir); aylık, altı aylık veya yıllık plan seçebilirsin.</p>
 </section>
 
 <section class="faq wrap" id="faq">
@@ -380,35 +391,39 @@
   <div class="faq-list">
       <div class="faq-item">
         <h3>Biblyx ücretsiz mi?</h3>
-        <p>Evet. Her okuyucuya günlük ücretsiz bir yapay zeka çeviri hakkı verilir. Premium, günlük sınırı kaldırır — aylık, altı aylık veya yıllık planla.</p>
+        <p>Evet. Okuma, WordLab, dışa aktarma, hatırlatıcılar ve senkronizasyon için abonelik gerekmez; reklam da yok. Kelimelerin ve metin parçalarının AI çevirisi günlük bir kullanım hakkıyla sınırlıdır. Premium günlük sınırı kaldırır (adil kullanım geçerlidir); aylık, altı aylık veya yıllık plan seçebilirsin.</p>
       </div>
       <div class="faq-item">
         <h3>Hangi kitap formatlarını içe aktarabilirim?</h3>
-        <p>EPUB, PDF ve TXT. Kitapların cihazında kalır — Biblyx onları hiçbir yere yüklemeni gerektirmez.</p>
+        <p>EPUB, TXT ve metin tabanlı PDF. Yalnızca sayfa görüntülerinden oluşan taranmış PDF'ler kelime kelime okunamaz. Kitap dosyaların cihazında kalır ve Biblyx'in sunucularına yüklenmez.</p>
       </div>
       <div class="faq-item">
         <h3>Biblyx çevrimdışı çalışır mı?</h3>
-        <p>Okuma her zaman çevrimdışı çalışır ve daha önce çevrilmiş bölümler erişilebilir kalır. Yaygın kelimeler için yerleşik bir sözlük internet bağlantısı olmadan da çalışır. Yeni yapay zeka çevirileri ve henüz çevrilmemiş bir bölümü vurgulamak için internet gerekir.</p>
+        <p>Evet, okuma ve kart tekrarı internet olmadan da çalışır. Yeni bir kelimeye bakmak ya da bir metin parçasını çevirmek için internet bağlantısı gerekir.</p>
       </div>
       <div class="faq-item">
         <h3>Biblyx kelime seviyemi nasıl takip ediyor?</h3>
-        <p>Kaydettiğin her kelime otomatik olarak A1'den C2'ye (CEFR) seviyelendirilir ve WordLab tüm kelime dağarcığını seviyeye göre gösterir, böylece ilerlemen asla tahminden ibaret olmaz.</p>
+        <p>Kaydettiğin her kelimeye A1'den C2'ye kadar tahmini bir CEFR seviyesi verilir ve WordLab kaydettiğin kelimeleri seviyelere göre gösterir.</p>
       </div>
       <div class="faq-item">
         <h3>Hesap oluşturmam gerekiyor mu?</h3>
-        <p>Hayır. Biblyx hesap olmadan tamamen çalışır. Kelime dağarcığının ve ilerlemenin yedeklenmesini ve cihazlar arasında senkronize edilmesini istersen giriş yap.</p>
+        <p>Okumak ve çevirmek için hesap gerekmez. Kaydettiğin kelimeleri, kart tekrarındaki ilerlemeni, yer imlerini ve vurgularını cihazlar arasında senkronize etmek ya da Premium'a geçmek için e-posta veya Google ile giriş yap.</p>
       </div>
       <div class="faq-item">
-        <h3>Biblyx hangi dilleri destekliyor?</h3>
-        <p>Biblyx arayüzü 10 dilde sunulur — İngilizce, Türkçe, Azerbaycan Türkçesi, Almanca, İspanyolca, Fransızca, İtalyanca, Rusça, Lehçe ve Portekizce — ve öğrendiğin dilde kitap okuyup çeviri yapabilirsin.</p>
+        <h3>Hangi dilleri öğrenebilirim?</h3>
+        <p>Şu dillerdeki kitaplar çevrilebilir: İngilizce, Almanca, İspanyolca, Fransızca, İtalyanca, Rusça, Lehçe, Portekizce, Türkçe ve Azerbaycan Türkçesi. İsveççe, Felemenkçe, Ukraynaca ve Tacikçe beta aşamasında. Diğer dillerdeki kitaplar okunabilir ama çevrilemez. Arayüz de aynı 10 dilde sunulur ve anlamlar arayüz dilinde gösterilir.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Kelimelerimi Anki'ye aktarabilir miyim?</h3>
+        <p>Evet. WordLab, Anki'ye aktarabileceğin ve hazır kartlar içeren bir .apkg dosyası ya da Excel veya Google E-Tablolar için bir CSV dosyası olarak kelimelerini dışa aktarır. Yalnızca kelimeler dışa aktarılır; kitaplarının metni asla dahil edilmez.</p>
       </div>
       <div class="faq-item">
         <h3>Biblyx iPhone'da var mı?</h3>
-        <p>Biblyx önce Android'de, Google Play üzerinden yayınlanıyor. iOS desteği ileride planlanıyor.</p>
+        <p>Henüz yok. Biblyx, Google Play üzerinden Android'de kullanılabiliyor. iOS sürümü planlanıyor, ancak henüz bir tarih yok.</p>
       </div>
       <div class="faq-item">
-        <h3>Biblyx normal bir sözlük veya fleş kart uygulamasından nasıl farklı?</h3>
-        <p>Biblyx, genel kelime listeleri yerine gerçekten okuduğun kitaplardan kelime dağarcığı oluşturur. Kaydedilen her kelime, bulunduğu cümleyi tam olarak saklar, böylece fleş kartlar boş bir kart yerine gerçek bağlam kullanır.</p>
+        <h3>Biblyx, bir sözlükten veya kelime kartı uygulamasından nasıl farklı?</h3>
+        <p>Biblyx, kelime dağarcığını hazır kelime listelerinden değil, okuduğun kitaplardan oluşturur. Her anlam okuduğun cümleye uyacak şekilde verilir ve kaydettiğin her kelime o cümleyi kartında saklar.</p>
       </div>
   </div>
 </section>
@@ -417,13 +432,12 @@
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-
     {
       "@type": "Question",
       "name": "Biblyx ücretsiz mi?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Evet. Her okuyucuya günlük ücretsiz bir yapay zeka çeviri hakkı verilir. Premium, günlük sınırı kaldırır — aylık, altı aylık veya yıllık planla."
+        "text": "Evet. Okuma, WordLab, dışa aktarma, hatırlatıcılar ve senkronizasyon için abonelik gerekmez; reklam da yok. Kelimelerin ve metin parçalarının AI çevirisi günlük bir kullanım hakkıyla sınırlıdır. Premium günlük sınırı kaldırır (adil kullanım geçerlidir); aylık, altı aylık veya yıllık plan seçebilirsin."
       }
     },
     {
@@ -431,7 +445,7 @@
       "name": "Hangi kitap formatlarını içe aktarabilirim?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "EPUB, PDF ve TXT. Kitapların cihazında kalır — Biblyx onları hiçbir yere yüklemeni gerektirmez."
+        "text": "EPUB, TXT ve metin tabanlı PDF. Yalnızca sayfa görüntülerinden oluşan taranmış PDF'ler kelime kelime okunamaz. Kitap dosyaların cihazında kalır ve Biblyx'in sunucularına yüklenmez."
       }
     },
     {
@@ -439,7 +453,7 @@
       "name": "Biblyx çevrimdışı çalışır mı?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Okuma her zaman çevrimdışı çalışır ve daha önce çevrilmiş bölümler erişilebilir kalır. Yaygın kelimeler için yerleşik bir sözlük internet bağlantısı olmadan da çalışır. Yeni yapay zeka çevirileri ve henüz çevrilmemiş bir bölümü vurgulamak için internet gerekir."
+        "text": "Evet, okuma ve kart tekrarı internet olmadan da çalışır. Yeni bir kelimeye bakmak ya da bir metin parçasını çevirmek için internet bağlantısı gerekir."
       }
     },
     {
@@ -447,7 +461,7 @@
       "name": "Biblyx kelime seviyemi nasıl takip ediyor?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Kaydettiğin her kelime otomatik olarak A1'den C2'ye (CEFR) seviyelendirilir ve WordLab tüm kelime dağarcığını seviyeye göre gösterir, böylece ilerlemen asla tahminden ibaret olmaz."
+        "text": "Kaydettiğin her kelimeye A1'den C2'ye kadar tahmini bir CEFR seviyesi verilir ve WordLab kaydettiğin kelimeleri seviyelere göre gösterir."
       }
     },
     {
@@ -455,15 +469,23 @@
       "name": "Hesap oluşturmam gerekiyor mu?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hayır. Biblyx hesap olmadan tamamen çalışır. Kelime dağarcığının ve ilerlemenin yedeklenmesini ve cihazlar arasında senkronize edilmesini istersen giriş yap."
+        "text": "Okumak ve çevirmek için hesap gerekmez. Kaydettiğin kelimeleri, kart tekrarındaki ilerlemeni, yer imlerini ve vurgularını cihazlar arasında senkronize etmek ya da Premium'a geçmek için e-posta veya Google ile giriş yap."
       }
     },
     {
       "@type": "Question",
-      "name": "Biblyx hangi dilleri destekliyor?",
+      "name": "Hangi dilleri öğrenebilirim?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Biblyx arayüzü 10 dilde sunulur — İngilizce, Türkçe, Azerbaycan Türkçesi, Almanca, İspanyolca, Fransızca, İtalyanca, Rusça, Lehçe ve Portekizce — ve öğrendiğin dilde kitap okuyup çeviri yapabilirsin."
+        "text": "Şu dillerdeki kitaplar çevrilebilir: İngilizce, Almanca, İspanyolca, Fransızca, İtalyanca, Rusça, Lehçe, Portekizce, Türkçe ve Azerbaycan Türkçesi. İsveççe, Felemenkçe, Ukraynaca ve Tacikçe beta aşamasında. Diğer dillerdeki kitaplar okunabilir ama çevrilemez. Arayüz de aynı 10 dilde sunulur ve anlamlar arayüz dilinde gösterilir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Kelimelerimi Anki'ye aktarabilir miyim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Evet. WordLab, Anki'ye aktarabileceğin ve hazır kartlar içeren bir .apkg dosyası ya da Excel veya Google E-Tablolar için bir CSV dosyası olarak kelimelerini dışa aktarır. Yalnızca kelimeler dışa aktarılır; kitaplarının metni asla dahil edilmez."
       }
     },
     {
@@ -471,15 +493,15 @@
       "name": "Biblyx iPhone'da var mı?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Biblyx önce Android'de, Google Play üzerinden yayınlanıyor. iOS desteği ileride planlanıyor."
+        "text": "Henüz yok. Biblyx, Google Play üzerinden Android'de kullanılabiliyor. iOS sürümü planlanıyor, ancak henüz bir tarih yok."
       }
     },
     {
       "@type": "Question",
-      "name": "Biblyx normal bir sözlük veya fleş kart uygulamasından nasıl farklı?",
+      "name": "Biblyx, bir sözlükten veya kelime kartı uygulamasından nasıl farklı?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Biblyx, genel kelime listeleri yerine gerçekten okuduğun kitaplardan kelime dağarcığı oluşturur. Kaydedilen her kelime, bulunduğu cümleyi tam olarak saklar, böylece fleş kartlar boş bir kart yerine gerçek bağlam kullanır."
+        "text": "Biblyx, kelime dağarcığını hazır kelime listelerinden değil, okuduğun kitaplardan oluşturur. Her anlam okuduğun cümleye uyacak şekilde verilir ve kaydettiğin her kelime o cümleyi kartında saklar."
       }
     }
   ]
@@ -510,12 +532,25 @@
       </svg>
     </a>
   </div>
+  <nav class="foot-langs" aria-label="Bu site başka dillerde">
+    <a href="/" hreflang="en" lang="en">English</a>
+    <a href="/tr/" hreflang="tr" lang="tr" aria-current="page">Türkçe</a>
+    <a href="/az/" hreflang="az" lang="az">Azərbaycan</a>
+    <a href="/de/" hreflang="de" lang="de">Deutsch</a>
+    <a href="/es/" hreflang="es" lang="es">Español</a>
+    <a href="/fr/" hreflang="fr" lang="fr">Français</a>
+    <a href="/it/" hreflang="it" lang="it">Italiano</a>
+    <a href="/ru/" hreflang="ru" lang="ru">Русский</a>
+    <a href="/pl/" hreflang="pl" lang="pl">Polski</a>
+    <a href="/pt/" hreflang="pt" lang="pt">Português</a>
+  </nav>
+  <p class="foot-made">Azerbaycan'da bağımsız bir geliştirici olan Galbinur Guliyev tarafından hazırlandı.</p>
   <div class="foot-row">
     <div>© 2026 Biblyx. Tüm hakları saklıdır.</div>
     <div class="foot-links">
-      <a href="/privacy-policy.html">Gizlilik Politikası</a>
-      <a href="/terms.html">Kullanım Şartları</a>
-      <a href="/account-deletion.html">Hesabı Sil</a>
+      <a href="/privacy-policy">Gizlilik Politikası</a>
+      <a href="/terms">Kullanım Şartları</a>
+      <a href="/account-deletion">Hesabı Sil</a>
       <a href="mailto:support@biblyx.com" id="contact" class="js-copy-email">support@biblyx.com</a>
     </div>
   </div>
@@ -532,6 +567,28 @@
       });
     });
   });
+</script>
+
+<script>
+  // Forward this page's utm_* query params to the Google Play link as Play's
+  // "referrer" param, so Play Console's Acquisition report (Tracked channels
+  // > UTM) can attribute installs to the social bio link that sent the click.
+  (function () {
+    var pageParams = new URLSearchParams(window.location.search);
+    var utmKeys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term'];
+    var refParts = [];
+    utmKeys.forEach(function (key) {
+      var value = pageParams.get(key);
+      if (value) refParts.push(key + '=' + value);
+    });
+    if (!refParts.length) return;
+    var referrer = refParts.join('&');
+    document.querySelectorAll('a[href*="play.google.com/store/apps/details"]').forEach(function (link) {
+      var url = new URL(link.href);
+      url.searchParams.set('referrer', referrer);
+      link.href = url.toString();
+    });
+  })();
 </script>
 
 </body>
