@@ -1,97 +1,191 @@
 ---
-title: LingQ alternatives: reading apps for language learners
-h1: LingQ and six alternatives: apps for learning a language by reading, compared
-description: LingQ, Linga, Beelinguapp, Smart Book, Readable, Readlang and Biblyx compared: your own books, formats, translation, flashcards, languages and ads.
+title: LingQ alternatives (2026): six reading apps compared
+h1: The best LingQ alternatives for learning by reading (2026): an honest comparison
+description: LingQ and six alternatives compared: Biblyx, Linga, Beelinguapp, Smart Book, Readable and Readlang. What each does best, prices, free versions and ads.
 path: lingq-alternatives
 date: 2026-11-09
 slogan: Learn languages by reading your own books
 cta: Open an EPUB, PDF or TXT, or paste a text. Tap a word, see what it means in that sentence, save it and review it later.
 ---
 
-Learning a language by reading works, and several apps are built around it. They differ in what you read (their library or your own books), how you get meanings (a dictionary, a translation next to the text, or a meaning chosen for your sentence) and what happens to the words afterwards. This page compares seven of them on those points. Biblyx is our app, so read this as a comparison written by one of the players: every fact about the other six comes from their own Google Play listings, App Store pages or websites, checked on 9 November 2026, and we say plainly where Biblyx is weaker.
+LingQ is built on learning a language from real content: thousands of lessons with audio in more than 55 languages, and imports from ebooks, YouTube, Netflix and podcasts. It isn't the only way to learn by reading, though, and its standard Premium plan costs more than the standard plans of the other apps here. This page compares LingQ with six alternatives on what matters when you learn by reading: where your texts come from, how you get meanings, what happens to your words afterwards, and what it costs. Biblyx is our app, so read this as a comparison written by one of the players. Every alternative, ours included, gets the same template: what it does well, what it does not do well, the price and who it is for. Every fact about the other apps comes from their own Google Play listings, App Store pages or websites, checked on 9 November 2026.
 
-## The short answer
+## Key takeaways
 
-- **You want lessons with audio, many languages and imports of videos and podcasts:** LingQ.
-- **You want a large library of real books in Spanish, French, German, Italian, Russian or English:** Linga.
-- **You are a beginner and want the translation next to the text, with audiobooks:** Beelinguapp.
-- **You want your own EPUB or FB2 with a parallel translation and a choice of translation service:** Smart Book.
-- **You learn English only and want simplified stories and daily news:** Readable.
-- **You read mostly in a web browser on a computer and want to click words on the websites you read:** Readlang.
-- **You want to read your own books with the meaning fitted to each sentence, and flashcards that keep that sentence, without ads:** Biblyx.
+- **LingQ** teaches through thousands of lessons with audio in more than 55 languages. Its free plan is limited (to 20 saved words, says LingQ's blog), and Premium costs $14.99 a month or $119.99 a year.
+- **Biblyx** is an Android app for reading your own EPUB, TXT and text-based PDF books: tap a word and it explains it for that sentence, keeps the sentence on the flashcard, and shows no ads. Premium costs $4.99 a month or $35.99 a year (Google Play, US), less than the standard monthly and yearly plans of LingQ, Linga, Beelinguapp and Readlang.
+- **To read your own books**, look at Biblyx, Linga and Smart Book; LingQ imports ebooks too.
+- **For a translation next to the text**, Beelinguapp suits beginners and Smart Book your own books; Smart Book has the lowest standard prices of the apps that list their plans.
+- **Readable** is for English only, and **Readlang** is for reading in a browser on a computer.
 
-## The comparison table
+## Why people look for a LingQ alternative
 
-| App | Your own files | How you get meanings | Vocabulary practice | Built-in reading | Languages to learn | Ads (Google Play) |
-|---|---|---|---|---|---|---|
-| LingQ (Android, iPhone, web) | ebooks, web articles, YouTube, Netflix, podcasts | look up words in context; AI tools | spaced-repetition review, known-word count | thousands of lessons with audio | 55+ | no |
-| Linga (Android, iPhone) | EPUB, PDF, MOBI, FB2, TXT | tap a word or phrase: translation and dictionary entry | flashcards with spaced repetition, games, streaks | 1,000+ books | 6 | no |
-| Beelinguapp (Android, iPhone) | not mentioned in its listing | translation side by side; tap a word for a dictionary meaning | quizzes after each story | bilingual stories and audiobooks | 20+ | yes |
-| Smart Book (Android, iPhone) | FB2, EPUB, TXT, .srt subtitles | parallel translation; a choice of services such as Google Translate, DeepL and AI chatbots | saved words, export to Anki or ReWord | bilingual stories | English, German, French, Spanish, Italian and more | yes |
-| Readable (Android; iPhone not checked) | not mentioned; English stories and news in the app | audio and translation for every word | Word Trainer | simplified stories, daily news | English | yes |
-| Readlang (web, Chrome extension) | texts and articles you upload; most web pages through the extension | click a word or phrase to translate it; AI explanations in context | flashcards, export | articles on its site | 100+ | not on Google Play |
-| Biblyx (Android) | EPUB, TXT, text-based PDF, pasted text | AI meaning fitted to the sentence, idioms, noun articles | cards with the book sentence, Anki and CSV export | 29 short stories | 10, plus 4 in beta | no |
+LingQ deserves its reputation. It covers more than 55 languages, has thousands of lessons with matching text and audio, imports ebooks, articles, YouTube, Netflix and podcasts, and counts the words you know. Three things can still make you look elsewhere:
 
-The six apps on Google Play are free to download and offer in-app purchases. Readlang works in the browser, with a free plan and paid plans.
+- **Price.** Unlimited word lookups, review and imports need Premium: $14.99 a month or $119.99 a year on the App Store, more than the standard plans of the other apps here.
+- **Complexity.** Lessons, imports, statistics and AI tools make a powerful but busy app; LingQ's own blog says it has a steeper learning curve than Duolingo or Babbel.
+- **Your own books.** You may not want a lesson system at all, only a good reader for the books you already have.
 
-## LingQ
+## Quick comparison
 
-LingQ is built around comprehensible input, and one of its co-founders is the polyglot Steve Kaufmann. Its listing describes a library of thousands of lessons with matching text and audio, imports from ebooks, web articles, YouTube, Netflix and podcasts, AI tools (simplified lessons, transcription, a chatbot, AI voices), spaced-repetition review and a known-word count. It covers more than 55 languages, far more than any other app here. According to its listing, Premium brings unlimited vocabulary lookups, spaced-repetition review and content imports, so unlimited use of these needs Premium. LingQ suits learners who want listening and reading together and a large ready-made library.
+| App | Best for | Standard premium price (US, checked 9 Nov 2026) | Free version | Ads in the free version |
+|---|---|---|---|---|
+| LingQ (Android, iPhone, web) | lessons with audio in 55+ languages, imports from videos and podcasts | $14.99/month, $119.99/year | limited to 20 saved words, says LingQ's blog | no |
+| **Biblyx** (Android) | reading your own books, with each word explained for its sentence | $4.99/month, $35.99/year | reading, flashcards, export and sync; AI translations with a daily allowance | no |
+| Linga (Android, iPhone) | a library of 1,000+ real books, with games | $5.49/month, $54.99/year | free download, PRO is paid | no |
+| Beelinguapp (Android, iPhone) | beginners: the translation next to the text, audiobooks | $7.99/month, $49.90/year | free download | yes |
+| Smart Book (Android, iPhone) | a parallel translation of your own books | $1.99/month, $19.99/year | free download | yes |
+| Readable (Android; iPhone not checked) | simplified English stories and news | in-app purchases $1.99–$55.99 | free download | yes |
+| Readlang (web, Chrome extension) | reading in the browser on a computer | $6/month, $48/year | unlimited single words; 10 phrase translations and 10 context explanations a day | not checked (no Google Play app) |
 
-## Linga
+Standard plans only: six-month, lifetime and promotional prices, and higher tiers such as LingQ Premium Plus and Readlang Premium Plus, are left out. Prices come from the App Store for LingQ, Linga, Beelinguapp and Smart Book, from Google Play for Biblyx and Readable (Readable shows only a price range there) and from Readlang's website. They differ by country, and your store shows your own price.
 
-Linga is a reader with a library of more than 1,000 books in Spanish, French, German, Italian, Russian and English, and its listing says it is meant for intermediate and advanced learners. You can tap a word or a phrase for a translation and a dictionary entry with synonyms and grammar notes, import your own EPUB, PDF, MOBI, FB2 or TXT files, save words with notes, and review them with spaced-repetition flashcards. It adds vocabulary games, daily goals and streaks, and native audio for words and sentences, also offline. If you learn one of its six languages and like a game layer, it is a strong choice.
+## Which app is right for you?
 
-## Beelinguapp
+| Your goal | App |
+|---|---|
+| Read the books you already have, with help on each word | Biblyx; also Linga and Smart Book |
+| See the meaning that fits the sentence, and keep that sentence on your flashcards | Biblyx |
+| Learn with lessons and audio in many languages | LingQ |
+| A big library of real books, with games and streaks | Linga |
+| Start from zero with the translation next to the text | Beelinguapp |
+| A full parallel translation of your own books | Smart Book |
+| English only, with simplified stories and news | Readable |
+| Read websites on a computer | Readlang |
+| Export your words to Anki | Biblyx or Smart Book |
+| No ads without paying | Biblyx, LingQ or Linga |
+| The lowest standard price of the apps that list their plans | Smart Book, then Biblyx |
 
-Beelinguapp shows a text and its translation side by side, with audiobooks read by native narrators and karaoke-style text that scrolls in sync with the audio. Its library ranges from children's stories and classics such as Sherlock Holmes to daily news, for all levels, with a quiz at the end of each story, in more than 20 languages. Its listing doesn't mention importing your own books, and the Google Play page notes that the app contains ads. It is a gentle start for beginners, because the translation is always in view.
+## The six alternatives, one by one
 
-## Smart Book
+### 1. Biblyx: best for reading your own books
 
-Smart Book is a bilingual reader: it shows the original text and its translation side by side, and you can load your own FB2, EPUB or TXT books or subtitle files. For a single word you choose the service: Google Translate, DeepL, Reverso, Yandex, or AI chatbots such as ChatGPT, Claude and Gemini that explain meaning and grammar. Words can be saved and exported to Anki or ReWord, books can be read offline, and there is a library of bilingual stories. The Google Play page notes ads. It suits readers who want a full parallel translation of their own books.
+Biblyx is a reader for your own books, not a course. You open an EPUB, TXT or text-based PDF, or paste an article, and tap any word: the AI reads the sentence and gives the meaning that fits there, with the part of speech, the base form and an estimated CEFR level.
 
-## Readable
+- **A meaning for the sentence:** idioms come with both meanings, German, Spanish, French, Italian and Portuguese nouns come with their article, and compound words are split into parts.
+- **Cards that keep your sentence:** saved words come back after 1, 3, 7, 14 and 30 days, and you can export them to Anki or CSV.
+- **Offline:** reading and flashcard review work without a connection; looking up a new word needs one.
+- **A first shelf:** 29 short stories in 10 languages for your first minutes.
 
-Readable is for learners of English only. Expert teachers simplify short stories and daily news to your level, every word has audio and a translation, and a Word Trainer helps you memorise the words you save. Its listing doesn't mention loading your own books, and the Google Play page notes ads. If English is your goal and you want texts already adapted to your level, it is a good fit.
+![Biblyx reader: a tapped word that is part of an idiom, with the idiom's meaning and the word's own meaning and grammar](/screens/play-idioms.jpg)
 
-## Readlang
+The idea fits in one line: **Learn languages by reading your own books**.
 
-Readlang works in the web browser and as a Chrome extension. You click a word or a phrase in a text, or on most websites, to translate it, AI explains words and phrases in context, and every word you translate is saved for flashcard practice, which you can also export. You can upload your own texts and articles or read the articles on its site. Its site lists more than 100 languages and links a guide to adding Readlang to an iPhone or Android home screen; there is no Readlang app on Google Play. The free plan has unlimited single-word translations and 10 phrase translations and 10 AI explanations a day; paid plans remove these limits. It suits learners who read a lot in the browser, on a computer.
+**What it does well:** reading the books you choose, with meanings that fit the sentence and cards that keep it; no ads, even in the free version.
 
-## Biblyx
+**What it does not do well:** it is on Android only for now (an iPhone version is planned, with no date), and it has no lessons or audiobooks: you bring the texts, and your phone's voice reads words and sentences aloud.
 
-Biblyx is a reader for your own books. You open an EPUB, TXT or text-based PDF, or paste an article, and tap any word: the AI reads the sentence and gives the meaning that fits there, with the part of speech, the base form and an estimated CEFR level. Idioms come with both meanings, German, Spanish, French, Italian and Portuguese nouns come with their article, and compound words are split into parts. Saved words become cards that keep the sentence from your book and come back after 1, 3, 7, 14 and 30 days; you can export them to Anki or CSV. Reading and review work offline, there are no ads, and 29 short stories in 10 languages are there for your first minutes. The idea fits in one line: **Learn languages by reading your own books**.
+**Price:** the free version keeps reading, flashcards, export and sync, with a daily allowance of AI translations. Premium removes the daily limit (fair use applies): $4.99 a month, $24.99 for six months or $35.99 a year on Google Play (US).
 
-Where Biblyx is weaker:
-- It runs on Android only; an iPhone version is planned, with no date.
-- Its word lookup works for books in 10 languages, plus 4 in beta. LingQ covers more than 55.
-- It has no lessons, podcasts or audiobooks; listening is your phone's text-to-speech voice.
-- Looking up a new word needs a connection, and AI translations use a daily allowance unless you have Premium.
+**Best for:** learners who already have books they want to read, in 10 languages plus 4 in beta.
 
-## How to choose
+**Try it:** [Biblyx on Google Play](https://play.google.com/store/apps/details?id=com.biblyx.app&referrer=utm_source%3Dbiblyx.com%26utm_medium%3Dwebsite%26utm_campaign%3Dguide_lingq_alternatives_en_inline), or first read [how the Biblyx reader works](/epub-reader-with-translation/).
 
-1. **Decide where your texts come from.** If you want a library chosen for you, look at LingQ, Linga, Beelinguapp or Readable. If you already have books you want to read, look at LingQ, Linga, Smart Book or Biblyx.
-2. **Decide how much translation you want to see.** A full translation next to the text is easier at first but tempts you to read your own language. Single-word meanings keep you in the language you are learning.
-3. **Check the language you are learning.** Readable is English only, Linga has six languages, LingQ more than 55 and Readlang more than 100.
-4. **Try two apps on the same chapter for a week.** The one you keep opening is the right one.
+### 2. Linga: best for a big library of real books
+
+Linga is a reader with a library of more than 1,000 books in Spanish, French, German, Italian, Russian and English. You tap a word or a phrase for a translation and a dictionary entry with synonyms and grammar notes, save words with notes and review them with spaced-repetition flashcards.
+
+**What it does well:** a large library of real books, imports of your own EPUB, PDF, MOBI, FB2 and TXT files, vocabulary games, daily goals and streaks, and native audio for words and sentences, also offline.
+
+**What it does not do well:** it teaches six languages, and its listing says it is meant for intermediate and advanced learners.
+
+**Price:** $5.49 a month or $54.99 a year, or $109.99 once for lifetime access (App Store, US).
+
+**Best for:** intermediate learners of its six languages who like a game layer.
+
+### 3. Beelinguapp: best for beginners who want the translation in view
+
+Beelinguapp shows a text and its translation side by side, with audiobooks read by native narrators and karaoke-style text that scrolls in sync with the audio. Its library ranges from children's stories and classics such as Sherlock Holmes to daily news, for all levels, in more than 20 languages.
+
+**What it does well:** an easy start: you see the translation of every line from the first day, listen while you read and take a quiz at the end of each story.
+
+**What it does not do well:** its listing doesn't mention importing your own books, and the Google Play page notes that the app contains ads.
+
+**Price:** $7.99 a month or $49.90 a year (App Store, US).
+
+**Best for:** beginners who want the translation always in view.
+
+### 4. Smart Book: best for a parallel translation of your own books
+
+Smart Book is a bilingual reader: it shows the original text and its translation side by side, for your own FB2, EPUB or TXT books and subtitle files. For a single word you choose the service: Google Translate, DeepL, Reverso, Yandex, or AI chatbots such as ChatGPT, Claude and Gemini that explain meaning and grammar.
+
+**What it does well:** a full translation of your own books, a choice of translation services, export of saved words to Anki or ReWord, offline reading, and the lowest standard prices of the apps that list their plans.
+
+**What it does not do well:** the Google Play page notes ads, and in our view a full translation on screen makes it easy to slip into reading your own language.
+
+**Price:** $1.99 a month or $19.99 a year (App Store, US).
+
+**Best for:** readers who want their own books with a full parallel translation.
+
+### 5. Readable: best for English learners who want adapted texts
+
+Readable is for learners of English only. Expert teachers simplify short stories and daily news to your level, every word has audio and a translation, and a Word Trainer helps you memorise the words you save.
+
+**What it does well:** texts already adapted to your level, with audio for every word.
+
+**What it does not do well:** it teaches English only, its listing doesn't mention your own books, and the Google Play page notes ads.
+
+**Price:** in-app purchases from $1.99 to $55.99 (Google Play, US); its plans aren't listed there.
+
+**Best for:** learners of English who want adapted texts rather than books of their own.
+
+### 6. Readlang: best for reading in the browser
+
+Readlang works in the web browser and as a Chrome extension. You click a word or a phrase in a text, or on most websites, to translate it, AI explains words and phrases in context, and every word you translate is saved for flashcard practice, which you can also export. You can upload your own texts and articles or read the articles on its site.
+
+**What it does well:** more than 100 languages, translations on most websites, and a free plan with unlimited single-word translations.
+
+**What it does not do well:** there is no Readlang app on Google Play (its site links a guide to adding it to a phone's home screen), and the free plan allows 10 phrase translations and 10 context explanations a day.
+
+**Price:** $6 a month or $48 a year (its website).
+
+**Best for:** learners who read a lot in the browser, on a computer.
+
+## Features side by side
+
+| App | Your own files | How you get meanings | Vocabulary practice | Built-in reading | Languages to learn |
+|---|---|---|---|---|---|
+| LingQ (Android, iPhone, web) | ebooks, web articles, YouTube, Netflix, podcasts | look up words in context; AI tools | spaced-repetition review, known-word count | thousands of lessons with audio | 55+ |
+| **Biblyx** (Android) | EPUB, TXT, text-based PDF, pasted text | AI meaning fitted to the sentence, idioms, noun articles | cards with the book sentence, Anki and CSV export | 29 short stories | 10, plus 4 in beta |
+| Linga (Android, iPhone) | EPUB, PDF, MOBI, FB2, TXT | tap a word or phrase: translation and dictionary entry | flashcards with spaced repetition, games, streaks | 1,000+ books | 6 |
+| Beelinguapp (Android, iPhone) | not mentioned in its listing | translation side by side; tap a word for a dictionary meaning | quizzes after each story | bilingual stories and audiobooks | 20+ |
+| Smart Book (Android, iPhone) | FB2, EPUB, TXT, .srt subtitles | parallel translation; a choice of services, including AI chatbots | saved words, export to Anki or ReWord | bilingual stories | English, German, French, Spanish, Italian and more |
+| Readable (Android; iPhone not checked) | not mentioned; English stories and news in the app | audio and translation for every word | Word Trainer | simplified stories, daily news | English |
+| Readlang (web, Chrome extension) | texts and articles you upload; most web pages through the extension | click a word or phrase to translate it; AI explanations in context | flashcards, export | articles on its site | 100+ |
+
+## The bottom line
+
+In our view, LingQ is the most complete system here: if you want lessons, audio and many languages and the price suits you, it is a strong choice. If you want to read your own books on Android, with each word explained for its sentence, no ads and a lower price, try Biblyx. You can also combine two tools: LingQ for lessons and audio, and a reader such as Biblyx for the books already on your phone. Linga brings a big library of real books, Beelinguapp an easy start, Smart Book a low-priced parallel reader, Readable adapted English and Readlang the browser. The simplest test: read the same chapter in two apps for a week, and keep the one you keep opening.
 
 ## How we checked
 
-Facts about LingQ, Linga, Beelinguapp, Smart Book and Readable come from their Google Play listings (US store, in English) as published on 9 November 2026: descriptions, the "Contains ads" label and in-app purchases. The iPhone versions were checked the same day on the App Store pages of LingQ, Linga, Beelinguapp and Smart Book, and the facts about Readlang and the web versions on the apps' own websites. We didn't check Readable's iPhone version or prices, which change by country. Apps change often; if something here is out of date, write to support@biblyx.com and we will correct it.
+We chose apps that, like LingQ, teach through reading and have more than 1 million downloads on Google Play (Linga, Beelinguapp, Smart Book, Readable), plus the browser tool Readlang and our own app. Facts about LingQ, Linga, Beelinguapp, Smart Book and Readable come from their Google Play listings (US store, in English) as published on 9 November 2026: [LingQ](https://play.google.com/store/apps/details?id=com.linguist), [Linga](https://play.google.com/store/apps/details?id=io.linga), [Beelinguapp](https://play.google.com/store/apps/details?id=com.david.android.languageswitch), [Smart Book](https://play.google.com/store/apps/details?id=com.kursx.smartbook) and [Readable](https://play.google.com/store/apps/details?id=co.playlingo.readable). The iPhone versions and standard premium prices come from the App Store pages (US) of [LingQ](https://apps.apple.com/us/app/id379385811), [Linga](https://apps.apple.com/us/app/id1525101819), [Beelinguapp](https://apps.apple.com/us/app/id1225056371) and [Smart Book](https://apps.apple.com/us/app/id1278697399) the same day, Readlang's facts and prices from [its pricing page](https://readlang.com/pricing), and Biblyx's and Readable's prices from Google Play (US). LingQ's free-plan limit and its learning-curve remark come from LingQ's own blog posts on [Duolingo alternatives](https://www.lingq.com/blog/duolingo-alternatives/) (updated 15 June 2026) and [the best language learning apps](https://www.lingq.com/blog/best-language-learning-app/) (updated 14 October 2026). We didn't check Readable's iPhone version. This page was written by Galbinur Guliyev, who builds Biblyx. Prices change and differ by country; if something here is out of date, write to support@biblyx.com and we will correct it.
 
 ## Frequently asked questions
 
+### What is the cheapest LingQ alternative?
+
+Of the apps that list their plans, Smart Book has the lowest standard prices ($1.99 a month, $19.99 a year), then Biblyx ($4.99 a month, $35.99 a year), both US prices. Among the apps whose free version has no ads, Biblyx costs the least; LingQ's standard Premium, at $14.99 a month, costs the most.
+
+### Is there a free LingQ alternative?
+
+Every app here has a free version or a free download. Biblyx's free version keeps reading, flashcards, export and sync, with a daily allowance of AI translations and no ads. Readlang's free plan has unlimited single-word translations and 10 phrase translations a day. Linga, Beelinguapp, Smart Book and Readable are free downloads with paid upgrades, and the last three show ads. LingQ's own blog says its free plan is limited to 20 saved words.
+
+### Is there a Readlang alternative for Android?
+
+Readlang has no app on Google Play; its site links a guide to adding it to a phone's home screen. On Google Play, Biblyx, Linga and Smart Book open your own files and let you tap words for their meaning, and LingQ imports ebooks and articles.
+
 ### Is there a LingQ alternative that works with my own books?
 
-Yes. Linga imports EPUB, PDF, MOBI, FB2 and TXT; Smart Book loads FB2, EPUB and TXT with a parallel translation; Biblyx opens EPUB, TXT and text-based PDF files and pasted text. LingQ itself also imports ebooks.
+Yes. Biblyx opens EPUB, TXT and text-based PDF files and pasted text; Linga imports EPUB, PDF, MOBI, FB2 and TXT; Smart Book loads FB2, EPUB and TXT with a parallel translation. LingQ itself also imports ebooks.
 
 ### Which of these apps has no ads?
 
-According to their Google Play pages, LingQ, Linga and Biblyx don't contain ads; Beelinguapp, Smart Book and Readable do. All six offer in-app purchases.
+According to their Google Play pages, Biblyx, LingQ and Linga don't contain ads; Beelinguapp, Smart Book and Readable do. All six apps on Google Play offer in-app purchases.
 
 ### Which app is the easiest for beginners?
 
-Beelinguapp, because the translation stays next to the text, and Readable for English, because its stories are simplified to your level. Linga describes itself as for intermediate and advanced learners. In Biblyx, beginners do best with the short starter stories before a full book.
+Beelinguapp, because the translation stays next to the text, and Readable for English, because its stories are simplified to your level. In Biblyx, beginners start with the short starter stories and tap only the words they need. Linga describes itself as for intermediate and advanced learners.
 
 ### What is the difference between a parallel translation and a meaning for the sentence?
 

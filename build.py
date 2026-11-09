@@ -98,7 +98,8 @@ def inline(s: str) -> str:
     s = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", s)
     s = re.sub(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)", r"<em>\1</em>", s)
     s = re.sub(r"`(.+?)`", r"<code>\1</code>", s)
-    s = re.sub(r"\[([^\]]+)\]\(([^)\s]+)\)", lambda m: f'<a href="{html.escape(m.group(2), quote=True)}">{m.group(1)}</a>', s)
+    # The URL was escaped with the rest of the line above; unescape before quoting it for the attribute.
+    s = re.sub(r"\[([^\]]+)\]\(([^)\s]+)\)", lambda m: f'<a href="{html.escape(html.unescape(m.group(2)), quote=True)}">{m.group(1)}</a>', s)
     return s
 
 
@@ -151,6 +152,11 @@ def render_markdown(body: str, faq_heading: str):
                 i += 1
             out.append("<blockquote><p>" + " ".join(quote) + "</p></blockquote>")
             continue
+        elif re.match(r"^!\[[^\]]*\]\([^)\s]+\)\s*$", line):
+            # A line with only an image: ![alt](src), shown as a figure (app screenshots, 720x1280).
+            m = re.match(r"^!\[([^\]]*)\]\(([^)\s]+)\)", line)
+            out.append(f'<figure class="shot"><img src="{html.escape(m.group(2), quote=True)}" '
+                       f'alt="{html.escape(m.group(1), quote=True)}" loading="lazy" width="720" height="1280"></figure>')
         elif line.startswith("|"):
             rows = []
             while i < len(lines) and lines[i].startswith("|"):
@@ -164,7 +170,7 @@ def render_markdown(body: str, faq_heading: str):
             continue
         else:
             para = []
-            while i < len(lines) and lines[i].strip() and not re.match(r"^(#{2,3} |- |\d+\. |> |\|)", lines[i]):
+            while i < len(lines) and lines[i].strip() and not re.match(r"^(#{2,3} |- |\d+\. |> |\||!\[)", lines[i]):
                 para.append(lines[i].strip())
                 i += 1
             text = " ".join(para)
