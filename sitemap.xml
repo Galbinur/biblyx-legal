@@ -301,8 +301,16 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/english-books-for-beginners/"/>
   </url>
   <url>
+    <loc>https://biblyx.com/de/franzoesische-buecher-fuer-anfaenger/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/franzoesische-buecher-fuer-anfaenger/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/learn-french-by-reading/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/learn-french-by-reading/"/>
+  </url>
+  <url>
     <loc>https://biblyx.com/learn-french-by-reading/</loc>
     <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/franzoesische-buecher-fuer-anfaenger/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/learn-french-by-reading/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/learn-french-by-reading/"/>
   </url>
@@ -310,11 +318,37 @@
     <loc>https://biblyx.com/learn-german-by-reading/</loc>
     <lastmod>2026-11-09</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/learn-german-by-reading/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://biblyx.com/ru/knigi-na-nemetskom-dlya-nachinayushchih/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/almanca-kitap-okuma/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/learn-german-by-reading/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/ru/knigi-na-nemetskom-dlya-nachinayushchih/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/learn-german-by-reading/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://biblyx.com/ru/knigi-na-nemetskom-dlya-nachinayushchih/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/almanca-kitap-okuma/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/learn-german-by-reading/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/tr/almanca-kitap-okuma/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/learn-german-by-reading/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://biblyx.com/ru/knigi-na-nemetskom-dlya-nachinayushchih/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/almanca-kitap-okuma/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/learn-german-by-reading/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/de/spanische-buecher-fuer-anfaenger/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/spanische-buecher-fuer-anfaenger/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/learn-spanish-by-reading/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/learn-spanish-by-reading/"/>
   </url>
   <url>
     <loc>https://biblyx.com/learn-spanish-by-reading/</loc>
     <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/spanische-buecher-fuer-anfaenger/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/learn-spanish-by-reading/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/learn-spanish-by-reading/"/>
   </url>

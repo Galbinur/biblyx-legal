@@ -17,7 +17,7 @@ Learning a language by reading works, and several apps are built around it. They
 - **You are a beginner and want the translation next to the text, with audiobooks:** Beelinguapp.
 - **You want your own EPUB or FB2 with a parallel translation and a choice of translation service:** Smart Book.
 - **You learn English only and want simplified stories and daily news:** Readable.
-- **You read mostly in a web browser on a computer and want to click words on any website:** Readlang.
+- **You read mostly in a web browser on a computer and want to click words on the websites you read:** Readlang.
 - **You want to read your own books with the meaning fitted to each sentence, and flashcards that keep that sentence, without ads:** Biblyx.
 
 ## The comparison table
@@ -29,7 +29,7 @@ Learning a language by reading works, and several apps are built around it. They
 | Beelinguapp (Android, iPhone) | not mentioned in its listing | translation side by side; tap a word for a dictionary meaning | quizzes after each story | bilingual stories and audiobooks | 20+ | yes |
 | Smart Book (Android, iPhone) | FB2, EPUB, TXT, .srt subtitles | parallel translation; a choice of services such as Google Translate, DeepL and AI chatbots | saved words, export to Anki or ReWord | bilingual stories | English, German, French, Spanish, Italian and more | yes |
 | Readable (Android; iPhone not checked) | not mentioned; English stories and news in the app | audio and translation for every word | Word Trainer | simplified stories, daily news | English | yes |
-| Readlang (web, Chrome extension) | texts and articles you upload; any web page through the extension | click a word or phrase to translate it; AI explanations in context | flashcards, export | articles on its site | 100+ | not on Google Play |
+| Readlang (web, Chrome extension) | texts and articles you upload; most web pages through the extension | click a word or phrase to translate it; AI explanations in context | flashcards, export | articles on its site | 100+ | not on Google Play |
 | Biblyx (Android) | EPUB, TXT, text-based PDF, pasted text | AI meaning fitted to the sentence, idioms, noun articles | cards with the book sentence, Anki and CSV export | 29 short stories | 10, plus 4 in beta | no |
 
 The six apps on Google Play are free to download and offer in-app purchases. Readlang works in the browser, with a free plan and paid plans.
@@ -56,7 +56,7 @@ Readable is for learners of English only. Expert teachers simplify short stories
 
 ## Readlang
 
-Readlang works in the web browser and as a Chrome extension. You click a word or a phrase on any text or website to translate it, AI explains words and phrases in context, and every word you translate is saved for flashcard practice, which you can also export. You can upload your own texts and articles or read the articles on its site. Its site lists more than 100 languages and links a guide to adding Readlang to an iPhone or Android home screen; there is no Readlang app on Google Play. The free plan has unlimited single-word translations and 10 phrase translations and 10 AI explanations a day; paid plans remove these limits. It suits learners who read a lot in the browser, on a computer.
+Readlang works in the web browser and as a Chrome extension. You click a word or a phrase in a text, or on most websites, to translate it, AI explains words and phrases in context, and every word you translate is saved for flashcard practice, which you can also export. You can upload your own texts and articles or read the articles on its site. Its site lists more than 100 languages and links a guide to adding Readlang to an iPhone or Android home screen; there is no Readlang app on Google Play. The free plan has unlimited single-word translations and 10 phrase translations and 10 AI explanations a day; paid plans remove these limits. It suits learners who read a lot in the browser, on a computer.
 
 ## Biblyx
 
@@ -64,7 +64,7 @@ Biblyx is a reader for your own books. You open an EPUB, TXT or text-based PDF, 
 
 Where Biblyx is weaker:
 - It runs on Android only; an iPhone version is planned, with no date.
-- It translates books in 10 languages, plus 4 in beta. LingQ covers more than 55.
+- Its word lookup works for books in 10 languages, plus 4 in beta. LingQ covers more than 55.
 - It has no lessons, podcasts or audiobooks; listening is your phone's text-to-speech voice.
 - Looking up a new word needs a connection, and AI translations use a daily allowance unless you have Premium.
 

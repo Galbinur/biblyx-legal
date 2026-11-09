@@ -20,7 +20,7 @@ Start with stories you already know in your own language; knowing the plot lets 
 
 - **Grimm's fairy tales** (*Kinder- und Hausmärchen*): *Rotkäppchen*, *Hänsel und Gretel*, *Die Bremer Stadtmusikanten*. Short, repetitive, and in the original German. *Rotkäppchen* and *Hänsel und Gretel* come with Biblyx.
 - **Graded readers for German learners** (DaF readers, *Leichte Lektüren* and similar series from publishers such as Klett and Hueber) retell stories with a limited vocabulary, by level. They cost money but are written exactly for this stage.
-- **News in easy German:** Deutschlandfunk's *nachrichtenleicht.de* writes the week's news in short, simple sentences, and Deutsche Welle's *Learn German* site has texts and slowly spoken news by level. A short text every day beats a long one on Sunday.
+- **News in easy German:** Deutschlandfunk's *nachrichtenleicht.de* writes the news in short, simple sentences, and Deutsche Welle's *Learn German* site has texts and slowly spoken news by level. A short text every day beats a long one on Sunday.
 
 ## B1: real short stories
 
@@ -43,7 +43,7 @@ A note on older German: classics are free because they are old, and some spellin
 - **Project Gutenberg** (gutenberg.org): out-of-copyright books as EPUB and plain text, with a German section that includes Kafka, Storm, Fontane and the Grimms.
 - **Wikisource** (de.wikisource.org) and **Zeno.org**: large collections of public-domain German texts to read online or copy.
 - **LibriVox**: free audiobooks of public-domain works read by volunteers, including many in German. Listen while you read.
-- **Deutsche Welle** (learngerman.dw.com) and **nachrichtenleicht.de**: free texts and news written for learners.
+- **Deutsche Welle** (learngerman.dw.com) and **nachrichtenleicht.de**: free texts and news in simple German.
 - **A warning about apps and libraries:** books bought in Kindle or Apple Books, and books borrowed through a library app, are locked to those apps and won't open in another reader. EPUBs from Gutenberg and DRM-free shops open anywhere.
 
 ## How to read German on your phone

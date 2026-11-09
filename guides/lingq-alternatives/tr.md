@@ -8,7 +8,7 @@ slogan: Kendi kitaplarını okuyarak dil öğren
 cta: EPUB, PDF ya da TXT dosyanı aç veya bir metin yapıştır. Kelimeye dokun, o cümledeki anlamını gör, kaydet ve sonra tekrar et.
 ---
 
-Kitap okuyarak dil öğrenmek işe yarar ve bunun etrafında kurulmuş birkaç uygulama var. Aralarındaki fark üç yerde: ne okuduğun (uygulamanın kütüphanesi mi, kendi kitapların mı), anlamı nasıl gördüğün (sözlük, metnin yanında çeviri ya da cümlene göre seçilmiş anlam) ve kelimelere sonra ne olduğu. Bu sayfa yedi uygulamayı bu noktalarda karşılaştırıyor. Biblyx bizim uygulamamız, o yüzden bu karşılaştırmayı oyunculardan birinin yazdığını bilerek oku: diğer altısı hakkındaki her bilgi kendi Google Play sayfalarından, App Store sayfalarından ya da sitelerinden alındı ve 9 Kasım 2026'da kontrol edildi. Biblyx'in zayıf olduğu yerleri de açıkça yazıyoruz.
+Kitap okuyarak dil öğrenmek işe yarar ve bunun etrafında kurulmuş birkaç uygulama var. Aralarındaki fark üç yerde: ne okuduğun (uygulamanın kütüphanesi mi, kendi kitapların mı), anlamı nasıl gördüğün (sözlük, metnin yanında çeviri ya da cümlene göre seçilmiş anlam) ve kelimelere sonra ne olduğu. Bu sayfa yedi uygulamayı bu noktalarda karşılaştırıyor. Biblyx bizim uygulamamız, o yüzden bu karşılaştırmayı taraflardan birinin yazdığını bilerek oku: diğer altısı hakkındaki her bilgi kendi Google Play sayfalarından, App Store sayfalarından ya da sitelerinden alındı ve 9 Kasım 2026'da kontrol edildi. Biblyx'in zayıf olduğu yerleri de açıkça yazıyoruz.
 
 ## Kısa cevap
 
@@ -17,7 +17,7 @@ Kitap okuyarak dil öğrenmek işe yarar ve bunun etrafında kurulmuş birkaç u
 - **Yeni başlıyorsan ve çeviriyi metnin yanında, sesli kitaplarla görmek istiyorsan:** Beelinguapp.
 - **Kendi EPUB ya da FB2 kitabını paralel çeviriyle, çeviri servisini seçerek okumak istiyorsan:** Smart Book.
 - **Sadece İngilizce öğreniyorsan ve seviyene göre sadeleştirilmiş hikâyeler ile günlük haberler istiyorsan:** Readable.
-- **Çoğunlukla bilgisayarda, tarayıcıda okuyorsan ve her web sitesinde kelimelere tıklamak istiyorsan:** Readlang.
+- **Çoğunlukla bilgisayarda, tarayıcıda okuyorsan ve okuduğun web sitelerinde kelimelere tıklamak istiyorsan:** Readlang.
 - **Kendi kitaplarını her cümleye uyan anlamla, o cümleyi saklayan kelime kartlarıyla ve reklamsız okumak istiyorsan:** Biblyx.
 
 ## Karşılaştırma tablosu
@@ -29,18 +29,18 @@ Kitap okuyarak dil öğrenmek işe yarar ve bunun etrafında kurulmuş birkaç u
 | Beelinguapp (Android, iPhone) | sayfasında belirtilmemiş | yan yana çeviri; kelimeye dokununca sözlük anlamı | her hikâyenin sonunda test | iki dilli hikâyeler ve sesli kitaplar | 20+ | var |
 | Smart Book (Android, iPhone) | FB2, EPUB, TXT, .srt altyazı | paralel çeviri; Google Translate, DeepL ve yapay zekâ sohbet botları gibi servislerden seçim | kaydedilen kelimeler, Anki ya da ReWord'e aktarma | iki dilli hikâyeler | İngilizce, Almanca, Fransızca, İspanyolca, İtalyanca ve diğerleri | var |
 | Readable (Android; iPhone kontrol edilmedi) | belirtilmemiş; uygulamadaki İngilizce hikâyeler ve haberler | her kelime için ses ve çeviri | Word Trainer | sadeleştirilmiş hikâyeler, günlük haberler | İngilizce | var |
-| Readlang (web, Chrome eklentisi) | yüklediğin metinler ve makaleler; eklentiyle her web sayfası | kelimeye ya da ifadeye tıklayınca çeviri; bağlama göre yapay zekâ açıklamaları | kelime kartları, dışa aktarma | sitesindeki makaleler | 100+ | Google Play'de yok |
+| Readlang (web, Chrome eklentisi) | yüklediğin metinler ve makaleler; eklentiyle çoğu web sayfası | kelimeye ya da ifadeye tıklayınca çeviri; bağlama göre yapay zekâ açıklamaları | kelime kartları, dışa aktarma | sitesindeki makaleler | 100+ | Google Play'de yok |
 | Biblyx (Android) | EPUB, TXT, metin tabanlı PDF, yapıştırılan metin | cümleye uyan yapay zekâ anlamı, deyimler, isimlerin artikelleri | kitap cümlesini saklayan kartlar, Anki ve CSV'ye aktarma | 29 kısa hikâye | 10, ayrıca 4'ü beta | yok |
 
 Google Play'deki altı uygulamanın hepsi ücretsiz indirilebiliyor ve uygulama içi satın alma sunuyor. Readlang tarayıcıda çalışıyor; ücretsiz bir planı ve ücretli planları var.
 
 ## LingQ
 
-LingQ, anlaşılabilir girdi (comprehensible input) üzerine kurulu; kurucularından biri poliglot Steve Kaufmann. Sayfasına göre metni ve sesi eşleşen binlerce ders, e-kitaplardan, web makalelerinden, YouTube'dan, Netflix'ten ve podcast'lerden içe aktarma, yapay zekâ araçları (sadeleştirilmiş dersler, ses kaydını metne dökme, sohbet botu, yapay zekâ sesleri), aralıklı tekrar ve bilinen kelime sayacı sunuyor. 55'ten fazla dil var, buradaki uygulamaların hepsinden çok. Sayfasına göre Premium sınırsız kelime bakma, aralıklı tekrar ve içerik aktarma getiriyor; yani ücretsiz sürümde bunların sınırı var. Dinleme ile okumayı birlikte isteyenlere ve hazır, büyük bir kütüphane arayanlara uygun.
+LingQ, anlaşılabilir girdi (comprehensible input) üzerine kurulu; kurucularından biri poliglot Steve Kaufmann. Sayfasına göre metni ve sesi eşleşen binlerce ders, e-kitaplardan, web makalelerinden, YouTube'dan, Netflix'ten ve podcast'lerden içe aktarma, yapay zekâ araçları (sadeleştirilmiş dersler, ses kaydını metne dökme, sohbet botu, yapay zekâ sesleri), aralıklı tekrar ve bilinen kelime sayacı sunuyor. 55'ten fazla dil var, buradaki uygulamaların hepsinden çok. Sayfasına göre Premium sınırsız kelime sorgulama, aralıklı tekrar ve içerik aktarma getiriyor; yani ücretsiz sürümde bunların sınırı var. Dinleme ile okumayı birlikte isteyenlere ve hazır, büyük bir kütüphane arayanlara uygun.
 
 ## Linga
 
-Linga, İspanyolca, Fransızca, Almanca, İtalyanca, Rusça ve İngilizce 1.000'den fazla kitaplık bir kütüphanesi olan bir okuyucu; sayfasına göre orta ve ileri seviyedekiler için. Bir kelimeye ya da ifadeye dokunup eş anlamlılar ve dil bilgisi notlarıyla birlikte çeviri ve sözlük maddesi görebilir, kendi EPUB, PDF, MOBI, FB2 ya da TXT dosyalarını içe aktarabilir, kelimeleri notlarla kaydedip aralıklı tekrarlı kartlarla çalışabilirsin. Kelime oyunları, günlük hedefler, seriler ve kelimeler ile cümleler için anadili konuşanların sesi de var; ses çevrimdışı da çalışıyor. Bu altı dilden birini öğreniyorsan ve oyun öğelerini seviyorsan güçlü bir seçenek.
+Linga, İspanyolca, Fransızca, Almanca, İtalyanca, Rusça ve İngilizce 1.000'den fazla kitaplık bir kütüphanesi olan bir okuyucu; sayfasına göre orta ve ileri seviyedekiler için. Bir kelimeye ya da ifadeye dokunup eş anlamlılar ve dil bilgisi notlarıyla birlikte çeviri ve sözlük maddesi görebilirsin, kendi EPUB, PDF, MOBI, FB2 ya da TXT dosyalarını içe aktarabilirsin, kelimeleri notlarla kaydedip aralıklı tekrarlı kartlarla çalışabilirsin. Kelime oyunları, günlük hedefler, seriler ve kelimeler ile cümleler için anadili konuşanların sesi de var; ses çevrimdışı da çalışıyor. Bu altı dilden birini öğreniyorsan ve oyun öğelerini seviyorsan güçlü bir seçenek.
 
 ## Beelinguapp
 
@@ -52,19 +52,19 @@ Smart Book iki dilli bir okuyucu: orijinal metni ve çevirisini yan yana göster
 
 ## Readable
 
-Readable yalnızca İngilizce öğrenenler için. Öğretmenler kısa hikâyeleri ve günlük haberleri senin seviyene göre sadeleştiriyor, her kelimenin sesi ve çevirisi var, Word Trainer da kaydettiğin kelimeleri ezberlemene yardım ediyor. Sayfasında kendi kitaplarını yüklemekten söz edilmiyor; Google Play sayfası reklam olduğunu belirtiyor. Hedefin İngilizceyse ve seviyene uyarlanmış metinler istiyorsan iyi bir seçim.
+Readable yalnızca İngilizce öğrenenler için. Uzman öğretmenler kısa hikâyeleri ve günlük haberleri senin seviyene göre sadeleştiriyor, her kelimenin sesi ve çevirisi var, Word Trainer da kaydettiğin kelimeleri ezberlemene yardım ediyor. Sayfasında kendi kitaplarını yüklemekten söz edilmiyor; Google Play sayfası reklam olduğunu belirtiyor. Hedefin İngilizceyse ve seviyene uyarlanmış metinler istiyorsan iyi bir seçim.
 
 ## Readlang
 
-Readlang web tarayıcısında ve Chrome eklentisi olarak çalışıyor. Herhangi bir metinde ya da web sitesinde bir kelimeye veya ifadeye tıklayıp çevirisini görüyorsun, yapay zekâ kelimeleri ve ifadeleri bağlama göre açıklıyor, çevirdiğin her kelime de kartlarla çalışmak için kaydediliyor ve dışa aktarılabiliyor. Kendi metinlerini ve makalelerini yükleyebilir ya da sitesindeki makaleleri okuyabilirsin. Sitesinde 100'den fazla dil listeleniyor ve Readlang'i iPhone ya da Android ana ekranına eklemeyi anlatan bir rehbere bağlantı var; Google Play'de Readlang uygulaması yok. Ücretsiz planda tek kelimelik çeviriler sınırsız, ifade çevirisi ve yapay zekâ açıklaması ise günde 10'ar tane; ücretli planlar bu sınırları kaldırıyor. Bilgisayarda, tarayıcıda çok okuyanlara uygun.
+Readlang web tarayıcısında ve Chrome eklentisi olarak çalışıyor. Bir metinde ya da çoğu web sitesinde bir kelimeye veya ifadeye tıklayıp çevirisini görüyorsun, yapay zekâ kelimeleri ve ifadeleri bağlama göre açıklıyor, çevirdiğin her kelime de kartlarla çalışmak için kaydediliyor ve dışa aktarılabiliyor. Kendi metinlerini ve makalelerini yükleyebilir ya da sitesindeki makaleleri okuyabilirsin. Sitesinde 100'den fazla dil listeleniyor ve Readlang'i iPhone ya da Android ana ekranına eklemeyi anlatan bir rehbere bağlantı var; Google Play'de Readlang uygulaması yok. Ücretsiz planda tek kelimelik çeviriler sınırsız, ifade çevirisi ve yapay zekâ açıklaması ise günde 10'ar tane; ücretli planlar bu sınırları kaldırıyor. Bilgisayarda, tarayıcıda çok okuyanlara uygun.
 
 ## Biblyx
 
-Biblyx kendi kitapların için bir okuyucu. EPUB, TXT ya da metin tabanlı PDF açar veya bir makale yapıştırırsın ve herhangi bir kelimeye dokunursun: yapay zekâ cümleyi okur ve orada uyan anlamı sözcük türü, kök hali ve tahmini CEFR seviyesiyle verir. Deyimler iki anlamıyla gelir; Almanca, İspanyolca, Fransızca, İtalyanca ve Portekizce isimler artikeliyle gelir; birleşik kelimeler parçalarına ayrılır. Kaydettiğin kelimeler kitaptaki cümleyi saklayan kartlara dönüşür ve 1, 3, 7, 14 ve 30 gün sonra geri gelir; onları Anki'ye ya da CSV'ye aktarabilirsin. Okuma ve tekrar çevrimdışı çalışır, reklam yoktur ve ilk dakikaların için 10 dilde 29 kısa hikâye hazırdır. Fikir tek satıra sığıyor: **Kendi kitaplarını okuyarak dil öğren**.
+Biblyx kendi kitapların için bir okuyucu. EPUB, TXT ya da metin tabanlı PDF açar veya bir makale yapıştırırsın ve herhangi bir kelimeye dokunursun: yapay zekâ cümleyi okur ve orada uyan anlamı sözcük türü, sözlük hâli ve tahmini CEFR seviyesiyle verir. Deyimler iki anlamıyla gelir; Almanca, İspanyolca, Fransızca, İtalyanca ve Portekizce isimler artikeliyle gelir; birleşik kelimeler parçalarına ayrılır. Kaydettiğin kelimeler kitaptaki cümleyi saklayan kartlara dönüşür ve 1, 3, 7, 14 ve 30 gün sonra geri gelir; onları Anki'ye ya da CSV'ye aktarabilirsin. Okuma ve tekrar çevrimdışı çalışır, reklam yoktur ve ilk dakikaların için 10 dilde 29 kısa hikâye hazırdır. Fikir tek satıra sığıyor: **Kendi kitaplarını okuyarak dil öğren**.
 
 Biblyx'in zayıf olduğu yerler:
 - Yalnızca Android'de çalışıyor; iPhone sürümü planlanıyor, tarih yok.
-- 10 dilde kitabı çeviriyor, ayrıca 4'ü beta. LingQ'da 55'ten fazla dil var.
+- Kelime çevirisi 10 dildeki kitaplarda çalışıyor, ayrıca 4 dil beta. LingQ'da 55'ten fazla dil var.
 - Ders, podcast ya da sesli kitap yok; dinlemek için telefonunun metin okuma sesi kullanılıyor.
 - Yeni bir kelimeye bakmak internet istiyor; Premium yoksa yapay zekâ çevirileri günlük bir hakla sınırlı.
 

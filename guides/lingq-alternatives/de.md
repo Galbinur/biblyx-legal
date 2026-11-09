@@ -17,7 +17,7 @@ Eine Sprache durch Lesen zu lernen funktioniert, und mehrere Apps sind darauf ge
 - **Du fängst gerade an und willst die Übersetzung neben dem Text sehen, mit Hörbüchern:** Beelinguapp.
 - **Du willst deine eigenen EPUB- oder FB2-Bücher mit Parallelübersetzung und wählbarem Übersetzungsdienst lesen:** Smart Book.
 - **Du lernst nur Englisch und willst vereinfachte Geschichten und tägliche Nachrichten:** Readable.
-- **Du liest vor allem am Computer im Browser und willst auf jeder Website Wörter anklicken:** Readlang.
+- **Du liest vor allem am Computer im Browser und willst auf den Websites, die du liest, Wörter anklicken:** Readlang.
 - **Du willst deine eigenen Bücher lesen, mit der Bedeutung, die zum jeweiligen Satz passt, und Karteikarten, die diesen Satz behalten, ohne Werbung:** Biblyx.
 
 ## Die Vergleichstabelle
@@ -29,7 +29,7 @@ Eine Sprache durch Lesen zu lernen funktioniert, und mehrere Apps sind darauf ge
 | Beelinguapp (Android, iPhone) | in der Beschreibung nicht erwähnt | Übersetzung neben dem Text; Wort antippen für eine Wörterbuchbedeutung | Quiz nach jeder Geschichte | zweisprachige Geschichten und Hörbücher | 20+ | ja |
 | Smart Book (Android, iPhone) | FB2, EPUB, TXT, .srt-Untertitel | Parallelübersetzung; Auswahl von Diensten wie Google Translate, DeepL und KI-Chatbots | gespeicherte Wörter, Export nach Anki oder ReWord | zweisprachige Geschichten | Englisch, Deutsch, Französisch, Spanisch, Italienisch und weitere | ja |
 | Readable (Android; iPhone nicht geprüft) | nicht erwähnt; englische Geschichten und Nachrichten in der App | Audio und Übersetzung für jedes Wort | Word Trainer | vereinfachte Geschichten, tägliche Nachrichten | Englisch | ja |
-| Readlang (Web, Chrome-Erweiterung) | hochgeladene Texte und Artikel; jede Webseite über die Erweiterung | Wort oder Phrase anklicken für eine Übersetzung; KI-Erklärungen im Kontext | Karteikarten, Export | Artikel auf der eigenen Website | 100+ | nicht bei Google Play |
+| Readlang (Web, Chrome-Erweiterung) | hochgeladene Texte und Artikel; die meisten Webseiten über die Erweiterung | Wort oder Phrase anklicken für eine Übersetzung; KI-Erklärungen im Kontext | Karteikarten, Export | Artikel auf der eigenen Website | 100+ | nicht bei Google Play |
 | Biblyx (Android) | EPUB, TXT, textbasierte PDFs, eingefügter Text | KI-Bedeutung passend zum Satz, Redewendungen, Artikel der Substantive | Karten mit dem Satz aus dem Buch, Export nach Anki oder als CSV | 29 Kurzgeschichten | 10, dazu 4 in der Beta | nein |
 
 Die sechs Apps bei Google Play lassen sich kostenlos laden und bieten In-App-Käufe an. Readlang läuft im Browser, mit einem kostenlosen Tarif und kostenpflichtigen Tarifen.
@@ -56,7 +56,7 @@ Readable ist nur für Englischlernende. Lehrkräfte vereinfachen kurze Geschicht
 
 ## Readlang
 
-Readlang läuft im Webbrowser und als Chrome-Erweiterung. Du klickst in einem Text oder auf einer Website auf ein Wort oder eine Phrase und bekommst die Übersetzung, eine KI erklärt Wörter und Phrasen im Kontext, und jedes übersetzte Wort wird für Karteikarten gespeichert, die du auch exportieren kannst. Du kannst eigene Texte und Artikel hochladen oder Artikel auf der Website lesen. Die Website nennt über 100 Sprachen und verlinkt eine Anleitung, wie man Readlang auf den Startbildschirm eines iPhones oder Android-Handys legt; eine Readlang-App bei Google Play gibt es nicht. Im kostenlosen Tarif sind Übersetzungen einzelner Wörter unbegrenzt, Phrasen-Übersetzungen und KI-Erklärungen auf je 10 am Tag begrenzt; die kostenpflichtigen Tarife heben diese Grenzen auf. Readlang passt, wenn du viel am Computer im Browser liest.
+Readlang läuft im Webbrowser und als Chrome-Erweiterung. Du klickst in einem Text oder auf den meisten Websites auf ein Wort oder eine Phrase und bekommst die Übersetzung, eine KI erklärt Wörter und Phrasen im Kontext, und jedes übersetzte Wort wird für Karteikarten gespeichert, die du auch exportieren kannst. Du kannst eigene Texte und Artikel hochladen oder Artikel auf der Website lesen. Die Website nennt über 100 Sprachen und verlinkt eine Anleitung, wie man Readlang auf den Startbildschirm eines iPhones oder Android-Handys legt; eine Readlang-App bei Google Play gibt es nicht. Im kostenlosen Tarif sind Übersetzungen einzelner Wörter unbegrenzt, Phrasen-Übersetzungen und KI-Erklärungen auf je 10 am Tag begrenzt; die kostenpflichtigen Tarife heben diese Grenzen auf. Readlang passt, wenn du viel am Computer im Browser liest.
 
 ## Biblyx
 
@@ -64,7 +64,7 @@ Biblyx ist ein Reader für deine eigenen Bücher. Du öffnest eine EPUB-, TXT- o
 
 Wo Biblyx schwächer ist:
 - Biblyx läuft nur auf Android; eine iPhone-Version ist geplant, ohne Termin.
-- Biblyx übersetzt Bücher in 10 Sprachen, dazu 4 in der Beta. LingQ hat über 55 Sprachen.
+- Die Wortübersetzung funktioniert für Bücher in 10 Sprachen, dazu 4 in der Beta. LingQ hat über 55 Sprachen.
 - Es gibt keine Lektionen, Podcasts oder Hörbücher; zum Hören dient die Sprachausgabe deines Handys.
 - Zum Nachschlagen neuer Wörter brauchst du eine Verbindung, und KI-Übersetzungen haben ohne Premium ein Tageskontingent.
 

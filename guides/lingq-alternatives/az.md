@@ -8,7 +8,7 @@ slogan: Öz kitablarını oxuyaraq dil öyrən
 cta: EPUB, PDF və ya TXT faylını aç, ya da bir mətni yapışdır. Sözə toxun, həmin cümlədəki mənasını gör, saxla və sonra təkrar et.
 ---
 
-Kitab oxuyaraq dil öyrənmək işləyir və bunun ətrafında qurulmuş bir neçə tətbiq var. Onlar üç yerdə fərqlənir: nə oxuyursan (tətbiqin kitabxanası, yoxsa öz kitabların), mənanı necə görürsən (lüğət, mətnin yanında tərcümə, yoxsa cümləyə görə seçilmiş məna) və sözlərə sonra nə olur. Bu səhifə yeddi tətbiqi bu nöqtələrdə müqayisə edir. Biblyx bizim tətbiqimizdir, ona görə bu müqayisəni iştirakçılardan birinin yazdığını bilərək oxu: digər altısı haqqında hər fakt onların öz Google Play, App Store səhifələrindən və ya saytlarından götürülüb və 9 noyabr 2026-da yoxlanılıb. Biblyx-in zəif olduğu yerləri də açıq yazırıq.
+Kitab oxuyaraq dil öyrənmək səmərəlidir və bunun ətrafında qurulmuş bir neçə tətbiq var. Onlar üç yerdə fərqlənir: nə oxuyursan (tətbiqin kitabxanası, yoxsa öz kitabların), mənanı necə görürsən (lüğət, mətnin yanında tərcümə, yoxsa cümləyə görə seçilmiş məna) və sözlərə sonra nə olur. Bu səhifə yeddi tətbiqi bu nöqtələrdə müqayisə edir. Biblyx bizim tətbiqimizdir, ona görə bu müqayisəni tərəflərdən birinin yazdığını bilərək oxu: digər altısı haqqında hər fakt onların öz Google Play, App Store səhifələrindən və ya saytlarından götürülüb və 9 noyabr 2026-da yoxlanılıb. Biblyx-in zəif olduğu yerləri də açıq yazırıq.
 
 ## Qısa cavab
 
@@ -17,7 +17,7 @@ Kitab oxuyaraq dil öyrənmək işləyir və bunun ətrafında qurulmuş bir ne�
 - **Yeni başlayırsansa və tərcüməni mətnin yanında, səsli kitablarla görmək istəyirsənsə:** Beelinguapp.
 - **Öz EPUB və ya FB2 kitabını paralel tərcümə ilə, tərcümə xidmətini seçərək oxumaq istəyirsənsə:** Smart Book.
 - **Yalnız ingilis dilini öyrənirsənsə və səviyyənə görə sadələşdirilmiş hekayələr və gündəlik xəbərlər istəyirsənsə:** Readable.
-- **Əsasən kompüterdə, brauzerdə oxuyursansa və istənilən saytda sözlərə klikləmək istəyirsənsə:** Readlang.
+- **Əsasən kompüterdə, brauzerdə oxuyursansa və oxuduğun saytlarda sözlərə klikləmək istəyirsənsə:** Readlang.
 - **Öz kitablarını hər cümləyə uyğun mənayla, o cümləni saxlayan söz kartları ilə və reklamsız oxumaq istəyirsənsə:** Biblyx.
 
 ## Müqayisə cədvəli
@@ -29,7 +29,7 @@ Kitab oxuyaraq dil öyrənmək işləyir və bunun ətrafında qurulmuş bir ne�
 | Beelinguapp (Android, iPhone) | səhifəsində qeyd olunmayıb | yan-yana tərcümə; sözə toxunanda lüğət mənası | hər hekayənin sonunda test | ikidilli hekayələr və səsli kitablar | 20+ | var |
 | Smart Book (Android, iPhone) | FB2, EPUB, TXT, .srt subtitr | paralel tərcümə; Google Translate, DeepL və süni intellekt çat-botları kimi xidmətlərdən seçim | saxlanan sözlər, Anki və ya ReWord-a ixrac | ikidilli hekayələr | ingilis, alman, fransız, ispan, italyan və başqaları | var |
 | Readable (Android; iPhone yoxlanılmayıb) | qeyd olunmayıb; tətbiqdəki ingiliscə hekayələr və xəbərlər | hər söz üçün səs və tərcümə | Word Trainer | sadələşdirilmiş hekayələr, gündəlik xəbərlər | ingilis | var |
-| Readlang (veb, Chrome əlavəsi) | yüklədiyin mətnlər və məqalələr; əlavə ilə istənilən veb səhifə | sözə və ya ifadəyə klikləyəndə tərcümə; kontekstə görə süni intellekt izahları | söz kartları, ixrac | saytındakı məqalələr | 100+ | Google Play-də yoxdur |
+| Readlang (veb, Chrome əlavəsi) | yüklədiyin mətnlər və məqalələr; əlavə ilə əksər veb səhifələr | sözə və ya ifadəyə klikləyəndə tərcümə; kontekstə görə süni intellekt izahları | söz kartları, ixrac | saytındakı məqalələr | 100+ | Google Play-də yoxdur |
 | Biblyx (Android) | EPUB, TXT, mətnli PDF, yapışdırılan mətn | cümləyə uyğun süni intellekt mənası, idiomlar, isimlərin artikli | kitab cümləsini saxlayan kartlar, Anki və CSV ixracı | 29 qısa hekayə | 10, üstəlik 4-ü betada | yoxdur |
 
 Google Play-dəki altı tətbiqin hamısı pulsuz yüklənir və tətbiqdaxili satınalma təklif edir. Readlang brauzerdə işləyir; pulsuz planı və ödənişli planları var.
@@ -40,11 +40,11 @@ LingQ başa düşülən mətnlərlə öyrənmə (comprehensible input) üzərind
 
 ## Linga
 
-Linga ispan, fransız, alman, italyan, rus və ingilis dillərində 1000-dən çox kitablıq kitabxanası olan oxuyucudur; səhifəsinə görə orta və yuxarı səviyyədəkilər üçündür. Sözə və ya ifadəyə toxunub sinonimlər və qrammatika qeydləri ilə tərcümə və lüğət məlumatı görə, öz EPUB, PDF, MOBI, FB2 və ya TXT fayllarını idxal edə, sözləri qeydlərlə saxlayıb aralıqlı təkrarlı kartlarla işləyə bilərsən. Söz oyunları, gündəlik hədəflər, seriyalar, sözlər və cümlələr üçün daşıyıcıların səsi də var; səs oflayn da işləyir. Bu altı dildən birini öyrənirsənsə və oyun elementlərini sevirsənsə, güclü seçimdir.
+Linga ispan, fransız, alman, italyan, rus və ingilis dillərində 1000-dən çox kitablıq kitabxanası olan oxuyucudur; səhifəsinə görə orta və yuxarı səviyyədəkilər üçündür. Sözə və ya ifadəyə toxunub sinonimlər və qrammatika qeydləri ilə tərcümə və lüğət məlumatı görə, öz EPUB, PDF, MOBI, FB2 və ya TXT fayllarını idxal edə, sözləri qeydlərlə saxlayıb aralıqlı təkrarlı kartlarla işləyə bilərsən. Söz oyunları, gündəlik hədəflər, seriyalar, sözlər və cümlələr üçün ana dilində danışanların səsi də var; səs oflayn da işləyir. Bu altı dildən birini öyrənirsənsə və oyun elementlərini sevirsənsə, güclü seçimdir.
 
 ## Beelinguapp
 
-Beelinguapp mətni və tərcüməsini yan-yana göstərir; daşıyıcıların oxuduğu səsli kitablar və səslə eyni anda sürüşən karaoke tərzli mətn var. Kitabxanası uşaq hekayələrindən Şerlok Holms kimi klassiklərə və gündəlik xəbərlərə qədər bütün səviyyələri əhatə edir, hər hekayənin sonunda test var və 20-dən çox dil təklif edir. Səhifəsində öz kitablarını idxal etməkdən söz getmir; Google Play səhifəsində tətbiqdə reklam olduğu qeyd olunub. Tərcümə həmişə gözünün önündə olduğu üçün yeni başlayanlar üçün yumşaq başlanğıcdır.
+Beelinguapp mətni və tərcüməsini yan-yana göstərir; ana dilində danışan diktorların oxuduğu səsli kitablar və səslə eyni anda sürüşən karaoke tərzli mətn var. Kitabxanası uşaq hekayələrindən Şerlok Holms kimi klassiklərə və gündəlik xəbərlərə qədər bütün səviyyələri əhatə edir, hər hekayənin sonunda test var və 20-dən çox dil təklif edir. Səhifəsində öz kitablarını idxal etməkdən söz getmir; Google Play səhifəsində tətbiqdə reklam olduğu qeyd olunub. Tərcümə həmişə gözünün qarşısında olduğu üçün yeni başlayanlar üçün yumşaq başlanğıcdır.
 
 ## Smart Book
 
@@ -56,7 +56,7 @@ Readable yalnız ingilis dili öyrənənlər üçündür. Müəllimlər qısa he
 
 ## Readlang
 
-Readlang veb brauzerdə və Chrome əlavəsi kimi işləyir. İstənilən mətndə və ya saytda sözə və ya ifadəyə klikləyib tərcüməsini görürsən, süni intellekt söz və ifadələri kontekstə görə izah edir, tərcümə etdiyin hər söz də kartlarla məşq üçün saxlanılır və ixrac oluna bilir. Öz mətnlərini və məqalələrini yükləyə, ya da saytındakı məqalələri oxuya bilərsən. Saytında 100-dən çox dil göstərilir və Readlang-ı iPhone və ya Android ana ekranına əlavə etməyi izah edən bələdçiyə keçid var; Google Play-də Readlang tətbiqi yoxdur. Pulsuz planda tək söz tərcüməsi limitsizdir, ifadə tərcüməsi və süni intellekt izahı isə gündə 10-dur; ödənişli planlar bu limitləri götürür. Kompüterdə, brauzerdə çox oxuyanlara uyğundur.
+Readlang veb brauzerdə və Chrome əlavəsi kimi işləyir. Mətndə və ya əksər saytlarda sözə və ya ifadəyə klikləyib tərcüməsini görürsən, süni intellekt söz və ifadələri kontekstə görə izah edir, tərcümə etdiyin hər söz də kartlarla məşq üçün saxlanılır və ixrac oluna bilir. Öz mətnlərini və məqalələrini yükləyə, ya da saytındakı məqalələri oxuya bilərsən. Saytında 100-dən çox dil göstərilir və Readlang-ı iPhone və ya Android ana ekranına əlavə etməyi izah edən təlimata keçid var; Google Play-də Readlang tətbiqi yoxdur. Pulsuz planda tək söz tərcüməsi limitsizdir, ifadə tərcüməsi və süni intellekt izahı isə gündə 10-dur; ödənişli planlar bu məhdudiyyətləri aradan qaldırır. Kompüterdə, brauzerdə çox oxuyanlara uyğundur.
 
 ## Biblyx
 
@@ -64,8 +64,8 @@ Biblyx öz kitabların üçün oxuyucudur. EPUB, TXT və ya mətnli PDF açırsa
 
 Biblyx-in zəif olduğu yerlər:
 - Yalnız Android-də işləyir; iPhone versiyası planlaşdırılır, tarix yoxdur.
-- 10 dildə kitabı tərcümə edir, üstəlik 4-ü betadadır. LingQ-da 55-dən çox dil var.
-- Dərs, podkast və ya səsli kitab yoxdur; dinləmək üçün telefonunun mətni səsləndirmə funksiyası işlənir.
+- Söz tərcüməsi 10 dildə olan kitablarda işləyir, üstəlik 4 dil betadadır. LingQ-da 55-dən çox dil var.
+- Dərs, podkast və ya səsli kitab yoxdur; dinləmək üçün telefonunun mətni səsləndirmə funksiyasından istifadə olunur.
 - Yeni sözə baxmaq internet tələb edir; Premium yoxdursa, süni intellekt tərcümələrinin gündəlik həddi var.
 
 ## Necə seçmək olar

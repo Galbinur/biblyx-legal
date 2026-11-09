@@ -17,7 +17,7 @@ Aprender un idioma leyendo funciona, y hay varias apps construidas en torno a es
 - **Estás empezando y quieres la traducción junto al texto, con audiolibros:** Beelinguapp.
 - **Quieres leer tus propios EPUB o FB2 con traducción paralela y elegir el servicio de traducción:** Smart Book.
 - **Solo aprendes inglés y quieres relatos simplificados y noticias diarias:** Readable.
-- **Lees sobre todo en el navegador, en el ordenador, y quieres hacer clic en las palabras de cualquier web:** Readlang.
+- **Lees sobre todo en el navegador, en el ordenador, y quieres hacer clic en las palabras de las webs que lees:** Readlang.
 - **Quieres leer tus propios libros con el significado ajustado a cada frase, tarjetas que guardan esa frase y sin anuncios:** Biblyx.
 
 ## La tabla comparativa
@@ -29,7 +29,7 @@ Aprender un idioma leyendo funciona, y hay varias apps construidas en torno a es
 | Beelinguapp (Android, iPhone) | no se menciona en su ficha | traducción junto al texto; tocar una palabra para ver su significado en el diccionario | prueba al final de cada historia | historias bilingües y audiolibros | 20+ | sí |
 | Smart Book (Android, iPhone) | FB2, EPUB, TXT, subtítulos .srt | traducción paralela; elección de servicios como Google Translate, DeepL y chatbots de IA | palabras guardadas, exportación a Anki o ReWord | historias bilingües | inglés, alemán, francés, español, italiano y más | sí |
 | Readable (Android; iPhone no comprobado) | no se menciona; relatos y noticias en inglés dentro de la app | audio y traducción de cada palabra | Word Trainer | relatos simplificados, noticias diarias | inglés | sí |
-| Readlang (web, extensión de Chrome) | textos y artículos que subes; cualquier página web con la extensión | clic en una palabra o frase para traducirla; explicaciones de IA en contexto | tarjetas, exportación | artículos en su web | 100+ | no está en Google Play |
+| Readlang (web, extensión de Chrome) | textos y artículos que subes; la mayoría de las páginas web con la extensión | clic en una palabra o frase para traducirla; explicaciones de IA en contexto | tarjetas, exportación | artículos en su web | 100+ | no está en Google Play |
 | Biblyx (Android) | EPUB, TXT, PDF con texto, texto pegado | significado de IA ajustado a la frase, modismos, artículos de los sustantivos | tarjetas con la frase del libro, exportación a Anki y CSV | 29 relatos cortos | 10, más 4 en beta | no |
 
 Las seis apps de Google Play se descargan gratis y ofrecen compras dentro de la app. Readlang funciona en el navegador, con un plan gratuito y planes de pago.
@@ -56,7 +56,7 @@ Readable es solo para quien aprende inglés. Profesores simplifican relatos cort
 
 ## Readlang
 
-Readlang funciona en el navegador y como extensión de Chrome. Haces clic en una palabra o una frase de cualquier texto o web para traducirla, la IA explica palabras y frases en su contexto, y cada palabra que traduces se guarda para practicarla con tarjetas, que también puedes exportar. Puedes subir tus propios textos y artículos o leer los artículos de su web. Su web indica más de 100 idiomas y enlaza una guía para añadir Readlang a la pantalla de inicio de un iPhone o un Android; no hay app de Readlang en Google Play. El plan gratuito tiene traducciones ilimitadas de palabras sueltas y 10 traducciones de frases y 10 explicaciones de IA al día; los planes de pago quitan esos límites. Encaja con quien lee mucho en el navegador, en el ordenador.
+Readlang funciona en el navegador y como extensión de Chrome. Haces clic en una palabra o una frase de un texto o de la mayoría de las webs para traducirla, la IA explica palabras y frases en su contexto, y cada palabra que traduces se guarda para practicarla con tarjetas, que también puedes exportar. Puedes subir tus propios textos y artículos o leer los artículos de su web. Su web indica más de 100 idiomas y enlaza una guía para añadir Readlang a la pantalla de inicio de un iPhone o un Android; no hay app de Readlang en Google Play. El plan gratuito tiene traducciones ilimitadas de palabras sueltas y 10 traducciones de frases y 10 explicaciones de IA al día; los planes de pago quitan esos límites. Encaja con quien lee mucho en el navegador, en el ordenador.
 
 ## Biblyx
 
@@ -64,7 +64,7 @@ Biblyx es un lector para tus propios libros. Abres un EPUB, un TXT o un PDF con 
 
 Dónde Biblyx se queda corta:
 - Solo funciona en Android; hay una versión para iPhone prevista, sin fecha.
-- Traduce libros en 10 idiomas, más 4 en beta. LingQ tiene más de 55.
+- La traducción de palabras funciona con libros en 10 idiomas, más 4 en beta. LingQ tiene más de 55.
 - No tiene lecciones, pódcasts ni audiolibros; para escuchar usa la lectura en voz alta de tu móvil.
 - Buscar una palabra nueva necesita conexión, y sin Premium las traducciones con IA tienen un cupo diario.
 
