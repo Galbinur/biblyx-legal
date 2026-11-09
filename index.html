@@ -241,6 +241,32 @@
     .hero .mark{display:none;}
     .hero p.lead{font-size:17px; margin-bottom:24px;}
   }
+  /* Guides */
+  .guides{padding-top:64px; padding-bottom:64px; border-top:1px solid var(--rule);}
+  .guides h2{font-size:32px; text-align:center; margin:0 0 14px;}
+  .guides .intro{text-align:center; color:var(--dim); max-width:600px; margin:0 auto 36px; font-size:16px;}
+  .guide-grid{display:grid; grid-template-columns:repeat(3, 1fr); gap:20px;}
+  .guide-card{
+    display:block; background:var(--surface); border:1px solid var(--rule); border-radius:16px;
+    padding:24px 26px; text-decoration:none; color:var(--ink); transition:transform .15s ease;
+  }
+  .guide-card:hover{transform:translateY(-2px);}
+  .guide-card h3{font-size:16.5px; margin:0 0 8px; font-family:inherit;}
+  .guide-card p{font-size:14.5px; color:var(--dim); margin:0;}
+  .guide-card .more{display:block; margin-top:14px; font-size:14px; font-weight:600; color:var(--teal-deep);}
+  .guide-card .more::after{content:" \2192";}
+
+  /* Facts */
+  .facts{padding-top:64px; padding-bottom:64px; border-top:1px solid var(--rule);}
+  .facts h2{font-size:32px; text-align:center; margin:0 0 36px;}
+  .facts dl{max-width:760px; margin:0 auto; display:grid; grid-template-columns:200px 1fr; gap:12px 24px; font-size:14.5px;}
+  .facts dt{color:var(--dim); font-weight:600;}
+  .facts dd{margin:0; line-height:1.6;}
+  @media (max-width:720px){
+    .guide-grid{grid-template-columns:1fr;}
+    .facts dl{grid-template-columns:1fr; gap:4px;}
+    .facts dd{margin-bottom:14px;}
+  }
 </style>
 </head>
 <body>
@@ -265,6 +291,7 @@
   <div class="links">
     <a href="#how">How it works</a>
     <a href="#features">Features</a>
+    <a href="#guides">Guides</a>
     <a href="#premium">Premium</a>
     <a href="#faq">FAQ</a>
     <a href="#contact">Contact</a>
@@ -380,6 +407,40 @@
       <h3>Search, highlights and sync</h3>
       <p>Search inside a book, add bookmarks and highlight in four colors. Sign in to sync saved words, review progress, bookmarks and highlights between devices; book files stay on your device.</p>
     </div>
+    <div class="feature">
+      <h3>Paste any text</h3>
+      <p>Paste an article, a story or a long message and read it like a book, with the same tap-to-translate and the same flashcards.</p>
+    </div>
+    <div class="feature">
+      <h3>A reading reminder at your time</h3>
+      <p>An optional daily reminder at a time you choose, offered once after your first read. Ten minutes a day beats two hours on Sunday.</p>
+    </div>
+    <div class="feature">
+      <h3>Light or dark, still or scrolling</h3>
+      <p>Read in a light or a dark theme, and switch on auto-scroll for hands-free reading.</p>
+    </div>
+  </div>
+</section>
+
+<section class="guides wrap" id="guides">
+  <h2>Guides</h2>
+  <p class="intro">Short, practical pages: which books to start with at your level, how the reader works, and what each update changed.</p>
+  <div class="guide-grid">
+    <a class="guide-card" href="/english-books-for-beginners/">
+      <h3>English books for beginners: what to read at each level</h3>
+      <p>A1 to B2 lists, where to get the books legally for nothing, and how to read on a phone without losing the story.</p>
+      <span class="more">Read more</span>
+    </a>
+    <a class="guide-card" href="/epub-reader-with-translation/">
+      <h3>An EPUB, PDF and TXT reader with translation</h3>
+      <p>What the tap on a word gives you, which files open, how a word becomes a flashcard, and what the app is not for.</p>
+      <span class="more">Read more</span>
+    </a>
+    <a class="guide-card" href="/whats-new/">
+      <h3>What's new in Biblyx</h3>
+      <p>Every version since 1.1.0, in the words of its release notes. Current: 1.3.0, 7 November 2026.</p>
+      <span class="more">Read more</span>
+    </a>
   </div>
 </section>
 
@@ -427,6 +488,10 @@
       <div class="faq-item">
         <h3>How is Biblyx different from a dictionary or a flashcard app?</h3>
         <p>Biblyx builds your vocabulary from the books you read, not from ready-made word lists. Each meaning is fitted to the sentence you are reading, and each saved word keeps that sentence on its card.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Can I read an article or a text I copied?</h3>
+        <p>Yes. Paste any text (an article, a story, a message) and Biblyx opens it like a book in your library: tap a word for its meaning in that sentence and save it as a flashcard, exactly as with a book.</p>
       </div>
   </div>
 </section>
@@ -506,10 +571,34 @@
         "@type": "Answer",
         "text": "Biblyx builds your vocabulary from the books you read, not from ready-made word lists. Each meaning is fitted to the sentence you are reading, and each saved word keeps that sentence on its card."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I read an article or a text I copied?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Paste any text (an article, a story, a message) and Biblyx opens it like a book in your library: tap a word for its meaning in that sentence and save it as a flashcard, exactly as with a book."
+      }
     }
   ]
 }
 </script>
+<section class="facts wrap" id="facts">
+  <h2>Biblyx at a glance</h2>
+  <dl>
+    <dt>Platform</dt><dd>Android, on Google Play. An iPhone version is planned, with no date.</dd>
+    <dt>Files</dt><dd>EPUB, TXT, text-based PDF and pasted text. Books locked to a store or library app (Kindle, Apple Books, library loans) don't open.</dd>
+    <dt>Book languages</dt><dd>English, German, Spanish, French, Italian, Russian, Polish, Portuguese, Turkish and Azerbaijani; Swedish, Dutch, Ukrainian and Tajik in beta.</dd>
+    <dt>Interface</dt><dd>The same 10 languages. Meanings appear in the interface language.</dd>
+    <dt>Starter library</dt><dd>29 short stories and tales in 10 languages, already in the app.</dd>
+    <dt>Cost</dt><dd>Reading, Word Lab, export, reminders and sync need no subscription; no ads. AI translations use a daily allowance; Premium removes the daily limit with a monthly, six-month or yearly plan.</dd>
+    <dt>Offline</dt><dd>Reading and flashcard review work offline. Looking up a new word needs a connection.</dd>
+    <dt>Your data</dt><dd>Book files stay on your device. With an account, saved words, progress, bookmarks and highlights sync; books never do.</dd>
+    <dt>Developer</dt><dd>Made by Galbinur Guliyev, an independent developer in Azerbaijan.</dd>
+    <dt>Current version</dt><dd>1.3.0, on Google Play since 7 November 2026.</dd>
+  </dl>
+</section>
+
 <footer class="wrap">
   <div class="foot-social">
     <a href="https://instagram.com/biblyxapp" target="_blank" rel="noopener" aria-label="Biblyx on Instagram">

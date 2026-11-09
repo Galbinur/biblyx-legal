@@ -235,6 +235,32 @@
     .hero .mark{display:none;}
     .hero p.lead{font-size:17px; margin-bottom:24px;}
   }
+  /* Guides */
+  .guides{padding-top:64px; padding-bottom:64px; border-top:1px solid var(--rule);}
+  .guides h2{font-size:32px; text-align:center; margin:0 0 14px;}
+  .guides .intro{text-align:center; color:var(--dim); max-width:600px; margin:0 auto 36px; font-size:16px;}
+  .guide-grid{display:grid; grid-template-columns:repeat(3, 1fr); gap:20px;}
+  .guide-card{
+    display:block; background:var(--surface); border:1px solid var(--rule); border-radius:16px;
+    padding:24px 26px; text-decoration:none; color:var(--ink); transition:transform .15s ease;
+  }
+  .guide-card:hover{transform:translateY(-2px);}
+  .guide-card h3{font-size:16.5px; margin:0 0 8px; font-family:inherit;}
+  .guide-card p{font-size:14.5px; color:var(--dim); margin:0;}
+  .guide-card .more{display:block; margin-top:14px; font-size:14px; font-weight:600; color:var(--teal-deep);}
+  .guide-card .more::after{content:" \2192";}
+
+  /* Facts */
+  .facts{padding-top:64px; padding-bottom:64px; border-top:1px solid var(--rule);}
+  .facts h2{font-size:32px; text-align:center; margin:0 0 36px;}
+  .facts dl{max-width:760px; margin:0 auto; display:grid; grid-template-columns:200px 1fr; gap:12px 24px; font-size:14.5px;}
+  .facts dt{color:var(--dim); font-weight:600;}
+  .facts dd{margin:0; line-height:1.6;}
+  @media (max-width:720px){
+    .guide-grid{grid-template-columns:1fr;}
+    .facts dl{grid-template-columns:1fr; gap:4px;}
+    .facts dd{margin-bottom:14px;}
+  }
 </style>
 </head>
 <body>
@@ -259,6 +285,7 @@
   <div class="links">
     <a href="#how">Как это работает</a>
     <a href="#features">Возможности</a>
+    <a href="#guides">Руководства</a>
     <a href="#premium">Premium</a>
     <a href="#faq">Вопросы</a>
     <a href="#contact">Контакты</a>
@@ -374,6 +401,40 @@
       <h3>Поиск, выделения и синхронизация</h3>
       <p>Пользуйтесь поиском по книге, добавляйте закладки и выделяйте текст четырьмя цветами. Войдите в аккаунт, чтобы синхронизировать между устройствами сохранённые слова, прогресс повторений, закладки и выделения; файлы книг остаются на вашем устройстве.</p>
     </div>
+    <div class="feature">
+      <h3>Вставьте любой текст</h3>
+      <p>Вставьте статью, рассказ или длинное сообщение и читайте как книгу: тот же перевод по нажатию, те же карточки.</p>
+    </div>
+    <div class="feature">
+      <h3>Напоминание о чтении в ваше время</h3>
+      <p>Необязательное ежедневное напоминание в выбранное вами время, предлагается один раз после первого чтения. Десять минут в день лучше двух часов в воскресенье.</p>
+    </div>
+    <div class="feature">
+      <h3>Светлая или тёмная, с автопрокруткой или без</h3>
+      <p>Читайте в светлой или тёмной теме и включайте автопрокрутку, чтобы читать, не касаясь экрана.</p>
+    </div>
+  </div>
+</section>
+
+<section class="guides wrap" id="guides">
+  <h2>Руководства</h2>
+  <p class="intro">Короткие практичные страницы: с каких книг начать на вашем уровне, как устроена читалка и что изменило каждое обновление.</p>
+  <div class="guide-grid">
+    <a class="guide-card" href="/ru/knigi-na-angliyskom-dlya-nachinayushchih/">
+      <h3>Книги на английском для начинающих: что читать на каждом уровне</h3>
+      <p>Списки от A1 до B2, где взять книги бесплатно и легально, и как читать на телефоне, не теряя сюжет.</p>
+      <span class="more">Читать</span>
+    </a>
+    <a class="guide-card" href="/ru/chitalka-s-perevodom/">
+      <h3>Читалка EPUB, PDF и TXT с переводом</h3>
+      <p>Что даёт нажатие на слово, какие файлы открываются, как слово становится карточкой и кому приложение не подойдёт.</p>
+      <span class="more">Читать</span>
+    </a>
+    <a class="guide-card" href="/ru/chto-novogo/">
+      <h3>Что нового в Biblyx</h3>
+      <p>Каждая версия с 1.1.0 словами её заметок о выпуске. Текущая: 1.3.0, 7 ноября 2026.</p>
+      <span class="more">Читать</span>
+    </a>
   </div>
 </section>
 
@@ -421,6 +482,10 @@
       <div class="faq-item">
         <h3>Чем Biblyx отличается от словаря или приложения с карточками?</h3>
         <p>С Biblyx вы пополняете словарный запас словами из книг, которые читаете, а не из готовых списков слов. Значение каждого слова подбирается под предложение, в котором оно встретилось, а на карточке сохранённого слова остаётся это предложение.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Можно ли читать статью или скопированный текст?</h3>
+        <p>Да. Вставьте любой текст (статью, рассказ, сообщение), и Biblyx откроет его как книгу в вашей библиотеке: нажмите на слово, чтобы увидеть его значение в этом предложении, и сохраните карточкой, как в книге.</p>
       </div>
   </div>
 </section>
@@ -500,10 +565,34 @@
         "@type": "Answer",
         "text": "С Biblyx вы пополняете словарный запас словами из книг, которые читаете, а не из готовых списков слов. Значение каждого слова подбирается под предложение, в котором оно встретилось, а на карточке сохранённого слова остаётся это предложение."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Можно ли читать статью или скопированный текст?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Да. Вставьте любой текст (статью, рассказ, сообщение), и Biblyx откроет его как книгу в вашей библиотеке: нажмите на слово, чтобы увидеть его значение в этом предложении, и сохраните карточкой, как в книге."
+      }
     }
   ]
 }
 </script>
+<section class="facts wrap" id="facts">
+  <h2>Biblyx коротко</h2>
+  <dl>
+    <dt>Платформа</dt><dd>Android, в Google Play. Версия для iPhone планируется, даты нет.</dd>
+    <dt>Файлы</dt><dd>EPUB, TXT, PDF с текстовым слоем и вставленный текст. Книги, привязанные к магазину или библиотечному приложению (Kindle, Apple Books, библиотечные выдачи), не открываются.</dd>
+    <dt>Языки книг</dt><dd>Английский, немецкий, испанский, французский, итальянский, русский, польский, португальский, турецкий и азербайджанский; шведский, нидерландский, украинский и таджикский в бете.</dd>
+    <dt>Интерфейс</dt><dd>Те же 10 языков. Значения показываются на языке интерфейса.</dd>
+    <dt>Стартовая библиотека</dt><dd>29 коротких рассказов и сказок на 10 языках, уже в приложении.</dd>
+    <dt>Стоимость</dt><dd>Чтение, Word Lab, экспорт, напоминания и синхронизация не требуют подписки; рекламы нет. У переводов ИИ есть дневной лимит; Premium снимает его на месяц, полгода или год.</dd>
+    <dt>Офлайн</dt><dd>Чтение и повторение карточек работают без интернета. Посмотреть новое слово можно только с подключением.</dd>
+    <dt>Ваши данные</dt><dd>Файлы книг остаются на устройстве. С аккаунтом синхронизируются сохранённые слова, прогресс, закладки и выделения; книги никогда.</dd>
+    <dt>Разработчик</dt><dd>Независимый проект Galbinur Guliyev из Азербайджана.</dd>
+    <dt>Текущая версия</dt><dd>1.3.0, в Google Play с 7 ноября 2026.</dd>
+  </dl>
+</section>
+
 <footer class="wrap">
   <div class="foot-social">
     <a href="https://instagram.com/biblyxapp" target="_blank" rel="noopener" aria-label="Biblyx в Instagram">

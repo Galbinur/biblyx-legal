@@ -235,6 +235,32 @@
     .hero .mark{display:none;}
     .hero p.lead{font-size:17px; margin-bottom:24px;}
   }
+  /* Guides */
+  .guides{padding-top:64px; padding-bottom:64px; border-top:1px solid var(--rule);}
+  .guides h2{font-size:32px; text-align:center; margin:0 0 14px;}
+  .guides .intro{text-align:center; color:var(--dim); max-width:600px; margin:0 auto 36px; font-size:16px;}
+  .guide-grid{display:grid; grid-template-columns:repeat(3, 1fr); gap:20px;}
+  .guide-card{
+    display:block; background:var(--surface); border:1px solid var(--rule); border-radius:16px;
+    padding:24px 26px; text-decoration:none; color:var(--ink); transition:transform .15s ease;
+  }
+  .guide-card:hover{transform:translateY(-2px);}
+  .guide-card h3{font-size:16.5px; margin:0 0 8px; font-family:inherit;}
+  .guide-card p{font-size:14.5px; color:var(--dim); margin:0;}
+  .guide-card .more{display:block; margin-top:14px; font-size:14px; font-weight:600; color:var(--teal-deep);}
+  .guide-card .more::after{content:" \2192";}
+
+  /* Facts */
+  .facts{padding-top:64px; padding-bottom:64px; border-top:1px solid var(--rule);}
+  .facts h2{font-size:32px; text-align:center; margin:0 0 36px;}
+  .facts dl{max-width:760px; margin:0 auto; display:grid; grid-template-columns:200px 1fr; gap:12px 24px; font-size:14.5px;}
+  .facts dt{color:var(--dim); font-weight:600;}
+  .facts dd{margin:0; line-height:1.6;}
+  @media (max-width:720px){
+    .guide-grid{grid-template-columns:1fr;}
+    .facts dl{grid-template-columns:1fr; gap:4px;}
+    .facts dd{margin-bottom:14px;}
+  }
 </style>
 </head>
 <body>
@@ -259,6 +285,7 @@
   <div class="links">
     <a href="#how">Nasıl çalışır</a>
     <a href="#features">Özellikler</a>
+    <a href="#guides">Rehberler</a>
     <a href="#premium">Premium</a>
     <a href="#faq">SSS</a>
     <a href="#contact">İletişim</a>
@@ -374,6 +401,40 @@
       <h3>Arama, vurgulama ve senkronizasyon</h3>
       <p>Kitabın içinde arama yap, yer imi ekle ve dört renkte vurgula. Kaydettiğin kelimeleri, kart tekrarındaki ilerlemeni, yer imlerini ve vurgularını cihazlar arasında senkronize etmek için giriş yap; kitap dosyaları cihazında kalır.</p>
     </div>
+    <div class="feature">
+      <h3>Herhangi bir metni yapıştır</h3>
+      <p>Bir makaleyi, hikâyeyi ya da uzun bir mesajı yapıştır ve kitap gibi oku: aynı dokunarak çeviri, aynı kartlar.</p>
+    </div>
+    <div class="feature">
+      <h3>Seçtiğin saatte okuma hatırlatıcısı</h3>
+      <p>İlk okumandan sonra bir kez önerilen, saatini senin seçtiğin isteğe bağlı günlük hatırlatıcı. Günde on dakika, pazar günü iki saatten iyidir.</p>
+    </div>
+    <div class="feature">
+      <h3>Açık ya da koyu, sabit ya da kayan</h3>
+      <p>Açık ya da koyu temada oku; eller serbest okumak için otomatik kaydırmayı aç.</p>
+    </div>
+  </div>
+</section>
+
+<section class="guides wrap" id="guides">
+  <h2>Rehberler</h2>
+  <p class="intro">Kısa, pratik sayfalar: kendi seviyende hangi kitaplarla başlamalı, okuyucu nasıl çalışır ve her güncelleme neyi değiştirdi.</p>
+  <div class="guide-grid">
+    <a class="guide-card" href="/tr/baslangic-icin-ingilizce-kitaplar/">
+      <h3>Başlangıç için İngilizce kitaplar: her seviyede ne okumalı</h3>
+      <p>A1'den B2'ye listeler, kitapları ücretsiz ve yasal yoldan nereden bulmalı, telefonda hikâyeyi kaybetmeden nasıl okumalı.</p>
+      <span class="more">Oku</span>
+    </a>
+    <a class="guide-card" href="/tr/ingilizce-kitap-okuma-uygulamasi/">
+      <h3>Çevirili EPUB, PDF ve TXT okuyucu</h3>
+      <p>Kelimeye dokununca ne alırsın, hangi dosyalar açılır, kelime nasıl karta dönüşür ve uygulama kimin için değil.</p>
+      <span class="more">Oku</span>
+    </a>
+    <a class="guide-card" href="/tr/yenilikler/">
+      <h3>Biblyx'teki yenilikler</h3>
+      <p>1.1.0'dan bu yana her sürüm, sürüm notlarının kendi sözleriyle. Güncel: 1.3.0, 7 Kasım 2026.</p>
+      <span class="more">Oku</span>
+    </a>
   </div>
 </section>
 
@@ -421,6 +482,10 @@
       <div class="faq-item">
         <h3>Biblyx, bir sözlükten veya kelime kartı uygulamasından nasıl farklı?</h3>
         <p>Biblyx, kelime dağarcığını hazır kelime listelerinden değil, okuduğun kitaplardan oluşturur. Her anlam okuduğun cümleye uyacak şekilde verilir ve kaydettiğin her kelime o cümleyi kartında saklar.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Bir makaleyi ya da kopyaladığım metni okuyabilir miyim?</h3>
+        <p>Evet. Herhangi bir metni (makale, hikâye, mesaj) yapıştır; Biblyx onu kütüphanende kitap gibi açar: kelimeye dokun, o cümledeki anlamını gör, kart olarak kaydet, bir kitapta olduğu gibi.</p>
       </div>
   </div>
 </section>
@@ -500,10 +565,34 @@
         "@type": "Answer",
         "text": "Biblyx, kelime dağarcığını hazır kelime listelerinden değil, okuduğun kitaplardan oluşturur. Her anlam okuduğun cümleye uyacak şekilde verilir ve kaydettiğin her kelime o cümleyi kartında saklar."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Bir makaleyi ya da kopyaladığım metni okuyabilir miyim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Evet. Herhangi bir metni (makale, hikâye, mesaj) yapıştır; Biblyx onu kütüphanende kitap gibi açar: kelimeye dokun, o cümledeki anlamını gör, kart olarak kaydet, bir kitapta olduğu gibi."
+      }
     }
   ]
 }
 </script>
+<section class="facts wrap" id="facts">
+  <h2>Bir bakışta Biblyx</h2>
+  <dl>
+    <dt>Platform</dt><dd>Android, Google Play'de. iPhone sürümü planlanıyor, tarih yok.</dd>
+    <dt>Dosyalar</dt><dd>EPUB, TXT, metin tabanlı PDF ve yapıştırılan metin. Mağazaya ya da kütüphane uygulamasına kilitli kitaplar (Kindle, Apple Books, kütüphane ödünçleri) açılmaz.</dd>
+    <dt>Kitap dilleri</dt><dd>İngilizce, Almanca, İspanyolca, Fransızca, İtalyanca, Rusça, Lehçe, Portekizce, Türkçe ve Azerbaycanca; İsveççe, Felemenkçe, Ukraynaca ve Tacikçe betada.</dd>
+    <dt>Arayüz</dt><dd>Aynı 10 dil. Anlamlar arayüz dilinde görünür.</dd>
+    <dt>Başlangıç kütüphanesi</dt><dd>10 dilde 29 kısa hikâye ve masal, uygulamanın içinde hazır.</dd>
+    <dt>Ücret</dt><dd>Okuma, Word Lab, dışa aktarma, hatırlatıcı ve eşitleme için abonelik gerekmez; reklam yok. Yapay zekâ çevirilerinin günlük hakkı var; Premium günlük sınırı kaldırır, aylık, altı aylık ya da yıllık planla.</dd>
+    <dt>Çevrimdışı</dt><dd>Okuma ve kart tekrarı çevrimdışı çalışır. Yeni bir kelimeye bakmak bağlantı ister.</dd>
+    <dt>Verilerin</dt><dd>Kitap dosyaları cihazında kalır. Hesapla kayıtlı kelimeler, ilerleme, yer imleri ve vurgular eşitlenir; kitaplar asla.</dd>
+    <dt>Geliştirici</dt><dd>Azerbaycan'da bağımsız bir geliştirici olan Galbinur Guliyev tarafından hazırlandı.</dd>
+    <dt>Güncel sürüm</dt><dd>1.3.0, 7 Kasım 2026'dan beri Google Play'de.</dd>
+  </dl>
+</section>
+
 <footer class="wrap">
   <div class="foot-social">
     <a href="https://instagram.com/biblyxapp" target="_blank" rel="noopener" aria-label="Instagram'da Biblyx">

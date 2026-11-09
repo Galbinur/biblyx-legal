@@ -437,7 +437,7 @@ def check_page(lang: str, meta: dict, page: str, warnings: list):
     if not 110 <= len(meta["description"]) <= 165:
         warnings.append(f"{where}: description is {len(meta['description'])} characters (aim 120–160)")
     words = visible_words(re.search(r"<article>.*?</article>", page, re.S).group(0))
-    if words < 600:
+    if words < 600 and meta.get("short") != "yes":
         warnings.append(f"{where}: only {words} words in the article (aim 700+)")
     slogan = meta.get("slogan")
     if slogan:

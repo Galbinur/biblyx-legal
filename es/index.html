@@ -235,6 +235,32 @@
     .hero .mark{display:none;}
     .hero p.lead{font-size:17px; margin-bottom:24px;}
   }
+  /* Guides */
+  .guides{padding-top:64px; padding-bottom:64px; border-top:1px solid var(--rule);}
+  .guides h2{font-size:32px; text-align:center; margin:0 0 14px;}
+  .guides .intro{text-align:center; color:var(--dim); max-width:600px; margin:0 auto 36px; font-size:16px;}
+  .guide-grid{display:grid; grid-template-columns:repeat(3, 1fr); gap:20px;}
+  .guide-card{
+    display:block; background:var(--surface); border:1px solid var(--rule); border-radius:16px;
+    padding:24px 26px; text-decoration:none; color:var(--ink); transition:transform .15s ease;
+  }
+  .guide-card:hover{transform:translateY(-2px);}
+  .guide-card h3{font-size:16.5px; margin:0 0 8px; font-family:inherit;}
+  .guide-card p{font-size:14.5px; color:var(--dim); margin:0;}
+  .guide-card .more{display:block; margin-top:14px; font-size:14px; font-weight:600; color:var(--teal-deep);}
+  .guide-card .more::after{content:" \2192";}
+
+  /* Facts */
+  .facts{padding-top:64px; padding-bottom:64px; border-top:1px solid var(--rule);}
+  .facts h2{font-size:32px; text-align:center; margin:0 0 36px;}
+  .facts dl{max-width:760px; margin:0 auto; display:grid; grid-template-columns:200px 1fr; gap:12px 24px; font-size:14.5px;}
+  .facts dt{color:var(--dim); font-weight:600;}
+  .facts dd{margin:0; line-height:1.6;}
+  @media (max-width:720px){
+    .guide-grid{grid-template-columns:1fr;}
+    .facts dl{grid-template-columns:1fr; gap:4px;}
+    .facts dd{margin-bottom:14px;}
+  }
 </style>
 </head>
 <body>
@@ -259,6 +285,7 @@
   <div class="links">
     <a href="#how">Cómo funciona</a>
     <a href="#features">Funciones</a>
+    <a href="#guides">Guías</a>
     <a href="#premium">Premium</a>
     <a href="#faq">FAQ</a>
     <a href="#contact">Contacto</a>
@@ -374,6 +401,40 @@
       <h3>Búsqueda, resaltados y sincronización</h3>
       <p>Busca dentro de un libro, añade marcadores y resalta pasajes en cuatro colores. Inicia sesión para sincronizar entre dispositivos tus palabras guardadas, tu progreso de repaso, tus marcadores y tus resaltados; los archivos de los libros se quedan en tu dispositivo.</p>
     </div>
+    <div class="feature">
+      <h3>Pega cualquier texto</h3>
+      <p>Pega un artículo, un cuento o un mensaje largo y léelo como un libro, con la misma traducción al tocar y las mismas tarjetas.</p>
+    </div>
+    <div class="feature">
+      <h3>Un recordatorio de lectura a tu hora</h3>
+      <p>Un recordatorio diario opcional a la hora que elijas, ofrecido una vez tras tu primera lectura. Diez minutos al día valen más que dos horas el domingo.</p>
+    </div>
+    <div class="feature">
+      <h3>Claro u oscuro, quieto o en movimiento</h3>
+      <p>Lee con tema claro u oscuro y activa el desplazamiento automático para leer sin tocar la pantalla.</p>
+    </div>
+  </div>
+</section>
+
+<section class="guides wrap" id="guides">
+  <h2>Guías</h2>
+  <p class="intro">Páginas cortas y prácticas: con qué libros empezar en tu nivel, cómo funciona el lector y qué cambió cada actualización.</p>
+  <div class="guide-grid">
+    <a class="guide-card" href="/es/libros-en-ingles-para-principiantes/">
+      <h3>Libros en inglés para principiantes: qué leer en cada nivel</h3>
+      <p>Listas de A1 a B2, dónde conseguir los libros gratis y de forma legal, y cómo leer en el móvil sin perder el hilo.</p>
+      <span class="more">Leer más</span>
+    </a>
+    <a class="guide-card" href="/es/app-para-leer-libros-en-ingles/">
+      <h3>Un lector de EPUB, PDF y TXT con traducción</h3>
+      <p>Qué te da el toque en una palabra, qué archivos se abren, cómo una palabra se convierte en tarjeta y para quién no es la app.</p>
+      <span class="more">Leer más</span>
+    </a>
+    <a class="guide-card" href="/es/novedades/">
+      <h3>Novedades de Biblyx</h3>
+      <p>Cada versión desde la 1.1.0, con las palabras de sus notas. Actual: 1.3.0, 7 de noviembre de 2026.</p>
+      <span class="more">Leer más</span>
+    </a>
   </div>
 </section>
 
@@ -421,6 +482,10 @@
       <div class="faq-item">
         <h3>¿En qué se diferencia Biblyx de un diccionario o de una app de tarjetas?</h3>
         <p>Con Biblyx, tu vocabulario se forma a partir de los libros que lees, no de listas de palabras predefinidas. Cada significado se ajusta a la frase que estás leyendo, y cada palabra guardada conserva esa frase en su tarjeta.</p>
+      </div>
+      <div class="faq-item">
+        <h3>¿Puedo leer un artículo o un texto que he copiado?</h3>
+        <p>Sí. Pega cualquier texto (un artículo, un cuento, un mensaje) y Biblyx lo abre como un libro en tu biblioteca: toca una palabra para ver su significado en esa frase y guárdala como tarjeta, igual que con un libro.</p>
       </div>
   </div>
 </section>
@@ -500,10 +565,34 @@
         "@type": "Answer",
         "text": "Con Biblyx, tu vocabulario se forma a partir de los libros que lees, no de listas de palabras predefinidas. Cada significado se ajusta a la frase que estás leyendo, y cada palabra guardada conserva esa frase en su tarjeta."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puedo leer un artículo o un texto que he copiado?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. Pega cualquier texto (un artículo, un cuento, un mensaje) y Biblyx lo abre como un libro en tu biblioteca: toca una palabra para ver su significado en esa frase y guárdala como tarjeta, igual que con un libro."
+      }
     }
   ]
 }
 </script>
+<section class="facts wrap" id="facts">
+  <h2>Biblyx de un vistazo</h2>
+  <dl>
+    <dt>Plataforma</dt><dd>Android, en Google Play. La versión para iPhone está prevista, sin fecha.</dd>
+    <dt>Archivos</dt><dd>EPUB, TXT, PDF con texto y texto pegado. Los libros atados a una tienda o a una app de biblioteca (Kindle, Apple Books, préstamos de biblioteca) no se abren.</dd>
+    <dt>Idiomas de los libros</dt><dd>Inglés, alemán, español, francés, italiano, ruso, polaco, portugués, turco y azerbaiyano; sueco, neerlandés, ucraniano y tayiko en beta.</dd>
+    <dt>Interfaz</dt><dd>Los mismos 10 idiomas. Los significados aparecen en el idioma de la interfaz.</dd>
+    <dt>Biblioteca inicial</dt><dd>29 cuentos y relatos cortos en 10 idiomas, ya dentro de la app.</dd>
+    <dt>Coste</dt><dd>Leer, Word Lab, exportar, los recordatorios y la sincronización no necesitan suscripción; sin anuncios. Las traducciones con IA tienen un cupo diario; Premium elimina el límite diario con un plan mensual, semestral o anual.</dd>
+    <dt>Sin conexión</dt><dd>Leer y repasar tarjetas funciona sin conexión. Consultar una palabra nueva necesita internet.</dd>
+    <dt>Tus datos</dt><dd>Los archivos de los libros se quedan en tu dispositivo. Con una cuenta se sincronizan palabras guardadas, progreso, marcadores y subrayados; los libros, nunca.</dd>
+    <dt>Desarrollador</dt><dd>Un proyecto independiente de Galbinur Guliyev, en Azerbaiyán.</dd>
+    <dt>Versión actual</dt><dd>1.3.0, en Google Play desde el 7 de noviembre de 2026.</dd>
+  </dl>
+</section>
+
 <footer class="wrap">
   <div class="foot-social">
     <a href="https://instagram.com/biblyxapp" target="_blank" rel="noopener" aria-label="Biblyx en Instagram">
