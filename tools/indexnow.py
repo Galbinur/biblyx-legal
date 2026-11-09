@@ -41,7 +41,7 @@ def url_of(rel: str):
 def changed_since(rev: str) -> list:
     out = subprocess.run(["git", "diff", "--name-only", f"{rev}..HEAD", "--"], cwd=ROOT,
                          capture_output=True, text=True, check=True).stdout.split()
-    urls = sorted({u for u in (url_of(r) for r in out) if u and (ROOT / r).exists()})
+    urls = sorted({url_of(r) for r in out if url_of(r) and (ROOT / r).exists()})
     return urls
 
 
