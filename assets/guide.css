@@ -35,7 +35,8 @@ article ul, article ol{padding-left:24px;}
 article li{margin:6px 0;}
 article blockquote{margin:20px 0; padding:4px 0 4px 18px; border-left:3px solid var(--gold); color:var(--dim);}
 article code{background:var(--surface); border:1px solid var(--rule); border-radius:4px; padding:1px 5px; font-size:.92em;}
-.table-wrap{overflow-x:auto; margin:18px 0;}
+.table-wrap{overflow-x:auto; margin:18px 0; -webkit-overflow-scrolling:touch;}
+.table-wrap table{min-width:720px; font-size:14.5px;}
 table{border-collapse:collapse; width:100%; font-size:15.5px;}
 th,td{border:1px solid var(--rule); padding:9px 10px; text-align:left; vertical-align:top;}
 th{background:var(--surface);}
