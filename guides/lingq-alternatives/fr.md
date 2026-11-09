@@ -1,14 +1,14 @@
 ---
 title: Alternatives à LingQ : applis pour apprendre en lisant
-h1: LingQ et cinq alternatives : applications pour apprendre une langue en lisant, comparées
-description: LingQ, Linga, Beelinguapp, Smart Book, Readable et Biblyx comparées : vos propres livres, formats, traduction, flashcards, langues et publicité.
+h1: LingQ et six alternatives : applications pour apprendre une langue en lisant, comparées
+description: LingQ, Linga, Beelinguapp, Smart Book, Readable, Readlang et Biblyx comparées : vos propres livres, formats, traduction, flashcards, langues et publicité.
 path: alternatives-a-lingq
 date: 2026-11-09
 slogan: Apprenez les langues en lisant vos propres livres
 cta: Ouvrez un EPUB, un PDF ou un TXT, ou collez un texte. Touchez un mot, voyez son sens dans cette phrase, enregistrez-le et révisez-le plus tard.
 ---
 
-Apprendre une langue en lisant fonctionne, et plusieurs applications sont construites autour de cette idée. Elles diffèrent sur trois points : ce que vous lisez (leur bibliothèque ou vos propres livres), la façon dont vous obtenez le sens (un dictionnaire, une traduction à côté du texte ou un sens choisi pour votre phrase) et ce que deviennent les mots ensuite. Cette page compare six applications sur ces points. Biblyx est notre application : gardez donc en tête que cette comparaison est écrite par l'un des acteurs. Chaque information sur les cinq autres vient de leurs propres pages Google Play, vérifiées le 9 novembre 2026, et nous disons clairement où Biblyx est moins forte.
+Apprendre une langue en lisant fonctionne, et plusieurs applications sont construites autour de cette idée. Elles diffèrent sur trois points : ce que vous lisez (leur bibliothèque ou vos propres livres), la façon dont vous obtenez le sens (un dictionnaire, une traduction à côté du texte ou un sens choisi pour votre phrase) et ce que deviennent les mots ensuite. Cette page compare sept applications sur ces points. Biblyx est notre application : gardez donc en tête que cette comparaison est écrite par l'un des acteurs. Chaque information sur les six autres vient de leurs propres pages Google Play, App Store ou de leurs sites, vérifiées le 9 novembre 2026, et nous disons clairement où Biblyx est moins forte.
 
 ## La réponse courte
 
@@ -17,20 +17,22 @@ Apprendre une langue en lisant fonctionne, et plusieurs applications sont constr
 - **Vous débutez et voulez la traduction à côté du texte, avec des livres audio :** Beelinguapp.
 - **Vous voulez lire vos propres EPUB ou FB2 avec une traduction en parallèle et choisir le service de traduction :** Smart Book.
 - **Vous n'apprenez que l'anglais et voulez des histoires simplifiées et des actualités quotidiennes :** Readable.
+- **Vous lisez surtout dans le navigateur, sur ordinateur, et voulez cliquer sur les mots de n'importe quel site :** Readlang.
 - **Vous voulez lire vos propres livres avec le sens adapté à chaque phrase, des cartes qui gardent cette phrase, et sans publicité :** Biblyx.
 
 ## Le tableau comparatif
 
 | Application | Vos propres fichiers | Comment vous obtenez le sens | Révision du vocabulaire | Lecture incluse | Langues à apprendre | Publicité (Google Play) |
 |---|---|---|---|---|---|---|
-| LingQ | livres numériques, articles web, YouTube, Netflix, podcasts | recherche des mots en contexte ; outils d'IA | révision espacée, compteur de mots connus | des milliers de leçons avec audio | 55+ | non |
-| Linga | EPUB, PDF, MOBI, FB2, TXT | toucher un mot ou une expression : traduction et article de dictionnaire | flashcards à répétition espacée, jeux, séries | plus de 1 000 livres | 6 | non |
-| Beelinguapp | non mentionné dans sa fiche | traduction à côté du texte ; toucher un mot pour son sens dans le dictionnaire | quiz après chaque histoire | histoires bilingues et livres audio | 20+ | oui |
-| Smart Book | FB2, EPUB, TXT, sous-titres .srt | traduction en parallèle ; choix de services comme Google Traduction, DeepL et des chatbots d'IA | mots enregistrés, export vers Anki ou ReWord | histoires bilingues | anglais, allemand, français, espagnol, italien et d'autres | oui |
-| Readable | non mentionné ; histoires et actualités en anglais dans l'appli | audio et traduction de chaque mot | Word Trainer | histoires simplifiées, actualités quotidiennes | anglais | oui |
-| Biblyx | EPUB, TXT, PDF avec texte, texte collé | sens donné par l'IA pour la phrase, expressions, articles des noms | cartes avec la phrase du livre, export vers Anki et CSV | 29 nouvelles | 10, plus 4 en bêta | non |
+| LingQ (Android, iPhone, web) | livres numériques, articles web, YouTube, Netflix, podcasts | recherche des mots en contexte ; outils d'IA | révision espacée, compteur de mots connus | des milliers de leçons avec audio | 55+ | non |
+| Linga (Android, iPhone) | EPUB, PDF, MOBI, FB2, TXT | toucher un mot ou une expression : traduction et article de dictionnaire | flashcards à répétition espacée, jeux, séries | plus de 1 000 livres | 6 | non |
+| Beelinguapp (Android, iPhone) | non mentionné dans sa fiche | traduction à côté du texte ; toucher un mot pour son sens dans le dictionnaire | quiz après chaque histoire | histoires bilingues et livres audio | 20+ | oui |
+| Smart Book (Android, iPhone) | FB2, EPUB, TXT, sous-titres .srt | traduction en parallèle ; choix de services comme Google Traduction, DeepL et des chatbots d'IA | mots enregistrés, export vers Anki ou ReWord | histoires bilingues | anglais, allemand, français, espagnol, italien et d'autres | oui |
+| Readable (Android ; iPhone non vérifié) | non mentionné ; histoires et actualités en anglais dans l'appli | audio et traduction de chaque mot | Word Trainer | histoires simplifiées, actualités quotidiennes | anglais | oui |
+| Readlang (web, extension Chrome) | textes et articles importés ; n'importe quelle page web via l'extension | cliquer sur un mot ou une expression pour le traduire ; explications par l'IA en contexte | flashcards, export | articles sur son site | 100+ | absente de Google Play |
+| Biblyx (Android) | EPUB, TXT, PDF avec texte, texte collé | sens donné par l'IA pour la phrase, expressions, articles des noms | cartes avec la phrase du livre, export vers Anki et CSV | 29 nouvelles | 10, plus 4 en bêta | non |
 
-Les six se téléchargent gratuitement sur Google Play et proposent des achats intégrés.
+Les six applications présentes sur Google Play se téléchargent gratuitement et proposent des achats intégrés. Readlang fonctionne dans le navigateur, avec une offre gratuite et des offres payantes.
 
 ## LingQ
 
@@ -52,6 +54,10 @@ Smart Book est une liseuse bilingue : elle affiche le texte original et sa tradu
 
 Readable s'adresse uniquement à ceux qui apprennent l'anglais. Des enseignants simplifient de courtes histoires et les actualités du jour à votre niveau, chaque mot a son audio et sa traduction, et un Word Trainer vous aide à retenir les mots enregistrés. Sa fiche ne mentionne pas le chargement de vos propres livres, et la page Google Play signale la présence de publicité. Si votre objectif est l'anglais et que vous voulez des textes déjà adaptés à votre niveau, c'est un bon choix.
 
+## Readlang
+
+Readlang fonctionne dans le navigateur et sous forme d'extension Chrome. Vous cliquez sur un mot ou une expression de n'importe quel texte ou site pour le traduire, l'IA explique les mots et les expressions en contexte, et chaque mot traduit est enregistré pour être révisé en flashcards, que vous pouvez aussi exporter. Vous pouvez importer vos propres textes et articles ou lire les articles de son site. Son site annonce plus de 100 langues et renvoie vers un guide pour ajouter Readlang à l'écran d'accueil d'un iPhone ou d'un Android ; il n'existe pas d'application Readlang sur Google Play. L'offre gratuite comprend des traductions de mots illimitées, ainsi que 10 traductions d'expressions et 10 explications par l'IA par jour ; les offres payantes lèvent ces limites. Readlang convient à qui lit beaucoup dans le navigateur, sur ordinateur.
+
 ## Biblyx
 
 Biblyx est une liseuse pour vos propres livres. Vous ouvrez un EPUB, un TXT ou un PDF avec du texte, ou vous collez un article, et vous touchez un mot : l'IA lit la phrase et donne le sens qui convient là, avec la nature du mot, sa forme de base et un niveau CECRL estimé. Les expressions arrivent avec leurs deux sens, les noms allemands, espagnols, français, italiens et portugais avec leur article, et les mots composés sont découpés en parties. Les mots enregistrés deviennent des cartes qui gardent la phrase de votre livre et reviennent après 1, 3, 7, 14 et 30 jours ; vous pouvez les exporter vers Anki ou en CSV. La lecture et la révision fonctionnent hors ligne, il n'y a pas de publicité, et 29 nouvelles en 10 langues vous attendent pour vos premières minutes. L'idée tient en une ligne : **Apprenez les langues en lisant vos propres livres**.
@@ -66,12 +72,12 @@ Là où Biblyx est moins forte :
 
 1. **Décidez d'où viennent vos textes.** Pour une bibliothèque choisie pour vous, regardez LingQ, Linga, Beelinguapp ou Readable. Si vous avez déjà des livres à lire, regardez LingQ, Linga, Smart Book ou Biblyx.
 2. **Décidez combien de traduction vous voulez voir.** Une traduction complète à côté du texte facilite le début, mais on est tenté de lire dans sa propre langue. Le sens de mots isolés vous garde dans la langue que vous apprenez.
-3. **Vérifiez la langue que vous apprenez.** Readable ne propose que l'anglais ; Linga, six langues ; LingQ, le plus grand choix.
+3. **Vérifiez la langue que vous apprenez.** Readable ne propose que l'anglais ; Linga, six langues ; LingQ, plus de 55 ; Readlang, plus de 100.
 4. **Essayez deux applications pendant une semaine sur le même chapitre.** Celle que vous continuez d'ouvrir est la bonne.
 
 ## Comment nous avons vérifié
 
-Les informations sur LingQ, Linga, Beelinguapp, Smart Book et Readable viennent de leurs pages Google Play (boutique américaine, en anglais) telles que publiées le 9 novembre 2026 : descriptions, mention de la publicité et achats intégrés. Nous n'avons vérifié ni les versions iPhone et web, ni les prix, qui varient selon les pays. Les applications changent souvent ; si une information est dépassée, écrivez à support@biblyx.com et nous la corrigerons.
+Les informations sur LingQ, Linga, Beelinguapp, Smart Book et Readable viennent de leurs pages Google Play (boutique américaine, en anglais) telles que publiées le 9 novembre 2026 : descriptions, mention de la publicité et achats intégrés. Les versions iPhone ont été vérifiées le même jour sur les pages App Store de LingQ, Linga, Beelinguapp et Smart Book, et les informations sur Readlang et les versions web sur les sites des applications. Nous n'avons vérifié ni la version iPhone de Readable, ni les prix, qui varient selon les pays. Les applications changent souvent ; si une information est dépassée, écrivez à support@biblyx.com et nous la corrigerons.
 
 ## Questions fréquentes
 

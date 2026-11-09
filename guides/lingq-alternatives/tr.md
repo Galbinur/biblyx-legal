@@ -1,14 +1,14 @@
 ---
 title: LingQ alternatifleri: okuyarak dil öğrenme uygulamaları
-h1: LingQ ve beş alternatifi: kitap okuyarak dil öğrenme uygulamaları karşılaştırması
-description: LingQ, Linga, Beelinguapp, Smart Book, Readable ve Biblyx karşılaştırması: kendi kitapların, formatlar, çeviri, kelime kartları, diller ve reklam.
+h1: LingQ ve altı alternatifi: kitap okuyarak dil öğrenme uygulamaları karşılaştırması
+description: LingQ, Linga, Beelinguapp, Smart Book, Readable, Readlang ve Biblyx karşılaştırması: kendi kitapların, formatlar, çeviri, kelime kartları, diller ve reklam.
 path: lingq-alternatifleri
 date: 2026-11-09
 slogan: Kendi kitaplarını okuyarak dil öğren
 cta: EPUB, PDF ya da TXT dosyanı aç veya bir metin yapıştır. Kelimeye dokun, o cümledeki anlamını gör, kaydet ve sonra tekrar et.
 ---
 
-Kitap okuyarak dil öğrenmek işe yarar ve bunun etrafında kurulmuş birkaç uygulama var. Aralarındaki fark üç yerde: ne okuduğun (uygulamanın kütüphanesi mi, kendi kitapların mı), anlamı nasıl gördüğün (sözlük, metnin yanında çeviri ya da cümlene göre seçilmiş anlam) ve kelimelere sonra ne olduğu. Bu sayfa altı uygulamayı bu noktalarda karşılaştırıyor. Biblyx bizim uygulamamız, o yüzden bu karşılaştırmayı oyunculardan birinin yazdığını bilerek oku: diğer beşi hakkındaki her bilgi kendi Google Play sayfalarından alındı ve 9 Kasım 2026'da kontrol edildi. Biblyx'in zayıf olduğu yerleri de açıkça yazıyoruz.
+Kitap okuyarak dil öğrenmek işe yarar ve bunun etrafında kurulmuş birkaç uygulama var. Aralarındaki fark üç yerde: ne okuduğun (uygulamanın kütüphanesi mi, kendi kitapların mı), anlamı nasıl gördüğün (sözlük, metnin yanında çeviri ya da cümlene göre seçilmiş anlam) ve kelimelere sonra ne olduğu. Bu sayfa yedi uygulamayı bu noktalarda karşılaştırıyor. Biblyx bizim uygulamamız, o yüzden bu karşılaştırmayı oyunculardan birinin yazdığını bilerek oku: diğer altısı hakkındaki her bilgi kendi Google Play sayfalarından, App Store sayfalarından ya da sitelerinden alındı ve 9 Kasım 2026'da kontrol edildi. Biblyx'in zayıf olduğu yerleri de açıkça yazıyoruz.
 
 ## Kısa cevap
 
@@ -17,20 +17,22 @@ Kitap okuyarak dil öğrenmek işe yarar ve bunun etrafında kurulmuş birkaç u
 - **Yeni başlıyorsan ve çeviriyi metnin yanında, sesli kitaplarla görmek istiyorsan:** Beelinguapp.
 - **Kendi EPUB ya da FB2 kitabını paralel çeviriyle, çeviri servisini seçerek okumak istiyorsan:** Smart Book.
 - **Sadece İngilizce öğreniyorsan ve seviyene göre sadeleştirilmiş hikâyeler ile günlük haberler istiyorsan:** Readable.
+- **Çoğunlukla bilgisayarda, tarayıcıda okuyorsan ve her web sitesinde kelimelere tıklamak istiyorsan:** Readlang.
 - **Kendi kitaplarını her cümleye uyan anlamla, o cümleyi saklayan kelime kartlarıyla ve reklamsız okumak istiyorsan:** Biblyx.
 
 ## Karşılaştırma tablosu
 
 | Uygulama | Kendi dosyaların | Anlamı nasıl görürsün | Kelime çalışması | Uygulamadaki okuma | Öğrenilen diller | Reklam (Google Play) |
 |---|---|---|---|---|---|---|
-| LingQ | e-kitap, web makalesi, YouTube, Netflix, podcast | kelimeye bağlam içinde bakma; yapay zekâ araçları | aralıklı tekrar, bilinen kelime sayacı | sesli binlerce ders | 55+ | yok |
-| Linga | EPUB, PDF, MOBI, FB2, TXT | kelimeye ya da ifadeye dokun: çeviri ve sözlük maddesi | aralıklı tekrarlı kartlar, oyunlar, seriler | 1.000+ kitap | 6 | yok |
-| Beelinguapp | sayfasında belirtilmemiş | yan yana çeviri; kelimeye dokununca sözlük anlamı | her hikâyenin sonunda test | iki dilli hikâyeler ve sesli kitaplar | 20+ | var |
-| Smart Book | FB2, EPUB, TXT, .srt altyazı | paralel çeviri; Google Translate, DeepL ve yapay zekâ sohbet botları gibi servislerden seçim | kaydedilen kelimeler, Anki ya da ReWord'e aktarma | iki dilli hikâyeler | İngilizce, Almanca, Fransızca, İspanyolca, İtalyanca ve diğerleri | var |
-| Readable | belirtilmemiş; uygulamadaki İngilizce hikâyeler ve haberler | her kelime için ses ve çeviri | Word Trainer | sadeleştirilmiş hikâyeler, günlük haberler | İngilizce | var |
-| Biblyx | EPUB, TXT, metin tabanlı PDF, yapıştırılan metin | cümleye uyan yapay zekâ anlamı, deyimler, isimlerin artikelleri | kitap cümlesini saklayan kartlar, Anki ve CSV'ye aktarma | 29 kısa hikâye | 10, ayrıca 4'ü beta | yok |
+| LingQ (Android, iPhone, web) | e-kitap, web makalesi, YouTube, Netflix, podcast | kelimeye bağlam içinde bakma; yapay zekâ araçları | aralıklı tekrar, bilinen kelime sayacı | sesli binlerce ders | 55+ | yok |
+| Linga (Android, iPhone) | EPUB, PDF, MOBI, FB2, TXT | kelimeye ya da ifadeye dokun: çeviri ve sözlük maddesi | aralıklı tekrarlı kartlar, oyunlar, seriler | 1.000+ kitap | 6 | yok |
+| Beelinguapp (Android, iPhone) | sayfasında belirtilmemiş | yan yana çeviri; kelimeye dokununca sözlük anlamı | her hikâyenin sonunda test | iki dilli hikâyeler ve sesli kitaplar | 20+ | var |
+| Smart Book (Android, iPhone) | FB2, EPUB, TXT, .srt altyazı | paralel çeviri; Google Translate, DeepL ve yapay zekâ sohbet botları gibi servislerden seçim | kaydedilen kelimeler, Anki ya da ReWord'e aktarma | iki dilli hikâyeler | İngilizce, Almanca, Fransızca, İspanyolca, İtalyanca ve diğerleri | var |
+| Readable (Android; iPhone kontrol edilmedi) | belirtilmemiş; uygulamadaki İngilizce hikâyeler ve haberler | her kelime için ses ve çeviri | Word Trainer | sadeleştirilmiş hikâyeler, günlük haberler | İngilizce | var |
+| Readlang (web, Chrome eklentisi) | yüklediğin metinler ve makaleler; eklentiyle her web sayfası | kelimeye ya da ifadeye tıklayınca çeviri; bağlama göre yapay zekâ açıklamaları | kelime kartları, dışa aktarma | sitesindeki makaleler | 100+ | Google Play'de yok |
+| Biblyx (Android) | EPUB, TXT, metin tabanlı PDF, yapıştırılan metin | cümleye uyan yapay zekâ anlamı, deyimler, isimlerin artikelleri | kitap cümlesini saklayan kartlar, Anki ve CSV'ye aktarma | 29 kısa hikâye | 10, ayrıca 4'ü beta | yok |
 
-Altısı da Google Play'den ücretsiz indirilebiliyor ve uygulama içi satın alma sunuyor.
+Google Play'deki altı uygulamanın hepsi ücretsiz indirilebiliyor ve uygulama içi satın alma sunuyor. Readlang tarayıcıda çalışıyor; ücretsiz bir planı ve ücretli planları var.
 
 ## LingQ
 
@@ -52,6 +54,10 @@ Smart Book iki dilli bir okuyucu: orijinal metni ve çevirisini yan yana göster
 
 Readable yalnızca İngilizce öğrenenler için. Öğretmenler kısa hikâyeleri ve günlük haberleri senin seviyene göre sadeleştiriyor, her kelimenin sesi ve çevirisi var, Word Trainer da kaydettiğin kelimeleri ezberlemene yardım ediyor. Sayfasında kendi kitaplarını yüklemekten söz edilmiyor; Google Play sayfası reklam olduğunu belirtiyor. Hedefin İngilizceyse ve seviyene uyarlanmış metinler istiyorsan iyi bir seçim.
 
+## Readlang
+
+Readlang web tarayıcısında ve Chrome eklentisi olarak çalışıyor. Herhangi bir metinde ya da web sitesinde bir kelimeye veya ifadeye tıklayıp çevirisini görüyorsun, yapay zekâ kelimeleri ve ifadeleri bağlama göre açıklıyor, çevirdiğin her kelime de kartlarla çalışmak için kaydediliyor ve dışa aktarılabiliyor. Kendi metinlerini ve makalelerini yükleyebilir ya da sitesindeki makaleleri okuyabilirsin. Sitesinde 100'den fazla dil listeleniyor ve Readlang'i iPhone ya da Android ana ekranına eklemeyi anlatan bir rehbere bağlantı var; Google Play'de Readlang uygulaması yok. Ücretsiz planda tek kelimelik çeviriler sınırsız, ifade çevirisi ve yapay zekâ açıklaması ise günde 10'ar tane; ücretli planlar bu sınırları kaldırıyor. Bilgisayarda, tarayıcıda çok okuyanlara uygun.
+
 ## Biblyx
 
 Biblyx kendi kitapların için bir okuyucu. EPUB, TXT ya da metin tabanlı PDF açar veya bir makale yapıştırırsın ve herhangi bir kelimeye dokunursun: yapay zekâ cümleyi okur ve orada uyan anlamı sözcük türü, kök hali ve tahmini CEFR seviyesiyle verir. Deyimler iki anlamıyla gelir; Almanca, İspanyolca, Fransızca, İtalyanca ve Portekizce isimler artikeliyle gelir; birleşik kelimeler parçalarına ayrılır. Kaydettiğin kelimeler kitaptaki cümleyi saklayan kartlara dönüşür ve 1, 3, 7, 14 ve 30 gün sonra geri gelir; onları Anki'ye ya da CSV'ye aktarabilirsin. Okuma ve tekrar çevrimdışı çalışır, reklam yoktur ve ilk dakikaların için 10 dilde 29 kısa hikâye hazırdır. Fikir tek satıra sığıyor: **Kendi kitaplarını okuyarak dil öğren**.
@@ -66,12 +72,12 @@ Biblyx'in zayıf olduğu yerler:
 
 1. **Metinlerin nereden geleceğine karar ver.** Senin için seçilmiş bir kütüphane istiyorsan LingQ, Linga, Beelinguapp ya da Readable'a bak. Okumak istediğin kitaplar zaten elindeyse LingQ, Linga, Smart Book ya da Biblyx'e bak.
 2. **Ne kadar çeviri görmek istediğine karar ver.** Metnin yanındaki tam çeviri başta işi kolaylaştırır ama gözün kendi diline kayar. Tek kelimelik anlamlar seni öğrendiğin dilde tutar.
-3. **Öğrendiğin dili kontrol et.** Readable yalnızca İngilizce, Linga'da altı dil var, en çok dil LingQ'da.
+3. **Öğrendiğin dili kontrol et.** Readable yalnızca İngilizce, Linga'da altı dil var, LingQ'da 55'ten fazla, Readlang'de 100'den fazla dil var.
 4. **İki uygulamayı bir hafta boyunca aynı bölümle dene.** Açmaya devam ettiğin, senin için doğru olandır.
 
 ## Nasıl kontrol ettik
 
-LingQ, Linga, Beelinguapp, Smart Book ve Readable hakkındaki bilgiler, 9 Kasım 2026'da yayımlanan Google Play sayfalarından (ABD mağazası, İngilizce) alındı: açıklamalar, reklam etiketi ve uygulama içi satın almalar. iPhone ya da web sürümlerini ve ülkeye göre değişen fiyatları kontrol etmedik. Uygulamalar sık değişir; burada eskimiş bir bilgi görürsen support@biblyx.com adresine yaz, düzeltelim.
+LingQ, Linga, Beelinguapp, Smart Book ve Readable hakkındaki bilgiler, 9 Kasım 2026'da yayımlanan Google Play sayfalarından (ABD mağazası, İngilizce) alındı: açıklamalar, reklam etiketi ve uygulama içi satın almalar. iPhone sürümleri aynı gün LingQ, Linga, Beelinguapp ve Smart Book'un App Store sayfalarından, Readlang'e ve web sürümlerine dair bilgiler de uygulamaların kendi sitelerinden kontrol edildi. Readable'ın iPhone sürümünü ve ülkeye göre değişen fiyatları kontrol etmedik. Uygulamalar sık değişir; burada eskimiş bir bilgi görürsen support@biblyx.com adresine yaz, düzeltelim.
 
 ## Sık sorulan sorular
 
