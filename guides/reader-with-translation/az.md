@@ -8,7 +8,7 @@ slogan: Öz kitablarını oxuyaraq dil öyrən
 cta: EPUB, PDF və ya TXT faylını aç, ya da bir mətni yapışdır. Sözə toxun, həmin cümlədəki mənasını gör, saxla və sonra təkrar et.
 ---
 
-Demək olar hər kitab oxuyucuda lüğət var. Sözü basıb saxlayırsan, altı mənalı bir pəncərə açılır, birini seçirsən. Fəsildə bir naməlum sözə rast gələn ana dili daşıyıcısı üçün bu kifayətdir. Dil öyrənən üçün isə sxem konkret bir yerdə qırılır: səhifədəki altıncı naməlum sözdə fəsil bitir. Biblyx məhz bu problemin ətrafında qurulmuş oxuyucudur. Öz EPUB, PDF və ya TXT faylını açırsan, sözə toxunursan, onun həmin cümlədəki mənasını görürsən, sonra da cümləni özündə saxlayan bir kart alırsan. Tətbiqin qalan hissəsi bu dövranı bütöv bir kitaba çatacaq qədər sürətli etmək üçün var.
+Demək olar hər kitab oxuyucuda lüğət var. Sözü basıb saxlayırsan, altı mənalı bir pəncərə açılır, birini seçirsən. Fəsildə bir naməlum sözə rast gələn ana dili daşıyıcısı üçün bu kifayətdir. Dil öyrənən üçün isə sxem konkret bir yerdə qırılır: səhifədəki altıncı naməlum sözdə kitab bağlanır. Biblyx məhz bu problemin ətrafında qurulmuş oxuyucudur. Öz EPUB, PDF və ya TXT faylını açırsan, sözə toxunursan, onun həmin cümlədəki mənasını görürsən, sonra da cümləni özündə saxlayan bir kart alırsan. Tətbiqin qalan hissəsi bu dövranı bütöv bir kitaba çatacaq qədər sürətli etmək üçün var.
 
 ## Burada "tərcümə" nə deməkdir
 

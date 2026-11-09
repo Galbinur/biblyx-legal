@@ -29,9 +29,9 @@ Un limite onesto: i libri comprati su Kindle o Apple Books e quelli presi in pre
 
 ## Dalla parola toccata alla flashcard
 
-Un altro tocco salva la parola in Word Lab insieme alla frase da cui viene; puoi aggiungere una nota. La carta torna in ripasso dopo 1, 3, 7, 14 e 30 giorni, poi a intervalli più lunghi, il ritmo che usano quasi tutte le app a ripetizione spaziata. I ripassi sono a misura di telefono: 10, 20 o 30 carte, una freccia per annullare una risposta sbagliata, un pulsante "Lo so già" e un breve test a scelta multipla per le parole che continui a sbagliare, che l'app segna come difficili. Puoi anche ripassare solo le espressioni salvate, o solo le parole di un libro.
+Un altro tocco salva la parola in Word Lab insieme alla frase da cui viene; puoi aggiungere una nota. La carta torna in ripasso dopo 1, 3, 7, 14 e 30 giorni, poi a intervalli più lunghi, il ritmo che usano quasi tutte le app a ripetizione spaziata. I ripassi sono a misura di telefono: 10, 20 o 30 carte, una freccia per annullare una risposta sbagliata, un pulsante "La conosco già" e un breve test a scelta multipla per le parole che continui a sbagliare, che l'app segna come difficili. Puoi anche ripassare solo le espressioni salvate, o solo le parole di un libro.
 
-Niente resta chiuso dentro. Word Lab esporta le tue parole come mazzo Anki (.apkg, con carte pronte e pronuncia) o come file CSV per un foglio di calcolo. Escono solo le parole, mai il testo dei tuoi libri.
+Niente resta chiuso nell'app. Word Lab esporta le tue parole come mazzo Anki (.apkg, con carte pronte e pronuncia) o come file CSV per un foglio di calcolo. Escono solo le parole, mai il testo dei tuoi libri.
 
 ## Offline, account, costo
 

@@ -1,7 +1,7 @@
 ---
 title: Libros en inglés para principiantes: lista A1–B2, gratis
 h1: Libros en inglés para principiantes: qué leer en cada nivel y dónde encontrarlo
-description: Libros en inglés para principiantes por nivel (A1–B2): clásicos gratis y legales, lecturas graduadas y cómo leerlos en el móvil con traducción al tocar la palabra.
+description: Libros en inglés para principiantes por nivel (A1–B2): clásicos gratis y legales, lecturas graduadas y cómo leerlos en el móvil con traducción al tocar.
 path: libros-en-ingles-para-principiantes
 date: 2026-11-10
 slogan: Aprende idiomas leyendo tus propios libros
@@ -50,11 +50,11 @@ Una nota sobre los clásicos: son gratis porque son antiguos, y el inglés antig
 
 ## Dónde conseguir libros en inglés gratis y legalmente
 
-- **Project Gutenberg** (gutenberg.org): más de 70.000 libros con derechos caducados, en EPUB y texto plano. Todos los clásicos de arriba están ahí.
+- **Project Gutenberg** (gutenberg.org): más de 70.000 libros con derechos caducados, en EPUB y texto plano. Todos los clásicos de arriba están ahí, salvo Animal Farm, que sigue con derechos de autor en Estados Unidos.
 - **Standard Ebooks** (standardebooks.org): los mismos libros de dominio público, bien maquetados y con buenas portadas.
 - **Wikisource** e **Internet Archive**: más textos, incluidas traducciones antiguas de cuentos.
 - **LibriVox**: audiolibros gratuitos de obras de dominio público, leídos por voluntarios. Escucha mientras lees el texto.
-- **Bibliotecas y tiendas.** Un aviso honesto: los libros prestados por bibliotecas digitales (como eBiblio) y los comprados en Kindle o Apple Books están atados a esas aplicaciones; no se abren en otro lector. Los EPUB de Gutenberg, Standard Ebooks y tiendas sin DRM se abren en cualquier parte.
+- **Bibliotecas y tiendas.** Un aviso importante: los libros prestados por bibliotecas digitales (como eBiblio) y los comprados en Kindle o Apple Books están atados a esas aplicaciones; no se abren en otro lector. Los EPUB de Gutenberg, Standard Ebooks y tiendas sin DRM se abren en cualquier parte.
 - **¿Buscaste "libros en inglés para principiantes pdf gratis"?** Las webs que regalan best sellers recientes "gratis" son piratas. Las fuentes legales de PDF y EPUB son las de arriba, y un PDF con texto real se lee bien en el móvil.
 - **¿Prefieres textos a libros?** Simple English Wikipedia, BBC Learning English y los sitios de noticias por niveles dan textos cortos para una sesión de diez minutos.
 
@@ -62,7 +62,7 @@ Una nota sobre los clásicos: son gratis porque son antiguos, y el inglés antig
 
 El problema de siempre: encuentras una palabra desconocida, abres el diccionario, pierdes la frase y a la tercera palabra cierras el libro. Un lector hecho para estudiantes resuelve justo eso.
 
-Con **Biblyx** en Android abres tu propio archivo EPUB, PDF o TXT, o pegas cualquier texto, y tocas una palabra. Ves qué significa en esa frase exacta, no una lista de diez acepciones de diccionario. Otro toque guarda la palabra con su frase como tarjeta, y la app te la devuelve para repasar a los 1, 3, 7, 14 y 30 días. Si tu biblioteca está vacía, vienen incluidos 29 relatos cortos en 10 idiomas; los de inglés son *The Selfish Giant*, *The Gift of the Magi* y *The Tell-Tale Heart*. Leer y repasar funcionan sin conexión; buscar palabras nuevas necesita internet. Esa es la idea: **Aprende idiomas leyendo tus propios libros**.
+Con **Biblyx** en Android abres tu propio archivo EPUB, PDF o TXT, o pegas cualquier texto, y tocas una palabra. Ves qué significa en esa frase exacta, no una lista de diez acepciones de diccionario. Otro toque guarda la palabra con su frase como tarjeta, y la app te la devuelve para repasar al cabo de 1, 3, 7, 14 y 30 días. Si tu biblioteca está vacía, vienen incluidos 29 relatos cortos en 10 idiomas; los de inglés son *The Selfish Giant*, *The Gift of the Magi* y *The Tell-Tale Heart*. Leer y repasar funcionan sin conexión; buscar palabras nuevas necesita internet. Esa es la idea: **Aprende idiomas leyendo tus propios libros**.
 
 Uses la app que uses, el hábito es el mismo:
 

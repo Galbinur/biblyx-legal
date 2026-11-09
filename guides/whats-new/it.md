@@ -9,7 +9,7 @@ cta: Apri un EPUB, PDF o TXT, oppure incolla un testo. Tocca una parola, guarda 
 short: yes
 ---
 
-Biblyx esce con una versione nuova ogni una o due settimane. Questa pagina elenca cosa ha portato ogni versione, con le parole delle sue note su Google Play e il giorno in cui è arrivata a tutti. La versione attuale è la **1.3.0**, in produzione dal 7 novembre 2026. A cosa serve l'app non cambia da una versione all'altra: **Impara le lingue leggendo i tuoi libri**.
+Biblyx esce con una versione nuova ogni settimana o due. Questa pagina elenca cosa ha portato ogni versione, con le parole delle sue note su Google Play e il giorno in cui è arrivata a tutti. La versione attuale è la **1.3.0**, in produzione dal 7 novembre 2026. A cosa serve l'app non cambia da una versione all'altra: **Impara le lingue leggendo i tuoi libri**.
 
 ## Versione 1.3.0, 7 novembre 2026
 
@@ -53,7 +53,7 @@ Google Play installa gli aggiornamenti da solo se l'aggiornamento automatico è 
 
 ### Ogni quanto si aggiorna Biblyx?
 
-Di solito ogni una o due settimane; le correzioni escono prima. Le note di una versione compaiono qui il giorno in cui arriva su Google Play.
+Di solito ogni settimana o due; le correzioni escono prima. Le note di una versione compaiono qui il giorno in cui arriva su Google Play.
 
 ### Perdo le parole salvate aggiornando?
 

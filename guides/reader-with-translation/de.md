@@ -1,6 +1,6 @@
 ---
-title: eBook-Reader mit Übersetzung zum Sprachenlernen
-h1: eBook-Reader mit Übersetzung: eigene EPUB-, PDF- und TXT-Bücher lesen und die Wörter darin lernen
+title: E-Book-Reader mit Übersetzung zum Sprachenlernen
+h1: E-Book-Reader mit Übersetzung: eigene EPUB-, PDF- und TXT-Bücher lesen und die Wörter darin lernen
 description: Biblyx ist ein EPUB-, PDF- und TXT-Reader mit Übersetzung per Fingertipp: die Bedeutung im Satz, Karteikarten mit Kontext, Wiederholung offline. Für Android.
 path: ebook-reader-mit-uebersetzung
 date: 2026-11-10
@@ -8,13 +8,13 @@ slogan: Sprachen lernen beim Lesen deiner eigenen Bücher
 cta: Öffne eine EPUB-, PDF- oder TXT-Datei oder füge einen Text ein. Tippe auf ein Wort, sieh seine Bedeutung in diesem Satz, speichere es und wiederhole es später.
 ---
 
-Fast jeder eBook-Reader hat ein Wörterbuch. Man hält ein Wort gedrückt, ein Kasten mit sechs Bedeutungen geht auf, man sucht sich eine aus. Für Muttersprachler, die ein unbekanntes Wort pro Kapitel treffen, reicht das. Beim Sprachenlernen scheitert es an einer bestimmten Stelle: Beim sechsten unbekannten Wort auf einer Seite ist das Kapitel zu Ende. Biblyx ist ein Reader, der um genau dieses Problem herum gebaut ist. Du öffnest deine eigene EPUB-, PDF- oder TXT-Datei, tippst auf ein Wort und bekommst die Bedeutung, die es in diesem Satz hat, dann eine Karteikarte, die den Satz behält. Alles andere in der App dient dazu, diese Schleife so schnell zu machen, dass sie ein ganzes Buch übersteht.
+Fast jeder E-Book-Reader hat ein Wörterbuch. Man hält ein Wort gedrückt, ein Kasten mit sechs Bedeutungen geht auf, man sucht sich eine aus. Für Muttersprachler, die ein unbekanntes Wort pro Kapitel treffen, reicht das. Beim Sprachenlernen scheitert es an einer bestimmten Stelle: Beim sechsten unbekannten Wort auf einer Seite legst du das Buch weg. Biblyx ist ein Reader, der um genau dieses Problem herum gebaut ist. Du öffnest deine eigene EPUB-, PDF- oder TXT-Datei, tippst auf ein Wort und bekommst die Bedeutung, die es in diesem Satz hat, dann eine Karteikarte, die den Satz behält. Alles andere in der App dient dazu, diese Schleife so schnell zu machen, dass sie ein ganzes Buch übersteht.
 
 ## Was „Übersetzung“ hier heißt
 
 Ein Tipp auf ein Wort öffnet keine Wörterbuchseite. Die KI liest den Satz, in dem du gerade bist, und gibt eine Bedeutung zurück: die, die dort passt. Dazu kommen Wortart, Grundform und ein geschätztes GER-Niveau von A1 bis C2. Gehört das Wort zu einer Redewendung oder einem Ausdruck („look forward to“, „ins Gras beißen“, „jemandem auf den Keks gehen“), siehst du den Ausdruck und das Wort für sich und kannst beides als Karte speichern. Deutsche, spanische, französische, italienische und portugiesische Substantive kommen mit Artikel; zusammengesetzte Wörter werden in ihre Teile zerlegt. Ist der ganze Satz das Problem, markierst du die Stelle und übersetzt sie am Stück. Ein Lautsprecher-Knopf liest das Wort mit der Vorlesestimme deines Telefons.
 
-Die Bedeutungen erscheinen in der Sprache deiner Oberfläche. Biblyx übersetzt Bücher in zehn Sprachen: Englisch, Deutsch, Spanisch, Französisch, Italienisch, Russisch, Polnisch, Portugiesisch, Türkisch und Aserbaidschanisch; Schwedisch, Niederländisch, Ukrainisch und Tadschikisch sind in der Beta. Ein Buch in einer anderen Sprache lässt sich trotzdem öffnen und lesen, nur ohne Übersetzung per Tipp. Für zweisprachiges Lesen brauchst du damit keine besondere Buchausgabe mehr: Das Original reicht, die zweite Sprache kommt bei Bedarf.
+Die Bedeutungen erscheinen in der Sprache deiner Oberfläche. Biblyx übersetzt Wörter aus Büchern in zehn Sprachen: Englisch, Deutsch, Spanisch, Französisch, Italienisch, Russisch, Polnisch, Portugiesisch, Türkisch und Aserbaidschanisch; Schwedisch, Niederländisch, Ukrainisch und Tadschikisch sind in der Beta. Ein Buch in einer anderen Sprache lässt sich trotzdem öffnen und lesen, nur ohne Übersetzung per Tipp. Für zweisprachiges Lesen brauchst du damit keine besondere Buchausgabe mehr: Das Original reicht, die zweite Sprache kommt bei Bedarf.
 
 ## Welche Dateien sich öffnen lassen
 

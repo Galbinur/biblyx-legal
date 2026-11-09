@@ -50,7 +50,7 @@ Klasikler hakkında bir not: ücretsizler, çünkü eskiler; eski İngilizcede b
 
 ## İngilizce kitapları ücretsiz ve yasal nereden bulursun
 
-- **Project Gutenberg** (gutenberg.org): telif süresi dolmuş 70.000'den fazla kitap, EPUB ve düz metin olarak. Yukarıda klasik olarak geçen her şey orada.
+- **Project Gutenberg** (gutenberg.org): telif süresi dolmuş 70.000'den fazla kitap, EPUB ve düz metin olarak. Yukarıda klasik olarak geçen her şey orada; yalnız Animal Farm yok, ABD'de hâlâ telif hakkıyla korunuyor.
 - **Standard Ebooks** (standardebooks.org): aynı kamu malı kitaplar, özenle biçimlendirilmiş, güzel kapaklı.
 - **Wikisource** ve **Internet Archive**: daha fazla metin, masalların eski çevirileri dahil.
 - **LibriVox**: gönüllülerin seslendirdiği ücretsiz sesli kitaplar. Metni okurken dinle.

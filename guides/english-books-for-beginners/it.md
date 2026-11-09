@@ -1,7 +1,7 @@
 ---
 title: Libri in inglese per principianti: lista A1–B2, gratis
 h1: Libri in inglese per principianti: cosa leggere a ogni livello e dove trovarlo
-description: Libri in inglese per principianti divisi per livello (A1–B2): classici gratuiti e legali, letture graduate e come leggerli sul telefono con la traduzione al tocco.
+description: Libri in inglese per principianti divisi per livello (A1–B2): classici gratuiti e legali, letture graduate e come leggerli sul telefono con traduzione al tocco.
 path: libri-in-inglese-per-principianti
 date: 2026-11-10
 slogan: Impara le lingue leggendo i tuoi libri
@@ -50,7 +50,7 @@ Una nota sui classici: sono gratuiti perché sono vecchi, e l'inglese vecchio ha
 
 ## Dove trovare libri in inglese gratis e legalmente
 
-- **Project Gutenberg** (gutenberg.org): più di 70.000 libri con diritti scaduti, in EPUB e testo semplice. Tutti i classici qui sopra ci sono.
+- **Project Gutenberg** (gutenberg.org): più di 70.000 libri con diritti scaduti, in EPUB e testo semplice. Tutti i classici qui sopra ci sono, tranne Animal Farm, ancora protetto negli Stati Uniti.
 - **Standard Ebooks** (standardebooks.org): gli stessi libri di pubblico dominio, impaginati con cura e con belle copertine.
 - **Wikisource** e **Internet Archive**: altri testi, comprese vecchie traduzioni di fiabe.
 - **LibriVox**: audiolibri gratuiti di opere di pubblico dominio, letti da volontari. Ascolta mentre leggi il testo.
@@ -67,7 +67,7 @@ Con **Biblyx** su Android apri il tuo file EPUB, PDF o TXT, oppure incolli un te
 Qualunque app tu usi, l'abitudine è la stessa:
 
 1. Leggi 10–20 minuti al giorno, non due ore la domenica.
-2. Cerca solo le parole che bloccano il senso. Il resto indovinalo dal contesto.
+2. Cerca solo le parole che ti impediscono di capire. Il resto indovinalo dal contesto.
 3. Salva 5–10 parole al giorno, non 50. Ripassale prima della sessione successiva.
 4. Finisci i libri. Un libro facile finito insegna più di uno difficile abbandonato.
 5. Rileggi. La seconda lettura di un capitolo è dove le parole si fissano.
@@ -80,7 +80,7 @@ La lettura dà vocabolario, strutture grammaticali e orecchio per la lingua più
 
 ### Che livello è Harry Potter?
 
-Il primo libro si colloca di solito tra B1 e B2: dialoghi quotidiani, ma molte parole inventate ed espressioni britanniche. La maggior parte lo legge bene dopo qualche lettura graduata.
+Il primo libro si colloca di solito tra B1 e B2: dialoghi quotidiani, ma molte parole inventate ed espressioni britanniche. La maggior parte dei lettori lo affronta bene dopo qualche lettura graduata.
 
 ### I PDF vanno bene per imparare?
 

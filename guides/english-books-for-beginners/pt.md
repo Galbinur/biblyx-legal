@@ -1,7 +1,7 @@
 ---
 title: Livros em inglês para iniciantes: lista A1–B2, grátis
 h1: Livros em inglês para iniciantes: o que ler em cada nível e onde encontrar
-description: Livros em inglês para iniciantes por nível (A1–B2): clássicos grátis e legais, leituras graduadas e como ler no celular com tradução ao tocar na palavra.
+description: Livros em inglês para iniciantes por nível (A1–B2): clássicos grátis e legais, leituras graduadas e como ler no celular com tradução ao tocar.
 path: livros-em-ingles-para-iniciantes
 date: 2026-11-10
 slogan: Aprenda idiomas lendo seus próprios livros
@@ -50,11 +50,11 @@ Uma observação sobre os clássicos: eles são grátis porque são antigos, e o
 
 ## Onde conseguir livros em inglês de graça e legalmente
 
-- **Project Gutenberg** (gutenberg.org): mais de 70.000 livros com direitos autorais expirados, em EPUB e texto simples. Tudo o que está marcado como clássico acima está lá.
+- **Project Gutenberg** (gutenberg.org): mais de 70.000 livros com direitos autorais expirados, em EPUB e texto simples. Todos os clássicos citados acima estão lá, menos Animal Farm, que ainda tem direitos autorais nos EUA.
 - **Standard Ebooks** (standardebooks.org): os mesmos livros de domínio público, bem formatados e com boas capas.
 - **Wikisource** e **Internet Archive**: mais textos, incluindo traduções antigas de contos de fadas.
 - **LibriVox**: audiolivros grátis de obras em domínio público, lidos por voluntários. Ouça enquanto lê o texto.
-- **Bibliotecas e lojas.** Um aviso honesto: livros emprestados por bibliotecas digitais e comprados na Kindle ou na Apple Books ficam presos a esses aplicativos; não abrem em outro leitor. EPUBs do Gutenberg, do Standard Ebooks e de lojas sem DRM abrem em qualquer lugar.
+- **Bibliotecas e lojas.** Um aviso honesto: livros emprestados por bibliotecas digitais e comprados no Kindle ou na Apple Books ficam presos a esses aplicativos; não abrem em outro leitor. EPUBs do Gutenberg, do Standard Ebooks e de lojas sem DRM abrem em qualquer lugar.
 - **Procurou "livros em inglês para iniciantes pdf grátis"?** Sites que distribuem best-sellers atuais "de graça" são piratas. As fontes legais de PDF e EPUB são as de cima, e PDFs com texto funcionam bem no celular.
 - **Quer textos, não livros?** A Simple English Wikipedia, o BBC Learning English e sites de notícias por nível trazem textos curtos para uma sessão de dez minutos.
 
@@ -80,7 +80,7 @@ A leitura traz vocabulário, padrões de gramática e intuição da língua mais
 
 ### Qual é o nível de Harry Potter?
 
-O primeiro livro costuma ser colocado em B1–B2: diálogos do dia a dia, mas muitas palavras inventadas e expressões britânicas. A maioria consegue depois de algumas leituras graduadas.
+O primeiro livro costuma ser colocado em B1–B2: diálogos do dia a dia, mas muitas palavras inventadas e expressões britânicas. A maioria dos leitores dá conta depois de algumas leituras graduadas.
 
 ### PDF serve para aprender?
 
@@ -92,4 +92,4 @@ Legalmente, no Project Gutenberg, no Standard Ebooks, no Wikisource e no Interne
 
 ### Quantas palavras novas devo salvar por dia?
 
-De cinco a dez. Mais do que isso e a pilha de revisão cresce mais rápido do que você dá conta; as palavras que aparecem várias vezes no livro vão ficar de qualquer jeito.
+De cinco a dez. Mais do que isso e a pilha de revisão cresce mais rápido do que você consegue revisar; as palavras que aparecem várias vezes no livro vão ficar de qualquer jeito.

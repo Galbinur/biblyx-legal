@@ -1,7 +1,7 @@
 ---
 title: Nowości w Biblyx: historia wersji
 h1: Nowości w Biblyx
-description: Każda aktualizacja Biblyx od wersji 1.1.0, słowami jej opisu w Google Play i z dniem, w którym dotarła do użytkowników. Aktualna wersja: 1.3.0 (7 listopada 2026).
+description: Każda aktualizacja Biblyx od wersji 1.1.0, słowami opisu z Google Play i z dniem, w którym dotarła do użytkowników. Aktualna: 1.3.0 (7 listopada 2026).
 path: nowosci
 date: 2026-11-07
 slogan: Ucz się języków, czytając własne książki

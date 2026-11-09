@@ -23,7 +23,7 @@ Les sens s'affichent dans la langue de l'interface : avec l'interface en frança
 - **PDF avec du vrai texte.** Les PDF scannés sont des photos de pages ; aucune liseuse ne peut toucher un mot dans une photo, et Biblyx vous le dit à l'ouverture.
 - **Texte collé.** Depuis la version 1.3.0, vous pouvez coller un article, une nouvelle ou un long message et le lire comme un livre, avec la même traduction au toucher et les mêmes cartes.
 
-Les fichiers s'ouvrent depuis le bouton « + » de l'application ou directement depuis le gestionnaire de fichiers, un téléchargement du navigateur ou une pièce jointe, via « Ouvrir avec Biblyx ». La table des matières mène à n'importe quel chapitre dans les livres EPUB, TXT et PDF ; la liseuse a la recherche, les signets, le surlignage en quatre couleurs, un thème clair et un thème sombre, et le défilement automatique. Si votre bibliothèque est vide, 29 nouvelles et contes en dix langues sont déjà là : le premier toucher prend moins d'une minute.
+Les fichiers s'ouvrent depuis le bouton « + » de l'application ou directement depuis le gestionnaire de fichiers, un téléchargement du navigateur ou une pièce jointe, via « Ouvrir avec Biblyx ». La table des matières mène à n'importe quel chapitre dans les livres EPUB, TXT et PDF ; la liseuse propose la recherche, les signets, le surlignage en quatre couleurs, un thème clair et un thème sombre, et le défilement automatique. Si votre bibliothèque est vide, 29 nouvelles et contes en dix langues sont déjà là : le premier toucher prend moins d'une minute.
 
 Une limite honnête : les livres achetés sur Kindle ou Apple Books et ceux empruntés en bibliothèque numérique sont liés à ces applications ; ils ne s'ouvrent ni dans Biblyx ni dans aucune autre liseuse.
 
@@ -39,7 +39,7 @@ Lire et réviser les cartes fonctionne hors ligne. Chercher un mot nouveau ou tr
 
 La lecture, Word Lab, l'export, les rappels et la synchronisation ne demandent pas d'abonnement, et il n'y a pas de publicité. Les traductions par IA ont un quota quotidien ; Premium retire la limite quotidienne (usage raisonnable), avec une formule mensuelle, semestrielle ou annuelle. L'application est sur Android via Google Play ; une version iPhone est prévue, sans date.
 
-## À qui elle ne s'adresse pas
+## À qui Biblyx ne s'adresse pas
 
 Une liseuse avec traduction est un outil pour ceux qui lisent déjà, ou qui veulent lire. Elle ne vous apprendra ni l'alphabet ni les cent premiers mots ; un cours ou un guide de conversation fait cela mieux. Elle ne lit pas les PDF scannés. Il n'y a pas de leçons, pas de série à ne pas rompre, pas de classement. Si vous avez un livre à finir dans une langue que vous connaissez à moitié, elle est pour vous.
 
@@ -53,7 +53,7 @@ Une liseuse avec traduction est un outil pour ceux qui lisent déjà, ou qui veu
 
 ## Questions fréquentes
 
-### Traduit-elle la page entière ?
+### Biblyx traduit-il la page entière ?
 
 Sélectionnez n'importe quel passage et traduisez-le d'un bloc. Le mot à mot est le réglage par défaut, parce qu'un mot rencontré dans une phrase se retient mieux qu'une page traduite.
 
@@ -71,4 +71,4 @@ Pas encore. Biblyx est sur Android via Google Play ; une version iOS est prévue
 
 ### Quelle différence avec le dictionnaire du Kindle ou Google Traduction ?
 
-Le Kindle donne des entrées de dictionnaire, une à la fois, et ne garde rien. Google Traduction transforme la page en français, et vous finissez par lire votre langue au lieu de celle que vous apprenez. Biblyx donne un sens ajusté à la phrase, le garde en carte avec cette phrase et vous le représente plus tard.
+Le Kindle donne des entrées de dictionnaire, une à la fois, et ne garde rien. Google Traduction transforme la page en français, et vous finissez par lire votre langue au lieu de celle que vous apprenez. Biblyx donne un sens ajusté à la phrase, le garde en carte avec cette phrase et vous le repropose plus tard.

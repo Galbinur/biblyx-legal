@@ -1,18 +1,18 @@
 ---
 title: App para ler livros com tradução ao tocar na palavra
 h1: App para ler livros com tradução: abra seus EPUB, PDF e TXT, toque na palavra, veja o significado na frase
-description: O Biblyx é um leitor de EPUB, PDF e TXT com tradução ao tocar na palavra: o significado naquela frase, flashcards com contexto e revisão offline. Para Android.
+description: O Biblyx é um leitor de EPUB, PDF e TXT com tradução ao tocar na palavra: o significado naquela frase, flashcards com contexto e revisão offline. Android.
 path: app-para-ler-livros-com-traducao
 date: 2026-11-10
 slogan: Aprenda idiomas lendo seus próprios livros
 cta: Abra um EPUB, PDF ou TXT, ou cole um texto. Toque em uma palavra, veja o que ela significa naquela frase, salve e revise depois.
 ---
 
-Quase todo leitor de e-books tem dicionário. Você segura a palavra, abre uma caixa com seis significados, escolhe um. Para um nativo que encontra uma palavra desconhecida por capítulo, isso basta. Para quem está aprendendo o idioma, o esquema quebra num ponto específico: na sexta palavra desconhecida da página, o capítulo acaba. O Biblyx é um leitor construído em volta desse problema. Você abre seu próprio arquivo EPUB, PDF ou TXT, toca em uma palavra e recebe o significado que ela tem naquela frase, e depois um flashcard que guarda a frase. Todo o resto do app existe para que esse ciclo seja rápido o bastante para aguentar um livro inteiro.
+Quase todo leitor de e-books tem dicionário. Você segura a palavra, abre uma caixa com seis significados, escolhe um. Para um nativo que encontra uma palavra desconhecida por capítulo, isso basta. Para quem está aprendendo o idioma, o esquema quebra num ponto específico: na sexta palavra desconhecida da página, o capítulo acaba. O Biblyx é um leitor construído em torno desse problema. Você abre seu próprio arquivo EPUB, PDF ou TXT, toca em uma palavra e recebe o significado que ela tem naquela frase, e depois um flashcard que guarda a frase. Todo o resto do app existe para que esse ciclo seja rápido o bastante para aguentar um livro inteiro.
 
 ## O que "tradução" quer dizer aqui
 
-Tocar em uma palavra não abre uma página de dicionário. A IA lê a frase em que você está e devolve um único significado, o que cabe ali, junto com a classe gramatical, a forma base e um nível estimado do QECR, de A1 a C2. Quando a palavra faz parte de uma expressão ou idiom ("give up", "look forward to", "call it a day"), você vê a expressão e a palavra sozinha, e pode salvar qualquer uma das duas como card. Substantivos em alemão, espanhol, francês, italiano e português vêm com o artigo; palavras compostas são separadas em partes. Se o problema for a frase inteira, selecione o trecho e traduza em bloco. Um botão de alto-falante lê a palavra com a voz do seu celular.
+Tocar em uma palavra não abre uma página de dicionário. A IA lê a frase em que você está e devolve um único significado, o que cabe ali, junto com a classe gramatical, a forma base e um nível CEFR estimado, de A1 a C2. Quando a palavra faz parte de uma expressão idiomática ("give up", "look forward to", "call it a day"), você vê a expressão e a palavra sozinha, e pode salvar qualquer uma das duas como card. Substantivos em alemão, espanhol, francês, italiano e português vêm com o artigo; palavras compostas são separadas em partes. Se o problema for a frase inteira, selecione o trecho e traduza em bloco. Um botão de alto-falante lê a palavra com a voz do seu celular.
 
 Os significados aparecem no idioma da interface: com a interface em português, as palavras de um livro em inglês são explicadas em português. O Biblyx traduz livros em dez idiomas: inglês, alemão, espanhol, francês, italiano, russo, polonês, português, turco e azerbaijano; sueco, holandês, ucraniano e tadjique estão em beta. Um livro em qualquer outro idioma abre e pode ser lido normalmente, só sem a tradução ao tocar.
 
@@ -63,7 +63,7 @@ Sim, se o PDF tiver texto de verdade: toque em qualquer palavra e use o sumário
 
 ### Em que idioma a interface deve ficar?
 
-No seu. Os significados aparecem no idioma da interface, então quem lê um livro em inglês com a interface em português vê significados em português. Se você lê um livro escrito no idioma da interface, escolhe para qual idioma as palavras são traduzidas.
+No seu. Os significados aparecem no idioma da interface, então quem lê um livro em inglês com a interface em português vê significados em português. Se você lê um livro escrito no idioma da interface, você escolhe para qual idioma as palavras são traduzidas.
 
 ### Tem versão para iPhone?
 
@@ -71,4 +71,4 @@ Ainda não. O Biblyx está no Android pelo Google Play; a versão para iOS está
 
 ### Qual é a diferença para o dicionário do Kindle ou o Google Tradutor?
 
-O Kindle dá verbetes de dicionário, um de cada vez, e não guarda nada. O Google Tradutor transforma a página em português, e você acaba lendo o seu idioma em vez do que está aprendendo. O Biblyx dá um significado ajustado à frase, guarda como card com aquela frase e traz de volta para revisar.
+O Kindle dá verbetes de dicionário, um de cada vez, e não guarda nada. O Google Tradutor transforma a página em português, e você acaba lendo o seu idioma em vez do idioma que está aprendendo. O Biblyx dá um significado ajustado à frase, guarda como card com aquela frase e traz de volta para revisar.

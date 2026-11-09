@@ -8,7 +8,7 @@ slogan: Ucz się języków, czytając własne książki
 cta: Otwórz plik EPUB, PDF lub TXT albo wklej tekst. Dotknij słowa, zobacz jego znaczenie w tym zdaniu, zapisz je i powtórz później.
 ---
 
-Czytanie to najtańszy sposób, żeby wpuścić do głowy dużo angielskiego, a najtrudniejsze wcale nie jest samo czytanie. Najtrudniej wybrać książkę, którą naprawdę skończysz. Ten poradnik daje krótką listę dla każdego poziomu od A1 do B2, pokazuje, skąd legalnie wziąć książki za darmo, i jak czytać je na telefonie tak, żeby nieznane słowa Cię nie zatrzymywały.
+Czytanie to najtańszy sposób, żeby wpuścić do głowy dużo angielskiego, a najtrudniejsze wcale nie jest samo czytanie. Najtrudniej wybrać książkę, którą naprawdę skończysz. Ten poradnik daje krótką listę dla każdego poziomu od A1 do B2, pokazuje, skąd legalnie wziąć książki za darmo i jak czytać je na telefonie tak, żeby nieznane słowa Cię nie zatrzymywały.
 
 ## Najpierw sprawdź swój poziom w dwie minuty
 
@@ -46,17 +46,17 @@ Zacznij od historii, które znasz już po polsku. Znajomość fabuły pozwala zg
 - **Frankenstein**, Mary Shelley. Piękna, ale starsza angielszczyzna; spróbuj najpierw jednego rozdziału.
 - Tytuły współczesne: *The Curious Incident of the Dog in the Night-Time*, *The Hunger Games*, *Never Let Me Go*.
 
-Uwaga o klasyce: jest darmowa, bo jest stara, a stary angielski ma słowa, których dziś nikt nie używa. Na B2 to w porządku, na A2 męczy. Poniżej B1 wybieraj baśnie i lektury uproszczone.
+Uwaga o klasyce: jest darmowa, bo jest stara, a dawna angielszczyzna ma słowa, których dziś nikt nie używa. Na B2 to w porządku, na A2 męczy. Poniżej B1 wybieraj baśnie i lektury uproszczone.
 
 ## Skąd legalnie wziąć darmowe książki po angielsku
 
-- **Project Gutenberg** (gutenberg.org): ponad 70 000 książek, do których wygasły prawa autorskie, w EPUB i zwykłym tekście. Cała klasyka z listy powyżej tam jest.
+- **Project Gutenberg** (gutenberg.org): ponad 70 000 książek, do których wygasły prawa autorskie, w EPUB i zwykłym tekście. Cała klasyka z listy powyżej tam jest, oprócz Animal Farm, które w USA wciąż jest chronione prawem autorskim.
 - **Standard Ebooks** (standardebooks.org): te same książki z domeny publicznej, starannie złożone, z dobrymi okładkami.
 - **Wikisource** i **Internet Archive**: więcej tekstów, w tym stare przekłady baśni.
 - **LibriVox**: darmowe audiobooki utworów z domeny publicznej, czytane przez wolontariuszy. Słuchaj, czytając tekst.
 - **Biblioteki i sklepy.** Uczciwe ostrzeżenie: książki wypożyczone z bibliotek cyfrowych oraz kupione w Kindle, Apple Books czy Legimi są przypisane do tych aplikacji i nie otworzą się w innym czytniku. EPUB-y z Gutenberga, Standard Ebooks i sklepów bez DRM otwierają się wszędzie.
 - **Szukasz „książki po angielsku dla początkujących pdf”?** Strony rozdające nowe bestsellery „za darmo” to piractwo. Legalne źródła PDF i EPUB są powyżej, a PDF z prawdziwym tekstem dobrze czyta się na telefonie.
-- **Wolisz teksty niż książki?** Simple English Wikipedia, BBC Learning English i serwisy z wiadomościami według poziomów dają krótkie teksty na dziesięciominutową sesję.
+- **Wolisz teksty od książek?** Simple English Wikipedia, BBC Learning English i serwisy z wiadomościami według poziomów dają krótkie teksty na dziesięciominutową sesję.
 
 ## Jak czytać na telefonie i nie zgubić wątku
 

@@ -9,7 +9,7 @@ cta: Öffne eine EPUB-, PDF- oder TXT-Datei oder füge einen Text ein. Tippe auf
 short: yes
 ---
 
-Biblyx bekommt alle ein bis zwei Wochen eine neue Version. Diese Seite listet, was jede Version gebracht hat, im Wortlaut der Versionshinweise bei Google Play und mit dem Tag, an dem sie alle erreicht hat. Die aktuelle Version ist **1.3.0**, in Produktion seit dem 7. November 2026. Wozu die App da ist, ändert sich von Version zu Version nicht: **Sprachen lernen beim Lesen deiner eigenen Bücher**.
+Biblyx bekommt alle ein bis zwei Wochen eine neue Version. Diese Seite listet, was jede Version gebracht hat, im Wortlaut der Versionshinweise bei Google Play und mit dem Tag, an dem sie alle Nutzer erreicht hat. Die aktuelle Version ist **1.3.0**, in Produktion seit dem 7. November 2026. Wozu die App da ist, ändert sich von Version zu Version nicht: **Sprachen lernen beim Lesen deiner eigenen Bücher**.
 
 ## Version 1.3.0, 7. November 2026
 

@@ -18,7 +18,7 @@ Pas besoin de test. Ouvrez la première page d'un livre et comptez les mots que 
 - **2 à 5 mots inconnus :** c'est le bon niveau. Vous comprenez l'histoire et vous apprenez quand même.
 - **6 et plus :** trop difficile pour l'instant. Gardez le livre pour plus tard.
 
-Si vous voulez une étiquette : en A1–A2, on suit des phrases courtes et simples et des mots du quotidien ; en B1, une histoire simple avec un peu d'aide ; en B2, un roman pour adultes avec un dictionnaire à portée de main.
+Si vous voulez une étiquette : en A1–A2, ce sont des phrases courtes et simples et des mots du quotidien ; en B1, une histoire simple avec un peu d'aide ; en B2, un roman pour adultes avec un dictionnaire à portée de main.
 
 ## A1–A2 : nouvelles courtes et contes
 
@@ -32,10 +32,10 @@ Commencez par des histoires que vous connaissez déjà en français. Connaître 
 
 ## B1 : de vraies histoires aux chapitres courts
 
-- **The Gift of the Magi**, d'O. Henry. Une nouvelle célèbre à chute, environ 2 000 mots. Incluse dans Biblyx.
+- **The Gift of the Magi**, d'O. Henry. Une nouvelle célèbre pour sa chute, environ 2 000 mots. Incluse dans Biblyx.
 - **The Adventures of Sherlock Holmes**, d'Arthur Conan Doyle. Douze enquêtes indépendantes : on peut s'arrêter après une. Quelques mots vieillis, mais des intrigues claires.
 - **The Tell-Tale Heart**, d'Edgar Allan Poe. Court et intense ; le vocabulaire est plus dur que la longueur ne le laisse penser, d'où une place entre B1 et B2. Inclus dans Biblyx.
-- **Animal Farm**, de George Orwell. Langue simple, chapitres courts. Dans le domaine public dans l'Union européenne et au Royaume-Uni, encore protégé aux États-Unis.
+- **Animal Farm**, de George Orwell. Langue simple, chapitres courts. Tombé dans le domaine public dans l'Union européenne et au Royaume-Uni, mais encore protégé aux États-Unis.
 - Des livres modernes que les lecteurs B1 terminent : *Charlotte's Web*, *Holes*, *Wonder*, *The Alchemist* et le premier Harry Potter. Pas gratuits, mais présents dans toutes les librairies et bibliothèques.
 
 ## B2 : des romans entiers
@@ -50,7 +50,7 @@ Un mot sur les classiques : ils sont gratuits parce qu'ils sont anciens, et l'an
 
 ## Où trouver des livres en anglais gratuits et légaux
 
-- **Project Gutenberg** (gutenberg.org) : plus de 70 000 livres dont les droits ont expiré, en EPUB et en texte brut. Tous les classiques cités plus haut s'y trouvent.
+- **Project Gutenberg** (gutenberg.org) : plus de 70 000 livres dont les droits ont expiré, en EPUB et en texte brut. Tous les classiques cités plus haut s'y trouvent, sauf Animal Farm, encore protégé aux États-Unis.
 - **Standard Ebooks** (standardebooks.org) : les mêmes livres du domaine public, soigneusement mis en page, avec de belles couvertures.
 - **Wikisource** et **Internet Archive** : d'autres textes, dont d'anciennes traductions de contes.
 - **LibriVox** : des livres audio gratuits d'œuvres du domaine public, lus par des bénévoles. Écoutez en suivant le texte.

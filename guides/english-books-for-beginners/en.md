@@ -1,5 +1,5 @@
 ---
-title: English Books for Beginners: A1–B2 List and Free Sources
+title: English books for beginners: A1–B2 list and free sources
 h1: English books for beginners: what to read at each level, and where to find it
 description: English books for beginners by level (A1–B2): free, legal classics, graded readers, and how to read them on your phone with tap-to-translate.
 path: english-books-for-beginners
@@ -36,7 +36,7 @@ Start with stories you may already know in your own language. Knowing the plot l
 - **The Adventures of Sherlock Holmes** by Arthur Conan Doyle. Twelve separate stories, so you can stop after one. Old-fashioned words appear, but the plots are clear.
 - **The Tell-Tale Heart** by Edgar Allan Poe. Short and intense; the vocabulary is harder than the length suggests, so it sits between B1 and B2. Built into Biblyx.
 - **Animal Farm** by George Orwell. Plain language, short chapters. Public domain in the EU and the UK, still under copyright in the US.
-- Modern paperbacks that B1 readers finish: *Charlotte's Web*, *Holes*, *Wonder*, *The Alchemist*, and the first Harry Potter book. These are not free, but they are everywhere in bookshops and libraries.
+- Modern paperbacks that B1 readers finish: *Charlotte's Web*, *Holes*, *Wonder*, *The Alchemist*, and the first Harry Potter book. These are not free, but they are everywhere in bookstores and libraries.
 
 ## B2: full novels
 
@@ -50,8 +50,8 @@ A note on classics: they are free because they are old, and old English has word
 
 ## Where to get English books free and legally
 
-- **Project Gutenberg** (gutenberg.org): more than 70,000 books whose copyright has expired, as EPUB and plain text. Everything above marked as a classic is there.
-- **Standard Ebooks** (standardebooks.org): the same public-domain books, carefully formatted, with good covers.
+- **Project Gutenberg** (gutenberg.org): more than 70,000 books whose copyright has expired, as EPUB and plain text. Every classic listed above is there, except Animal Farm, which is still under copyright in the US.
+- **Standard Ebooks** (standardebooks.org): public-domain books like these, carefully formatted, with good covers.
 - **Wikisource** and the **Internet Archive**: more texts, including older translations of fairy tales.
 - **LibriVox**: free audiobooks of public-domain books, read by volunteers. Listen while you read the text.
 - **Your public library**: many lend e-books through apps such as Libby. One honest warning: library e-books and books bought from Kindle or Apple Books are locked to those apps. You can't open them in another reader. EPUBs from Gutenberg, Standard Ebooks and DRM-free shops open anywhere.

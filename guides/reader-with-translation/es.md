@@ -1,7 +1,7 @@
 ---
 title: App para leer libros en inglés con traducción al tocar
 h1: App para leer libros en inglés (y en otros nueve idiomas) con traducción al tocar la palabra
-description: Biblyx es un lector de EPUB, PDF y TXT con traducción al tocar la palabra: el significado en esa frase, tarjetas con contexto y repaso sin conexión. Para Android.
+description: Biblyx es un lector de EPUB, PDF y TXT con traducción al tocar: el significado en esa frase, tarjetas con contexto y repaso sin conexión. Para Android.
 path: app-para-leer-libros-en-ingles
 date: 2026-11-10
 slogan: Aprende idiomas leyendo tus propios libros
@@ -25,11 +25,11 @@ Los significados aparecen en el idioma de la interfaz: con la interfaz en españ
 
 Los archivos se abren desde el botón "+" de la app o directamente desde el gestor de archivos, una descarga del navegador o un adjunto de correo con "Abrir con Biblyx". El índice te lleva a cualquier capítulo en libros EPUB, TXT y PDF; el lector tiene búsqueda, marcadores, subrayado en cuatro colores, tema claro y oscuro y desplazamiento automático. Si tu biblioteca está vacía, ya vienen 29 cuentos y relatos cortos en diez idiomas, así que el primer toque tarda menos de un minuto.
 
-Un límite honesto: los libros comprados en Kindle o Apple Books y los prestados por bibliotecas digitales están atados a esas aplicaciones y no se abren en Biblyx ni en ningún otro lector.
+Una limitación importante: los libros comprados en Kindle o Apple Books y los prestados por bibliotecas digitales están atados a esas aplicaciones y no se abren en Biblyx ni en ningún otro lector.
 
 ## De la palabra tocada a la tarjeta
 
-Un toque más guarda la palabra en Word Lab junto con la frase de la que salió; puedes añadirle una nota. La tarjeta vuelve para repasar a los 1, 3, 7, 14 y 30 días, y después a intervalos más largos, el calendario que usan casi todas las apps de repetición espaciada. Los repasos están pensados para el móvil: 10, 20 o 30 tarjetas, una flecha para deshacer una respuesta equivocada, un botón de "Esto ya lo sé" y un test rápido de opción múltiple para las palabras que sigues fallando, que la app marca como difíciles. También puedes repasar solo tus expresiones guardadas o solo las palabras de un libro.
+Un toque más guarda la palabra en Word Lab junto con la frase de la que salió; puedes añadirle una nota. La tarjeta vuelve para repasar al cabo de 1, 3, 7, 14 y 30 días, y después a intervalos más largos, el calendario que usan casi todas las apps de repetición espaciada. Los repasos están pensados para el móvil: 10, 20 o 30 tarjetas, una flecha para deshacer una respuesta equivocada, un botón de «Ya me la sé» y un test rápido de opción múltiple para las palabras que sigues fallando, que la app marca como difíciles. También puedes repasar solo tus expresiones guardadas o solo las palabras de un libro.
 
 Nada se queda encerrado. Word Lab exporta tus palabras como mazo de Anki (.apkg, con tarjetas listas y pronunciación) o como archivo CSV para una hoja de cálculo. Solo salen las palabras, nunca el texto de tus libros.
 

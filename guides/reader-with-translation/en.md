@@ -1,7 +1,7 @@
 ---
 title: EPUB reader with translation for language learners
 h1: An EPUB, PDF and TXT reader with translation: read your own books and learn the words in them
-description: Biblyx is an EPUB, PDF and TXT reader with tap-to-translate for language learners: the meaning in that sentence, flashcards with context and offline review. Android.
+description: Biblyx is an EPUB, PDF and TXT reader with tap-to-translate: the meaning in that sentence, flashcards with context and offline review. For Android.
 path: epub-reader-with-translation
 date: 2026-11-10
 slogan: Learn languages by reading your own books
@@ -23,9 +23,9 @@ Meanings appear in your interface language. Biblyx translates books in ten langu
 - **PDF with real text.** Scanned PDFs are photos of pages; no reader can tap a word in a photo, and Biblyx tells you when you open one.
 - **Pasted text.** Since version 1.3.0 you can paste an article, a story or a long message and read it like a book, with the same tap-to-translate and the same cards.
 
-Files open from the app's "+" button or straight from a file manager, a browser download or an email attachment through "Open with Biblyx". A table of contents takes you to any chapter in EPUB, TXT and PDF books; the reader has search, bookmarks and highlights in four colours, a light and a dark theme, and an auto-scroll mode. If your library is empty, 29 short stories and tales in ten languages are already there, so the first tap takes under a minute.
+Files open from the app's "+" button or straight from a file manager, a browser download or an email attachment through "Open with Biblyx". A table of contents takes you to any chapter in EPUB, TXT and PDF books; the reader has search, bookmarks and highlights in four colors, a light and a dark theme, and an auto-scroll mode. If your library is empty, 29 short stories and tales in ten languages are already there, so the first tap takes under a minute.
 
-Store files are the one honest limitation: books bought in Kindle or Apple Books, or borrowed through a library app, are locked to those apps and won't open in Biblyx or in any other reader.
+Locked books are the one honest limitation: books bought in Kindle or Apple Books, or borrowed through a library app, are locked to those apps and won't open in Biblyx or in any other reader.
 
 ## From a tapped word to a flashcard
 

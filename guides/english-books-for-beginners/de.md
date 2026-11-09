@@ -1,7 +1,7 @@
 ---
 title: Englische Bücher für Anfänger: A1–B2-Liste, kostenlos
 h1: Englische Bücher für Anfänger: was du auf jedem Niveau lesen kannst, und wo du es findest
-description: Englische Bücher für Anfänger nach Niveau (A1–B2): kostenlose, legale Klassiker, vereinfachte Lektüren und Lesen auf dem Handy mit Übersetzung per Fingertipp.
+description: Englische Bücher für Anfänger nach Niveau (A1–B2): kostenlose, legale Klassiker, vereinfachte Lektüren und Lesen am Handy mit Übersetzung per Tipp.
 path: englische-buecher-fuer-anfaenger
 date: 2026-11-10
 slogan: Sprachen lernen beim Lesen deiner eigenen Bücher
@@ -18,7 +18,7 @@ Du brauchst keinen Test. Schlag die erste Seite eines Buches auf und zähle die 
 - **2–5 unbekannte Wörter:** genau richtig. Du verstehst die Geschichte und lernst trotzdem.
 - **6 oder mehr:** im Moment zu schwer. Heb dir das Buch für später auf.
 
-Wenn du ein Etikett willst: A1–A2 schafft kurze, einfache Sätze und Alltagswörter; B1 folgt einer schlichten Geschichte mit etwas Hilfe; B2 kommt mit einem Roman für Erwachsene zurecht, wenn ein Wörterbuch in Reichweite ist.
+Wenn du ein Etikett willst: Auf A1–A2 verstehst du kurze, einfache Sätze und Alltagswörter; auf B1 kannst du einer schlichten Geschichte mit etwas Hilfe folgen; auf B2 kommst du mit einem Roman für Erwachsene zurecht, wenn ein Wörterbuch in Reichweite ist.
 
 ## A1–A2: Kurzgeschichten und Märchen
 
@@ -50,7 +50,7 @@ Ein Hinweis zu Klassikern: Sie sind kostenlos, weil sie alt sind, und altes Engl
 
 ## Wo du englische Bücher kostenlos und legal bekommst
 
-- **Project Gutenberg** (gutenberg.org): über 70.000 Bücher, deren Urheberrecht abgelaufen ist, als EPUB und Textdatei. Alles, was oben als Klassiker steht, ist dort.
+- **Project Gutenberg** (gutenberg.org): über 70.000 Bücher, deren Urheberrecht abgelaufen ist, als EPUB und Textdatei. Alle oben genannten Klassiker sind dort, außer Animal Farm, das in den USA noch geschützt ist.
 - **Standard Ebooks** (standardebooks.org): dieselben gemeinfreien Bücher, sorgfältig gesetzt, mit guten Covern.
 - **Wikisource** und das **Internet Archive**: weitere Texte, auch ältere Märchenübersetzungen.
 - **LibriVox**: kostenlose Hörbücher gemeinfreier Werke, von Freiwilligen gelesen. Höre mit, während du den Text liest.
@@ -61,7 +61,7 @@ Ein Hinweis zu Klassikern: Sie sind kostenlos, weil sie alt sind, und altes Engl
 
 Das klassische Problem: Du stößt auf ein unbekanntes Wort, öffnest das Wörterbuch, verlierst den Satz, und nach drei Wörtern klappst du das Buch zu. Ein Reader für Lernende löst genau das.
 
-Mit **Biblyx** auf Android öffnest du deine eigene EPUB-, PDF- oder TXT-Datei oder fügst einen beliebigen Text ein und tippst auf ein Wort. Du siehst, was es in genau diesem Satz bedeutet, nicht zehn Wörterbuchbedeutungen. Ein weiterer Tipp speichert das Wort mit seinem Satz als Karteikarte, und die App bringt es nach 1, 3, 7, 14 und 30 Tagen zur Wiederholung zurück. Ist deine Bibliothek leer, sind 29 Kurzgeschichten in 10 Sprachen schon enthalten; die englischen sind *The Selfish Giant*, *The Gift of the Magi* und *The Tell-Tale Heart*. Lesen und Wiederholen funktionieren offline, für neue Wörter braucht es eine Verbindung. Das ist die Idee dahinter: **Sprachen lernen beim Lesen deiner eigenen Bücher**.
+Mit **Biblyx** auf Android öffnest du deine eigene EPUB-, PDF- oder TXT-Datei oder fügst einen beliebigen Text ein und tippst auf ein Wort. Du siehst, was es in genau diesem Satz bedeutet, nicht zehn Wörterbuchbedeutungen. Ein weiterer Tipp speichert das Wort mit seinem Satz als Karteikarte, und die App bringt es nach 1, 3, 7, 14 und 30 Tagen zur Wiederholung zurück. Ist deine Bibliothek leer, sind 29 Kurzgeschichten in 10 Sprachen schon enthalten; die englischen sind *The Selfish Giant*, *The Gift of the Magi* und *The Tell-Tale Heart*. Lesen und Wiederholen funktionieren offline, für neue Wörter braucht es eine Verbindung. Die Idee hinter alldem: **Sprachen lernen beim Lesen deiner eigenen Bücher**.
 
 Welche App du auch nutzt, die Gewohnheit ist dieselbe:
 
@@ -87,7 +87,7 @@ Nur, wenn die PDF echten Text enthält. Gescannte PDFs sind Fotos von Seiten; da
 
 ### Wo kann ich englische Bücher für Anfänger kostenlos herunterladen?
 
-Legal bei Project Gutenberg, Standard Ebooks, Wikisource und im Internet Archive; alle bieten EPUB, die meisten auch PDF oder Text. Seiten, die aktuelle Bestseller "kostenlos" verteilen, sind Piratenseiten.
+Legal bei Project Gutenberg, Standard Ebooks, Wikisource und im Internet Archive; alle bieten EPUB, die meisten auch PDF oder Text. Seiten, die aktuelle Bestseller „kostenlos“ verteilen, sind Piratenseiten.
 
 ### Wie viele neue Wörter sollte ich pro Tag speichern?
 

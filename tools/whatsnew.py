@@ -21,6 +21,9 @@ RELEASES = [  # version name, release-notes file stem, production date
     ("1.2.0", "1.2.0+37", "2026-10-28"),
     ("1.1.0", "1.1.0+35", "2026-10-21"),
 ]
+FIXUPS = {  # grammar fixes to the Play notes as published (the Play text itself is corrected at the next release)
+    "es": {"Sincronización e inicio con Google más fiables": "Sincronización e inicio de sesión con Google más fiables"},
+}
 TAGS = {"en": "en-US", "az": "az-AZ", "tr": "tr-TR", "de": "de-DE", "es": "es-ES",
         "fr": "fr-FR", "it": "it-IT", "ru": "ru-RU", "pl": "pl-PL", "pt": "pt-BR"}
 MONTHS = {
@@ -97,7 +100,7 @@ T = {
     description="Jedes Biblyx-Update seit 1.1.0 im Wortlaut der Google-Play-Versionshinweise, mit dem Tag, an dem es die Nutzer erreicht hat. Aktuell: {v} ({date}).",
     slogan="Sprachen lernen beim Lesen deiner eigenen Bücher",
     cta="Öffne eine EPUB-, PDF- oder TXT-Datei oder füge einen Text ein. Tippe auf ein Wort, sieh seine Bedeutung in diesem Satz, speichere es und wiederhole es später.",
-    intro="Biblyx bekommt alle ein bis zwei Wochen eine neue Version. Diese Seite listet, was jede Version gebracht hat, im Wortlaut der Versionshinweise bei Google Play und mit dem Tag, an dem sie alle erreicht hat. Die aktuelle Version ist **{v}**, in Produktion seit dem {date}. Wozu die App da ist, ändert sich von Version zu Version nicht: **Sprachen lernen beim Lesen deiner eigenen Bücher**.",
+    intro="Biblyx bekommt alle ein bis zwei Wochen eine neue Version. Diese Seite listet, was jede Version gebracht hat, im Wortlaut der Versionshinweise bei Google Play und mit dem Tag, an dem sie alle Nutzer erreicht hat. Die aktuelle Version ist **{v}**, in Produktion seit dem {date}. Wozu die App da ist, ändert sich von Version zu Version nicht: **Sprachen lernen beim Lesen deiner eigenen Bücher**.",
     version="Version {v}, {date}", how_h="Wie Updates ankommen",
     how="Google Play installiert Updates von selbst, wenn automatische Updates eingeschaltet sind; sonst zeigt die Biblyx-Seite bei Google Play einen Knopf „Aktualisieren“. Welche Version auf deinem Telefon ist, steht auf dem Bildschirm „Über“ in der App. Ein Update rührt deine gespeicherten Wörter, Karten, Fortschritte, Lesezeichen und Markierungen nicht an.",
     faq_h="Häufige Fragen",
@@ -107,7 +110,7 @@ T = {
          ("Gibt es eine iPhone-Version?", "Noch nicht. Biblyx gibt es für Android bei Google Play; eine iOS-Version ist geplant, ohne Termin.")]),
  "es": dict(
     title="Novedades de Biblyx: historial de versiones", h1="Novedades de Biblyx", path="novedades",
-    description="Cada actualización de Biblyx desde la 1.1.0, con sus notas de Google Play y el día en que llegó a los usuarios. Versión actual: {v} ({date}).",
+    description="Cada actualización de Biblyx desde la 1.1.0, con sus notas de Google Play y el día en que llegó. Versión actual: {v} ({date}).",
     slogan="Aprende idiomas leyendo tus propios libros",
     cta="Abre un EPUB, PDF o TXT, o pega un texto. Toca una palabra, mira qué significa en esa frase, guárdala y repásala después.",
     intro="Biblyx publica una versión nueva cada una o dos semanas. Esta página recoge lo que trajo cada versión, con las palabras de sus notas en Google Play y el día en que llegó a todo el mundo. La versión actual es la **{v}**, en producción desde el {date}. Para qué sirve la app no cambia de una versión a otra: **Aprende idiomas leyendo tus propios libros**.",
@@ -120,14 +123,14 @@ T = {
          ("¿Hay versión para iPhone?", "Todavía no. Biblyx está en Android a través de Google Play; la versión para iOS está prevista, sin fecha.")]),
  "fr": dict(
     title="Nouveautés de Biblyx : historique des versions", h1="Nouveautés de Biblyx", path="nouveautes",
-    description="Chaque mise à jour de Biblyx depuis la 1.1.0, avec ses notes Google Play et le jour où elle a atteint les utilisateurs. Version actuelle : {v} ({date}).",
+    description="Chaque mise à jour de Biblyx depuis la 1.1.0, avec ses notes Google Play et sa date de sortie. Version actuelle : {v} ({date}).",
     slogan="Apprenez les langues en lisant vos propres livres",
     cta="Ouvrez un EPUB, un PDF ou un TXT, ou collez un texte. Touchez un mot, voyez son sens dans cette phrase, enregistrez-le et révisez-le plus tard.",
-    intro="Biblyx sort une nouvelle version toutes les une à deux semaines. Cette page liste ce que chaque version a apporté, dans les mots de ses notes de version sur Google Play, avec le jour où elle a atteint tout le monde. La version actuelle est la **{v}**, en production depuis le {date}. Ce à quoi sert l'application ne change pas d'une version à l'autre : **Apprenez les langues en lisant vos propres livres**.",
+    intro="Biblyx sort une nouvelle version toutes les une ou deux semaines. Cette page liste ce que chaque version a apporté, dans les mots de ses notes de version sur Google Play, avec le jour où elle a atteint tout le monde. La version actuelle est la **{v}**, en production depuis le {date}. Ce à quoi sert l'application ne change pas d'une version à l'autre : **Apprenez les langues en lisant vos propres livres**.",
     version="Version {v}, {date}", how_h="Comment arrivent les mises à jour",
-    how="Google Play installe les mises à jour tout seul si la mise à jour automatique est activée ; sinon, la page de Biblyx sur Google Play affiche un bouton Mettre à jour. La version installée sur votre téléphone est indiquée sur l'écran À propos, dans l'application. Une mise à jour ne touche ni vos mots enregistrés, ni vos cartes, votre progression, vos signets ou vos surlignages.",
+    how="Google Play installe les mises à jour tout seul si la mise à jour automatique est activée ; sinon, la page de Biblyx sur Google Play affiche un bouton Mettre à jour. La version installée sur votre téléphone est indiquée sur l'écran À propos, dans l'application. Une mise à jour ne touche ni vos mots enregistrés, ni vos cartes, ni votre progression, ni vos signets, ni vos surlignages.",
     faq_h="Questions fréquentes",
-    faq=[("À quelle fréquence Biblyx est-il mis à jour ?", "En général toutes les une à deux semaines ; les correctifs sortent plus vite. Les notes d'une version paraissent ici le jour où elle atteint Google Play."),
+    faq=[("À quelle fréquence Biblyx est-il mis à jour ?", "En général toutes les une ou deux semaines ; les correctifs sortent plus vite. Les notes d'une version paraissent ici le jour où elle atteint Google Play."),
          ("Est-ce que je perds mes mots enregistrés en mettant à jour ?", "Non. Mots enregistrés, cartes, progression des révisions, signets et surlignages restent sur votre appareil, et avec un compte ils sont aussi synchronisés."),
          ("Où signaler un problème ou demander une fonction ?", "Écrivez à support@biblyx.com. Chaque message est lu, et les correctifs arrivent le plus souvent dans la version suivante."),
          ("Existe-t-il une version iPhone ?", "Pas encore. Biblyx est sur Android via Google Play ; une version iOS est prévue, sans date.")]),
@@ -136,11 +139,11 @@ T = {
     description="Ogni aggiornamento di Biblyx dalla 1.1.0, con le sue note su Google Play e il giorno in cui è arrivato agli utenti. Versione attuale: {v} ({date}).",
     slogan="Impara le lingue leggendo i tuoi libri",
     cta="Apri un EPUB, PDF o TXT, oppure incolla un testo. Tocca una parola, guarda cosa significa in quella frase, salvala e ripassala più tardi.",
-    intro="Biblyx esce con una versione nuova ogni una o due settimane. Questa pagina elenca cosa ha portato ogni versione, con le parole delle sue note su Google Play e il giorno in cui è arrivata a tutti. La versione attuale è la **{v}**, in produzione dal {date}. A cosa serve l'app non cambia da una versione all'altra: **Impara le lingue leggendo i tuoi libri**.",
+    intro="Biblyx esce con una versione nuova ogni settimana o due. Questa pagina elenca cosa ha portato ogni versione, con le parole delle sue note su Google Play e il giorno in cui è arrivata a tutti. La versione attuale è la **{v}**, in produzione dal {date}. A cosa serve l'app non cambia da una versione all'altra: **Impara le lingue leggendo i tuoi libri**.",
     version="Versione {v}, {date}", how_h="Come arrivano gli aggiornamenti",
     how="Google Play installa gli aggiornamenti da solo se l'aggiornamento automatico è attivo; altrimenti la pagina di Biblyx su Google Play mostra il pulsante Aggiorna. La versione sul tuo telefono è indicata nella schermata Informazioni dentro l'app. Un aggiornamento non tocca parole salvate, carte, progressi, segnalibri ed evidenziazioni.",
     faq_h="Domande frequenti",
-    faq=[("Ogni quanto si aggiorna Biblyx?", "Di solito ogni una o due settimane; le correzioni escono prima. Le note di una versione compaiono qui il giorno in cui arriva su Google Play."),
+    faq=[("Ogni quanto si aggiorna Biblyx?", "Di solito ogni settimana o due; le correzioni escono prima. Le note di una versione compaiono qui il giorno in cui arriva su Google Play."),
          ("Perdo le parole salvate aggiornando?", "No. Parole salvate, carte, progressi del ripasso, segnalibri ed evidenziazioni restano sul tuo dispositivo, e con un account vengono anche sincronizzati."),
          ("Dove segnalo un problema o chiedo una funzione?", "Scrivi a support@biblyx.com. Ogni messaggio viene letto, e le correzioni di solito entrano nella versione successiva."),
          ("Esiste una versione per iPhone?", "Non ancora. Biblyx è su Android tramite Google Play; la versione iOS è in programma, senza data.")]),
@@ -149,17 +152,17 @@ T = {
     description="Каждое обновление Biblyx начиная с 1.1.0 — словами его заметок в Google Play и с днём, когда оно дошло до пользователей. Текущая версия: {v} ({date}).",
     slogan="Учите языки, читая свои книги",
     cta="Откройте EPUB, PDF или TXT либо вставьте текст. Нажмите на слово, посмотрите его значение в этом предложении, сохраните и повторите позже.",
-    intro="Новая версия Biblyx выходит раз в одну-две недели. На этой странице перечислено, что принесла каждая версия, словами её заметок о выпуске в Google Play и с днём, когда она дошла до всех. Текущая версия — **{v}**, в продакшене с {date}. Назначение приложения от версии к версии не меняется: **Учите языки, читая свои книги**.",
+    intro="Новая версия Biblyx выходит раз в одну-две недели. На этой странице перечислено, что принесла каждая версия, словами её заметок о выпуске в Google Play и с днём, когда она дошла до всех. Текущая версия — **{v}**, доступна в Google Play с {date}. Назначение приложения от версии к версии не меняется: **Учите языки, читая свои книги**.",
     version="Версия {v}, {date}", how_h="Как приходят обновления",
     how="Google Play устанавливает обновления сам, если включено автообновление; иначе на странице Biblyx в Google Play появляется кнопка «Обновить». Какая версия стоит на вашем телефоне, видно на экране «О приложении» внутри Biblyx. Обновление не трогает сохранённые слова, карточки, прогресс, закладки и выделения.",
     faq_h="Частые вопросы",
-    faq=[("Как часто обновляется Biblyx?", "Обычно раз в одну-две недели; исправления выходят быстрее. Заметки версии появляются здесь в день, когда она доходит до Google Play."),
+    faq=[("Как часто обновляется Biblyx?", "Обычно раз в одну-две недели; исправления выходят быстрее. Заметки о выпуске появляются здесь в день, когда она доходит до Google Play."),
          ("Пропадут ли сохранённые слова при обновлении?", "Нет. Сохранённые слова, карточки, прогресс повторения, закладки и выделения остаются на устройстве, а с аккаунтом ещё и синхронизируются."),
          ("Куда сообщить о проблеме или попросить функцию?", "Напишите на support@biblyx.com. Каждое письмо читается, исправления обычно попадают в следующую версию."),
          ("Есть ли версия для iPhone?", "Пока нет. Biblyx доступен для Android в Google Play; версия для iOS планируется, даты нет.")]),
  "pl": dict(
     title="Nowości w Biblyx: historia wersji", h1="Nowości w Biblyx", path="nowosci",
-    description="Każda aktualizacja Biblyx od wersji 1.1.0, słowami jej opisu w Google Play i z dniem, w którym dotarła do użytkowników. Aktualna wersja: {v} ({date}).",
+    description="Każda aktualizacja Biblyx od wersji 1.1.0, słowami opisu z Google Play i z dniem, w którym dotarła do użytkowników. Aktualna: {v} ({date}).",
     slogan="Ucz się języków, czytając własne książki",
     cta="Otwórz plik EPUB, PDF lub TXT albo wklej tekst. Dotknij słowa, zobacz jego znaczenie w tym zdaniu, zapisz je i powtórz później.",
     intro="Nowa wersja Biblyx wychodzi co tydzień lub dwa. Ta strona wymienia, co przyniosła każda wersja, słowami jej opisu w Google Play i z dniem, w którym dotarła do wszystkich. Aktualna wersja to **{v}**, w produkcji od {date}. To, do czego służy aplikacja, nie zmienia się z wersji na wersję: **Ucz się języków, czytając własne książki**.",
@@ -172,10 +175,10 @@ T = {
          ("Czy jest wersja na iPhone'a?", "Jeszcze nie. Biblyx jest na Androida w Google Play; wersja na iOS jest w planach, bez daty.")]),
  "pt": dict(
     title="Novidades do Biblyx: histórico de versões", h1="Novidades do Biblyx", path="novidades",
-    description="Cada atualização do Biblyx desde a 1.1.0, nas palavras das notas do Google Play e com o dia em que chegou aos usuários. Versão atual: {v} ({date}).",
+    description="Cada atualização do Biblyx desde a 1.1.0, com as notas do Google Play e o dia em que chegou. Versão atual: {v} ({date}).",
     slogan="Aprenda idiomas lendo seus próprios livros",
     cta="Abra um EPUB, PDF ou TXT, ou cole um texto. Toque em uma palavra, veja o que ela significa naquela frase, salve e revise depois.",
-    intro="O Biblyx lança uma versão nova a cada uma ou duas semanas. Esta página lista o que cada versão trouxe, nas palavras das notas de lançamento do Google Play, com o dia em que chegou a todo mundo. A versão atual é a **{v}**, em produção desde {date}. Para que o app serve não muda de uma versão para outra: **Aprenda idiomas lendo seus próprios livros**.",
+    intro="O Biblyx lança uma versão nova a cada uma ou duas semanas. Esta página lista o que cada versão trouxe, nas palavras das notas de lançamento do Google Play, com o dia em que chegou a todo mundo. A versão atual é a **{v}**, em produção desde {date}. A finalidade do app não muda de uma versão para outra: **Aprenda idiomas lendo seus próprios livros**.",
     version="Versão {v}, {date}", how_h="Como as atualizações chegam",
     how="O Google Play instala as atualizações sozinho quando a atualização automática está ligada; senão, a página do Biblyx no Google Play mostra o botão Atualizar. A versão no seu celular aparece na tela Sobre, dentro do app. Atualizar não mexe nas suas palavras salvas, cards, progresso, marcadores ou destaques.",
     faq_h="Perguntas frequentes",
@@ -194,6 +197,8 @@ def bullets(notes_dir: Path, stem: str, lang: str) -> list:
         sys.exit(f"no <{tag}> block in release-notes-{stem}.txt")
     lines = [l.strip() for l in m.group(1).splitlines() if l.strip()]
     items = [l[1:].strip() for l in lines if l.startswith("•")]
+    for a, b in FIXUPS.get(lang, {}).items():
+        items = [i.replace(a, b) for i in items]
     if not items:
         sys.exit(f"no bullets for {tag} in release-notes-{stem}.txt")
     return items

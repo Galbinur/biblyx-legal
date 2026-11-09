@@ -1,7 +1,7 @@
 ---
 title: Novidades do Biblyx: histórico de versões
 h1: Novidades do Biblyx
-description: Cada atualização do Biblyx desde a 1.1.0, nas palavras das notas do Google Play e com o dia em que chegou aos usuários. Versão atual: 1.3.0 (7 de novembro de 2026).
+description: Cada atualização do Biblyx desde a 1.1.0, com as notas do Google Play e o dia em que chegou. Versão atual: 1.3.0 (7 de novembro de 2026).
 path: novidades
 date: 2026-11-07
 slogan: Aprenda idiomas lendo seus próprios livros
@@ -9,7 +9,7 @@ cta: Abra um EPUB, PDF ou TXT, ou cole um texto. Toque em uma palavra, veja o qu
 short: yes
 ---
 
-O Biblyx lança uma versão nova a cada uma ou duas semanas. Esta página lista o que cada versão trouxe, nas palavras das notas de lançamento do Google Play, com o dia em que chegou a todo mundo. A versão atual é a **1.3.0**, em produção desde 7 de novembro de 2026. Para que o app serve não muda de uma versão para outra: **Aprenda idiomas lendo seus próprios livros**.
+O Biblyx lança uma versão nova a cada uma ou duas semanas. Esta página lista o que cada versão trouxe, nas palavras das notas de lançamento do Google Play, com o dia em que chegou a todo mundo. A versão atual é a **1.3.0**, em produção desde 7 de novembro de 2026. A finalidade do app não muda de uma versão para outra: **Aprenda idiomas lendo seus próprios livros**.
 
 ## Versão 1.3.0, 7 de novembro de 2026
 

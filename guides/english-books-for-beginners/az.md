@@ -50,7 +50,7 @@ Klassiklər haqqında bir qeyd: pulsuzdurlar, çünki köhnədirlər; köhnə in
 
 ## İngilis dilində kitabları pulsuz və qanuni haradan tapmalı
 
-- **Project Gutenberg** (gutenberg.org): müəllif hüququ bitmiş 70 000-dən çox kitab, EPUB və sadə mətn kimi. Yuxarıda klassik kimi keçən hər şey oradadır.
+- **Project Gutenberg** (gutenberg.org): müəllif hüququ bitmiş 70 000-dən çox kitab, EPUB və sadə mətn kimi. Yuxarıda klassik kimi keçən hər şey oradadır; yalnız Animal Farm yoxdur, ABŞ-da hələ müəllif hüququ ilə qorunur.
 - **Standard Ebooks** (standardebooks.org): eyni ictimai mülkiyyət kitabları, səliqəli tərtibatla, gözəl üz qabığı ilə.
 - **Wikisource** və **Internet Archive**: daha çox mətn, nağılların köhnə tərcümələri daxil.
 - **LibriVox**: könüllülərin səsləndirdiyi pulsuz audiokitablar. Mətni oxuyarkən dinlə.
