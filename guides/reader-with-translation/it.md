@@ -3,7 +3,7 @@ title: App per leggere libri in inglese con traduzione al tocco
 h1: App per leggere libri in inglese con traduzione: apri i tuoi EPUB, PDF e TXT, tocca una parola, vedi il significato nella frase
 description: Biblyx è un lettore EPUB, PDF e TXT con traduzione al tocco per chi impara una lingua: il significato in quella frase, flashcard con contesto, ripasso offline.
 path: app-per-leggere-libri-in-inglese
-date: 2026-11-10
+date: 2026-11-09
 slogan: Impara le lingue leggendo i tuoi libri
 cta: Apri un EPUB, PDF o TXT, oppure incolla un testo. Tocca una parola, guarda cosa significa in quella frase, salvala e ripassala più tardi.
 ---

@@ -15,6 +15,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "guides" / "whats-new"
 
+FIRST_PUBLISHED = "2026-11-09"  # the page's datePublished; dateModified comes from git
+
 RELEASES = [  # version name, release-notes file stem, production date
     ("1.3.0", "1.3.0+42", "2026-11-07"),
     ("1.2.1", "1.2.1+40", "2026-11-01"),
@@ -218,7 +220,7 @@ def main():
             f"h1: {t['h1']}",
             f"description: {t['description'].format(v=cur_v, date=date)}",
             f"path: {t['path']}",
-            f"date: {cur_date}",
+            f"date: {FIRST_PUBLISHED}",
             f"slogan: {t['slogan']}",
             f"cta: {t['cta']}",
             "short: yes",

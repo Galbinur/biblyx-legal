@@ -3,7 +3,7 @@ title: İngilizce kitap okuma: A1–B2 başlangıç listesi, ücretsiz
 h1: İngilizce kitap okuma: başlangıç için hikaye kitapları ve romanlar, seviyeye göre
 description: Başlangıç için İngilizce hikaye kitapları ve romanlar, seviye seviye (A1–B2): ücretsiz ve yasal kaynaklar, seviyeli kitaplar, telefonda çeviriyle okuma.
 path: baslangic-icin-ingilizce-kitaplar
-date: 2026-11-10
+date: 2026-11-09
 slogan: Kendi kitaplarını okuyarak dil öğren
 cta: EPUB, PDF veya TXT dosyanı aç ya da bir metni yapıştır. Kelimeye dokun, o cümledeki anlamını gör, kaydet ve sonra tekrar et.
 ---

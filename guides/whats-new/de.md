@@ -3,7 +3,7 @@ title: Neu in Biblyx: alle Versionen
 h1: Neu in Biblyx
 description: Jedes Biblyx-Update seit 1.1.0 im Wortlaut der Google-Play-Versionshinweise, mit dem Tag, an dem es die Nutzer erreicht hat. Aktuell: 1.3.0 (7. November 2026).
 path: neuigkeiten
-date: 2026-11-07
+date: 2026-11-09
 slogan: Sprachen lernen beim Lesen deiner eigenen Bücher
 cta: Öffne eine EPUB-, PDF- oder TXT-Datei oder füge einen Text ein. Tippe auf ein Wort, sieh seine Bedeutung in diesem Satz, speichere es und wiederhole es später.
 short: yes

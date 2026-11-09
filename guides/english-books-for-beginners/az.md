@@ -3,7 +3,7 @@ title: İngilis dili öyrənmək üçün kitablar: A1–B2 siyahı, pulsuz
 h1: İngilis dili öyrənmək üçün kitablar: hər səviyyədə nə oxumalı, haradan tapmalı
 description: Başlayanlar üçün ingilis dilində kitablar səviyyəyə görə (A1–B2): pulsuz, qanuni klassiklər, səviyyəli oxu kitabları və telefonda toxunuşla tərcümə ilə oxumaq.
 path: ingilis-dili-oyrenmek-ucun-kitablar
-date: 2026-11-10
+date: 2026-11-09
 slogan: Öz kitablarını oxuyaraq dil öyrən
 cta: EPUB, PDF və ya TXT faylını aç, ya da bir mətni yapışdır. Sözə toxun, həmin cümlədəki mənasını gör, saxla və sonra təkrar et.
 ---

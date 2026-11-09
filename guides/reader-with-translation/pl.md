@@ -3,7 +3,7 @@ title: Czytnik z tłumaczeniem słów do nauki języka
 h1: Czytnik z tłumaczeniem: otwórz własne książki EPUB, PDF i TXT, dotknij słowa, zobacz jego znaczenie w zdaniu
 description: Biblyx to czytnik EPUB, PDF i TXT z tłumaczeniem słowa po dotknięciu: znaczenie w tym zdaniu, fiszki z kontekstem, powtórki offline. Aplikacja na Androida.
 path: czytnik-z-tlumaczeniem
-date: 2026-11-10
+date: 2026-11-09
 slogan: Ucz się języków, czytając własne książki
 cta: Otwórz plik EPUB, PDF lub TXT albo wklej tekst. Dotknij słowa, zobacz jego znaczenie w tym zdaniu, zapisz je i powtórz później.
 ---

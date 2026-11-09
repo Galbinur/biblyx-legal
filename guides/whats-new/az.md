@@ -3,7 +3,7 @@ title: Biblyx-də yeniliklər: versiya tarixçəsi
 h1: Biblyx-də yeniliklər
 description: 1.1.0-dan bəri hər Biblyx yeniləməsi, Google Play buraxılış qeydlərinin öz sözləri ilə və istifadəçilərə çatdığı günlə. Hazırkı versiya: 1.3.0 (7 noyabr 2026).
 path: yenilikler
-date: 2026-11-07
+date: 2026-11-09
 slogan: Öz kitablarını oxuyaraq dil öyrən
 cta: EPUB, PDF və ya TXT faylını aç, ya da bir mətni yapışdır. Sözə toxun, həmin cümlədəki mənasını gör, saxla və sonra təkrar et.
 short: yes

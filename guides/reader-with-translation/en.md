@@ -3,7 +3,7 @@ title: EPUB reader with translation for language learners
 h1: An EPUB, PDF and TXT reader with translation: read your own books and learn the words in them
 description: Biblyx is an EPUB, PDF and TXT reader with tap-to-translate: the meaning in that sentence, flashcards with context and offline review. For Android.
 path: epub-reader-with-translation
-date: 2026-11-10
+date: 2026-11-09
 slogan: Learn languages by reading your own books
 cta: Open an EPUB, PDF or TXT, or paste a text. Tap a word, see what it means in that sentence, save it and review it later.
 ---

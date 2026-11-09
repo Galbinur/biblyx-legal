@@ -3,7 +3,7 @@ title: Tərcüməli kitab oxuyucu: öz kitabını oxu, söz öyrən
 h1: Tərcüməli kitab oxuyucu: EPUB, PDF və TXT kitabını aç, sözə toxun, mənasını cümlədə gör
 description: Biblyx dil öyrənənlər üçün tərcüməli kitab oxuyucudur: EPUB, PDF və TXT faylını aç, sözə toxun, həmin cümlədəki mənasını gör, kart kimi saxla. Android üçün.
 path: tercumeli-kitab-oxuyucu
-date: 2026-11-10
+date: 2026-11-09
 slogan: Öz kitablarını oxuyaraq dil öyrən
 cta: EPUB, PDF və ya TXT faylını aç, ya da bir mətni yapışdır. Sözə toxun, həmin cümlədəki mənasını gör, saxla və sonra təkrar et.
 ---

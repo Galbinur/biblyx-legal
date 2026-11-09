@@ -3,7 +3,7 @@ title: App para ler livros com tradução ao tocar na palavra
 h1: App para ler livros com tradução: abra seus EPUB, PDF e TXT, toque na palavra, veja o significado na frase
 description: O Biblyx é um leitor de EPUB, PDF e TXT com tradução ao tocar na palavra: o significado naquela frase, flashcards com contexto e revisão offline. Android.
 path: app-para-ler-livros-com-traducao
-date: 2026-11-10
+date: 2026-11-09
 slogan: Aprenda idiomas lendo seus próprios livros
 cta: Abra um EPUB, PDF ou TXT, ou cole um texto. Toque em uma palavra, veja o que ela significa naquela frase, salve e revise depois.
 ---

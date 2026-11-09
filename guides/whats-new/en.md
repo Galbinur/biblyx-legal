@@ -3,7 +3,7 @@ title: What's new in Biblyx: version history
 h1: What's new in Biblyx
 description: Every Biblyx update since 1.1.0, in the words of its Google Play release notes, with the day it reached users. Current version: 1.3.0 (7 November 2026).
 path: whats-new
-date: 2026-11-07
+date: 2026-11-09
 slogan: Learn languages by reading your own books
 cta: Open an EPUB, PDF or TXT, or paste a text. Tap a word, see what it means in that sentence, save it and review it later.
 short: yes

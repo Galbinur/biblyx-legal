@@ -3,7 +3,7 @@ title: English books for beginners: A1–B2 list and free sources
 h1: English books for beginners: what to read at each level, and where to find it
 description: English books for beginners by level (A1–B2): free, legal classics, graded readers, and how to read them on your phone with tap-to-translate.
 path: english-books-for-beginners
-date: 2026-11-10
+date: 2026-11-09
 slogan: Learn languages by reading your own books
 cta: Open any EPUB, PDF or TXT, or paste an article. Tap a word for its meaning in that sentence, save it, and review it later.
 ---

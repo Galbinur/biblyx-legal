@@ -3,7 +3,7 @@ title: Libros en inglés para principiantes: lista A1–B2, gratis
 h1: Libros en inglés para principiantes: qué leer en cada nivel y dónde encontrarlo
 description: Libros en inglés para principiantes por nivel (A1–B2): clásicos gratis y legales, lecturas graduadas y cómo leerlos en el móvil con traducción al tocar.
 path: libros-en-ingles-para-principiantes
-date: 2026-11-10
+date: 2026-11-09
 slogan: Aprende idiomas leyendo tus propios libros
 cta: Abre un EPUB, PDF o TXT, o pega un texto. Toca una palabra, mira qué significa en esa frase, guárdala y repásala después.
 ---

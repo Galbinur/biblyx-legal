@@ -3,7 +3,7 @@ title: Książki po angielsku dla początkujących: A1–B2, za darmo
 h1: Książki po angielsku dla początkujących: co czytać na każdym poziomie i skąd to wziąć
 description: Książki po angielsku dla początkujących według poziomu (A1–B2): darmowa, legalna klasyka, lektury uproszczone i czytanie na telefonie z tłumaczeniem słów.
 path: ksiazki-po-angielsku-dla-poczatkujacych
-date: 2026-11-10
+date: 2026-11-09
 slogan: Ucz się języków, czytając własne książki
 cta: Otwórz plik EPUB, PDF lub TXT albo wklej tekst. Dotknij słowa, zobacz jego znaczenie w tym zdaniu, zapisz je i powtórz później.
 ---

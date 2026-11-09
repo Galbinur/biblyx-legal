@@ -3,7 +3,7 @@ title: Englische Bücher für Anfänger: A1–B2-Liste, kostenlos
 h1: Englische Bücher für Anfänger: was du auf jedem Niveau lesen kannst, und wo du es findest
 description: Englische Bücher für Anfänger nach Niveau (A1–B2): kostenlose, legale Klassiker, vereinfachte Lektüren und Lesen am Handy mit Übersetzung per Tipp.
 path: englische-buecher-fuer-anfaenger
-date: 2026-11-10
+date: 2026-11-09
 slogan: Sprachen lernen beim Lesen deiner eigenen Bücher
 cta: Öffne eine EPUB-, PDF- oder TXT-Datei oder füge einen Text ein. Tippe auf ein Wort, sieh seine Bedeutung in diesem Satz, speichere es und wiederhole es später.
 ---

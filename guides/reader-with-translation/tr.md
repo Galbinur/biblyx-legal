@@ -3,7 +3,7 @@ title: İngilizce kitap okuma uygulaması: çevirili okuyucu
 h1: İngilizce kitap okuma uygulaması: kendi kitabını aç, kelimeye dokun, anlamını cümlede gör
 description: Biblyx, dil öğrenenler için çevirili kitap okuma uygulaması: EPUB, PDF ve TXT dosyalarını aç, kelimeye dokun, o cümledeki anlamını gör, kelime kartı yap. Android.
 path: ingilizce-kitap-okuma-uygulamasi
-date: 2026-11-10
+date: 2026-11-09
 slogan: Kendi kitaplarını okuyarak dil öğren
 cta: EPUB, PDF ya da TXT dosyanı aç veya bir metin yapıştır. Kelimeye dokun, o cümledeki anlamını gör, kaydet ve sonra tekrar et.
 ---

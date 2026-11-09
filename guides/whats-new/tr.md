@@ -3,7 +3,7 @@ title: Biblyx'teki yenilikler: sürüm geçmişi
 h1: Biblyx'teki yenilikler
 description: 1.1.0'dan bu yana her Biblyx güncellemesi, Google Play sürüm notlarının kendi sözleriyle ve kullanıcılara ulaştığı günle. Güncel sürüm: 1.3.0 (7 Kasım 2026).
 path: yenilikler
-date: 2026-11-07
+date: 2026-11-09
 slogan: Kendi kitaplarını okuyarak dil öğren
 cta: EPUB, PDF ya da TXT dosyanı aç veya bir metin yapıştır. Kelimeye dokun, o cümledeki anlamını gör, kaydet ve sonra tekrar et.
 short: yes

@@ -3,7 +3,7 @@ title: Application pour lire en anglais avec traduction au toucher
 h1: Application pour lire des livres en anglais : ouvrez vos EPUB, PDF et TXT, touchez un mot, voyez son sens dans la phrase
 description: Biblyx : liseuse EPUB, PDF et TXT avec traduction au toucher pour apprendre une langue. Le sens dans la phrase, des cartes avec contexte, révision hors ligne.
 path: application-pour-lire-en-anglais
-date: 2026-11-10
+date: 2026-11-09
 slogan: Apprenez les langues en lisant vos propres livres
 cta: Ouvrez un EPUB, un PDF ou un TXT, ou collez un texte. Touchez un mot, voyez son sens dans cette phrase, enregistrez-le et révisez-le plus tard.
 ---

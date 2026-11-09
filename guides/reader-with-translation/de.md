@@ -3,7 +3,7 @@ title: E-Book-Reader mit Übersetzung zum Sprachenlernen
 h1: E-Book-Reader mit Übersetzung: eigene EPUB-, PDF- und TXT-Bücher lesen und die Wörter darin lernen
 description: Biblyx ist ein EPUB-, PDF- und TXT-Reader mit Übersetzung per Fingertipp: die Bedeutung im Satz, Karteikarten mit Kontext, Wiederholung offline. Für Android.
 path: ebook-reader-mit-uebersetzung
-date: 2026-11-10
+date: 2026-11-09
 slogan: Sprachen lernen beim Lesen deiner eigenen Bücher
 cta: Öffne eine EPUB-, PDF- oder TXT-Datei oder füge einen Text ein. Tippe auf ein Wort, sieh seine Bedeutung in diesem Satz, speichere es und wiederhole es später.
 ---
