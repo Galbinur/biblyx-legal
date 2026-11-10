@@ -61,10 +61,12 @@ footer{border-top:1px solid var(--rule); padding:40px 0 56px;}
 .foot-langs a{color:var(--dim); text-decoration:none;}
 .foot-langs a:hover{color:var(--ink);}
 .foot-made{color:var(--dim); font-size:13.5px; margin:0 0 14px;}
-.foot-social{display:flex; gap:18px; margin-bottom:22px;}
+.foot-social{display:flex; flex-wrap:wrap; align-items:center; gap:14px 18px; margin-bottom:22px;}
 .foot-social a{color:var(--dim); display:flex; transition:color .15s ease;}
 .foot-social a:hover{color:var(--teal-deep);}
 .foot-social svg{width:19px; height:19px;}
+.foot-social a.foot-badge{align-items:center; gap:6px; padding:5px 11px; border:1px solid var(--rule); border-radius:999px; font-size:13px; line-height:1; text-decoration:none;}
+.foot-social a.foot-badge svg{width:14px; height:14px;}
 @media (max-width:720px){
   nav .links{display:none;}
   .foot-row{flex-direction:column; align-items:flex-start;}
