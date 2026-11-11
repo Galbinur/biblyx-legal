@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://biblyx.com/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="az" href="https://biblyx.com/az/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/"/>
@@ -17,7 +17,7 @@
   </url>
   <url>
     <loc>https://biblyx.com/tr/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="az" href="https://biblyx.com/az/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/"/>
@@ -32,7 +32,7 @@
   </url>
   <url>
     <loc>https://biblyx.com/az/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="az" href="https://biblyx.com/az/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/"/>
@@ -47,7 +47,7 @@
   </url>
   <url>
     <loc>https://biblyx.com/de/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="az" href="https://biblyx.com/az/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/"/>
@@ -62,7 +62,7 @@
   </url>
   <url>
     <loc>https://biblyx.com/es/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="az" href="https://biblyx.com/az/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/"/>
@@ -77,7 +77,7 @@
   </url>
   <url>
     <loc>https://biblyx.com/fr/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="az" href="https://biblyx.com/az/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/"/>
@@ -92,7 +92,7 @@
   </url>
   <url>
     <loc>https://biblyx.com/it/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="az" href="https://biblyx.com/az/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/"/>
@@ -107,7 +107,7 @@
   </url>
   <url>
     <loc>https://biblyx.com/ru/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="az" href="https://biblyx.com/az/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/"/>
@@ -122,7 +122,7 @@
   </url>
   <url>
     <loc>https://biblyx.com/pl/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="az" href="https://biblyx.com/az/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/"/>
@@ -137,7 +137,7 @@
   </url>
   <url>
     <loc>https://biblyx.com/pt/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="az" href="https://biblyx.com/az/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/"/>
@@ -801,6 +801,300 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://biblyx.com/ru/chto-novogo/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/yenilikler/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/whats-new/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/reading-guides/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="az" href="https://biblyx.com/az/beledciler/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/ratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/reading-guides/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://biblyx.com/es/guias/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://biblyx.com/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://biblyx.com/it/guide/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://biblyx.com/pl/poradniki/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://biblyx.com/pt/guias/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://biblyx.com/ru/rukovodstva/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/rehberler/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/reading-guides/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/tr/rehberler/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="az" href="https://biblyx.com/az/beledciler/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/ratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/reading-guides/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://biblyx.com/es/guias/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://biblyx.com/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://biblyx.com/it/guide/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://biblyx.com/pl/poradniki/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://biblyx.com/pt/guias/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://biblyx.com/ru/rukovodstva/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/rehberler/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/reading-guides/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/az/beledciler/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="az" href="https://biblyx.com/az/beledciler/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/ratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/reading-guides/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://biblyx.com/es/guias/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://biblyx.com/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://biblyx.com/it/guide/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://biblyx.com/pl/poradniki/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://biblyx.com/pt/guias/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://biblyx.com/ru/rukovodstva/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/rehberler/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/reading-guides/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/de/ratgeber/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="az" href="https://biblyx.com/az/beledciler/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/ratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/reading-guides/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://biblyx.com/es/guias/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://biblyx.com/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://biblyx.com/it/guide/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://biblyx.com/pl/poradniki/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://biblyx.com/pt/guias/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://biblyx.com/ru/rukovodstva/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/rehberler/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/reading-guides/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/es/guias/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="az" href="https://biblyx.com/az/beledciler/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/ratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/reading-guides/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://biblyx.com/es/guias/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://biblyx.com/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://biblyx.com/it/guide/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://biblyx.com/pl/poradniki/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://biblyx.com/pt/guias/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://biblyx.com/ru/rukovodstva/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/rehberler/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/reading-guides/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/fr/guides/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="az" href="https://biblyx.com/az/beledciler/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/ratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/reading-guides/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://biblyx.com/es/guias/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://biblyx.com/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://biblyx.com/it/guide/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://biblyx.com/pl/poradniki/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://biblyx.com/pt/guias/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://biblyx.com/ru/rukovodstva/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/rehberler/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/reading-guides/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/it/guide/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="az" href="https://biblyx.com/az/beledciler/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/ratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/reading-guides/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://biblyx.com/es/guias/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://biblyx.com/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://biblyx.com/it/guide/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://biblyx.com/pl/poradniki/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://biblyx.com/pt/guias/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://biblyx.com/ru/rukovodstva/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/rehberler/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/reading-guides/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/ru/rukovodstva/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="az" href="https://biblyx.com/az/beledciler/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/ratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/reading-guides/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://biblyx.com/es/guias/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://biblyx.com/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://biblyx.com/it/guide/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://biblyx.com/pl/poradniki/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://biblyx.com/pt/guias/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://biblyx.com/ru/rukovodstva/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/rehberler/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/reading-guides/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/pl/poradniki/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="az" href="https://biblyx.com/az/beledciler/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/ratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/reading-guides/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://biblyx.com/es/guias/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://biblyx.com/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://biblyx.com/it/guide/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://biblyx.com/pl/poradniki/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://biblyx.com/pt/guias/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://biblyx.com/ru/rukovodstva/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/rehberler/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/reading-guides/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/pt/guias/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="az" href="https://biblyx.com/az/beledciler/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/ratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/reading-guides/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://biblyx.com/es/guias/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://biblyx.com/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://biblyx.com/it/guide/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://biblyx.com/pl/poradniki/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://biblyx.com/pt/guias/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://biblyx.com/ru/rukovodstva/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/rehberler/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/reading-guides/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/english-short-stories/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/englische-kurzgeschichten/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/english-short-stories/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://biblyx.com/pt/historias-em-ingles/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/ingilizce-hikayeler/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/english-short-stories/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/tr/ingilizce-hikayeler/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/englische-kurzgeschichten/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/english-short-stories/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://biblyx.com/pt/historias-em-ingles/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/ingilizce-hikayeler/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/english-short-stories/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/de/englische-kurzgeschichten/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/englische-kurzgeschichten/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/english-short-stories/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://biblyx.com/pt/historias-em-ingles/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/ingilizce-hikayeler/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/english-short-stories/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/pt/historias-em-ingles/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/englische-kurzgeschichten/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/english-short-stories/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://biblyx.com/pt/historias-em-ingles/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/ingilizce-hikayeler/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/english-short-stories/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/english-short-stories/the-selfish-giant/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/englische-kurzgeschichten/der-selbstsuechtige-riese/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/english-short-stories/the-selfish-giant/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://biblyx.com/pt/historias-em-ingles/o-gigante-egoista/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/ingilizce-hikayeler/bencil-dev/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/english-short-stories/the-selfish-giant/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/tr/ingilizce-hikayeler/bencil-dev/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/englische-kurzgeschichten/der-selbstsuechtige-riese/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/english-short-stories/the-selfish-giant/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://biblyx.com/pt/historias-em-ingles/o-gigante-egoista/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/ingilizce-hikayeler/bencil-dev/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/english-short-stories/the-selfish-giant/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/de/englische-kurzgeschichten/der-selbstsuechtige-riese/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/englische-kurzgeschichten/der-selbstsuechtige-riese/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/english-short-stories/the-selfish-giant/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://biblyx.com/pt/historias-em-ingles/o-gigante-egoista/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/ingilizce-hikayeler/bencil-dev/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/english-short-stories/the-selfish-giant/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/pt/historias-em-ingles/o-gigante-egoista/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/englische-kurzgeschichten/der-selbstsuechtige-riese/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/english-short-stories/the-selfish-giant/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://biblyx.com/pt/historias-em-ingles/o-gigante-egoista/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/ingilizce-hikayeler/bencil-dev/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/english-short-stories/the-selfish-giant/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/english-short-stories/the-gift-of-the-magi/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/englische-kurzgeschichten/das-geschenk-der-weisen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/english-short-stories/the-gift-of-the-magi/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://biblyx.com/pt/historias-em-ingles/o-presente-dos-magos/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/ingilizce-hikayeler/magilerin-armagani/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/english-short-stories/the-gift-of-the-magi/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/tr/ingilizce-hikayeler/magilerin-armagani/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/englische-kurzgeschichten/das-geschenk-der-weisen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/english-short-stories/the-gift-of-the-magi/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://biblyx.com/pt/historias-em-ingles/o-presente-dos-magos/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/ingilizce-hikayeler/magilerin-armagani/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/english-short-stories/the-gift-of-the-magi/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/de/englische-kurzgeschichten/das-geschenk-der-weisen/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/englische-kurzgeschichten/das-geschenk-der-weisen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/english-short-stories/the-gift-of-the-magi/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://biblyx.com/pt/historias-em-ingles/o-presente-dos-magos/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/ingilizce-hikayeler/magilerin-armagani/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/english-short-stories/the-gift-of-the-magi/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/pt/historias-em-ingles/o-presente-dos-magos/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/englische-kurzgeschichten/das-geschenk-der-weisen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/english-short-stories/the-gift-of-the-magi/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://biblyx.com/pt/historias-em-ingles/o-presente-dos-magos/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/ingilizce-hikayeler/magilerin-armagani/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/english-short-stories/the-gift-of-the-magi/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/english-short-stories/the-tell-tale-heart/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/englische-kurzgeschichten/das-verraeterische-herz/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/english-short-stories/the-tell-tale-heart/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://biblyx.com/pt/historias-em-ingles/o-coracao-delator/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/ingilizce-hikayeler/ele-veren-yurek/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/english-short-stories/the-tell-tale-heart/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/tr/ingilizce-hikayeler/ele-veren-yurek/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/englische-kurzgeschichten/das-verraeterische-herz/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/english-short-stories/the-tell-tale-heart/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://biblyx.com/pt/historias-em-ingles/o-coracao-delator/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/ingilizce-hikayeler/ele-veren-yurek/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/english-short-stories/the-tell-tale-heart/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/de/englische-kurzgeschichten/das-verraeterische-herz/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/englische-kurzgeschichten/das-verraeterische-herz/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/english-short-stories/the-tell-tale-heart/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://biblyx.com/pt/historias-em-ingles/o-coracao-delator/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/ingilizce-hikayeler/ele-veren-yurek/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/english-short-stories/the-tell-tale-heart/"/>
+  </url>
+  <url>
+    <loc>https://biblyx.com/pt/historias-em-ingles/o-coracao-delator/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://biblyx.com/de/englische-kurzgeschichten/das-verraeterische-herz/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biblyx.com/english-short-stories/the-tell-tale-heart/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://biblyx.com/pt/historias-em-ingles/o-coracao-delator/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://biblyx.com/tr/ingilizce-hikayeler/ele-veren-yurek/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biblyx.com/english-short-stories/the-tell-tale-heart/"/>
   </url>
   <url>
     <loc>https://biblyx.com/privacy-policy</loc>
