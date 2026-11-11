@@ -482,15 +482,16 @@ def home_with_rows(lang: str) -> str:
     page = home_page(lang)
     lib = CTX["library"].get(lang)
     foot = [f'<a href="{rel(hub_url(lang))}">{UI[lang]["guides"]}</a>']
-    more = [f'<a href="{rel(hub_url(lang))}">{ALL_GUIDES[lang]}</a>']
+    more = [f'<a class="btn btn-secondary" href="{rel(hub_url(lang))}">{ALL_GUIDES[lang]} →</a>']
     if lib:
         foot.append(f'<a href="{rel(url_for(lang, lib["path"]))}">{esc(lib["crumb"])}</a>')
-        more.append(f'<a href="{rel(url_for(lang, lib["path"]))}">{esc(lib["h1"])}</a>')
+        more.append(f'<a class="btn btn-primary" href="{rel(url_for(lang, lib["path"]))}">{esc(lib["h1"])} →</a>')
     foot_html = f'  <nav class="foot-langs foot-hub" aria-label="{UI[lang]["guides"]}">\n    ' + "\n    ".join(foot) + "\n  </nav>"
     page = _put_block(page, FOOT_MARK, foot_html, '<p class="foot-made">')
     sec = re.search(r'<section class="guides wrap" id="guides">.*?</section>', page, re.S)
     if sec:
-        more_html = '  <p class="guide-more">' + " · ".join(more) + "</p>"
+        more_html = ('  <div class="guide-actions" style="display:flex; flex-wrap:wrap; justify-content:center; gap:12px; margin-top:28px;">'
+                     + "".join(more) + "</div>")
         new_sec = _put_block(sec.group(0), GUIDES_MARK, more_html, "</section>")
         page = page[:sec.start()] + new_sec + page[sec.end():]
     _home_cache[lang] = page
