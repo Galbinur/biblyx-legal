@@ -1,0 +1,154 @@
+{
+ "title": "Der Wolf und die sieben jungen Geißlein",
+ "author": "Brüder Grimm",
+ "year": 1812,
+ "level": "A1",
+ "minutes": 3,
+ "words": 379,
+ "cover": "/assets/stories/der-wolf-und-die-sieben-jungen-geisslein.jpg",
+ "license": "own",
+ "paragraphs": [
+  "Eine Ziege wohnt mit ihren sieben Kindern in einem kleinen Haus am Wald. Die Kinder sind jung und klein. Sie spielen gern und lachen viel.",
+  "Eines Tages muss die Mutter in den Wald gehen. Sie will Essen holen. Sie sagt: „Ein böser Wolf lebt im Wald. Macht die Tür nicht auf!“",
+  "Die Mutter sagt noch: „Der Wolf hat eine raue Stimme und schwarze Füße.“ Die Kinder rufen: „Keine Angst, Mutter!“ Dann geht sie weg.",
+  "Bald klopft es an der Tür. Eine Stimme ruft: „Macht auf, ich bin eure Mutter!“ „Nein!“, rufen die Kinder. „Du hast eine raue Stimme!“",
+  "Der Wolf hat eine Idee. Er kauft Kreide und isst sie. Jetzt ist seine Stimme weich und hell.",
+  "Wieder klopft der Wolf. „Macht auf, ich bin eure Mutter!“, ruft er mit weicher Stimme. Aber seine schwarze Pfote liegt am Fenster. „Du hast schwarze Füße!“, rufen die Kinder.",
+  "Der Wolf läuft zum Bäcker. Er sagt: „Mach mir bitte Mehl auf die Pfoten!“ Der Bäcker hat Angst und macht es. Jetzt sind die Pfoten weiß.",
+  "Der Wolf klopft noch einmal: „Macht auf, ich bin eure Mutter!“ Die Kinder sehen weiße Pfoten und hören eine weiche Stimme. Sie machen die Tür auf.",
+  "Der Wolf kommt herein! Die Kinder haben große Angst. Sechs Kinder verstecken sich unter dem Tisch, im Bett und im Ofen. Das jüngste Kind versteckt sich in der Uhr.",
+  "Der Wolf findet sechs Kinder und frisst sie. Dann ist er satt und müde. Er geht auf die Wiese und schläft unter einem Baum.",
+  "Bald kommt die Mutter nach Hause. Die Tür ist offen und niemand antwortet. Nur das jüngste Kind kommt aus der Uhr und weint: „Der Wolf war hier!“",
+  "Die Mutter und das Kind laufen auf die Wiese. Dort schläft der Wolf, und sein Bauch bewegt sich. Die Mutter schneidet den Bauch mit einer Schere auf, und die sechs Kinder springen heraus. Sie leben alle!",
+  "„Schnell, holt Steine!“, ruft die Mutter. Die Kinder bringen viele große Steine. Die Mutter legt die Steine in den Bauch und näht ihn zu.",
+  "Der Wolf wacht auf und hat großen Durst. Er geht zum Brunnen, aber die Steine sind schwer. Er fällt ins Wasser und kommt nicht mehr heraus. Die Mutter und die Kinder tanzen um den Brunnen und rufen: „Der Wolf ist tot!“"
+ ],
+ "glosses": [
+  {
+   "p": 0,
+   "text": "Ziege",
+   "nth": 1,
+   "head": "die Ziege",
+   "pos": "noun",
+   "level": "A1",
+   "de": "Ein Tier mit Hörnern, es gibt Milch."
+  },
+  {
+   "p": 1,
+   "text": "böser",
+   "nth": 1,
+   "head": "böse",
+   "pos": "adjective",
+   "level": "A2",
+   "de": "nicht gut, gefährlich"
+  },
+  {
+   "p": 1,
+   "text": "Macht",
+   "nth": 1,
+   "head": "aufmachen",
+   "pos": "separable verb",
+   "level": "A1",
+   "de": "etwas öffnen"
+  },
+  {
+   "p": 2,
+   "text": "raue",
+   "nth": 1,
+   "head": "rau",
+   "pos": "adjective",
+   "level": "B1",
+   "de": "nicht weich, tief und hart"
+  },
+  {
+   "p": 2,
+   "text": "Füße",
+   "nth": 1,
+   "head": "der Fuß",
+   "pos": "noun",
+   "level": "A1",
+   "de": "Damit geht man."
+  },
+  {
+   "p": 3,
+   "text": "klopft",
+   "nth": 1,
+   "head": "klopfen",
+   "pos": "verb",
+   "level": "A2",
+   "de": "an die Tür schlagen: toc, toc"
+  },
+  {
+   "p": 4,
+   "text": "Kreide",
+   "nth": 1,
+   "head": "die Kreide",
+   "pos": "noun",
+   "level": "A2",
+   "de": "Ein weißer Stift für die Tafel"
+  },
+  {
+   "p": 5,
+   "text": "Pfote",
+   "nth": 1,
+   "head": "die Pfote",
+   "pos": "noun",
+   "level": "A2",
+   "de": "Der Fuß von Wolf, Hund oder Katze"
+  },
+  {
+   "p": 6,
+   "text": "Mehl",
+   "nth": 1,
+   "head": "das Mehl",
+   "pos": "noun",
+   "level": "A1",
+   "de": "Weißes Pulver für Brot"
+  },
+  {
+   "p": 8,
+   "text": "verstecken",
+   "nth": 1,
+   "head": "sich verstecken",
+   "pos": "verb",
+   "level": "A2",
+   "de": "an einen Ort gehen, wo niemand sieht"
+  },
+  {
+   "p": 8,
+   "text": "Uhr",
+   "nth": 1,
+   "head": "die Uhr",
+   "pos": "noun",
+   "level": "A1",
+   "de": "Sie zeigt die Zeit."
+  },
+  {
+   "p": 9,
+   "text": "frisst",
+   "nth": 1,
+   "head": "fressen",
+   "pos": "verb",
+   "level": "A2",
+   "de": "essen, aber für Tiere"
+  },
+  {
+   "p": 12,
+   "text": "Steine",
+   "nth": 1,
+   "head": "der Stein",
+   "pos": "noun",
+   "level": "A1",
+   "de": "hartes Stück aus der Erde"
+  },
+  {
+   "p": 13,
+   "text": "Brunnen",
+   "nth": 1,
+   "head": "der Brunnen",
+   "pos": "noun",
+   "level": "A2",
+   "de": "tiefes Loch mit Wasser"
+  }
+ ]
+}

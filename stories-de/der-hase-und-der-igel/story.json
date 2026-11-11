@@ -1,0 +1,154 @@
+{
+ "title": "Der Hase und der Igel",
+ "author": "Brüder Grimm",
+ "year": 1843,
+ "level": "A1",
+ "minutes": 3,
+ "words": 345,
+ "cover": "/assets/stories/der-hase-und-der-igel.jpg",
+ "license": "own",
+ "paragraphs": [
+  "Es ist ein schöner Sonntagmorgen im Herbst. Der Igel steht vor seinem Haus und schaut auf das Feld. Die Sonne scheint, und er ist gut gelaunt.",
+  "Da kommt der Hase. Er ist schnell und sehr stolz. „Guten Morgen, Igel!“, ruft er. „Was machst du hier so früh?“",
+  "„Ich gehe spazieren“, sagt der Igel. Der Hase lacht laut. „Spazieren? Mit diesen kurzen Beinen? Du kommst ja kaum vorwärts!“",
+  "Der Igel ist ärgerlich, aber er bleibt ruhig. „Du lachst über meine Beine“, sagt er. „Aber ich laufe schneller als du.“",
+  "Der Hase lacht noch lauter. „Du? Das glaube ich nicht! Gut, wir machen ein Rennen. Was bekommt der Gewinner?“ Der Igel sagt: „Ein Goldstück und eine Flasche Wein.“",
+  "„Gut“, sagt der Hase. „Aber nicht jetzt. Ich habe Hunger. Ich komme in einer Stunde wieder.“ Der Igel nickt und geht nach Hause.",
+  "Zu Hause sagt er zu seiner Frau: „Komm schnell mit aufs Feld! Ich mache ein Rennen mit dem Hasen.“ Die Frau fragt: „Bist du verrückt?“",
+  "„Nein“, sagt der Igel. „Ich habe einen Plan. Du wartest am anderen Ende des Feldes. Wenn der Hase kommt, rufst du: ‚Ich bin schon da!‘ Der Hase kennt den Unterschied nicht.“",
+  "Die Frau geht ans Ende des Feldes. Der Igel geht zurück zum Anfang. Dort wartet schon der Hase.",
+  "„Eins, zwei, drei!“, ruft der Hase. Er läuft los wie der Wind. Der Igel macht nur drei kleine Schritte und bleibt dann ruhig sitzen.",
+  "Am Ende des Feldes ruft die Frau: „Ich bin schon da!“ Sie sieht genau aus wie der Igel. Der Hase ist sehr überrascht. „Noch einmal!“, ruft er.",
+  "Der Hase läuft zurück, noch schneller als vorher. Aber am Anfang ruft der Igel: „Ich bin schon da!“ „Noch einmal!“, ruft der Hase und läuft wieder los.",
+  "Siebzig Mal läuft der Hase hin und her. Jedes Mal ruft ein Igel: „Ich bin schon da!“ Dann ist der Hase sehr müde. Er kann nicht mehr und fällt um.",
+  "Der Igel bekommt das Goldstück und den Wein. Er geht glücklich mit seiner Frau nach Hause. Der Hase aber lacht nie wieder über andere."
+ ],
+ "glosses": [
+  {
+   "p": 0,
+   "text": "Feld",
+   "nth": 1,
+   "head": "das Feld",
+   "pos": "noun",
+   "level": "A1",
+   "de": "Land mit Gras oder Getreide"
+  },
+  {
+   "p": 0,
+   "text": "gut gelaunt",
+   "nth": 1,
+   "head": "gut gelaunt sein",
+   "pos": "phrase",
+   "level": "A2",
+   "de": "fröhlich sein"
+  },
+  {
+   "p": 1,
+   "text": "stolz",
+   "nth": 1,
+   "head": "stolz",
+   "pos": "adjective",
+   "level": "A2",
+   "de": "Man denkt: Ich bin besser als andere."
+  },
+  {
+   "p": 1,
+   "text": "ruft",
+   "nth": 1,
+   "head": "rufen",
+   "pos": "verb",
+   "level": "A1",
+   "de": "laut sprechen, damit andere es hören"
+  },
+  {
+   "p": 2,
+   "text": "gehe spazieren",
+   "nth": 1,
+   "head": "spazieren gehen",
+   "pos": "phrase",
+   "level": "A2",
+   "de": "ohne Ziel zu Fuß gehen"
+  },
+  {
+   "p": 2,
+   "text": "kaum",
+   "nth": 1,
+   "head": "kaum",
+   "pos": "adverb",
+   "level": "A2",
+   "de": "fast nicht"
+  },
+  {
+   "p": 3,
+   "text": "ärgerlich",
+   "nth": 1,
+   "head": "ärgerlich",
+   "pos": "adjective",
+   "level": "A2",
+   "de": "ein bisschen böse"
+  },
+  {
+   "p": 4,
+   "text": "Rennen",
+   "nth": 1,
+   "head": "das Rennen",
+   "pos": "noun",
+   "level": "A2",
+   "de": "Wer ist schneller? Das ist ein Wettlauf."
+  },
+  {
+   "p": 4,
+   "text": "Gewinner",
+   "nth": 1,
+   "head": "der Gewinner",
+   "pos": "noun",
+   "level": "A2",
+   "de": "Wer das Rennen gewinnt"
+  },
+  {
+   "p": 6,
+   "text": "Komm schnell mit",
+   "nth": 1,
+   "head": "mitkommen",
+   "pos": "separable verb",
+   "level": "A1",
+   "de": "zusammen mit jemandem gehen"
+  },
+  {
+   "p": 7,
+   "text": "Unterschied",
+   "nth": 1,
+   "head": "der Unterschied",
+   "pos": "noun",
+   "level": "A2",
+   "de": "Das ist nicht gleich."
+  },
+  {
+   "p": 9,
+   "text": "läuft los",
+   "nth": 1,
+   "head": "loslaufen",
+   "pos": "separable verb",
+   "level": "A2",
+   "de": "anfangen zu laufen"
+  },
+  {
+   "p": 10,
+   "text": "überrascht",
+   "nth": 1,
+   "head": "überrascht",
+   "pos": "adjective",
+   "level": "A2",
+   "de": "Man hat etwas nicht erwartet."
+  },
+  {
+   "p": 12,
+   "text": "fällt um",
+   "nth": 1,
+   "head": "umfallen",
+   "pos": "separable verb",
+   "level": "A2",
+   "de": "auf den Boden fallen"
+  }
+ ]
+}

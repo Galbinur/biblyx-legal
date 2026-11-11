@@ -487,6 +487,10 @@ def home_with_rows(lang: str) -> str:
     if lib:
         foot.append(f'<a href="{rel(url_for(lang, lib["path"]))}">{esc(lib["crumb"])}</a>')
         more.append(f'<a class="btn btn-primary" href="{rel(url_for(lang, lib["path"]))}">{esc(lib["h1"])} →</a>')
+    for src, (libs, _) in CTX["colls"].items():
+        if src != "en" and lang in libs:
+            foot.append(f'<a href="{rel(url_for(lang, libs[lang]["path"]))}">{esc(libs[lang]["crumb"])}</a>')
+            more.append(f'<a class="btn btn-secondary" href="{rel(url_for(lang, libs[lang]["path"]))}">{esc(libs[lang]["crumb"])} →</a>')
     foot_html = f'  <nav class="foot-langs foot-hub" aria-label="{UI[lang]["guides"]}">\n    ' + "\n    ".join(foot) + "\n  </nav>"
     page = _put_block(page, FOOT_MARK, foot_html, '<p class="foot-made">')
     sec = re.search(r'<section class="guides wrap" id="guides">.*?</section>', page, re.S)
@@ -517,6 +521,11 @@ def render_hub(lang: str, guides: dict) -> str:
         u = url_for(lang, lib["path"])
         cards.insert(0, f'<a class="hub-card hub-stories" href="{rel(u)}"><h2>{esc(lib["h1"])}</h2><p>{esc(lib["description"])}</p></a>')
         items.insert(0, u)
+    for src, (libs, _) in CTX["colls"].items():
+        if src != "en" and lang in libs:
+            u = url_for(lang, libs[lang]["path"])
+            cards.insert(1, f'<a class="hub-card hub-stories" href="{rel(u)}"><h2>{esc(libs[lang]["h1"])}</h2><p>{esc(libs[lang]["description"])}</p></a>')
+            items.insert(1, u)
     ld = [{"@type": "CollectionPage", "@id": url, "name": h["title"], "description": h["description"], "inLanguage": lang,
            "mainEntity": {"@type": "ItemList", "itemListElement": [
                {"@type": "ListItem", "position": i + 1, "url": u} for i, u in enumerate(items)]}},
@@ -540,9 +549,10 @@ def render_hub(lang: str, guides: dict) -> str:
 
 # ----------------------------------------------------------------------------- story library
 
-def load_stories():
-    """stories/library.json (texts per language) + stories/<slug>/story.json and <lang>.json."""
-    sdir = ROOT / "stories"
+def load_stories(folder: str = "stories", src: str = "en"):
+    """<folder>/library.json (texts per language) + <folder>/<slug>/story.json and <lang>.json.
+    `src` is the language the stories are written in (en for stories/, de for stories-de/)."""
+    sdir = ROOT / folder
     if not (sdir / "library.json").exists():
         return {}, {}
     library = json.loads((sdir / "library.json").read_text(encoding="utf-8"))
@@ -552,6 +562,8 @@ def load_stories():
         d = sdir / slug
         story = json.loads((d / "story.json").read_text(encoding="utf-8"))
         story["slug"] = slug
+        story["src"] = src
+        story["folder"] = folder
         story["langs"] = {}
         for lang in LANGS:
             f = d / f"{lang}.json"
@@ -562,13 +574,25 @@ def load_stories():
                 story["langs"][lang] = loc
         stories[slug] = story
     for lang, lib in library.items():
+        lib["folder"] = folder
         lib["source_file"] = sdir / "library.json"
         lib["updated"] = git_date(sdir / "library.json")
     return library, stories
 
 
+# One collection per story language: CTX["colls"]["en"] = (library, stories) from stories/,
+# CTX["colls"]["de"] from stories-de/ (German stories for Turkish readers). CTX["library"] and
+# CTX["stories"] stay the English collection, which the nav, footer and home pages link to.
+STORY_FOLDERS = {"en": "stories", "de": "stories-de"}
+
+
+def libof(src_or_story, lang: str) -> dict:
+    src = src_or_story if isinstance(src_or_story, str) else src_or_story["src"]
+    return CTX["colls"][src][0][lang]
+
+
 def story_url(lang: str, story: dict) -> str:
-    return url_for(lang, f'{CTX["library"][lang]["path"]}/{story["langs"][lang]["path"]}')
+    return url_for(lang, f'{libof(story, lang)["path"]}/{story["langs"][lang]["path"]}')
 
 
 def num(lang: str, n: int) -> str:
@@ -583,7 +607,7 @@ def gloss_spans(story: dict):
     spans = {}
     for k, g in enumerate(story["glosses"]):
         text = story["paragraphs"][g["p"]]
-        hits = [m.span() for m in re.finditer(r"(?<![A-Za-z])" + re.escape(g["text"]) + r"(?![A-Za-z])", text)]
+        hits = [m.span() for m in re.finditer(r"(?<![^\W\d_])" + re.escape(g["text"]) + r"(?![^\W\d_])", text)]
         if len(hits) < g.get("nth", 1):
             raise RuntimeError(f'{story["slug"]}: gloss {g["text"]!r} not found in paragraph {g["p"]}')
         a, b = hits[g.get("nth", 1) - 1]
@@ -608,12 +632,13 @@ def story_paragraph(text: str, spans: list) -> str:
 
 def gloss_rows(lang: str, story: dict):
     """(head, pos label, meaning, note, level) per gloss in this page's language."""
-    lib = CTX["library"][lang]
+    lib = libof(story, lang)
     loc = story["langs"][lang].get("glosses")
+    src = story["src"]
     rows = []
     for k, g in enumerate(story["glosses"]):
-        if lang == "en" or not loc:
-            m, note = g["en"], g.get("note_en", "")
+        if lang == src or not loc:
+            m, note = g[src], g.get("note_" + src, "")
         else:
             m, note = loc[k]["m"], loc[k].get("note", "")
         rows.append(dict(w=g["head"], p=lib["pos"].get(g["pos"], g["pos"]), m=m, n=note, l=g["level"]))
@@ -670,7 +695,7 @@ def is_own(story: dict) -> bool:
 def byline(lang: str, story: dict) -> str:
     """'Oscar Wilde · 1888' for public-domain texts, 'Brothers Grimm · retold in simple English' for our retellings."""
     if is_own(story):
-        return f'{esc(story["author"])} · {esc(CTX["library"][lang]["retold"])}'
+        return f'{esc(story["author"])} · {esc(libof(story, lang)["retold"])}'
     return f'{esc(story["author"])} · {story["year"]}'
 
 
@@ -679,7 +704,7 @@ def level_band(story: dict) -> str:
 
 
 def chips(lang: str, story: dict) -> str:
-    lib = CTX["library"][lang]
+    lib = libof(story, lang)
     return (f'<span class="chip level">{esc(story["level"])}</span>'
             f'<span class="chip">{esc(lib["minutes"].format(n=story["minutes"]))}</span>'
             f'<span class="chip">{esc(lib["words"].format(n=num(lang, story["words"])))}</span>'
@@ -687,13 +712,14 @@ def chips(lang: str, story: dict) -> str:
 
 
 def render_story(lang: str, story: dict, stories: dict) -> str:
-    lib = CTX["library"][lang]
+    lib = libof(story, lang)
+    src = story["src"]
     loc = story["langs"][lang]
     url = story_url(lang, story)
     lib_url = url_for(lang, lib["path"])
     spans = gloss_spans(story)
     rows = gloss_rows(lang, story)
-    tr = loc.get("translations") if lang != "en" else None
+    tr = loc.get("translations") if lang != src else None
     paras, half = [], len(story["paragraphs"]) // 2
     play = play_link(f"story_{story['slug']}_{lang}")
     for i, text in enumerate(story["paragraphs"]):
@@ -705,16 +731,16 @@ def render_story(lang: str, story: dict, stories: dict) -> str:
             paras.append(f'<div class="mid-cta" lang="{lang}"><p>{lib["mid"]}</p>'
                          f'<a class="btn btn-primary" href="{play}" target="_blank" rel="noopener">Google Play</a></div>')
     vocab = "".join(
-        f'<tr id="w{k}"><td><span lang="en">{esc(r["w"])}</span> <small>{esc(r["p"])}</small></td>'
+        f'<tr id="w{k}"><td><span lang="{src}">{esc(r["w"])}</span> <small>{esc(r["p"])}</small></td>'
         f'<td>{esc(r["m"])}{f"<br><small>{esc(r["n"])}</small>" if r["n"] else ""}</td><td>{esc(r["l"])}</td></tr>'
         for k, r in enumerate(rows))
     cols = "".join(f"<th>{esc(c)}</th>" for c in lib["cols"])
     others = [s for s in stories.values() if s is not story and lang in s["langs"]]
     shelf = "".join(
         f'<a href="{rel(story_url(lang, s))}"><img src="{s["cover"]}" alt="" width="46" height="69" loading="lazy">'
-        f'<span><span lang="en">{esc(s["title"])}</span><small>{esc(s["author"])} · {esc(s["level"])}</small></span></a>'
+        f'<span><span lang="{s["src"]}">{esc(s["title"])}</span><small>{esc(s["author"])} · {esc(s["level"])}</small></span></a>'
         for s in others)
-    local = "" if lang == "en" else f' · <span>{esc(loc["local_title"])}</span>'
+    local = "" if lang == src else f' · <span>{esc(loc["local_title"])}</span>'
     if is_own(story):
         source = esc(lib["source_own"])
     else:
@@ -724,18 +750,18 @@ def render_story(lang: str, story: dict, stories: dict) -> str:
     data = json.dumps(rows, ensure_ascii=False).replace("</", "<\\/")
     main = f"""<main class="wrap article story-page">
   <article>
-    <p class="crumbs"><a href="{rel(home_url(lang))}">Biblyx</a> › <a href="{rel(lib_url)}">{esc(lib["crumb"])}</a> › <span lang="en">{esc(story["title"])}</span></p>
+    <p class="crumbs"><a href="{rel(home_url(lang))}">Biblyx</a> › <a href="{rel(lib_url)}">{esc(lib["crumb"])}</a> › <span lang="{src}">{esc(story["title"])}</span></p>
     <header class="story-head">
       <img src="{story["cover"]}" alt="{esc(story["title"])}" width="120" height="180">
       <div>
-        <h1 lang="en">{esc(story["title"])}</h1>
+        <h1 lang="{src}">{esc(story["title"])}</h1>
         <p class="author">{byline(lang, story)}{local}</p>
         <div class="chips">{chips(lang, story)}</div>
       </div>
     </header>
     <p class="lede">{esc(loc["intro"])}</p>
     <div class="howto"><p>{lib["howto"]}</p>{show_all}</div>
-    <div class="story" lang="en">
+    <div class="story" lang="{src}">
 {chr(10).join(paras)}
     </div>
     <p class="source">{source}</p>
@@ -759,7 +785,7 @@ def render_story(lang: str, story: dict, stories: dict) -> str:
     alternates = {l: story_url(l, story) for l in story["langs"]}
     ld = [{"@type": "WebPage", "@id": url, "name": loc["title"], "description": loc["description"], "inLanguage": lang,
            "isPartOf": {"@type": "CollectionPage", "@id": lib_url},
-           "mainEntity": {"@type": "CreativeWork", "name": story["title"], "inLanguage": "en",
+           "mainEntity": {"@type": "CreativeWork", "name": story["title"], "inLanguage": src,
                           "author": ({"@type": "Organization", "name": "Biblyx"} if is_own(story)
                                      else {"@type": "Person", "name": story["author"]}),
                           "datePublished": str(story["year"]),
@@ -775,8 +801,8 @@ def render_story(lang: str, story: dict, stories: dict) -> str:
                       og_type="article", image=image, ld=ld, main=main, scripts=STORY_JS)
 
 
-def render_library(lang: str, stories: dict) -> str:
-    lib = CTX["library"][lang]
+def render_library(lang: str, stories: dict, src: str = "en") -> str:
+    lib = libof(src, lang)
     url = url_for(lang, lib["path"])
     cards, bands = [], []
     ordered = sorted((s for s in stories.values() if lang in s["langs"]),
@@ -787,18 +813,18 @@ def render_library(lang: str, stories: dict) -> str:
             bands.append(band)
             cards.append(f'<h2 class="level-head" id="{band.lower()}">{esc(lib["level_head"].format(lv=band))}</h2>')
         loc = s["langs"][lang]
-        local = "" if lang == "en" else f' · {esc(loc["local_title"])}'
+        local = "" if lang == src else f' · {esc(loc["local_title"])}'
         cards.append(f"""<article class="story-card">
       <a href="{rel(story_url(lang, s))}"><img src="{s["cover"]}" alt="{esc(s["title"])}" width="120" height="180" loading="lazy"></a>
       <div>
-        <h2><a href="{rel(story_url(lang, s))}" lang="en">{esc(s["title"])}</a></h2>
+        <h2><a href="{rel(story_url(lang, s))}" lang="{src}">{esc(s["title"])}</a></h2>
         <p class="author">{byline(lang, s)}{local}</p>
         <div class="chips">{chips(lang, s)}</div>
         <p>{esc(loc["intro"])}</p>
         <a class="more" href="{rel(story_url(lang, s))}">{esc(lib["read"])}</a>
       </div>
     </article>""")
-    play = play_link(f"stories_{lang}")
+    play = play_link(f"stories_{lang}" if src == "en" else f"stories_{src}_{lang}")
     main = f"""<main class="wrap article library">
   <article>
     <p class="crumbs"><a href="{rel(home_url(lang))}">Biblyx</a> › {esc(lib["crumb"])}</p>
@@ -814,7 +840,7 @@ def render_library(lang: str, stories: dict) -> str:
     <a class="btn btn-primary" href="{play}" target="_blank" rel="noopener">{UI[lang]["button"]}</a>
   </aside>
 </main>"""
-    alternates = {l: url_for(l, CTX["library"][l]["path"]) for l in CTX["library"]}
+    alternates = {l: url_for(l, libof(src, l)["path"]) for l in CTX["colls"][src][0]}
     ld = [{"@type": "CollectionPage", "@id": url, "name": lib["title"], "description": lib["description"], "inLanguage": lang,
            "mainEntity": {"@type": "ItemList", "itemListElement": [
                {"@type": "ListItem", "position": i + 1, "url": story_url(lang, s)}
@@ -849,12 +875,13 @@ def build_sitemap(guides: dict) -> str:
     for l in LANGS:
         dates = [m["updated"] for p in guides.values() for ll, (m, _) in p.items() if ll == l] or [dt.date.today().isoformat()]
         blocks.append(url_block(hubs[l], max(dates), hubs, hubs["en"]))
-    lib = CTX["library"]
-    if lib:
+    for lib, stories in CTX["colls"].values():
+        if not lib:
+            continue
         libs = {l: url_for(l, lib[l]["path"]) for l in lib}
         for l in lib:
             blocks.append(url_block(libs[l], lib[l]["updated"], libs, libs.get("en", libs[sorted(libs)[0]])))
-        for story in CTX["stories"].values():
+        for story in stories.values():
             alts = {l: story_url(l, story) for l in story["langs"]}
             for l, loc in story["langs"].items():
                 blocks.append(url_block(alts[l], loc["updated"], alts, alts.get("en", alts[sorted(alts)[0]])))
@@ -919,8 +946,14 @@ def check_html(where: str, page: str, title: str, description: str, warnings: li
 # EPUB per story: English text only, opens in Biblyx (or any e-reader).
 # Deterministic bytes (fixed zip timestamps) so a rebuild does not churn git.
 
-EPUB_END = ("Learn languages by reading your own books.",
-            "More free English stories: https://biblyx.com/english-short-stories/")
+EPUB_TEXT = {
+    "en": dict(end=("Learn languages by reading your own books.",
+                    "More free English stories: https://biblyx.com/english-short-stories/"),
+               own="Retold in simple English by Biblyx.", pd="Text: {src} ({year}), public domain.", level="Level"),
+    "de": dict(end=("Sprachen lernen beim Lesen deiner eigenen Bücher.",
+                    "Weitere kostenlose deutsche Geschichten: https://biblyx.com/tr/almanca-hikayeler/"),
+               own="In einfachem Deutsch nacherzählt von Biblyx.", pd="Text: {src} ({year}), gemeinfrei.", level="Niveau"),
+}
 
 
 def epub_path(story: dict) -> str:
@@ -931,18 +964,19 @@ def build_epub(story: dict) -> bytes:
     import io
     x = lambda t: html.escape(t, quote=True)
     slug, title, author = story["slug"], story["title"], story["author"]
-    uid = f"https://biblyx.com/english-short-stories/{slug}/"
-    note = ("Retold in simple English by Biblyx." if is_own(story)
-            else f'Text: {story.get("source_name", "")} ({story["year"]}), public domain.')
+    src = story["src"]
+    T = EPUB_TEXT[src]
+    uid = f"https://biblyx.com{epub_path(story)}"
+    note = T["own"] if is_own(story) else T["pd"].format(src=story.get("source_name", ""), year=story["year"])
     cover = (ROOT / story["cover"].lstrip("/")).read_bytes()
     paras = "\n".join(f"<p>{x(t)}</p>" for t in story["paragraphs"])
     head = ('<?xml version="1.0" encoding="utf-8"?>\n<!DOCTYPE html>\n'
-            '<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en" lang="en">')
+            f'<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="{src}" lang="{src}">')
     text = (f'{head}<head><meta charset="utf-8"/><title>{x(title)}</title>'
             '<style>body{font-family:serif;line-height:1.5} h1{text-align:center} .by{text-align:center;font-style:italic}'
             ' .end{margin-top:2em;font-size:.9em;text-align:center}</style></head><body>'
-            f'<section epub:type="chapter"><h1>{x(title)}</h1><p class="by">{x(author)} · Level {x(story["level"])}</p>'
-            f'{paras}<p class="end">{x(note)}<br/>{x(EPUB_END[0])}<br/>{x(EPUB_END[1])}</p></section></body></html>')
+            f'<section epub:type="chapter"><h1>{x(title)}</h1><p class="by">{x(author)} · {T["level"]} {x(story["level"])}</p>'
+            f'{paras}<p class="end">{x(note)}<br/>{x(T["end"][0])}<br/>{x(T["end"][1])}</p></section></body></html>')
     nav = (f'{head}<head><meta charset="utf-8"/><title>{x(title)}</title></head><body>'
            f'<nav epub:type="toc" id="toc"><ol><li><a href="text.xhtml">{x(title)}</a></li></ol></nav></body></html>')
     ncx = ('<?xml version="1.0" encoding="utf-8"?>\n<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">'
@@ -950,10 +984,10 @@ def build_epub(story: dict) -> bytes:
            f'<navMap><navPoint id="n1" playOrder="1"><navLabel><text>{x(title)}</text></navLabel>'
            '<content src="text.xhtml"/></navPoint></navMap></ncx>')
     opf = ('<?xml version="1.0" encoding="utf-8"?>\n'
-           '<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid" xml:lang="en">'
+           '<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid" xml:lang="{src}">'
            '<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">'
            f'<dc:identifier id="uid">{x(uid)}</dc:identifier><dc:title>{x(title)}</dc:title>'
-           f'<dc:creator>{x(author)}</dc:creator><dc:language>en</dc:language><dc:publisher>Biblyx</dc:publisher>'
+           f'<dc:creator>{x(author)}</dc:creator><dc:language>{src}</dc:language><dc:publisher>Biblyx</dc:publisher>'
            f'<dc:description>{x(note)}</dc:description><meta name="cover" content="cover"/>'
            '<meta property="dcterms:modified">2026-11-11T00:00:00Z</meta></metadata>'
            '<manifest><item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>'
@@ -989,7 +1023,8 @@ def main():
     args = ap.parse_args()
     out_root = Path(args.out).resolve() if args.out else ROOT
     guides = load_guides(args.drafts)
-    CTX["library"], CTX["stories"] = load_stories()
+    CTX["colls"] = {src: load_stories(folder, src) for src, folder in STORY_FOLDERS.items()}
+    CTX["library"], CTX["stories"] = CTX["colls"]["en"]
     CTX["guides"] = guides
     warnings, written = [], []
 
@@ -1010,19 +1045,20 @@ def main():
         page = render_hub(lang, guides)
         check_html(f"hub:{lang}", page, HUB[lang]["title"], HUB[lang]["description"], warnings)
         emit(hub_url(lang), page)
-    for lang, lib in CTX["library"].items():
-        page = render_library(lang, CTX["stories"])
-        check_html(f"stories/library.json:{lang}", page, lib["title"], lib["description"], warnings)
+    for src, (libs, stories) in CTX["colls"].items():
+      for lang, lib in libs.items():
+        page = render_library(lang, stories, src)
+        check_html(f"{lib['folder']}/library.json:{lang}", page, lib["title"], lib["description"], warnings)
         emit(url_for(lang, lib["path"]), page)
-        for story in CTX["stories"].values():
+        for story in stories.values():
             if lang in story["langs"]:
                 loc = story["langs"][lang]
-                page = render_story(lang, story, CTX["stories"])
+                page = render_story(lang, story, stories)
                 check_html(str(loc["source_file"].relative_to(ROOT)), page, loc["title"], loc["description"], warnings)
                 if page.count(SLOGAN[lang]) != 1:
                     warnings.append(f"{story['slug']}/{lang}: the slogan appears {page.count(SLOGAN[lang])} times (expected once)")
                 emit(story_url(lang, story), page)
-    for story in CTX["stories"].values():
+    for story in (s for _, sts in CTX["colls"].values() for s in sts.values()):
         data = build_epub(story)
         target = out_root / epub_path(story).lstrip("/")
         if not args.check and (not target.exists() or target.read_bytes() != data):

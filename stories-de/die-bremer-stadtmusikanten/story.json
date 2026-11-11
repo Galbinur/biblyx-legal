@@ -1,0 +1,153 @@
+{
+ "title": "Die Bremer Stadtmusikanten",
+ "author": "Brüder Grimm",
+ "year": 1819,
+ "level": "A1",
+ "minutes": 3,
+ "words": 361,
+ "cover": "/assets/stories/die-bremer-stadtmusikanten.jpg",
+ "license": "own",
+ "paragraphs": [
+  "Ein Esel ist alt und müde. Sein Herr sagt: „Du kannst nicht mehr arbeiten.“ Da läuft der Esel weg. Er geht nach Bremen und will dort Musikant werden.",
+  "Auf dem Weg sieht er einen Hund. Der Hund liegt auf der Straße und ist traurig. „Mein Herr will mich nicht mehr“, sagt er. „Ich bin zu alt für die Jagd.“",
+  "„Komm mit mir nach Bremen!“, sagt der Esel. „Wir machen zusammen Musik.“ Der Hund sagt: „Gern!“ Jetzt gehen sie zu zweit weiter.",
+  "Bald treffen sie eine Katze. Sie sieht müde aus. „Ich bin alt und fange keine Mäuse mehr“, sagt sie. „Meine Frau hat mich weggeschickt.“",
+  "Die Katze geht auch mit. Dann kommen die drei an einem Hof vorbei. Ein Hahn sitzt auf dem Tor und schreit laut.",
+  "„Morgen kommen Gäste“, sagt er. „Dann bin ich in der Suppe!“ Der Esel sagt: „Komm mit uns! Du hast eine gute Stimme.“",
+  "Bremen ist weit, und es wird dunkel. Die Tiere sind müde und hungrig. Im Wald sehen sie ein Licht. Es kommt aus einem Haus.",
+  "Der Esel schaut durch das Fenster. „Was siehst du?“, fragt der Hahn. „Ich sehe einen Tisch mit viel Essen“, sagt der Esel. „Und da sitzen Räuber!“",
+  "Die Tiere haben eine Idee. Der Esel stellt sich an das Fenster. Der Hund springt auf den Esel, die Katze auf den Hund und der Hahn auf die Katze. Dann machen alle vier laut Musik: „I-A! Wau! Miau! Kikeriki!“",
+  "Die Räuber haben große Angst. „Ein Gespenst!“, rufen sie und laufen in den Wald. Die Tiere gehen ins Haus und essen und trinken viel.",
+  "Dann machen sie das Licht aus. Jeder sucht einen Platz zum Schlafen. Der Esel liegt im Hof, der Hund hinter der Tür, die Katze am Ofen und der Hahn oben auf dem Dach.",
+  "Später kommt ein Räuber zurück. Im Haus ist es dunkel. Die Katze kratzt ihn, der Hund beißt ihn, der Esel tritt ihn und der Hahn schreit laut. Der Räuber rennt weg: „Im Haus wohnt eine Hexe!“",
+  "Die Räuber kommen nie wieder. Den Tieren gefällt das Haus so gut, dass sie bleiben. Sie wollen nicht mehr nach Bremen. Dort wohnen sie noch heute und sind glücklich."
+ ],
+ "glosses": [
+  {
+   "p": 0,
+   "text": "läuft",
+   "nth": 1,
+   "head": "weglaufen",
+   "pos": "separable verb",
+   "level": "A2",
+   "de": "Man geht fort und kommt nicht zurück."
+  },
+  {
+   "p": 1,
+   "text": "Jagd",
+   "nth": 1,
+   "head": "die Jagd",
+   "pos": "noun",
+   "level": "B1",
+   "de": "Man jagt wilde Tiere."
+  },
+  {
+   "p": 2,
+   "text": "Gern",
+   "nth": 1,
+   "head": "gern",
+   "pos": "adverb",
+   "level": "A1",
+   "de": "Ich mache das mit Freude."
+  },
+  {
+   "p": 3,
+   "text": "Mäuse",
+   "nth": 1,
+   "head": "die Maus",
+   "pos": "noun",
+   "level": "A1",
+   "de": "Ein kleines graues Tier."
+  },
+  {
+   "p": 3,
+   "text": "weggeschickt",
+   "nth": 1,
+   "head": "wegschicken",
+   "pos": "separable verb",
+   "level": "A2",
+   "de": "Jemand muss gehen, man sagt: Geh!"
+  },
+  {
+   "p": 4,
+   "text": "Hahn",
+   "nth": 1,
+   "head": "der Hahn",
+   "pos": "noun",
+   "level": "A1",
+   "de": "Ein Vogel, der morgens laut ruft."
+  },
+  {
+   "p": 5,
+   "text": "Gäste",
+   "nth": 1,
+   "head": "der Gast",
+   "pos": "noun",
+   "level": "A1",
+   "de": "Eine Person, die zu Besuch kommt."
+  },
+  {
+   "p": 7,
+   "text": "Räuber",
+   "nth": 1,
+   "head": "der Räuber",
+   "pos": "noun",
+   "level": "A2",
+   "de": "Ein Mann, der anderen Dinge wegnimmt."
+  },
+  {
+   "p": 9,
+   "text": "Angst",
+   "nth": 1,
+   "head": "die Angst",
+   "pos": "noun",
+   "level": "A2",
+   "de": "Das Gefühl, wenn etwas gefährlich ist."
+  },
+  {
+   "p": 9,
+   "text": "Gespenst",
+   "nth": 1,
+   "head": "das Gespenst",
+   "pos": "noun",
+   "level": "B1",
+   "de": "Ein Geist, vor dem man Angst hat."
+  },
+  {
+   "p": 10,
+   "text": "Ofen",
+   "nth": 1,
+   "head": "der Ofen",
+   "pos": "noun",
+   "level": "A2",
+   "de": "Ein warmer Platz im Haus."
+  },
+  {
+   "p": 11,
+   "text": "beißt",
+   "nth": 1,
+   "head": "beißen",
+   "pos": "verb",
+   "level": "A2",
+   "de": "Mit den Zähnen in etwas gehen."
+  },
+  {
+   "p": 12,
+   "text": "gefällt",
+   "nth": 1,
+   "head": "gefallen",
+   "pos": "verb",
+   "level": "A2",
+   "de": "Etwas ist schön für mich."
+  },
+  {
+   "p": 12,
+   "text": "bleiben",
+   "nth": 1,
+   "head": "bleiben",
+   "pos": "verb",
+   "level": "A1",
+   "de": "Am gleichen Ort sein."
+  }
+ ]
+}

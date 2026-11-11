@@ -30,6 +30,8 @@ Kendi dilinde zaten bildiğin hikâyelerle başla. Olay örgüsünü bilmek, kel
 
 **Aile birleşimi için A1'e hazırlanıyorsan:** Goethe-Institut'un A1 sınavı (*Start Deutsch 1*) dinleme, okuma, yazma ve konuşma bölümlerinden oluşur. Okumak kelime hazineni ve okuma bölümünü güçlendirir; dinleme ve konuşma için ayrıca çalışman gerekir.
 
+**Bu sitede ücretsiz:** A1 için basit Almancayla anlatılmış masallar (Bremen Mızıkacıları, Kurt ile Yedi Oğlak, Tavşan ile Kirpi) ve Grimm Kardeşler'in ve Kafka'nın orijinal metinleri; tam metin, altı çizili kelimelerin Türkçe anlamı ve her paragrafın Türkçe çevirisiyle. [Almanca hikayeler](/tr/almanca-hikayeler/) sayfasından başla.
+
 ## B1: gerçek kısa hikâyeler
 
 - **Franz Kafka, *Vor dem Gesetz*.** Bir sayfa, basit kelimeler, tuhaf ve ünlü bir hikâye. Biblyx'te hazır gelir.

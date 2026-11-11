@@ -1,0 +1,53 @@
+{
+ "tr": {
+  "path": "almanca-hikayeler",
+  "title": "Almanca hikayeler: Türkçe çevirili, A1–B2",
+  "h1": "Almanca hikayeler, Türkçe çevirili",
+  "crumb": "Almanca hikayeler",
+  "description": "Kısa Almanca hikayeler, Türkçe çevirili ve ücretsiz: altı çizili kelimeye dokun, anlamını gör. A1 masallardan Grimm ve Kafka'ya, A1–B2 seviyesinde.",
+  "intro": "Seviyene göre kısa Almanca hikayeler, tam metin ve ücretsiz: A1 için basit Almancayla anlatılmış masallar, ardından Grimm Kardeşler'in ve Kafka'nın orijinal metinleri. Altı çizili kelimeye dokununca hikayedeki anlamı açılır; her paragrafın altında Türkçe çevirisi var.",
+  "howto": "<b>Nasıl okunur:</b> altı çizili kelimeye dokun, bu cümledeki anlamını gör. Önce paragrafı kendin oku; takılırsan altındaki “Türkçesi” düğmesiyle çeviriyi aç.",
+  "toggle": "Türkçesi",
+  "show_all": "Tüm çevirileri göster",
+  "minutes": "{n} dk okuma",
+  "words": "{n} kelime",
+  "pd": "Kamu malı",
+  "vocab": "Bu hikayedeki kelimeler",
+  "cols": [
+   "Almanca",
+   "Anlamı",
+   "Seviye"
+  ],
+  "shelf": "Diğer Almanca hikayeler",
+  "source": "Metin: {link}, kamu malı.",
+  "mid": "<b>Almanca kitaplarını da böyle oku.</b> Biblyx'te EPUB, PDF veya TXT kitabını açıp herhangi bir kelimeye dokunursun; cümleye uygun anlamı gelir, isimler artikeliyle gelir, kaydettiğin kelimeler karta dönüşür.",
+  "cta_line": "{slogan}: Biblyx Android'de ücretsiz ve reklamsız.",
+  "read": "Oku",
+  "pos": {
+   "noun": "isim",
+   "verb": "fiil",
+   "separable verb": "ayrılabilir fiil",
+   "adjective": "sıfat",
+   "adverb": "zarf",
+   "phrase": "kalıp",
+   "idiom": "deyim",
+   "pronoun": "zamir",
+   "conjunction": "bağlaç",
+   "preposition": "edat"
+  },
+  "level_head": "{lv} seviyesi",
+  "retold": "basit Almancayla yeniden anlatıldı",
+  "free": "Ücretsiz",
+  "source_own": "Metin: geleneksel masalın bizim yazdığımız basit anlatımı.",
+  "epub_btn": "EPUB indir",
+  "epub_hint": "Ücretsiz dosya, yalnızca Almanca metin. Biblyx'te aç, herhangi bir kelimeye dokun ve Türkçe anlamını gör."
+ },
+ "order": [
+  "der-hase-und-der-igel",
+  "die-bremer-stadtmusikanten",
+  "rotkaeppchen",
+  "vor-dem-gesetz",
+  "der-wolf-und-die-sieben-jungen-geisslein",
+  "haensel-und-gretel"
+ ]
+}
