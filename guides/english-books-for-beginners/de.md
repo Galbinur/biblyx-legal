@@ -30,6 +30,8 @@ Fang mit Geschichten an, die du aus deiner Sprache schon kennst. Wer die Handlun
 - **Grimms und Andersens Märchen** in englischer Übersetzung. *Hansel and Gretel* und *The Ugly Duckling* kennst du, also kommen die Wörter von selbst.
 - **Vereinfachte Lektüren (graded readers).** Reihen wie Oxford Bookworms (Starter bis Stage 2) oder Penguin Readers (Level 1–2) erzählen bekannte Bücher mit begrenztem Wortschatz nach. Sie kosten Geld, sind aber genau für diese Stufe gemacht; Stadtbibliotheken haben oft ganze Regale davon.
 
+**Kostenlos auf dieser Seite:** sechs bekannte Märchen in einfachem Englisch für A1 und klassische Geschichten bis B2, vollständig, mit der Bedeutung jedes unterstrichenen Wortes und deutscher Übersetzung jedes Absatzes. Fang bei den [englischen Kurzgeschichten](/de/englische-kurzgeschichten/) an.
+
 ## B1: echte Geschichten mit kurzen Kapiteln
 
 - **The Gift of the Magi** von O. Henry. Eine berühmte Kurzgeschichte mit Pointe, etwa 2.000 Wörter. In Biblyx enthalten.

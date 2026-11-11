@@ -30,6 +30,8 @@ Commencez par des histoires que vous connaissez déjà en français. Connaître 
 - **Les contes de Grimm et d'Andersen** en traduction anglaise. Vous connaissez *Hansel and Gretel* et *The Ugly Duckling* : les mots viennent tout seuls.
 - **Les lectures graduées (graded readers).** Des collections comme Oxford Bookworms (Starter à Stage 2) et Penguin Readers (niveaux 1–2) racontent des livres célèbres avec un vocabulaire limité. Elles sont payantes, mais écrites exactement pour cette étape ; les médiathèques en ont souvent des rayons entiers.
 
+**Gratuit sur ce site :** six contes célèbres racontés en anglais simple pour le niveau A1 et des nouvelles classiques jusqu'au B2, complets, avec le sens de chaque mot souligné et la traduction de chaque paragraphe. Commencez par les [histoires en anglais](/fr/histoires-en-anglais/).
+
 ## B1 : de vraies histoires aux chapitres courts
 
 - **The Gift of the Magi**, d'O. Henry. Une nouvelle célèbre pour sa chute, environ 2 000 mots. Incluse dans Biblyx.

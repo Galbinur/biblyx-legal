@@ -34,6 +34,7 @@ import os
 import re
 import subprocess
 import sys
+import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -662,12 +663,27 @@ STORY_JS = """<script>
 </script>"""
 
 
+def is_own(story: dict) -> bool:
+    return story.get("license") == "own"
+
+
+def byline(lang: str, story: dict) -> str:
+    """'Oscar Wilde · 1888' for public-domain texts, 'Brothers Grimm · retold in simple English' for our retellings."""
+    if is_own(story):
+        return f'{esc(story["author"])} · {esc(CTX["library"][lang]["retold"])}'
+    return f'{esc(story["author"])} · {story["year"]}'
+
+
+def level_band(story: dict) -> str:
+    return re.split(r"[–-]", story["level"])[0].strip()
+
+
 def chips(lang: str, story: dict) -> str:
     lib = CTX["library"][lang]
     return (f'<span class="chip level">{esc(story["level"])}</span>'
             f'<span class="chip">{esc(lib["minutes"].format(n=story["minutes"]))}</span>'
             f'<span class="chip">{esc(lib["words"].format(n=num(lang, story["words"])))}</span>'
-            f'<span class="chip">{esc(lib["pd"])}</span>')
+            f'<span class="chip">{esc(lib["free"] if is_own(story) else lib["pd"])}</span>')
 
 
 def render_story(lang: str, story: dict, stories: dict) -> str:
@@ -699,7 +715,10 @@ def render_story(lang: str, story: dict, stories: dict) -> str:
         f'<span><span lang="en">{esc(s["title"])}</span><small>{esc(s["author"])} · {esc(s["level"])}</small></span></a>'
         for s in others)
     local = "" if lang == "en" else f' · <span>{esc(loc["local_title"])}</span>'
-    source = lib["source"].format(link=f'<a href="{story["source"]}" rel="noopener">{esc(story["source_name"])}</a>')
+    if is_own(story):
+        source = esc(lib["source_own"])
+    else:
+        source = lib["source"].format(link=f'<a href="{story["source"]}" rel="noopener">{esc(story["source_name"])}</a>')
     show_all = (f'<button class="show-all" id="tr-all" type="button" aria-pressed="false">{esc(lib["show_all"])}</button>'
                 if tr else "")
     data = json.dumps(rows, ensure_ascii=False).replace("</", "<\\/")
@@ -710,7 +729,7 @@ def render_story(lang: str, story: dict, stories: dict) -> str:
       <img src="{story["cover"]}" alt="{esc(story["title"])}" width="120" height="180">
       <div>
         <h1 lang="en">{esc(story["title"])}</h1>
-        <p class="author">{esc(story["author"])} · {story["year"]}{local}</p>
+        <p class="author">{byline(lang, story)}{local}</p>
         <div class="chips">{chips(lang, story)}</div>
       </div>
     </header>
@@ -720,6 +739,7 @@ def render_story(lang: str, story: dict, stories: dict) -> str:
 {chr(10).join(paras)}
     </div>
     <p class="source">{source}</p>
+    <p class="epub"><a class="btn btn-ghost" href="{epub_path(story)}" download>{esc(lib["epub_btn"])}</a> <small>{esc(lib["epub_hint"])}</small></p>
     <section class="vocab">
       <h2>{esc(lib["vocab"])}</h2>
       <div class="table-wrap"><table><thead><tr>{cols}</tr></thead><tbody>{vocab}</tbody></table></div>
@@ -740,8 +760,11 @@ def render_story(lang: str, story: dict, stories: dict) -> str:
     ld = [{"@type": "WebPage", "@id": url, "name": loc["title"], "description": loc["description"], "inLanguage": lang,
            "isPartOf": {"@type": "CollectionPage", "@id": lib_url},
            "mainEntity": {"@type": "CreativeWork", "name": story["title"], "inLanguage": "en",
-                          "author": {"@type": "Person", "name": story["author"]}, "datePublished": str(story["year"]),
-                          "license": "https://creativecommons.org/publicdomain/mark/1.0/", "isBasedOn": story["source"],
+                          "author": ({"@type": "Organization", "name": "Biblyx"} if is_own(story)
+                                     else {"@type": "Person", "name": story["author"]}),
+                          "datePublished": str(story["year"]),
+                          **({} if is_own(story) else {"license": "https://creativecommons.org/publicdomain/mark/1.0/",
+                                                        "isBasedOn": story["source"]}),
                           "image": SITE + story["cover"]}},
           {"@type": "BreadcrumbList", "itemListElement": [
               {"@type": "ListItem", "position": 1, "name": "Biblyx", "item": home_url(lang)},
@@ -755,17 +778,21 @@ def render_story(lang: str, story: dict, stories: dict) -> str:
 def render_library(lang: str, stories: dict) -> str:
     lib = CTX["library"][lang]
     url = url_for(lang, lib["path"])
-    cards = []
-    for s in stories.values():
-        if lang not in s["langs"]:
-            continue
+    cards, bands = [], []
+    ordered = sorted((s for s in stories.values() if lang in s["langs"]),
+                     key=lambda s: ["A1", "A2", "B1", "B2", "C1"].index(level_band(s)))
+    for s in ordered:
+        band = level_band(s)
+        if band not in bands:
+            bands.append(band)
+            cards.append(f'<h2 class="level-head" id="{band.lower()}">{esc(lib["level_head"].format(lv=band))}</h2>')
         loc = s["langs"][lang]
         local = "" if lang == "en" else f' · {esc(loc["local_title"])}'
         cards.append(f"""<article class="story-card">
       <a href="{rel(story_url(lang, s))}"><img src="{s["cover"]}" alt="{esc(s["title"])}" width="120" height="180" loading="lazy"></a>
       <div>
         <h2><a href="{rel(story_url(lang, s))}" lang="en">{esc(s["title"])}</a></h2>
-        <p class="author">{esc(s["author"])} · {s["year"]}{local}</p>
+        <p class="author">{byline(lang, s)}{local}</p>
         <div class="chips">{chips(lang, s)}</div>
         <p>{esc(loc["intro"])}</p>
         <a class="more" href="{rel(story_url(lang, s))}">{esc(lib["read"])}</a>
@@ -778,6 +805,7 @@ def render_library(lang: str, stories: dict) -> str:
     <h1>{esc(lib["h1"])}</h1>
     <p class="lede">{esc(lib["intro"])}</p>
     <div class="howto"><p>{lib["howto"]}</p></div>
+    <nav class="level-nav" aria-label="{esc(lib["level_head"].format(lv=""))}">{"".join(f'<a class="chip level" href="#{b.lower()}">{b}</a>' for b in bands)}</nav>
     {"\n    ".join(cards)}
   </article>
   <aside class="cta">
@@ -887,6 +915,72 @@ def check_html(where: str, page: str, title: str, description: str, warnings: li
         warnings.append(f"{where}: description is {len(description)} characters (aim 120–160)")
 
 
+# ---------------------------------------------------------------------------
+# EPUB per story: English text only, opens in Biblyx (or any e-reader).
+# Deterministic bytes (fixed zip timestamps) so a rebuild does not churn git.
+
+EPUB_END = ("Learn languages by reading your own books.",
+            "More free English stories: https://biblyx.com/english-short-stories/")
+
+
+def epub_path(story: dict) -> str:
+    return f'/assets/stories/{story["slug"]}.epub'
+
+
+def build_epub(story: dict) -> bytes:
+    import io
+    x = lambda t: html.escape(t, quote=True)
+    slug, title, author = story["slug"], story["title"], story["author"]
+    uid = f"https://biblyx.com/english-short-stories/{slug}/"
+    note = ("Retold in simple English by Biblyx." if is_own(story)
+            else f'Text: {story.get("source_name", "")} ({story["year"]}), public domain.')
+    cover = (ROOT / story["cover"].lstrip("/")).read_bytes()
+    paras = "\n".join(f"<p>{x(t)}</p>" for t in story["paragraphs"])
+    head = ('<?xml version="1.0" encoding="utf-8"?>\n<!DOCTYPE html>\n'
+            '<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en" lang="en">')
+    text = (f'{head}<head><meta charset="utf-8"/><title>{x(title)}</title>'
+            '<style>body{font-family:serif;line-height:1.5} h1{text-align:center} .by{text-align:center;font-style:italic}'
+            ' .end{margin-top:2em;font-size:.9em;text-align:center}</style></head><body>'
+            f'<section epub:type="chapter"><h1>{x(title)}</h1><p class="by">{x(author)} · Level {x(story["level"])}</p>'
+            f'{paras}<p class="end">{x(note)}<br/>{x(EPUB_END[0])}<br/>{x(EPUB_END[1])}</p></section></body></html>')
+    nav = (f'{head}<head><meta charset="utf-8"/><title>{x(title)}</title></head><body>'
+           f'<nav epub:type="toc" id="toc"><ol><li><a href="text.xhtml">{x(title)}</a></li></ol></nav></body></html>')
+    ncx = ('<?xml version="1.0" encoding="utf-8"?>\n<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">'
+           f'<head><meta name="dtb:uid" content="{x(uid)}"/></head><docTitle><text>{x(title)}</text></docTitle>'
+           f'<navMap><navPoint id="n1" playOrder="1"><navLabel><text>{x(title)}</text></navLabel>'
+           '<content src="text.xhtml"/></navPoint></navMap></ncx>')
+    opf = ('<?xml version="1.0" encoding="utf-8"?>\n'
+           '<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid" xml:lang="en">'
+           '<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">'
+           f'<dc:identifier id="uid">{x(uid)}</dc:identifier><dc:title>{x(title)}</dc:title>'
+           f'<dc:creator>{x(author)}</dc:creator><dc:language>en</dc:language><dc:publisher>Biblyx</dc:publisher>'
+           f'<dc:description>{x(note)}</dc:description><meta name="cover" content="cover"/>'
+           '<meta property="dcterms:modified">2026-11-11T00:00:00Z</meta></metadata>'
+           '<manifest><item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>'
+           '<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>'
+           '<item id="cover" href="cover.jpg" media-type="image/jpeg" properties="cover-image"/>'
+           '<item id="text" href="text.xhtml" media-type="application/xhtml+xml"/></manifest>'
+           '<spine toc="ncx"><itemref idref="text"/></spine></package>')
+    container = ('<?xml version="1.0" encoding="utf-8"?>\n<container version="1.0" '
+                 'xmlns="urn:oasis:names:tc:opendocument:xmlns:container"><rootfiles>'
+                 '<rootfile full-path="OEBPS/content.opf" media-type="application/oebps-package+xml"/>'
+                 '</rootfiles></container>')
+    buf = io.BytesIO()
+    with zipfile.ZipFile(buf, "w") as z:
+        def put(name, data, deflate=True):
+            info = zipfile.ZipInfo(name, date_time=(2026, 11, 11, 0, 0, 0))
+            info.compress_type = zipfile.ZIP_DEFLATED if deflate else zipfile.ZIP_STORED
+            z.writestr(info, data)
+        put("mimetype", "application/epub+zip", deflate=False)
+        put("META-INF/container.xml", container)
+        put("OEBPS/content.opf", opf)
+        put("OEBPS/nav.xhtml", nav)
+        put("OEBPS/toc.ncx", ncx)
+        put("OEBPS/text.xhtml", text)
+        put("OEBPS/cover.jpg", cover, deflate=False)
+    return buf.getvalue()
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", help="write into this directory instead of the repo")
@@ -928,6 +1022,13 @@ def main():
                 if page.count(SLOGAN[lang]) != 1:
                     warnings.append(f"{story['slug']}/{lang}: the slogan appears {page.count(SLOGAN[lang])} times (expected once)")
                 emit(story_url(lang, story), page)
+    for story in CTX["stories"].values():
+        data = build_epub(story)
+        target = out_root / epub_path(story).lstrip("/")
+        if not args.check and (not target.exists() or target.read_bytes() != data):
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_bytes(data)
+            written.append(epub_path(story).lstrip("/"))
     for lang in LANGS:
         page = home_with_rows(lang)
         if page != home_page(lang) and not args.check:

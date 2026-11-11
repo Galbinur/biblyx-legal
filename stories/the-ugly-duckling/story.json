@@ -1,0 +1,154 @@
+{
+ "title": "The Ugly Duckling",
+ "author": "Hans Christian Andersen",
+ "year": 1843,
+ "level": "A1",
+ "license": "own",
+ "minutes": 3,
+ "words": 334,
+ "cover": "/assets/stories/the-ugly-duckling.jpg",
+ "paragraphs": [
+  "It is summer on a farm. A mother duck sits on her eggs. One by one, the eggs open, and little yellow ducklings come out.",
+  "But one egg is big and grey. At last it opens, and a big, grey duckling comes out. “This one looks different,” says the mother duck.",
+  "The next day, the mother takes her babies to the water. The big grey duckling swims well. “He is my child,” she says. “He is just a little strange.”",
+  "But the other animals are not kind. “You are too big and too ugly!” says a duck. The hens push him, and the farm boys laugh at him.",
+  "The poor duckling is very sad. One night, he runs away from the farm. He goes to a big lake and lives alone among the reeds.",
+  "Autumn comes, and the days get cold. One evening, he sees some beautiful white birds in the sky. He does not know their name, but he loves them.",
+  "Then winter comes. The lake turns to ice, and the duckling is cold and hungry. A farmer finds him and takes him home, but he is afraid and runs away again.",
+  "The winter is long and hard. The duckling hides in the straw and the reeds. He thinks, “Nobody wants me.”",
+  "At last, spring comes. The sun is warm, and the ice goes away. The duckling opens his wings, and now they are big and strong.",
+  "He flies to a garden with a pond. Three beautiful white birds swim there. “I will go to them,” he thinks. “Maybe they will hit me, but I do not care.”",
+  "He looks down at the water. He sees a white swan with a long, elegant neck! The other swans come to him and say, “Welcome, friend.”",
+  "Children run to the pond. “Look! The new swan is the most beautiful of all!” they say. The swan is very happy, because now he has a family. He was never an ugly duckling. He was always a swan."
+ ],
+ "glosses": [
+  {
+   "p": 0,
+   "text": "eggs",
+   "nth": 1,
+   "head": "egg",
+   "pos": "noun",
+   "level": "A1",
+   "en": "round thing a bird comes from"
+  },
+  {
+   "p": 0,
+   "text": "ducklings",
+   "nth": 1,
+   "head": "duckling",
+   "pos": "noun",
+   "level": "A2",
+   "en": "baby duck"
+  },
+  {
+   "p": 0,
+   "text": "come out",
+   "nth": 1,
+   "head": "come out",
+   "pos": "phrasal verb",
+   "level": "A2",
+   "en": "leave the egg; appear",
+   "note_en": "Past simple is came out."
+  },
+  {
+   "p": 1,
+   "text": "different",
+   "nth": 1,
+   "head": "different",
+   "pos": "adjective",
+   "level": "A1",
+   "en": "not like the others"
+  },
+  {
+   "p": 3,
+   "text": "ugly",
+   "nth": 1,
+   "head": "ugly",
+   "pos": "adjective",
+   "level": "A2",
+   "en": "not beautiful"
+  },
+  {
+   "p": 3,
+   "text": "laugh at",
+   "nth": 1,
+   "head": "laugh at",
+   "pos": "phrasal verb",
+   "level": "A2",
+   "en": "make fun of someone"
+  },
+  {
+   "p": 4,
+   "text": "runs away",
+   "nth": 1,
+   "head": "run away",
+   "pos": "phrasal verb",
+   "level": "A2",
+   "en": "leave a place quickly and escape",
+   "note_en": "Past simple is ran; the duckling ran away."
+  },
+  {
+   "p": 4,
+   "text": "reeds",
+   "nth": 1,
+   "head": "reed",
+   "pos": "noun",
+   "level": "B1",
+   "en": "tall grass that grows in water"
+  },
+  {
+   "p": 5,
+   "text": "Autumn",
+   "nth": 1,
+   "head": "autumn",
+   "pos": "noun",
+   "level": "A1",
+   "en": "season between summer and winter"
+  },
+  {
+   "p": 6,
+   "text": "ice",
+   "nth": 1,
+   "head": "ice",
+   "pos": "noun",
+   "level": "A1",
+   "en": "frozen water"
+  },
+  {
+   "p": 7,
+   "text": "straw",
+   "nth": 1,
+   "head": "straw",
+   "pos": "noun",
+   "level": "A2",
+   "en": "dry yellow stems of grain"
+  },
+  {
+   "p": 8,
+   "text": "wings",
+   "nth": 1,
+   "head": "wing",
+   "pos": "noun",
+   "level": "A2",
+   "en": "parts a bird uses to fly"
+  },
+  {
+   "p": 10,
+   "text": "swan",
+   "nth": 1,
+   "head": "swan",
+   "pos": "noun",
+   "level": "A2",
+   "en": "big white water bird"
+  },
+  {
+   "p": 10,
+   "text": "neck",
+   "nth": 1,
+   "head": "neck",
+   "pos": "noun",
+   "level": "A1",
+   "en": "part of the body below the head"
+  }
+ ]
+}

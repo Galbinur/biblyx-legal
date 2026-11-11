@@ -30,6 +30,8 @@ Kendi dilinde zaten bildiğin hikâyelerle başla. Olay örgüsünü bilmek keli
 - **Grimm ve Andersen masalları** İngilizce çevirisiyle. *Hansel and Gretel*'i, *The Ugly Duckling*'i zaten biliyorsun; kelimeler kolay oturur.
 - **Seviyeli okuma kitapları (graded readers).** Oxford Bookworms (Starter – Stage 2) ve Penguin Readers (Level 1–2) gibi seriler ünlü kitapları sınırlı bir kelime hazinesiyle yeniden anlatır. Ücretli, ama tam bu aşama için yazılmıştır; Türkiye'de kitapçılarda ve kütüphanelerde bulunur.
 
+**Bu sitede ücretsiz:** A1 için basit İngilizceyle anlatılmış altı tanınmış masal ve B2'ye kadar klasik hikayeler; tam metin, altı çizili kelimelerin anlamı ve her paragrafın Türkçe çevirisiyle. [İngilizce hikayeler](/tr/ingilizce-hikayeler/) sayfasından başla.
+
 ## B1: kısa bölümlü gerçek hikâyeler
 
 - **The Gift of the Magi**, O. Henry. Sürprizli, ünlü bir kısa hikâye; yaklaşık 2.000 kelime. Biblyx'te hazır.

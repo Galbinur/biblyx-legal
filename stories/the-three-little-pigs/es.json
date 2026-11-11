@@ -1,0 +1,70 @@
+{
+ "path": "los-tres-cerditos",
+ "local_title": "Los tres cerditos",
+ "title": "Los tres cerditos en inglés (A1)",
+ "description": "Lee Los tres cerditos en inglés, con el texto completo. Toca una palabra para ver su significado, con traducción de cada párrafo. Nivel A1, unos 3 minutos.",
+ "intro": "Tres cerditos construyen una casa cada uno, y un lobo hambriento llega a sus puertas. El cuento tiene frases cortas y palabras sencillas, ideal para principiantes.",
+ "translations": [
+  "Había una vez tres cerditos. Eran hermanos, y llegó la hora de dejar su casa. Su madre dijo: «Construyan una casa, hijos míos, y tengan cuidado.»",
+  "El primer cerdito era perezoso. Construyó una casa de paja en una sola tarde. «¡Qué fácil!», dijo, y se fue a dormir.",
+  "El segundo cerdito construyó una casa de palos. Tardó un poco más, pero estaba contento. Luego salió a jugar.",
+  "El tercer cerdito trabajó todo el día. Cargó ladrillos pesados y los puso uno encima de otro. Su casa era fuerte y cálida.",
+  "Una noche, un lobo grande y hambriento pasó junto a la casa de paja. Llamó a la puerta. «¡Cerdito, cerdito, déjame entrar!»",
+  "«No, no, no», dijo el primer cerdito. «No te dejaré entrar.» El lobo sonrió. «¡Entonces resoplaré y soplaré, y derribaré tu casa!»",
+  "Respiró hondo y sopló. La casa de paja se cayó, y el pobre cerdito huyó a la casa de palos de su hermano.",
+  "El lobo lo siguió. Resopló y sopló otra vez, y la casa de palos salió volando por el aire. Los dos cerditos corrieron lo más rápido que pudieron hasta la casa de ladrillos.",
+  "«¡Rápido, entren!», dijo el tercer cerdito. Cerró la puerta y echó la llave. El lobo llegó un minuto después.",
+  "«¡Cerditos, déjenme entrar!», gritó. «No, nunca», dijo el tercer cerdito. «Mi casa es fuerte y aquí no eres bienvenido.»",
+  "El lobo sopló y sopló, pero la casa de ladrillos no se movió. Estaba cansado y enfadado. Entonces vio la chimenea y pensó: «Bajaré por ahí.»",
+  "El cerdito listo lo oyó en el tejado. Puso una olla grande de agua al fuego. El lobo bajó por la chimenea y cayó en la olla caliente.",
+  "«¡Ay!», gritó el lobo. Salió de un salto y huyó al bosque. Nunca volvió.",
+  "Los tres cerditos vivieron juntos en la casa de ladrillos. Estaban a salvo y felices. Los dos primeros cerditos aprendieron una lección importante: es bueno trabajar duro."
+ ],
+ "glosses": [
+  {
+   "m": "perezoso"
+  },
+  {
+   "m": "paja"
+  },
+  {
+   "m": "palos, ramitas"
+  },
+  {
+   "m": "ladrillos"
+  },
+  {
+   "m": "lobo"
+  },
+  {
+   "m": "llamar a la puerta",
+   "note": "Pasado de knock; la k no se pronuncia."
+  },
+  {
+   "m": "resoplar y soplar"
+  },
+  {
+   "m": "derribar de un soplido"
+  },
+  {
+   "m": "huir",
+   "note": "Pasado de run away: ran."
+  },
+  {
+   "m": "echar la llave"
+  },
+  {
+   "m": "chimenea"
+  },
+  {
+   "m": "olla"
+  },
+  {
+   "m": "caer en",
+   "note": "Irregular: fall, fell, fallen."
+  },
+  {
+   "m": "lección"
+  }
+ ]
+}

@@ -1,0 +1,156 @@
+{
+ "title": "Little Red Riding Hood",
+ "author": "Brothers Grimm",
+ "year": 1812,
+ "level": "A1",
+ "license": "own",
+ "minutes": 3,
+ "words": 364,
+ "cover": "/assets/stories/little-red-riding-hood.jpg",
+ "paragraphs": [
+  "Long ago, a little girl lived near a big forest. She always wore a red coat with a hood, so everyone called her Little Red Riding Hood.",
+  "One morning, her mother gave her a basket. “Your grandmother is ill,” she said. “Take her this bread and butter, and do not talk to strangers.”",
+  "The girl walked into the forest. Her grandmother’s house was far away, deep in the trees. Soon she met a wolf.",
+  "“Where are you going, little girl?” asked the wolf with a smile. “I’m going to my grandmother’s house,” said the girl. “She lives in the little house at the end of the path.”",
+  "The wolf thought, “I want to eat the girl and her grandmother.” Then he said, “Look at the beautiful flowers! Take some for your grandmother.”",
+  "The girl stopped to pick flowers. Meanwhile, the wolf ran to the grandmother’s house and knocked on the door. “Who is it?” asked the old woman. “It’s Little Red Riding Hood,” said the wolf softly.",
+  "“Come in,” said the grandmother. The wolf rushed inside and swallowed her. Then he put on her nightdress and got into her bed.",
+  "At last the girl arrived with her flowers. The door was open, and the house was very quiet. She went to the bed and looked at her grandmother.",
+  "“Grandmother, what big ears you have!” “All the better to hear you,” said the wolf. “And what big eyes you have!” “All the better to see you.”",
+  "“But Grandmother, what big teeth you have!” “All the better to eat you!” cried the wolf. He jumped out of the bed.",
+  "The girl screamed and ran to the door. A woodcutter was walking near the house, and he heard her. He ran inside with his axe and killed the wolf.",
+  "Then he opened the wolf’s stomach, and the grandmother came out alive. She was tired and afraid, but she was well.",
+  "They ate the bread and butter together and drank some tea. Little Red Riding Hood looked at her grandmother and said, “I’m sorry. I will never leave the path again.”",
+  "The woodcutter walked her home through the forest. After that day, she always listened to her mother."
+ ],
+ "glosses": [
+  {
+   "p": 0,
+   "text": "hood",
+   "nth": 1,
+   "head": "hood",
+   "pos": "noun",
+   "level": "A2",
+   "en": "part of a coat that covers the head"
+  },
+  {
+   "p": 1,
+   "text": "basket",
+   "nth": 1,
+   "head": "basket",
+   "pos": "noun",
+   "level": "A2",
+   "en": "a container with a handle for carrying things"
+  },
+  {
+   "p": 1,
+   "text": "ill",
+   "nth": 1,
+   "head": "ill",
+   "pos": "adjective",
+   "level": "A2",
+   "en": "sick; not well"
+  },
+  {
+   "p": 1,
+   "text": "strangers",
+   "nth": 1,
+   "head": "stranger",
+   "pos": "noun",
+   "level": "A2",
+   "en": "people you do not know"
+  },
+  {
+   "p": 2,
+   "text": "wolf",
+   "nth": 1,
+   "head": "wolf",
+   "pos": "noun",
+   "level": "A2",
+   "en": "a wild animal like a big dog"
+  },
+  {
+   "p": 5,
+   "text": "pick",
+   "nth": 1,
+   "head": "pick",
+   "pos": "verb",
+   "level": "A2",
+   "en": "take flowers from the place where they grow"
+  },
+  {
+   "p": 5,
+   "text": "knocked on",
+   "nth": 1,
+   "head": "knock on",
+   "pos": "phrasal verb",
+   "level": "A2",
+   "en": "hit a door to ask someone to open it"
+  },
+  {
+   "p": 6,
+   "text": "swallowed",
+   "nth": 1,
+   "head": "swallow",
+   "pos": "verb",
+   "level": "B1",
+   "en": "took something into the stomach through the mouth"
+  },
+  {
+   "p": 6,
+   "text": "put on",
+   "nth": 1,
+   "head": "put on",
+   "pos": "phrasal verb",
+   "level": "A2",
+   "en": "dress yourself in clothes",
+   "note_en": "Past simple is also put."
+  },
+  {
+   "p": 7,
+   "text": "At last",
+   "nth": 1,
+   "head": "at last",
+   "pos": "phrase",
+   "level": "A2",
+   "en": "finally, after a long time"
+  },
+  {
+   "p": 9,
+   "text": "jumped out of",
+   "nth": 1,
+   "head": "jump out of",
+   "pos": "phrasal verb",
+   "level": "A2",
+   "en": "left a place with a quick jump"
+  },
+  {
+   "p": 10,
+   "text": "woodcutter",
+   "nth": 1,
+   "head": "woodcutter",
+   "pos": "noun",
+   "level": "B1",
+   "en": "a man who cuts down trees"
+  },
+  {
+   "p": 10,
+   "text": "axe",
+   "nth": 1,
+   "head": "axe",
+   "pos": "noun",
+   "level": "B1",
+   "en": "a tool for cutting wood"
+  },
+  {
+   "p": 11,
+   "text": "came out",
+   "nth": 1,
+   "head": "come out",
+   "pos": "phrasal verb",
+   "level": "A2",
+   "en": "left a place and appeared outside",
+   "note_en": "Irregular past of come: came."
+  }
+ ]
+}

@@ -1,0 +1,157 @@
+{
+ "title": "Goldilocks and the Three Bears",
+ "author": "Robert Southey",
+ "year": 1837,
+ "level": "A1",
+ "license": "own",
+ "minutes": 3,
+ "words": 337,
+ "cover": "/assets/stories/goldilocks-and-the-three-bears.jpg",
+ "paragraphs": [
+  "Once there was a small house in a big forest. Three bears lived in it: Father Bear, Mother Bear and Baby Bear.",
+  "One morning, Mother Bear made porridge for breakfast. It was too hot to eat, so the bears went for a walk in the forest.",
+  "Near the forest, a girl called Goldilocks was walking alone. She saw the little house and smelled the porridge. “Hello?” she said. Nobody answered, so she went in.",
+  "On the table there were three bowls of porridge. She tried the big bowl, but it was too hot. She tried the middle bowl, but it was too cold. Then she tried the small bowl. “This one is just right,” she said, and she ate it all.",
+  "Next, Goldilocks saw three chairs. The big chair was too hard. The middle chair was too soft. The small chair was just right, but then it broke, and she fell on the floor.",
+  "Goldilocks was tired. She went upstairs and found three beds. The big bed was too high, and the middle bed was too low. The small bed was just right, and she fell asleep at once.",
+  "Soon the three bears came home. They were hungry. Father Bear looked at the table and said in a deep voice, “Someone has eaten my porridge!”",
+  "“Someone has eaten my porridge too,” said Mother Bear. Baby Bear cried, “Someone has eaten my porridge, and it’s all gone!”",
+  "Then they looked at the chairs. “Someone has sat in my chair,” said Father Bear. “And someone has broken my chair!” cried Baby Bear.",
+  "The bears went upstairs. “Someone has slept in my bed,” said Father Bear. Mother Bear said the same. Baby Bear called, “Someone is sleeping in my bed. Look, she is here!”",
+  "Goldilocks woke up and saw three bears. She was very afraid. She jumped out of the bed, ran down the stairs and out of the house.",
+  "She ran through the forest all the way home. She never went back to the house of the three bears."
+ ],
+ "glosses": [
+  {
+   "p": 0,
+   "text": "forest",
+   "nth": 1,
+   "head": "forest",
+   "pos": "noun",
+   "level": "A2",
+   "en": "a large area full of trees"
+  },
+  {
+   "p": 1,
+   "text": "porridge",
+   "nth": 1,
+   "head": "porridge",
+   "pos": "noun",
+   "level": "B1",
+   "en": "soft hot food made from oats and milk"
+  },
+  {
+   "p": 1,
+   "text": "went for a walk",
+   "nth": 1,
+   "head": "go for a walk",
+   "pos": "phrase",
+   "level": "A1",
+   "en": "walked outside for pleasure",
+   "note_en": "Went is the past form of go."
+  },
+  {
+   "p": 2,
+   "text": "smelled",
+   "nth": 1,
+   "head": "smell",
+   "pos": "verb",
+   "level": "A2",
+   "en": "noticed something with her nose"
+  },
+  {
+   "p": 3,
+   "text": "bowls",
+   "nth": 1,
+   "head": "bowl",
+   "pos": "noun",
+   "level": "A2",
+   "en": "deep round dishes for food"
+  },
+  {
+   "p": 3,
+   "text": "just right",
+   "nth": 1,
+   "head": "just right",
+   "pos": "phrase",
+   "level": "A2",
+   "en": "exactly good, not too much or too little"
+  },
+  {
+   "p": 4,
+   "text": "broke",
+   "nth": 1,
+   "head": "break",
+   "pos": "verb",
+   "level": "A2",
+   "en": "came apart into pieces",
+   "note_en": "Irregular past form of break."
+  },
+  {
+   "p": 4,
+   "text": "fell",
+   "nth": 1,
+   "head": "fall",
+   "pos": "verb",
+   "level": "A2",
+   "en": "dropped down suddenly",
+   "note_en": "Irregular past form of fall."
+  },
+  {
+   "p": 5,
+   "text": "fell asleep",
+   "nth": 1,
+   "head": "fall asleep",
+   "pos": "phrase",
+   "level": "A2",
+   "en": "began to sleep",
+   "note_en": "Fell is the past form of fall."
+  },
+  {
+   "p": 5,
+   "text": "at once",
+   "nth": 1,
+   "head": "at once",
+   "pos": "idiom",
+   "level": "A2",
+   "en": "immediately; right away"
+  },
+  {
+   "p": 6,
+   "text": "deep",
+   "nth": 1,
+   "head": "deep",
+   "pos": "adjective",
+   "level": "A2",
+   "en": "low in sound"
+  },
+  {
+   "p": 10,
+   "text": "woke up",
+   "nth": 1,
+   "head": "wake up",
+   "pos": "phrasal verb",
+   "level": "A1",
+   "en": "stopped sleeping",
+   "note_en": "Woke is the past form of wake."
+  },
+  {
+   "p": 10,
+   "text": "afraid",
+   "nth": 1,
+   "head": "afraid",
+   "pos": "adjective",
+   "level": "A2",
+   "en": "feeling fear"
+  },
+  {
+   "p": 10,
+   "text": "jumped out of",
+   "nth": 1,
+   "head": "jump out of",
+   "pos": "phrasal verb",
+   "level": "A2",
+   "en": "moved quickly out from inside"
+  }
+ ]
+}

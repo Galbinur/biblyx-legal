@@ -1,0 +1,66 @@
+{
+ "path": "pinocchio",
+ "local_title": "Pinocchio",
+ "title": "Pinocchio in inglese (A1)",
+ "description": "Il testo completo di Pinocchio in inglese: tocca una parola per vedere il significato. Traduzione di ogni paragrafo. Livello A1, circa 3 minuti.",
+ "intro": "La storia racconta di un burattino di legno che vuole diventare un bambino vero. Le frasi sono brevi e le parole semplici, quindi è perfetta per i principianti.",
+ "translations": [
+  "Un vecchio di nome Geppetto vive da solo in una piccola casa. Fa giocattoli di legno. Un giorno costruisce un burattino e lo chiama Pinocchio.",
+  "Quella notte succede una cosa magica. Il burattino apre gli occhi e muove le braccia e le gambe. Geppetto ride e piange. «Ora ho un figlio!», dice.",
+  "Geppetto vende il suo cappotto e compra un libro per la scuola. Ma Pinocchio non va a scuola. Vede un teatro di burattini ed entra.",
+  "Più tardi, una volpe e un gatto incontrano Pinocchio. «Vieni con noi», dicono. «Conosciamo un posto dove i soldi crescono sugli alberi». Prendono le sue monete d'oro e scappano.",
+  "Una fata gentile trova Pinocchio e lo aiuta. Lui le dice una bugia, e il suo naso diventa sempre più lungo. «Il naso di un bugiardo cresce sempre», dice la fata. «Di' la verità».",
+  "Pinocchio promette, ma spesso dimentica. Va nel paese dei giocattoli con un cattivo amico. Là gli spuntano orecchie d'asino e una coda. Ha paura e vuole tornare a casa.",
+  "Poi sente una brutta notizia. Geppetto è su una barca in mare e cerca suo figlio. Una balena enorme inghiotte il vecchio e la barca.",
+  "Pinocchio salta in acqua, e la balena inghiotte anche lui. Dentro è buio e bagnato. Lontano vede una piccola luce. Geppetto è seduto a un tavolo con una candela. «Babbo!», grida Pinocchio.",
+  "«Dobbiamo andare via mentre la balena dorme», dice Pinocchio. Geppetto è vecchio e debole, così Pinocchio lo porta sulle spalle. Nuotano fuori dalla grande bocca e raggiungono la spiaggia.",
+  "Dopo di ciò, Pinocchio cambia. Lavora sodo, va a scuola e si prende cura di suo padre. Dice sempre la verità.",
+  "Una notte, la fata viene da lui in sogno. «Sei un bravo figlio», dice. «Ora puoi essere un bambino vero».",
+  "La mattina, Pinocchio si sveglia. Il burattino di legno è seduto su una sedia, e lui ha mani calde e un cuore vero. Geppetto piange di gioia, e vivono felici insieme."
+ ],
+ "glosses": [
+  {
+   "m": "burattino"
+  },
+  {
+   "m": "magico"
+  },
+  {
+   "m": "vendere"
+  },
+  {
+   "m": "teatro di burattini"
+  },
+  {
+   "m": "volpe"
+  },
+  {
+   "m": "scappare, fuggire"
+  },
+  {
+   "m": "fata"
+  },
+  {
+   "m": "bugia"
+  },
+  {
+   "m": "naso"
+  },
+  {
+   "m": "asino"
+  },
+  {
+   "m": "balena"
+  },
+  {
+   "m": "inghiottire"
+  },
+  {
+   "m": "portare"
+  },
+  {
+   "m": "svegliarsi",
+   "note": "Il passato è irregolare: woke up."
+  }
+ ]
+}

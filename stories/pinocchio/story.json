@@ -1,0 +1,153 @@
+{
+ "title": "Pinocchio",
+ "author": "Carlo Collodi",
+ "year": 1883,
+ "level": "A1",
+ "license": "own",
+ "minutes": 3,
+ "words": 345,
+ "cover": "/assets/stories/pinocchio.jpg",
+ "paragraphs": [
+  "An old man called Geppetto lives alone in a small house. He makes toys from wood. One day he makes a puppet and calls him Pinocchio.",
+  "That night, something magic happens. The puppet opens his eyes and moves his arms and legs. Geppetto laughs and cries. “Now I have a son!” he says.",
+  "Geppetto sells his coat and buys a book for school. But Pinocchio does not go to school. He sees a puppet show and goes inside.",
+  "Later, a fox and a cat meet Pinocchio. “Come with us,” they say. “We know a place where money grows on trees.” They take his gold coins and run away.",
+  "A kind fairy finds Pinocchio and helps him. He tells her a lie, and his nose grows longer and longer. “A liar’s nose always grows,” says the fairy. “Tell the truth.”",
+  "Pinocchio promises, but he often forgets. He goes to a land of toys with a bad friend. There he gets donkey ears and a tail. He is afraid and wants to go home.",
+  "Then he hears bad news. Geppetto is in a boat on the sea, and he looks for his son. A huge whale swallows the old man and the boat.",
+  "Pinocchio jumps into the water, and the whale swallows him too. Inside, it is dark and wet. Far away, he sees a small light. Geppetto is sitting at a table with a candle. “Father!” cries Pinocchio.",
+  "“We must leave while the whale sleeps,” says Pinocchio. Geppetto is old and weak, so Pinocchio carries him on his back. They swim out of the big mouth and reach the beach.",
+  "After that, Pinocchio changes. He works hard, goes to school and takes care of his father. He always tells the truth.",
+  "One night, the fairy comes to him in a dream. “You are a good son,” she says. “Now you can be a real boy.”",
+  "In the morning, Pinocchio wakes up. The wooden puppet sits on a chair, and he has warm hands and a real heart. Geppetto cries with joy, and they live happily together."
+ ],
+ "glosses": [
+  {
+   "p": 0,
+   "text": "puppet",
+   "nth": 1,
+   "head": "puppet",
+   "pos": "noun",
+   "level": "A2",
+   "en": "a toy person that moves"
+  },
+  {
+   "p": 1,
+   "text": "magic",
+   "nth": 1,
+   "head": "magic",
+   "pos": "adjective",
+   "level": "A2",
+   "en": "with strange, wonderful power"
+  },
+  {
+   "p": 2,
+   "text": "sells",
+   "nth": 1,
+   "head": "sell",
+   "pos": "verb",
+   "level": "A1",
+   "en": "gives something and gets money for it"
+  },
+  {
+   "p": 2,
+   "text": "puppet show",
+   "nth": 1,
+   "head": "puppet show",
+   "pos": "noun",
+   "level": "B1",
+   "en": "a play with puppets for people to watch"
+  },
+  {
+   "p": 3,
+   "text": "fox",
+   "nth": 1,
+   "head": "fox",
+   "pos": "noun",
+   "level": "A2",
+   "en": "a wild animal like a small orange dog"
+  },
+  {
+   "p": 3,
+   "text": "run away",
+   "nth": 1,
+   "head": "run away",
+   "pos": "phrasal verb",
+   "level": "A2",
+   "en": "leave quickly to escape"
+  },
+  {
+   "p": 4,
+   "text": "fairy",
+   "nth": 1,
+   "head": "fairy",
+   "pos": "noun",
+   "level": "A2",
+   "en": "a small magic woman in stories"
+  },
+  {
+   "p": 4,
+   "text": "lie",
+   "nth": 1,
+   "head": "lie",
+   "pos": "noun",
+   "level": "A2",
+   "en": "something you say that is not true"
+  },
+  {
+   "p": 4,
+   "text": "nose",
+   "nth": 1,
+   "head": "nose",
+   "pos": "noun",
+   "level": "A1",
+   "en": "the part of the face for smelling"
+  },
+  {
+   "p": 5,
+   "text": "donkey",
+   "nth": 1,
+   "head": "donkey",
+   "pos": "noun",
+   "level": "A2",
+   "en": "an animal like a small horse with long ears"
+  },
+  {
+   "p": 6,
+   "text": "whale",
+   "nth": 1,
+   "head": "whale",
+   "pos": "noun",
+   "level": "A2",
+   "en": "a very big animal that lives in the sea"
+  },
+  {
+   "p": 6,
+   "text": "swallows",
+   "nth": 1,
+   "head": "swallow",
+   "pos": "verb",
+   "level": "B1",
+   "en": "takes food or a person into the stomach"
+  },
+  {
+   "p": 8,
+   "text": "carries",
+   "nth": 1,
+   "head": "carry",
+   "pos": "verb",
+   "level": "A2",
+   "en": "holds someone and takes them somewhere"
+  },
+  {
+   "p": 11,
+   "text": "wakes up",
+   "nth": 1,
+   "head": "wake up",
+   "pos": "phrasal verb",
+   "level": "A1",
+   "en": "stops sleeping",
+   "note_en": "Past form: woke up."
+  }
+ ]
+}

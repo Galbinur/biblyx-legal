@@ -1,0 +1,157 @@
+{
+ "title": "The Three Little Pigs",
+ "author": "English folk tale",
+ "year": 1890,
+ "level": "A1",
+ "license": "own",
+ "minutes": 3,
+ "words": 353,
+ "cover": "/assets/stories/the-three-little-pigs.jpg",
+ "paragraphs": [
+  "Once there were three little pigs. They were brothers, and it was time to leave home. Their mother said, “Build a house, my sons, and be careful.”",
+  "The first pig was lazy. He built a house of straw in one afternoon. “Easy!” he said, and he went to sleep.",
+  "The second pig built a house of sticks. It took a little longer, but he was happy. Then he went out to play.",
+  "The third pig worked all day. He carried heavy bricks and put them one on top of another. His house was strong and warm.",
+  "One evening, a big hungry wolf walked past the house of straw. He knocked on the door. “Little pig, little pig, let me come in!”",
+  "“No, no, no,” said the first pig. “I will not let you in.” The wolf smiled. “Then I will huff and puff, and I will blow your house down!”",
+  "He took a deep breath and blew. The straw house fell down, and the poor pig ran away to his brother’s house of sticks.",
+  "The wolf followed him. He huffed and puffed again, and the house of sticks flew into the air. The two pigs ran as fast as they could to the brick house.",
+  "“Quick, come in!” said the third pig. He closed the door and locked it. The wolf arrived a minute later.",
+  "“Little pigs, let me come in!” he shouted. “No, never,” said the third pig. “My house is strong, and you are not welcome here.”",
+  "The wolf blew and blew, but the brick house did not move. He was tired and angry. Then he saw the chimney and thought, “I will go down there.”",
+  "The clever pig heard him on the roof. He put a big pot of water on the fire. The wolf came down the chimney and fell into the hot pot.",
+  "“Ow!” cried the wolf. He jumped out and ran away into the forest. He never came back.",
+  "The three pigs lived together in the brick house. They were safe and happy. The first two pigs learned an important lesson: it is good to work hard."
+ ],
+ "glosses": [
+  {
+   "p": 1,
+   "text": "lazy",
+   "nth": 1,
+   "head": "lazy",
+   "pos": "adjective",
+   "level": "A2",
+   "en": "not wanting to work"
+  },
+  {
+   "p": 1,
+   "text": "straw",
+   "nth": 1,
+   "head": "straw",
+   "pos": "noun",
+   "level": "A2",
+   "en": "dry yellow stems of grain plants"
+  },
+  {
+   "p": 2,
+   "text": "sticks",
+   "nth": 1,
+   "head": "stick",
+   "pos": "noun",
+   "level": "A2",
+   "en": "thin pieces of wood from a tree"
+  },
+  {
+   "p": 3,
+   "text": "bricks",
+   "nth": 1,
+   "head": "brick",
+   "pos": "noun",
+   "level": "A2",
+   "en": "hard red blocks used to build walls"
+  },
+  {
+   "p": 4,
+   "text": "wolf",
+   "nth": 1,
+   "head": "wolf",
+   "pos": "noun",
+   "level": "A2",
+   "en": "wild animal like a big dog"
+  },
+  {
+   "p": 4,
+   "text": "knocked on",
+   "nth": 1,
+   "head": "knock on",
+   "pos": "phrasal verb",
+   "level": "A2",
+   "en": "hit a door to ask to enter",
+   "note_en": "Past simple of knock; the k is silent."
+  },
+  {
+   "p": 5,
+   "text": "huff and puff",
+   "nth": 1,
+   "head": "huff and puff",
+   "pos": "idiom",
+   "level": "B1",
+   "en": "breathe out hard and loud"
+  },
+  {
+   "p": 5,
+   "text": "blow your house down",
+   "nth": 1,
+   "head": "blow down",
+   "pos": "phrasal verb",
+   "level": "B1",
+   "en": "destroy something with strong wind or breath"
+  },
+  {
+   "p": 6,
+   "text": "ran away",
+   "nth": 1,
+   "head": "run away",
+   "pos": "phrasal verb",
+   "level": "A2",
+   "en": "leave quickly to escape",
+   "note_en": "Past simple of run away: ran."
+  },
+  {
+   "p": 8,
+   "text": "locked",
+   "nth": 1,
+   "head": "lock",
+   "pos": "verb",
+   "level": "A2",
+   "en": "closed with a key or bolt"
+  },
+  {
+   "p": 10,
+   "text": "chimney",
+   "nth": 1,
+   "head": "chimney",
+   "pos": "noun",
+   "level": "A2",
+   "en": "pipe above a fire that takes smoke out"
+  },
+  {
+   "p": 11,
+   "text": "pot",
+   "nth": 1,
+   "head": "pot",
+   "pos": "noun",
+   "level": "A1",
+   "en": "deep round container for cooking"
+  },
+  {
+   "p": 11,
+   "text": "fell into",
+   "nth": 1,
+   "head": "fall into",
+   "pos": "phrasal verb",
+   "level": "A2",
+   "en": "drop inside something by accident",
+   "note_en": "Irregular: fall, fell, fallen."
+  },
+  {
+   "p": 13,
+   "text": "lesson",
+   "nth": 1,
+   "head": "lesson",
+   "pos": "noun",
+   "level": "A2",
+   "en": "something you learn from an experience"
+  }
+ ]
+}

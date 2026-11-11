@@ -30,6 +30,8 @@ Comincia da storie che conosci già in italiano. Sapere la trama ti aiuta a indo
 - **Fiabe dei Grimm e di Andersen** in traduzione inglese. *Hansel and Gretel* e *The Ugly Duckling* li conosci, quindi le parole arrivano da sole.
 - **Letture graduate (graded readers).** Collane come Oxford Bookworms (da Starter a Stage 2) e Penguin Readers (livelli 1–2) raccontano libri famosi con un vocabolario limitato. Sono a pagamento, ma scritte esattamente per questa fase; nelle biblioteche comunali spesso ce ne sono scaffali interi.
 
+**Gratis su questo sito:** sei fiabe famose raccontate in inglese semplice per l'A1 e racconti classici fino al B2, completi, con il significato di ogni parola sottolineata e la traduzione di ogni paragrafo. Comincia dalle [storie in inglese](/it/storie-in-inglese/).
+
 ## B1: storie vere con capitoli brevi
 
 - **The Gift of the Magi**, O. Henry. Un racconto celebre con finale a sorpresa, circa 2.000 parole. Incluso in Biblyx.

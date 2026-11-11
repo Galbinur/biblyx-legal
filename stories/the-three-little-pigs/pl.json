@@ -1,0 +1,70 @@
+{
+ "path": "trzy-male-swinki",
+ "local_title": "Trzy małe świnki",
+ "title": "Trzy małe świnki po angielsku (A1)",
+ "description": "Przeczytaj Trzy małe świnki po angielsku, z pełnym tekstem. Dotknij słowa, by zobaczyć znaczenie; jest tłumaczenie każdego akapitu. Poziom A1, 3 minuty.",
+ "intro": "Trzy świnki budują każda swój dom, a do ich drzwi puka głodny wilk. Historia ma krótkie zdania i proste słowa, więc jest dobra dla początkujących.",
+ "translations": [
+  "Dawno temu żyły sobie trzy małe świnki. Były rodzeństwem i nadszedł czas, żeby opuścić dom. Ich mama powiedziała: „Zbudujcie dom, moi synowie, i bądźcie ostrożni.”",
+  "Pierwsza świnka była leniwa. W jedno popołudnie zbudowała dom ze słomy. „Łatwizna!”, powiedziała i poszła spać.",
+  "Druga świnka zbudowała dom z patyków. Zajęło to trochę więcej czasu, ale była szczęśliwa. Potem wyszła się bawić.",
+  "Trzecia świnka pracowała cały dzień. Nosiła ciężkie cegły i układała je jedną na drugiej. Jej dom był mocny i ciepły.",
+  "Pewnego wieczoru wielki, głodny wilk przechodził obok domu ze słomy. Zapukał do drzwi. „Świnko, świnko, wpuść mnie!”",
+  "„Nie, nie, nie”, powiedziała pierwsza świnka. „Nie wpuszczę cię.” Wilk uśmiechnął się. „To posapię i podmucham, i zdmuchnę twój dom!”",
+  "Wziął głęboki oddech i dmuchnął. Słomiany dom runął, a biedna świnka uciekła do domu brata z patyków.",
+  "Wilk poszedł za nią. Znowu posapał i podmuchał, a dom z patyków poleciał w powietrze. Obie świnki pobiegły najszybciej, jak umiały, do ceglanego domu.",
+  "„Szybko, wchodźcie!”, powiedziała trzecia świnka. Zamknęła drzwi na klucz. Wilk przyszedł minutę później.",
+  "„Świnki, wpuście mnie!”, krzyknął. „Nie, nigdy”, powiedziała trzecia świnka. „Mój dom jest mocny i nie jesteś tu mile widziany.”",
+  "Wilk dmuchał i dmuchał, ale ceglany dom ani drgnął. Był zmęczony i zły. Wtedy zobaczył komin i pomyślał: „Zejdę tamtędy.”",
+  "Mądra świnka usłyszała go na dachu. Postawiła na ogniu duży garnek z wodą. Wilk zszedł kominem i wpadł do gorącego garnka.",
+  "„Au!”, krzyknął wilk. Wyskoczył i uciekł do lasu. Nigdy nie wrócił.",
+  "Trzy świnki mieszkały razem w ceglanym domu. Były bezpieczne i szczęśliwe. Pierwsze dwie świnki dostały ważną lekcję: warto ciężko pracować."
+ ],
+ "glosses": [
+  {
+   "m": "leniwy"
+  },
+  {
+   "m": "słoma"
+  },
+  {
+   "m": "patyki"
+  },
+  {
+   "m": "cegły"
+  },
+  {
+   "m": "wilk"
+  },
+  {
+   "m": "zapukać do drzwi",
+   "note": "Czas przeszły od knock; k się nie wymawia."
+  },
+  {
+   "m": "sapać i dmuchać"
+  },
+  {
+   "m": "zdmuchnąć"
+  },
+  {
+   "m": "uciec",
+   "note": "Czas przeszły od run away: ran."
+  },
+  {
+   "m": "zamknąć na klucz"
+  },
+  {
+   "m": "komin"
+  },
+  {
+   "m": "garnek"
+  },
+  {
+   "m": "wpaść do",
+   "note": "Nieregularny: fall, fell, fallen."
+  },
+  {
+   "m": "lekcja"
+  }
+ ]
+}

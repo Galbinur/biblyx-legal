@@ -30,6 +30,8 @@ Empieza por historias que ya conoces en español. Saber el argumento te ayuda a 
 - **Cuentos de los Grimm y de Andersen** en traducción inglesa. Conoces *Hansel and Gretel* y *The Ugly Duckling*, así que las palabras entran solas.
 - **Lecturas graduadas (graded readers).** Colecciones como Oxford Bookworms (de Starter a Stage 2) y Penguin Readers (niveles 1–2) vuelven a contar libros famosos con un vocabulario limitado. Son de pago, pero están escritas exactamente para esta etapa.
 
+**Gratis en este sitio:** seis cuentos de hadas conocidos contados en inglés fácil para A1 y cuentos clásicos hasta B2, completos, con el significado de cada palabra subrayada y la traducción de cada párrafo. Empieza por los [cuentos en inglés](/es/cuentos-en-ingles/).
+
 ## B1: historias de verdad con capítulos cortos
 
 - **The Gift of the Magi**, de O. Henry. Un cuento famoso con final sorpresa; unas 2.000 palabras. Incluido en Biblyx.

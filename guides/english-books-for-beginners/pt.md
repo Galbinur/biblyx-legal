@@ -30,6 +30,8 @@ Comece com histórias que você já conhece em português. Saber o enredo ajuda 
 - **Contos dos Grimm e de Andersen** em tradução inglesa. Você conhece *Hansel and Gretel* e *The Ugly Duckling*, então as palavras entram fácil.
 - **Leituras graduadas (graded readers).** Séries como Oxford Bookworms (Starter a Stage 2) e Penguin Readers (níveis 1–2) recontam livros famosos com vocabulário limitado. São pagas, mas feitas exatamente para esta fase.
 
+**Grátis neste site:** seis contos de fadas conhecidos recontados em inglês simples para o A1 e contos clássicos até o B2, completos, com o sentido de cada palavra sublinhada e a tradução de cada parágrafo. Comece pelas [histórias em inglês](/pt/historias-em-ingles/).
+
 ## B1: histórias de verdade, com capítulos curtos
 
 - **The Gift of the Magi**, de O. Henry. Conto famoso com final surpreendente; cerca de 2.000 palavras. Já vem no Biblyx.

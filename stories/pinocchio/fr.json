@@ -1,0 +1,66 @@
+{
+ "path": "pinocchio",
+ "local_title": "Pinocchio",
+ "title": "Pinocchio en anglais (A1)",
+ "description": "Le texte complet de Pinocchio en anglais : touchez un mot pour voir son sens. Traduction de chaque paragraphe. Niveau A1, environ 3 minutes.",
+ "intro": "L'histoire raconte comment une marionnette en bois veut devenir un vrai garçon. Les phrases sont courtes et les mots sont simples, donc elle convient bien aux débutants.",
+ "translations": [
+  "Un vieil homme nommé Geppetto vit seul dans une petite maison. Il fabrique des jouets en bois. Un jour, il fabrique une marionnette et l'appelle Pinocchio.",
+  "Cette nuit-là, quelque chose de magique arrive. La marionnette ouvre les yeux et bouge les bras et les jambes. Geppetto rit et pleure. « Maintenant, j'ai un fils ! », dit-il.",
+  "Geppetto vend son manteau et achète un livre pour l'école. Mais Pinocchio ne va pas à l'école. Il voit un spectacle de marionnettes et entre.",
+  "Plus tard, un renard et un chat rencontrent Pinocchio. « Viens avec nous », disent-ils. « Nous connaissons un endroit où l'argent pousse sur les arbres. » Ils prennent ses pièces d'or et s'enfuient.",
+  "Une gentille fée trouve Pinocchio et l'aide. Il lui dit un mensonge, et son nez devient de plus en plus long. « Le nez d'un menteur grandit toujours », dit la fée. « Dis la vérité. »",
+  "Pinocchio promet, mais il oublie souvent. Il va au pays des jouets avec un mauvais ami. Là, il a des oreilles d'âne et une queue. Il a peur et veut rentrer à la maison.",
+  "Puis il entend une mauvaise nouvelle. Geppetto est dans un bateau sur la mer et cherche son fils. Une énorme baleine avale le vieil homme et le bateau.",
+  "Pinocchio saute dans l'eau, et la baleine l'avale aussi. À l'intérieur, il fait noir et humide. Au loin, il voit une petite lumière. Geppetto est assis à une table avec une bougie. « Papa ! », crie Pinocchio.",
+  "« Nous devons partir pendant que la baleine dort », dit Pinocchio. Geppetto est vieux et faible, alors Pinocchio le porte sur son dos. Ils nagent hors de la grande bouche et arrivent sur la plage.",
+  "Après cela, Pinocchio change. Il travaille dur, va à l'école et prend soin de son père. Il dit toujours la vérité.",
+  "Une nuit, la fée vient à lui dans un rêve. « Tu es un bon fils », dit-elle. « Maintenant, tu peux devenir un vrai garçon. »",
+  "Le matin, Pinocchio se réveille. La marionnette en bois est assise sur une chaise, et il a des mains chaudes et un vrai cœur. Geppetto pleure de joie, et ils vivent heureux ensemble."
+ ],
+ "glosses": [
+  {
+   "m": "marionnette, pantin"
+  },
+  {
+   "m": "magique"
+  },
+  {
+   "m": "vendre"
+  },
+  {
+   "m": "spectacle de marionnettes"
+  },
+  {
+   "m": "renard"
+  },
+  {
+   "m": "s'enfuir"
+  },
+  {
+   "m": "fée"
+  },
+  {
+   "m": "mensonge"
+  },
+  {
+   "m": "nez"
+  },
+  {
+   "m": "âne"
+  },
+  {
+   "m": "baleine"
+  },
+  {
+   "m": "avaler"
+  },
+  {
+   "m": "porter"
+  },
+  {
+   "m": "se réveiller",
+   "note": "Le passé est irrégulier : woke up."
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "path": "pinocho",
+ "local_title": "Pinocho",
+ "title": "Pinocho en inglés (A1)",
+ "description": "El texto completo de Pinocho en inglés: toca una palabra para ver su significado. Traducción de cada párrafo. Nivel A1, unos 3 minutos de lectura.",
+ "intro": "La historia cuenta cómo una marioneta de madera quiere ser un niño de verdad. Las frases son cortas y las palabras son sencillas, así que es ideal para principiantes.",
+ "translations": [
+  "Un anciano llamado Geppetto vive solo en una casa pequeña. Hace juguetes de madera. Un día hace una marioneta y la llama Pinocho.",
+  "Esa noche ocurre algo mágico. La marioneta abre los ojos y mueve los brazos y las piernas. Geppetto ríe y llora. «¡Ahora tengo un hijo!», dice.",
+  "Geppetto vende su abrigo y compra un libro para la escuela. Pero Pinocho no va a la escuela. Ve un teatro de marionetas y entra.",
+  "Más tarde, un zorro y un gato se encuentran con Pinocho. «Ven con nosotros», dicen. «Conocemos un lugar donde el dinero crece en los árboles». Le quitan sus monedas de oro y huyen.",
+  "Un hada buena encuentra a Pinocho y lo ayuda. Él le dice una mentira, y su nariz crece más y más. «La nariz de un mentiroso siempre crece», dice el hada. «Di la verdad».",
+  "Pinocho promete, pero a menudo se olvida. Va a un país de juguetes con un mal amigo. Allí le salen orejas de burro y una cola. Tiene miedo y quiere volver a casa.",
+  "Entonces oye malas noticias. Geppetto está en un barco en el mar y busca a su hijo. Una ballena enorme se traga al anciano y al barco.",
+  "Pinocho salta al agua, y la ballena también lo traga. Dentro está oscuro y húmedo. A lo lejos, ve una luz pequeña. Geppetto está sentado a una mesa con una vela. «¡Padre!», grita Pinocho.",
+  "«Debemos irnos mientras la ballena duerme», dice Pinocho. Geppetto es viejo y débil, así que Pinocho lo lleva en la espalda. Nadan fuera de la boca grande y llegan a la playa.",
+  "Después de eso, Pinocho cambia. Trabaja mucho, va a la escuela y cuida de su padre. Siempre dice la verdad.",
+  "Una noche, el hada viene a él en un sueño. «Eres un buen hijo», dice. «Ahora puedes ser un niño de verdad».",
+  "Por la mañana, Pinocho se despierta. La marioneta de madera está sentada en una silla, y él tiene manos cálidas y un corazón de verdad. Geppetto llora de alegría, y viven felices juntos."
+ ],
+ "glosses": [
+  {
+   "m": "marioneta, títere"
+  },
+  {
+   "m": "mágico"
+  },
+  {
+   "m": "vender"
+  },
+  {
+   "m": "teatro de marionetas"
+  },
+  {
+   "m": "zorro"
+  },
+  {
+   "m": "huir, escaparse"
+  },
+  {
+   "m": "hada",
+   "note": "Es femenino, pero se dice \"el hada\"."
+  },
+  {
+   "m": "mentira"
+  },
+  {
+   "m": "nariz"
+  },
+  {
+   "m": "burro"
+  },
+  {
+   "m": "ballena"
+  },
+  {
+   "m": "tragar"
+  },
+  {
+   "m": "llevar, cargar"
+  },
+  {
+   "m": "despertarse",
+   "note": "El pasado es irregular: woke up."
+  }
+ ]
+}

@@ -2,15 +2,21 @@
  "order": [
   "the-selfish-giant",
   "the-gift-of-the-magi",
-  "the-tell-tale-heart"
+  "the-tell-tale-heart",
+  "little-red-riding-hood",
+  "the-three-little-pigs",
+  "the-ugly-duckling",
+  "goldilocks-and-the-three-bears",
+  "rapunzel",
+  "pinocchio"
  ],
  "en": {
   "path": "english-short-stories",
   "title": "English short stories for beginners, with meanings",
   "h1": "English short stories",
   "crumb": "Short stories",
-  "description": "Free classic English short stories to read online: tap any underlined word for a simple meaning. Levels A2–B2, 11–14 minutes each.",
-  "intro": "Three classic stories, complete and free to read, from a fairy tale to a crime told by a madman. Underlined words open a short meaning in simple English, and each story ends with its word list. The texts are public domain.",
+  "description": "Short English stories for beginners and adult learners, free and complete: tap any underlined word for a simple meaning. Levels A1–B2.",
+  "intro": "Short stories in English for beginners and adult learners, complete and free to read: fairy tales retold in easy English for A1, then classic stories up to B2. Underlined words open a short meaning in simple English, and each story ends with its word list.",
   "howto": "<b>How to read:</b> tap an underlined word to see what it means here. Read each paragraph through first and look words up only when they stop you.",
   "toggle": "",
   "show_all": "",
@@ -37,15 +43,21 @@
    "phrasal verb": "phrasal verb",
    "idiom": "idiom",
    "pronoun": "pronoun"
-  }
+  },
+  "level_head": "Level {lv}",
+  "retold": "retold in simple English",
+  "free": "Free",
+  "source_own": "Text: our own simple retelling of the traditional tale.",
+  "epub_btn": "Download EPUB",
+  "epub_hint": "Free file, English text only. Open it in Biblyx and tap any word for its meaning."
  },
  "tr": {
   "path": "ingilizce-hikayeler",
-  "title": "İngilizce hikayeler: Türkçe çevirili, A2–B2",
+  "title": "İngilizce hikayeler: Türkçe çevirili, A1–B2",
   "h1": "İngilizce hikayeler, Türkçe çevirili",
   "crumb": "İngilizce hikayeler",
-  "description": "Ücretsiz İngilizce hikayeler, Türkçe çevirili: altı çizili kelimeye dokun, anlamını gör; her paragrafın çevirisi bir dokunuş uzakta. Seviye A2–B2.",
-  "intro": "Üç klasik İngilizce hikaye, tam metin ve ücretsiz: bir masal, bir Noel hikayesi ve bir delinin anlattığı bir cinayet. Altı çizili kelimeye dokununca hikayedeki anlamı açılır; her paragrafın altında Türkçe çevirisi var. Metinler kamu malıdır.",
+  "description": "Kısa ve basit İngilizce hikayeler, Türkçe çevirili ve ücretsiz: altı çizili kelimeye dokun, anlamını gör. A1, A2, B1 ve B2 seviyesinde hikayeler.",
+  "intro": "Seviyene göre kısa İngilizce hikayeler, tam metin ve ücretsiz: A1 için basit İngilizceyle anlatılmış masallar, ardından B2'ye kadar klasik hikayeler. Altı çizili kelimeye dokununca hikayedeki anlamı açılır; her paragrafın altında Türkçe çevirisi var.",
   "howto": "<b>Nasıl okunur:</b> altı çizili kelimeye dokun, bu cümledeki anlamını gör. Önce paragrafı kendin oku; takılırsan altındaki “Türkçesi” düğmesiyle çeviriyi aç.",
   "toggle": "Türkçesi",
   "show_all": "Tüm çevirileri göster",
@@ -72,15 +84,21 @@
    "phrasal verb": "phrasal verb",
    "idiom": "deyim",
    "pronoun": "zamir"
-  }
+  },
+  "level_head": "{lv} seviyesi",
+  "retold": "basit İngilizceyle yeniden anlatıldı",
+  "free": "Ücretsiz",
+  "source_own": "Metin: geleneksel masalın bizim yazdığımız basit anlatımı.",
+  "epub_btn": "EPUB indir",
+  "epub_hint": "Ücretsiz dosya, yalnızca İngilizce metin. Biblyx'te aç, herhangi bir kelimeye dokun ve anlamını gör."
  },
  "de": {
   "path": "englische-kurzgeschichten",
-  "title": "Englische Kurzgeschichten für Anfänger (A2–B2)",
+  "title": "Englische Kurzgeschichten für Anfänger (A1–B2)",
   "h1": "Englische Kurzgeschichten für Anfänger",
   "crumb": "Englische Kurzgeschichten",
-  "description": "Englische Kurzgeschichten kostenlos und vollständig: unterstrichenes Wort antippen, Bedeutung sehen, jeden Absatz übersetzen. Niveau A2–B2.",
-  "intro": "Drei klassische Geschichten, vollständig und kostenlos: ein Märchen, eine Weihnachtsgeschichte und ein Verbrechen, erzählt von einem Wahnsinnigen. Unterstrichene Wörter zeigen ihre Bedeutung im Satz, und unter jedem Absatz steht die deutsche Übersetzung. Die Texte sind gemeinfrei.",
+  "description": "Englische Kurzgeschichten für Anfänger und Erwachsene, kostenlos: unterstrichenes Wort antippen, Bedeutung sehen, Absatz übersetzen. Niveau A1–B2.",
+  "intro": "Englische Kurzgeschichten für Anfänger und Erwachsene, vollständig und kostenlos: Märchen in einfachem Englisch für A1, danach klassische Geschichten bis B2. Unterstrichene Wörter zeigen ihre Bedeutung im Satz, und unter jedem Absatz steht die deutsche Übersetzung.",
   "howto": "<b>So liest du:</b> Tippe auf ein unterstrichenes Wort, um seine Bedeutung in diesem Satz zu sehen. Lies jeden Absatz zuerst selbst; wenn du hängen bleibst, öffnet „Auf Deutsch“ die Übersetzung.",
   "toggle": "Auf Deutsch",
   "show_all": "Alle Übersetzungen zeigen",
@@ -107,15 +125,21 @@
    "phrasal verb": "Phrasal Verb",
    "idiom": "Redewendung",
    "pronoun": "Pronomen"
-  }
+  },
+  "level_head": "Niveau {lv}",
+  "retold": "in einfachem Englisch nacherzählt",
+  "free": "Kostenlos",
+  "source_own": "Text: unsere eigene einfache Nacherzählung des Märchens.",
+  "epub_btn": "EPUB herunterladen",
+  "epub_hint": "Kostenlose Datei, nur der englische Text. Öffne sie in Biblyx und tippe auf ein Wort, um seine Bedeutung zu sehen."
  },
  "pt": {
   "path": "historias-em-ingles",
   "title": "Histórias e contos em inglês para iniciantes",
   "h1": "Histórias e contos em inglês",
   "crumb": "Histórias em inglês",
-  "description": "Histórias e contos em inglês, grátis e completos: toque na palavra sublinhada para ver o sentido e abra a tradução de cada parágrafo. Níveis A2–B2.",
-  "intro": "Três contos clássicos, completos e gratuitos: um conto de fadas, uma história de Natal e um crime contado por um louco. As palavras sublinhadas mostram o sentido na frase, e cada parágrafo tem a tradução em português. Os textos são de domínio público.",
+  "description": "Histórias e contos curtos em inglês para iniciantes, grátis: toque na palavra sublinhada para ver o sentido e abra a tradução de cada parágrafo. A1–B2.",
+  "intro": "Histórias curtas em inglês para iniciantes, completas e grátis: contos de fadas em inglês simples para o nível A1 e, depois, contos clássicos até o B2. As palavras sublinhadas mostram o sentido na frase, e cada parágrafo tem a tradução em português.",
   "howto": "<b>Como ler:</b> toque numa palavra sublinhada para ver o sentido dela nesta frase. Leia cada parágrafo primeiro sozinho; se travar, abra a tradução em “Em português”.",
   "toggle": "Em português",
   "show_all": "Mostrar todas as traduções",
@@ -142,15 +166,21 @@
    "phrasal verb": "phrasal verb",
    "idiom": "expressão idiomática",
    "pronoun": "pronome"
-  }
+  },
+  "level_head": "Nível {lv}",
+  "retold": "recontado em inglês simples",
+  "free": "Grátis",
+  "source_own": "Texto: nossa própria versão simples do conto tradicional.",
+  "epub_btn": "Baixar EPUB",
+  "epub_hint": "Arquivo grátis, só o texto em inglês. Abra no Biblyx e toque numa palavra para ver o sentido."
  },
  "es": {
   "path": "cuentos-en-ingles",
-  "title": "Cuentos en inglés para principiantes (A2–B2)",
+  "title": "Cuentos en inglés para principiantes (A1–B2)",
   "h1": "Cuentos en inglés",
   "crumb": "Cuentos en inglés",
-  "description": "Cuentos clásicos en inglés, gratis y completos: toca una palabra subrayada para ver su significado y abre la traducción de cada párrafo. Niveles A2–B2.",
-  "intro": "Tres cuentos clásicos, completos y gratis: un cuento de hadas, una historia de Navidad y un crimen contado por un loco. Las palabras subrayadas muestran su significado en la frase, y cada párrafo tiene su traducción al español. Los textos son de dominio público.",
+  "description": "Cuentos cortos en inglés para principiantes, gratis: toca una palabra subrayada para ver su significado y abre la traducción de cada párrafo. A1–B2.",
+  "intro": "Cuentos cortos en inglés para principiantes, completos y gratis: cuentos de hadas en inglés fácil para el nivel A1 y, después, cuentos clásicos hasta B2. Las palabras subrayadas muestran su significado en la frase, y cada párrafo tiene su traducción al español.",
   "howto": "<b>Cómo leer:</b> toca una palabra subrayada para ver qué significa en esta frase. Lee primero cada párrafo por tu cuenta; si te atascas, abre la traducción con “En español”.",
   "toggle": "En español",
   "show_all": "Mostrar todas las traducciones",
@@ -177,15 +207,21 @@
    "phrasal verb": "phrasal verb",
    "idiom": "modismo",
    "pronoun": "pronombre"
-  }
+  },
+  "level_head": "Nivel {lv}",
+  "retold": "contado en inglés sencillo",
+  "free": "Gratis",
+  "source_own": "Texto: nuestra propia versión sencilla del cuento tradicional.",
+  "epub_btn": "Descargar EPUB",
+  "epub_hint": "Archivo gratis, solo el texto en inglés. Ábrelo en Biblyx y toca una palabra para ver su significado."
  },
  "it": {
   "path": "storie-in-inglese",
-  "title": "Storie in inglese per principianti (A2–B2)",
+  "title": "Storie in inglese per principianti (A1–B2)",
   "h1": "Storie in inglese",
   "crumb": "Storie in inglese",
-  "description": "Racconti in inglese, gratis e completi: tocca una parola sottolineata per vederne il significato e apri la traduzione di ogni paragrafo. Livelli A2–B2.",
-  "intro": "Tre racconti classici, completi e gratuiti: una fiaba, una storia di Natale e un delitto raccontato da un folle. Le parole sottolineate mostrano il loro significato nella frase, e ogni paragrafo ha la sua traduzione in italiano. I testi sono di pubblico dominio.",
+  "description": "Storie e brevi racconti in inglese per principianti, gratis: tocca una parola sottolineata per il significato e apri la traduzione. Livelli A1–B2.",
+  "intro": "Storie brevi in inglese per principianti, complete e gratuite: fiabe in inglese semplice per il livello A1 e poi racconti classici fino al B2. Le parole sottolineate mostrano il loro significato nella frase, e ogni paragrafo ha la sua traduzione in italiano.",
   "howto": "<b>Come leggere:</b> tocca una parola sottolineata per vedere cosa significa in questa frase. Leggi prima ogni paragrafo da solo; se ti blocchi, apri la traduzione con “In italiano”.",
   "toggle": "In italiano",
   "show_all": "Mostra tutte le traduzioni",
@@ -212,15 +248,21 @@
    "phrasal verb": "phrasal verb",
    "idiom": "modo di dire",
    "pronoun": "pronome"
-  }
+  },
+  "level_head": "Livello {lv}",
+  "retold": "raccontata in inglese semplice",
+  "free": "Gratis",
+  "source_own": "Testo: la nostra versione semplice della fiaba tradizionale.",
+  "epub_btn": "Scarica l'EPUB",
+  "epub_hint": "File gratuito, solo il testo inglese. Aprilo in Biblyx e tocca una parola per vederne il significato."
  },
  "pl": {
   "path": "opowiadania-po-angielsku",
   "title": "Opowiadania po angielsku dla początkujących",
   "h1": "Opowiadania po angielsku",
   "crumb": "Opowiadania po angielsku",
-  "description": "Krótkie opowiadania po angielsku za darmo i w całości: dotknij podkreślonego słowa, by zobaczyć jego znaczenie, i otwórz tłumaczenie akapitu. Poziom A2–B2.",
-  "intro": "Trzy klasyczne opowiadania, w całości i za darmo: baśń, opowieść wigilijna i zbrodnia opowiedziana przez szaleńca. Podkreślone słowa pokazują swoje znaczenie w zdaniu, a każdy akapit ma tłumaczenie na polski. Teksty należą do domeny publicznej.",
+  "description": "Krótkie opowiadania po angielsku dla początkujących, za darmo: dotknij podkreślonego słowa, by zobaczyć znaczenie, i otwórz tłumaczenie. Poziom A1–B2.",
+  "intro": "Krótkie opowiadania po angielsku dla początkujących, w całości i za darmo: baśnie opowiedziane prostym angielskim na poziomie A1, a potem klasyczne opowiadania aż do B2. Podkreślone słowa pokazują swoje znaczenie w zdaniu, a każdy akapit ma tłumaczenie na polski.",
   "howto": "<b>Jak czytać:</b> dotknij podkreślonego słowa, żeby zobaczyć, co znaczy w tym zdaniu. Najpierw przeczytaj akapit samodzielnie; jeśli utkniesz, otwórz tłumaczenie przyciskiem „Po polsku”.",
   "toggle": "Po polsku",
   "show_all": "Pokaż wszystkie tłumaczenia",
@@ -247,15 +289,21 @@
    "phrasal verb": "phrasal verb",
    "idiom": "idiom",
    "pronoun": "zaimek"
-  }
+  },
+  "level_head": "Poziom {lv}",
+  "retold": "opowiedziane prostym angielskim",
+  "free": "Za darmo",
+  "source_own": "Tekst: nasza własna, prosta wersja tradycyjnej baśni.",
+  "epub_btn": "Pobierz EPUB",
+  "epub_hint": "Darmowy plik, tylko tekst angielski. Otwórz go w Biblyx i dotknij słowa, żeby zobaczyć jego znaczenie."
  },
  "fr": {
   "path": "histoires-en-anglais",
-  "title": "Histoires en anglais pour débutants (A2–B2)",
+  "title": "Histoires en anglais pour débutants (A1–B2)",
   "h1": "Histoires en anglais",
   "crumb": "Histoires en anglais",
-  "description": "Histoires et nouvelles en anglais, gratuites et complètes : touchez un mot souligné pour voir son sens et ouvrez la traduction de chaque paragraphe. A2–B2.",
-  "intro": "Trois nouvelles classiques, complètes et gratuites : un conte, une histoire de Noël et un crime raconté par un fou. Les mots soulignés montrent leur sens dans la phrase, et chaque paragraphe a sa traduction en français. Les textes sont dans le domaine public.",
+  "description": "Histoires courtes en anglais pour débutants, gratuites : touchez un mot souligné pour voir son sens et ouvrez la traduction de chaque paragraphe. A1–B2.",
+  "intro": "Des histoires courtes en anglais pour débutants, complètes et gratuites : des contes racontés en anglais simple pour le niveau A1, puis des nouvelles classiques jusqu'au B2. Les mots soulignés montrent leur sens dans la phrase, et chaque paragraphe a sa traduction en français.",
   "howto": "<b>Comment lire :</b> touchez un mot souligné pour voir ce qu'il veut dire dans cette phrase. Lisez d'abord chaque paragraphe seul ; si vous bloquez, ouvrez la traduction avec « En français ».",
   "toggle": "En français",
   "show_all": "Afficher toutes les traductions",
@@ -282,15 +330,21 @@
    "phrasal verb": "phrasal verb",
    "idiom": "expression idiomatique",
    "pronoun": "pronom"
-  }
+  },
+  "level_head": "Niveau {lv}",
+  "retold": "raconté en anglais simple",
+  "free": "Gratuit",
+  "source_own": "Texte : notre propre version simple du conte traditionnel.",
+  "epub_btn": "Télécharger l'EPUB",
+  "epub_hint": "Fichier gratuit, texte anglais seul. Ouvrez-le dans Biblyx et touchez un mot pour voir son sens."
  },
  "ru": {
   "path": "rasskazy-na-angliyskom",
-  "title": "Рассказы на английском для начинающих (A2–B2)",
+  "title": "Рассказы на английском для начинающих (A1–B2)",
   "h1": "Рассказы на английском",
   "crumb": "Рассказы на английском",
-  "description": "Классические рассказы на английском бесплатно и полностью: нажмите на подчёркнутое слово, чтобы увидеть значение, и откройте перевод абзаца. A2–B2.",
-  "intro": "Три классических рассказа, полностью и бесплатно: сказка, рождественская история и преступление, о котором рассказывает безумец. Подчёркнутые слова показывают своё значение в предложении, а у каждого абзаца есть перевод на русский. Тексты находятся в общественном достоянии.",
+  "description": "Короткие рассказы на английском для начинающих, бесплатно: нажмите на подчёркнутое слово, чтобы увидеть значение, и откройте перевод абзаца. A1–B2.",
+  "intro": "Короткие рассказы на английском для начинающих, полностью и бесплатно: сказки на простом английском для уровня A1, а затем классические рассказы до B2. Подчёркнутые слова показывают своё значение в предложении, а у каждого абзаца есть перевод на русский.",
   "howto": "<b>Как читать:</b> нажмите на подчёркнутое слово, чтобы увидеть, что оно значит в этом предложении. Сначала прочитайте абзац сами; если застряли, откройте перевод кнопкой «По-русски».",
   "toggle": "По-русски",
   "show_all": "Показать все переводы",
@@ -317,6 +371,12 @@
    "phrasal verb": "фразовый глагол",
    "idiom": "идиома",
    "pronoun": "местоимение"
-  }
+  },
+  "level_head": "Уровень {lv}",
+  "retold": "пересказ на простом английском",
+  "free": "Бесплатно",
+  "source_own": "Текст: наш собственный простой пересказ народной сказки.",
+  "epub_btn": "Скачать EPUB",
+  "epub_hint": "Бесплатный файл, только английский текст. Откройте его в Biblyx и нажмите на слово, чтобы увидеть значение."
  }
 }

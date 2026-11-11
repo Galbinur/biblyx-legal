@@ -1,5 +1,5 @@
 ---
-title: EPUB reader with translation for language learners
+title: English reading app: EPUB reader with translation
 h1: An EPUB, PDF and TXT reader with translation: read your own books and learn the words in them
 description: Biblyx is an EPUB, PDF and TXT reader with tap-to-translate: the meaning in that sentence, flashcards with context and offline review. For Android.
 path: epub-reader-with-translation
@@ -8,7 +8,7 @@ slogan: Learn languages by reading your own books
 cta: Open an EPUB, PDF or TXT, or paste a text. Tap a word, see what it means in that sentence, save it and review it later.
 ---
 
-Most e-book readers have a dictionary. You long-press a word, a box opens with six meanings, and you pick one. That works for a native speaker who meets one unknown word per chapter. For a language learner it fails in a specific way: the sixth unknown word on a page is where the chapter ends. Biblyx is a reader built around that problem. You open your own EPUB, PDF or TXT file, tap a word, and get the meaning it has in that sentence, then a flashcard that keeps the sentence. The rest of the app exists to make that loop fast enough to survive a whole book.
+Most e-book readers have a dictionary. You long-press a word, a box opens with six meanings, and you pick one. That works for a native speaker who meets one unknown word per chapter. For a language learner it fails in a specific way: the sixth unknown word on a page is where the reading stops. Biblyx is a reading app for English and nine other languages, built around that problem. You open your own EPUB, PDF or TXT file, tap a word, and get the meaning it has in that sentence, then a flashcard that keeps the sentence. The rest of the app exists to make that loop fast enough to survive a whole book.
 
 ## What "translation" means here
 

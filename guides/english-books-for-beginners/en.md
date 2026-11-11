@@ -30,6 +30,8 @@ Start with stories you may already know in your own language. Knowing the plot l
 - **Grimm's and Andersen's fairy tales** in English translation. You know *Hansel and Gretel* and *The Ugly Duckling*, so the words come easily.
 - **Graded readers.** Series such as Oxford Bookworms (Starter to Stage 2) and Penguin Readers (Levels 1–2) retell famous books with a limited vocabulary. They cost money, but they are written exactly for this stage.
 
+**Free on this site:** six well-known fairy tales retold in easy English for A1, plus classic stories up to B2, complete and free, with a short meaning behind every underlined word. Start with [English short stories for beginners](/english-short-stories/).
+
 ## B1: real stories with short chapters
 
 - **The Gift of the Magi** by O. Henry. A famous short story with a twist; about 2,000 words. Built into Biblyx.

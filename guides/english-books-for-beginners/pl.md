@@ -30,6 +30,8 @@ Zacznij od historii, które znasz już po polsku. Znajomość fabuły pozwala zg
 - **Baśnie Grimmów i Andersena** w angielskim przekładzie. Znasz *Hansel and Gretel* i *The Ugly Duckling*, więc słowa same wchodzą do głowy.
 - **Lektury uproszczone (graded readers).** Serie takie jak Oxford Bookworms (Starter – Stage 2) i Penguin Readers (poziomy 1–2) opowiadają znane książki ograniczonym słownictwem. Są płatne, ale napisane dokładnie na ten etap; w bibliotekach publicznych często stoją całe półki.
 
+**Za darmo na tej stronie:** sześć znanych baśni opowiedzianych prostym angielskim na poziomie A1 i klasyczne opowiadania aż do B2, w całości, ze znaczeniem każdego podkreślonego słowa i tłumaczeniem każdego akapitu. Zacznij od [opowiadań po angielsku](/pl/opowiadania-po-angielsku/).
+
 ## B1: prawdziwe historie z krótkimi rozdziałami
 
 - **The Gift of the Magi**, O. Henry. Słynne opowiadanie z zaskakującym zakończeniem, około 2000 słów. Wbudowane w Biblyx.

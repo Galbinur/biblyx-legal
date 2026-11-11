@@ -1,0 +1,161 @@
+{
+ "title": "Rapunzel",
+ "author": "Brothers Grimm",
+ "year": 1812,
+ "level": "A1",
+ "license": "own",
+ "minutes": 3,
+ "words": 441,
+ "cover": "/assets/stories/rapunzel.jpg",
+ "paragraphs": [
+  "Long ago, a man and his wife lived in a small house. Next to the house there was a big garden with a high wall. A witch owned the garden, and everyone was afraid of her.",
+  "The woman was going to have a baby. One day she saw some green plants in the witch’s garden, and she wanted them very much. “I will be ill without them,” she said.",
+  "Her husband loved her, so at night he climbed over the wall. He took some of the plant, called rapunzel, and his wife ate it. She loved it and wanted more.",
+  "The next night the witch saw him. “Why are you stealing my plants?” she asked. The man was afraid and told her about his wife.",
+  "“Take all you want,” said the witch. “But you must give me your baby.” The man was too afraid to say no.",
+  "The baby was a beautiful girl. The witch took her and called her Rapunzel. The girl grew up and had very long golden hair.",
+  "When Rapunzel was twelve, the witch put her in a tall tower. It had no door, only one small window at the top. When the witch came, she called, “Rapunzel, Rapunzel, let down your hair.” Rapunzel let her hair fall, and the witch climbed up.",
+  "Years later, a prince rode past the tower and heard a beautiful song. He wanted to meet the singer, but he could not find a door. Then he watched the witch and learned her words. The next day he said them, and Rapunzel let down her hair.",
+  "Rapunzel was afraid at first, but the prince was kind. He came every evening, and soon they fell in love. “Will you marry me?” he asked. “Yes,” she said.",
+  "One day Rapunzel made a mistake. “Why are you so heavy?” she asked the witch. “The prince is much lighter.” The witch was very angry.",
+  "The witch cut off Rapunzel’s hair and sent her to a lonely place far away. Then she waited at the tower. When the prince called, she let down the hair, and he climbed up.",
+  "“You will never see her again,” said the witch. The prince was so sad that he jumped from the tower. He fell into some thorns, and they hurt his eyes. Now he could not see.",
+  "For years the blind prince walked alone in the forest. At last he heard a voice he knew. It was Rapunzel, singing with her two children.",
+  "Rapunzel cried when she saw him. Two of her tears touched his eyes, and he could see again. He took her and the children home, and they lived happily."
+ ],
+ "glosses": [
+  {
+   "p": 0,
+   "text": "witch",
+   "nth": 1,
+   "head": "witch",
+   "pos": "noun",
+   "level": "A2",
+   "en": "a woman with magic powers"
+  },
+  {
+   "p": 0,
+   "text": "afraid of",
+   "nth": 1,
+   "head": "afraid of",
+   "pos": "phrase",
+   "level": "A2",
+   "en": "feeling fear about someone"
+  },
+  {
+   "p": 1,
+   "text": "ill",
+   "nth": 1,
+   "head": "ill",
+   "pos": "adjective",
+   "level": "A2",
+   "en": "not well; sick"
+  },
+  {
+   "p": 2,
+   "text": "climbed over",
+   "nth": 1,
+   "head": "climb over",
+   "pos": "phrasal verb",
+   "level": "A2",
+   "en": "went up and across something"
+  },
+  {
+   "p": 3,
+   "text": "stealing",
+   "nth": 1,
+   "head": "steal",
+   "pos": "verb",
+   "level": "A2",
+   "en": "taking something that is not yours",
+   "note_en": "Past: stole. Past participle: stolen."
+  },
+  {
+   "p": 5,
+   "text": "grew up",
+   "nth": 1,
+   "head": "grow up",
+   "pos": "phrasal verb",
+   "level": "A2",
+   "en": "became an adult",
+   "note_en": "Past: grew."
+  },
+  {
+   "p": 6,
+   "text": "tower",
+   "nth": 1,
+   "head": "tower",
+   "pos": "noun",
+   "level": "B1",
+   "en": "a tall, narrow building"
+  },
+  {
+   "p": 6,
+   "text": "let down",
+   "nth": 1,
+   "head": "let down",
+   "pos": "phrasal verb",
+   "level": "A2",
+   "en": "lower something slowly",
+   "note_en": "Past form is also let."
+  },
+  {
+   "p": 7,
+   "text": "rode",
+   "nth": 1,
+   "head": "ride",
+   "pos": "verb",
+   "level": "A2",
+   "en": "traveled on a horse",
+   "note_en": "Past of ride; past participle: ridden."
+  },
+  {
+   "p": 8,
+   "text": "fell in love",
+   "nth": 1,
+   "head": "fall in love",
+   "pos": "phrase",
+   "level": "A2",
+   "en": "began to love each other",
+   "note_en": "Past of fall: fell."
+  },
+  {
+   "p": 10,
+   "text": "cut off",
+   "nth": 1,
+   "head": "cut off",
+   "pos": "phrasal verb",
+   "level": "A2",
+   "en": "removed with scissors or a knife",
+   "note_en": "Past form is also cut."
+  },
+  {
+   "p": 11,
+   "text": "thorns",
+   "nth": 1,
+   "head": "thorn",
+   "pos": "noun",
+   "level": "B1",
+   "en": "sharp points on a plant"
+  },
+  {
+   "p": 12,
+   "text": "blind",
+   "nth": 1,
+   "head": "blind",
+   "pos": "adjective",
+   "level": "A2",
+   "en": "not able to see"
+  },
+  {
+   "p": 13,
+   "text": "tears",
+   "nth": 1,
+   "head": "tear",
+   "pos": "noun",
+   "level": "A2",
+   "en": "drops of water from the eyes",
+   "note_en": "Noun tear sounds like “teer”, not like the verb tear."
+  }
+ ]
+}
