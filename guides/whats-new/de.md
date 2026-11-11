@@ -1,7 +1,7 @@
 ---
 title: Neu in Biblyx: alle Versionen
 h1: Neu in Biblyx
-description: Jedes Biblyx-Update seit 1.1.0 im Wortlaut der Google-Play-Versionshinweise, mit dem Tag, an dem es die Nutzer erreicht hat. Aktuell: 1.3.0 (7. November 2026).
+description: Jedes Biblyx-Update seit 1.1.0 im Wortlaut der Google-Play-Versionshinweise, mit dem Tag, an dem es die Nutzer erreicht hat. Aktuell: 1.4.0 (11. November 2026).
 path: neuigkeiten
 date: 2026-11-09
 slogan: Sprachen lernen beim Lesen deiner eigenen Bücher
@@ -9,7 +9,14 @@ cta: Öffne eine EPUB-, PDF- oder TXT-Datei oder füge einen Text ein. Tippe auf
 short: yes
 ---
 
-Biblyx bekommt alle ein bis zwei Wochen eine neue Version. Diese Seite listet, was jede Version gebracht hat, im Wortlaut der Versionshinweise bei Google Play und mit dem Tag, an dem sie alle Nutzer erreicht hat. Die aktuelle Version ist **1.3.0**, in Produktion seit dem 7. November 2026. Wozu die App da ist, ändert sich von Version zu Version nicht: **Sprachen lernen beim Lesen deiner eigenen Bücher**.
+Biblyx bekommt etwa einmal im Monat eine neue Version. Diese Seite listet, was jede Version gebracht hat, im Wortlaut der Versionshinweise bei Google Play und mit dem Tag, an dem sie alle Nutzer erreicht hat. Die aktuelle Version ist **1.4.0**, in Produktion seit dem 11. November 2026. Wozu die App da ist, ändert sich von Version zu Version nicht: **Sprachen lernen beim Lesen deiner eigenen Bücher**.
+
+## Version 1.4.0, 11. November 2026
+
+- 9 neue A1-Geschichten für Anfänger und neue Cover für alle Startbücher, nach Niveau sortiert (A1–B2)
+- Geschichten zum Start jederzeit: Tippe auf + und wähle „Geschichten zum Start“
+- Cover für eingefügte Texte wählen
+- Verbesserungen bei Word Lab, Synchronisierung und Erinnerungen
 
 ## Version 1.3.0, 7. November 2026
 
@@ -53,7 +60,7 @@ Google Play installiert Updates von selbst, wenn automatische Updates eingeschal
 
 ### Wie oft wird Biblyx aktualisiert?
 
-Meist alle ein bis zwei Wochen; Fehlerbehebungen kommen schneller. Die Hinweise einer Version erscheinen hier an dem Tag, an dem sie Google Play erreicht.
+Etwa einmal im Monat; eine dringende Fehlerbehebung kann früher kommen. Die Hinweise einer Version erscheinen hier an dem Tag, an dem sie Google Play erreicht.
 
 ### Verliere ich beim Update meine gespeicherten Wörter?
 

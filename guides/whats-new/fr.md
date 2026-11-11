@@ -1,7 +1,7 @@
 ---
 title: Nouveautés de Biblyx : historique des versions
 h1: Nouveautés de Biblyx
-description: Chaque mise à jour de Biblyx depuis la 1.1.0, avec ses notes Google Play et sa date de sortie. Version actuelle : 1.3.0 (7 novembre 2026).
+description: Chaque mise à jour de Biblyx depuis la 1.1.0, avec ses notes Google Play et sa date de sortie. Version actuelle : 1.4.0 (11 novembre 2026).
 path: nouveautes
 date: 2026-11-09
 slogan: Apprenez les langues en lisant vos propres livres
@@ -9,7 +9,14 @@ cta: Ouvrez un EPUB, un PDF ou un TXT, ou collez un texte. Touchez un mot, voyez
 short: yes
 ---
 
-Biblyx sort une nouvelle version toutes les une ou deux semaines. Cette page liste ce que chaque version a apporté, dans les mots de ses notes de version sur Google Play, avec le jour où elle a atteint tout le monde. La version actuelle est la **1.3.0**, en production depuis le 7 novembre 2026. Ce à quoi sert l'application ne change pas d'une version à l'autre : **Apprenez les langues en lisant vos propres livres**.
+Biblyx sort une nouvelle version environ une fois par mois. Cette page liste ce que chaque version a apporté, dans les mots de ses notes de version sur Google Play, avec le jour où elle a atteint tout le monde. La version actuelle est la **1.4.0**, en production depuis le 11 novembre 2026. Ce à quoi sert l'application ne change pas d'une version à l'autre : **Apprenez les langues en lisant vos propres livres**.
+
+## Version 1.4.0, 11 novembre 2026
+
+- 9 nouvelles histoires A1 pour débutants et de nouvelles couvertures pour tous les livres de départ, classés par niveau (A1–B2)
+- Histoires pour débuter à tout moment : touchez + et choisissez « Histoires pour débuter »
+- Choix d’une couverture pour les textes collés
+- Améliorations de Word Lab, de la synchronisation et des rappels
 
 ## Version 1.3.0, 7 novembre 2026
 
@@ -53,7 +60,7 @@ Google Play installe les mises à jour tout seul si la mise à jour automatique 
 
 ### À quelle fréquence Biblyx est-il mis à jour ?
 
-En général toutes les une ou deux semaines ; les correctifs sortent plus vite. Les notes d'une version paraissent ici le jour où elle atteint Google Play.
+Environ une fois par mois ; un correctif urgent peut arriver plus tôt. Les notes d'une version paraissent ici le jour où elle atteint Google Play.
 
 ### Est-ce que je perds mes mots enregistrés en mettant à jour ?
 

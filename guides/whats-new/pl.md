@@ -1,7 +1,7 @@
 ---
 title: Nowości w Biblyx: historia wersji
 h1: Nowości w Biblyx
-description: Każda aktualizacja Biblyx od wersji 1.1.0, słowami opisu z Google Play i z dniem, w którym dotarła do użytkowników. Aktualna: 1.3.0 (7 listopada 2026).
+description: Każda aktualizacja Biblyx od wersji 1.1.0, słowami opisu z Google Play i z dniem, w którym dotarła do użytkowników. Aktualna: 1.4.0 (11 listopada 2026).
 path: nowosci
 date: 2026-11-09
 slogan: Ucz się języków, czytając własne książki
@@ -9,7 +9,14 @@ cta: Otwórz plik EPUB, PDF lub TXT albo wklej tekst. Dotknij słowa, zobacz jeg
 short: yes
 ---
 
-Nowa wersja Biblyx wychodzi co tydzień lub dwa. Ta strona wymienia, co przyniosła każda wersja, słowami jej opisu w Google Play i z dniem, w którym dotarła do wszystkich. Aktualna wersja to **1.3.0**, w produkcji od 7 listopada 2026. To, do czego służy aplikacja, nie zmienia się z wersji na wersję: **Ucz się języków, czytając własne książki**.
+Nowa wersja Biblyx wychodzi mniej więcej raz w miesiącu. Ta strona wymienia, co przyniosła każda wersja, słowami jej opisu w Google Play i z dniem, w którym dotarła do wszystkich. Aktualna wersja to **1.4.0**, w produkcji od 11 listopada 2026. To, do czego służy aplikacja, nie zmienia się z wersji na wersję: **Ucz się języków, czytając własne książki**.
+
+## Wersja 1.4.0, 11 listopada 2026
+
+- 9 nowych opowiadań A1 dla początkujących i nowe okładki wszystkich książek na start, według poziomu (A1–B2)
+- Opowiadania na start zawsze pod ręką: dotknij + i wybierz „Opowiadania na start”
+- Wybór okładki dla wklejonych tekstów
+- Ulepszenia Word Lab, synchronizacji i przypomnień
 
 ## Wersja 1.3.0, 7 listopada 2026
 
@@ -53,7 +60,7 @@ Google Play instaluje aktualizacje sam, jeśli włączone są aktualizacje autom
 
 ### Jak często Biblyx jest aktualizowany?
 
-Zwykle co tydzień lub dwa; poprawki wychodzą szybciej. Opis wersji pojawia się tutaj w dniu, w którym trafia do Google Play.
+Mniej więcej raz w miesiącu; pilna poprawka może przyjść wcześniej. Opis wersji pojawia się tutaj w dniu, w którym trafia do Google Play.
 
 ### Czy przy aktualizacji stracę zapisane słowa?
 

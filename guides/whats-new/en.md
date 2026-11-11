@@ -1,7 +1,7 @@
 ---
 title: What's new in Biblyx: version history
 h1: What's new in Biblyx
-description: Every Biblyx update since 1.1.0, in the words of its Google Play release notes, with the day it reached users. Current version: 1.3.0 (7 November 2026).
+description: Every Biblyx update since 1.1.0, in the words of its Google Play release notes, with the day it reached users. Current version: 1.4.0 (11 November 2026).
 path: whats-new
 date: 2026-11-09
 slogan: Learn languages by reading your own books
@@ -9,7 +9,14 @@ cta: Open an EPUB, PDF or TXT, or paste a text. Tap a word, see what it means in
 short: yes
 ---
 
-Biblyx ships a new version every one to two weeks. This page lists what each version brought, in the words of its Google Play release notes, with the day it reached everyone. The current version is **1.3.0**, in production since 7 November 2026. What the app is for doesn't change between versions: **Learn languages by reading your own books**.
+Biblyx ships a new version about once a month. This page lists what each version brought, in the words of its Google Play release notes, with the day it reached everyone. The current version is **1.4.0**, in production since 11 November 2026. What the app is for doesn't change between versions: **Learn languages by reading your own books**.
+
+## Version 1.4.0, 11 November 2026
+
+- 9 new A1 stories for beginners and new covers for all starter books, sorted by level (A1–B2)
+- Starter stories anytime: tap + and choose "Starter stories"
+- Choose a cover for pasted texts
+- Improved Word Lab, sync and reminders
 
 ## Version 1.3.0, 7 November 2026
 
@@ -53,7 +60,7 @@ Google Play installs updates by itself when auto-update is on; otherwise the Bib
 
 ### How often is Biblyx updated?
 
-Usually every one to two weeks; fixes go out faster. A version's notes appear here on the day it reaches Google Play.
+About once a month; an urgent fix can come sooner. A version's notes appear here on the day it reaches Google Play.
 
 ### Do I lose my saved words when I update?
 

@@ -1,7 +1,7 @@
 ---
 title: Biblyx-də yeniliklər: versiya tarixçəsi
 h1: Biblyx-də yeniliklər
-description: 1.1.0-dan bəri hər Biblyx yeniləməsi, Google Play buraxılış qeydlərinin öz sözləri ilə və istifadəçilərə çatdığı günlə. Hazırkı versiya: 1.3.0 (7 noyabr 2026).
+description: 1.1.0-dan bəri hər Biblyx yeniləməsi, Google Play buraxılış qeydlərinin öz sözləri ilə və istifadəçilərə çatdığı günlə. Hazırkı versiya: 1.4.0 (11 noyabr 2026).
 path: yenilikler
 date: 2026-11-09
 slogan: Öz kitablarını oxuyaraq dil öyrən
@@ -9,7 +9,14 @@ cta: EPUB, PDF və ya TXT faylını aç, ya da bir mətni yapışdır. Sözə to
 short: yes
 ---
 
-Biblyx bir-iki həftədən bir yeni versiya çıxarır. Bu səhifədə hər versiyanın nə gətirdiyi Google Play buraxılış qeydlərinin öz sözləri ilə, hamıya çatdığı günlə birlikdə yazılıb. Hazırkı versiya **1.3.0**-dır, 7 noyabr 2026 tarixindən istehsaldadır. Tətbiqin məqsədi versiyadan versiyaya dəyişmir: **Öz kitablarını oxuyaraq dil öyrən**.
+Biblyx təxminən ayda bir dəfə yeni versiya çıxarır. Bu səhifədə hər versiyanın nə gətirdiyi Google Play buraxılış qeydlərinin öz sözləri ilə, hamıya çatdığı günlə birlikdə yazılıb. Hazırkı versiya **1.4.0**-dır, 11 noyabr 2026 tarixindən istehsaldadır. Tətbiqin məqsədi versiyadan versiyaya dəyişmir: **Öz kitablarını oxuyaraq dil öyrən**.
+
+## Versiya 1.4.0, 11 noyabr 2026
+
+- Yeni başlayanlar üçün 9 yeni A1 hekayəsi və bütün hazır kitablara yeni qapaqlar, səviyyəyə görə (A1–B2)
+- Hazır hekayələr hər zaman əlinizdə: + düyməsinə toxunun və "Hazır hekayələr"i seçin
+- Yapışdırdığınız mətnlər üçün qapaq seçimi
+- Word Lab, sinxronizasiya və xatırlatmalarda təkmilləşdirmələr
 
 ## Versiya 1.3.0, 7 noyabr 2026
 
@@ -53,7 +60,7 @@ Avtomatik yeniləmə açıqdırsa, Google Play yeniləməni özü quraşdırır;
 
 ### Biblyx nə qədər tez-tez yenilənir?
 
-Adətən bir-iki həftədən bir; düzəlişlər daha tez çıxır. Versiyanın qeydləri Google Play-ə çatdığı gün burada görünür.
+Təxminən ayda bir dəfə; təcili düzəliş daha tez gələ bilər. Versiyanın qeydləri Google Play-ə çatdığı gün burada görünür.
 
 ### Yeniləyəndə saxladığım sözlər itirmi?
 

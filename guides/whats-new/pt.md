@@ -1,7 +1,7 @@
 ---
 title: Novidades do Biblyx: histórico de versões
 h1: Novidades do Biblyx
-description: Cada atualização do Biblyx desde a 1.1.0, com as notas do Google Play e o dia em que chegou. Versão atual: 1.3.0 (7 de novembro de 2026).
+description: Cada atualização do Biblyx desde a 1.1.0, com as notas do Google Play e o dia em que chegou. Versão atual: 1.4.0 (11 de novembro de 2026).
 path: novidades
 date: 2026-11-09
 slogan: Aprenda idiomas lendo seus próprios livros
@@ -9,7 +9,14 @@ cta: Abra um EPUB, PDF ou TXT, ou cole um texto. Toque em uma palavra, veja o qu
 short: yes
 ---
 
-O Biblyx lança uma versão nova a cada uma ou duas semanas. Esta página lista o que cada versão trouxe, nas palavras das notas de lançamento do Google Play, com o dia em que chegou a todo mundo. A versão atual é a **1.3.0**, em produção desde 7 de novembro de 2026. A finalidade do app não muda de uma versão para outra: **Aprenda idiomas lendo seus próprios livros**.
+O Biblyx lança uma versão nova mais ou menos uma vez por mês. Esta página lista o que cada versão trouxe, nas palavras das notas de lançamento do Google Play, com o dia em que chegou a todo mundo. A versão atual é a **1.4.0**, em produção desde 11 de novembro de 2026. A finalidade do app não muda de uma versão para outra: **Aprenda idiomas lendo seus próprios livros**.
+
+## Versão 1.4.0, 11 de novembro de 2026
+
+- 9 novas histórias A1 para iniciantes e novas capas para todos os livros iniciais, organizados por nível (A1–B2)
+- Histórias para começar sempre à mão: toque em + e escolha "Histórias para começar"
+- Escolha uma capa para textos colados
+- Melhorias no Word Lab, na sincronização e nos lembretes
 
 ## Versão 1.3.0, 7 de novembro de 2026
 
@@ -53,7 +60,7 @@ O Google Play instala as atualizações sozinho quando a atualização automáti
 
 ### Com que frequência o Biblyx é atualizado?
 
-Em geral a cada uma ou duas semanas; correções saem mais rápido. As notas de uma versão aparecem aqui no dia em que ela chega ao Google Play.
+Mais ou menos uma vez por mês; uma correção urgente pode chegar antes. As notas de uma versão aparecem aqui no dia em que ela chega ao Google Play.
 
 ### Perco minhas palavras salvas ao atualizar?
 

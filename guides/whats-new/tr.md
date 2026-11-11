@@ -1,7 +1,7 @@
 ---
 title: Biblyx'teki yenilikler: sürüm geçmişi
 h1: Biblyx'teki yenilikler
-description: 1.1.0'dan bu yana her Biblyx güncellemesi, Google Play sürüm notlarının kendi sözleriyle ve kullanıcılara ulaştığı günle. Güncel sürüm: 1.3.0 (7 Kasım 2026).
+description: 1.1.0'dan bu yana her Biblyx güncellemesi, Google Play sürüm notlarının kendi sözleriyle ve kullanıcılara ulaştığı günle. Güncel sürüm: 1.4.0 (11 Kasım 2026).
 path: yenilikler
 date: 2026-11-09
 slogan: Kendi kitaplarını okuyarak dil öğren
@@ -9,7 +9,14 @@ cta: EPUB, PDF ya da TXT dosyanı aç veya bir metin yapıştır. Kelimeye dokun
 short: yes
 ---
 
-Biblyx bir iki haftada bir yeni sürüm çıkarır. Bu sayfa her sürümün ne getirdiğini Google Play sürüm notlarının kendi sözleriyle, herkese ulaştığı günle birlikte listeler. Güncel sürüm **1.3.0**, 7 Kasım 2026 tarihinden beri yayında. Uygulamanın amacı sürümden sürüme değişmez: **Kendi kitaplarını okuyarak dil öğren**.
+Biblyx yaklaşık ayda bir yeni sürüm çıkarır. Bu sayfa her sürümün ne getirdiğini Google Play sürüm notlarının kendi sözleriyle, herkese ulaştığı günle birlikte listeler. Güncel sürüm **1.4.0**, 11 Kasım 2026 tarihinden beri yayında. Uygulamanın amacı sürümden sürüme değişmez: **Kendi kitaplarını okuyarak dil öğren**.
+
+## Sürüm 1.4.0, 11 Kasım 2026
+
+- Yeni başlayanlar için 9 yeni A1 hikâyesi ve tüm başlangıç kitaplarına yeni kapaklar, seviyeye göre (A1–B2)
+- Hazır hikâyeler her zaman elinizde: + simgesine dokunun ve "Hazır hikâyeler"i seçin
+- Yapıştırdığınız metinler için kapak seçimi
+- Word Lab, senkronizasyon ve hatırlatıcılarda iyileştirmeler
 
 ## Sürüm 1.3.0, 7 Kasım 2026
 
@@ -53,7 +60,7 @@ Otomatik güncelleme açıksa Google Play güncellemeyi kendisi kurar; değilse 
 
 ### Biblyx ne sıklıkla güncellenir?
 
-Genellikle bir iki haftada bir; düzeltmeler daha hızlı çıkar. Bir sürümün notları Google Play'e ulaştığı gün burada görünür.
+Yaklaşık ayda bir; acil bir düzeltme daha erken gelebilir. Bir sürümün notları Google Play'e ulaştığı gün burada görünür.
 
 ### Güncelleyince kayıtlı kelimelerim silinir mi?
 
