@@ -48,8 +48,14 @@
   "retold": "retold in simple English",
   "free": "Free",
   "source_own": "Text: our own simple retelling of the traditional tale.",
-  "epub_btn": "Download EPUB",
-  "epub_hint": "Free file, English text only. Open it in Biblyx and tap any word for its meaning."
+  "app_h": "This story is waiting for you in the Biblyx app",
+  "app_points": [
+   "Tap any word: you get its meaning in this sentence, in your language",
+   "Save the words you don't know and review them as flashcards",
+   "38 short stories from A1 to B2 in 10 languages, plus your own EPUB, PDF and TXT books"
+  ],
+  "app_how": "In the app: tap + and choose “Starter stories”.",
+  "app_shot_alt": "Starter stories in the Biblyx app"
  },
  "tr": {
   "path": "ingilizce-hikayeler",
@@ -89,8 +95,14 @@
   "retold": "basit İngilizceyle yeniden anlatıldı",
   "free": "Ücretsiz",
   "source_own": "Metin: geleneksel masalın bizim yazdığımız basit anlatımı.",
-  "epub_btn": "EPUB indir",
-  "epub_hint": "Ücretsiz dosya, yalnızca İngilizce metin. Biblyx'te aç, herhangi bir kelimeye dokun ve anlamını gör."
+  "app_h": "Bu hikaye Biblyx uygulamasında seni bekliyor",
+  "app_points": [
+   "Herhangi bir kelimeye dokun: bu cümledeki anlamı Türkçe gelir",
+   "Bilmediğin kelimeleri kaydet, kartlarla tekrar et",
+   "10 dilde A1'den B2'ye 38 kısa hikaye, bir de kendi EPUB, PDF ve TXT kitapların"
+  ],
+  "app_how": "Uygulamada: + simgesine dokun ve “Hazır hikâyeler”i seç.",
+  "app_shot_alt": "Biblyx uygulamasında hazır hikayeler"
  },
  "de": {
   "path": "englische-kurzgeschichten",
@@ -130,8 +142,14 @@
   "retold": "in einfachem Englisch nacherzählt",
   "free": "Kostenlos",
   "source_own": "Text: unsere eigene einfache Nacherzählung des Märchens.",
-  "epub_btn": "EPUB herunterladen",
-  "epub_hint": "Kostenlose Datei, nur der englische Text. Öffne sie in Biblyx und tippe auf ein Wort, um seine Bedeutung zu sehen."
+  "app_h": "Diese Geschichte wartet in der Biblyx-App auf dich",
+  "app_points": [
+   "Tippe auf ein Wort: Du bekommst seine Bedeutung in diesem Satz, auf Deutsch",
+   "Speichere unbekannte Wörter und wiederhole sie als Karteikarten",
+   "38 kurze Geschichten von A1 bis B2 in 10 Sprachen, dazu deine eigenen EPUB-, PDF- und TXT-Bücher"
+  ],
+  "app_how": "In der App: Tippe auf + und wähle „Geschichten zum Start“.",
+  "app_shot_alt": "Geschichten zum Start in der Biblyx-App"
  },
  "pt": {
   "path": "historias-em-ingles",
@@ -171,8 +189,14 @@
   "retold": "recontado em inglês simples",
   "free": "Grátis",
   "source_own": "Texto: nossa própria versão simples do conto tradicional.",
-  "epub_btn": "Baixar EPUB",
-  "epub_hint": "Arquivo grátis, só o texto em inglês. Abra no Biblyx e toque numa palavra para ver o sentido."
+  "app_h": "Esta história está esperando por você no app Biblyx",
+  "app_points": [
+   "Toque em qualquer palavra: o sentido dela nesta frase aparece em português",
+   "Salve as palavras que você não conhece e revise com flashcards",
+   "38 histórias curtas do A1 ao B2 em 10 idiomas, além dos seus próprios livros EPUB, PDF e TXT"
+  ],
+  "app_how": "No app: toque em + e escolha “Histórias para começar”.",
+  "app_shot_alt": "Histórias para começar no app Biblyx"
  },
  "es": {
   "path": "cuentos-en-ingles",
@@ -212,8 +236,14 @@
   "retold": "contado en inglés sencillo",
   "free": "Gratis",
   "source_own": "Texto: nuestra propia versión sencilla del cuento tradicional.",
-  "epub_btn": "Descargar EPUB",
-  "epub_hint": "Archivo gratis, solo el texto en inglés. Ábrelo en Biblyx y toca una palabra para ver su significado."
+  "app_h": "Esta historia te espera en la app Biblyx",
+  "app_points": [
+   "Toca cualquier palabra: ves su significado en esta frase, en español",
+   "Guarda las palabras que no conoces y repásalas con tarjetas",
+   "38 historias cortas de A1 a B2 en 10 idiomas, y también tus propios libros EPUB, PDF y TXT"
+  ],
+  "app_how": "En la app: toca + y elige «Historias para empezar».",
+  "app_shot_alt": "Historias para empezar en la app Biblyx"
  },
  "it": {
   "path": "storie-in-inglese",
@@ -253,8 +283,14 @@
   "retold": "raccontata in inglese semplice",
   "free": "Gratis",
   "source_own": "Testo: la nostra versione semplice della fiaba tradizionale.",
-  "epub_btn": "Scarica l'EPUB",
-  "epub_hint": "File gratuito, solo il testo inglese. Aprilo in Biblyx e tocca una parola per vederne il significato."
+  "app_h": "Questa storia ti aspetta nell'app Biblyx",
+  "app_points": [
+   "Tocca una parola qualsiasi: vedi il suo significato in questa frase, in italiano",
+   "Salva le parole che non conosci e ripassale con le flashcard",
+   "38 racconti brevi dal livello A1 al B2 in 10 lingue, più i tuoi libri EPUB, PDF e TXT"
+  ],
+  "app_how": "Nell'app: tocca + e scegli «Storie per iniziare».",
+  "app_shot_alt": "Storie per iniziare nell'app Biblyx"
  },
  "pl": {
   "path": "opowiadania-po-angielsku",
@@ -294,8 +330,14 @@
   "retold": "opowiedziane prostym angielskim",
   "free": "Za darmo",
   "source_own": "Tekst: nasza własna, prosta wersja tradycyjnej baśni.",
-  "epub_btn": "Pobierz EPUB",
-  "epub_hint": "Darmowy plik, tylko tekst angielski. Otwórz go w Biblyx i dotknij słowa, żeby zobaczyć jego znaczenie."
+  "app_h": "To opowiadanie czeka na Ciebie w aplikacji Biblyx",
+  "app_points": [
+   "Dotknij dowolnego słowa: zobaczysz jego znaczenie w tym zdaniu, po polsku",
+   "Zapisuj nieznane słowa i powtarzaj je z fiszkami",
+   "38 krótkich opowiadań od A1 do B2 w 10 językach, a do tego Twoje własne książki EPUB, PDF i TXT"
+  ],
+  "app_how": "W aplikacji: dotknij + i wybierz „Opowiadania na start”.",
+  "app_shot_alt": "Opowiadania na start w aplikacji Biblyx"
  },
  "fr": {
   "path": "histoires-en-anglais",
@@ -335,8 +377,14 @@
   "retold": "raconté en anglais simple",
   "free": "Gratuit",
   "source_own": "Texte : notre propre version simple du conte traditionnel.",
-  "epub_btn": "Télécharger l'EPUB",
-  "epub_hint": "Fichier gratuit, texte anglais seul. Ouvrez-le dans Biblyx et touchez un mot pour voir son sens."
+  "app_h": "Cette histoire vous attend dans l'application Biblyx",
+  "app_points": [
+   "Touchez n'importe quel mot : vous voyez son sens dans cette phrase, en français",
+   "Enregistrez les mots inconnus et révisez-les avec des cartes",
+   "38 histoires courtes du niveau A1 au B2 en 10 langues, plus vos propres livres EPUB, PDF et TXT"
+  ],
+  "app_how": "Dans l'application : touchez + et choisissez « Histoires pour débuter ».",
+  "app_shot_alt": "Histoires pour débuter dans l'application Biblyx"
  },
  "ru": {
   "path": "rasskazy-na-angliyskom",
@@ -376,7 +424,13 @@
   "retold": "пересказ на простом английском",
   "free": "Бесплатно",
   "source_own": "Текст: наш собственный простой пересказ народной сказки.",
-  "epub_btn": "Скачать EPUB",
-  "epub_hint": "Бесплатный файл, только английский текст. Откройте его в Biblyx и нажмите на слово, чтобы увидеть значение."
+  "app_h": "Этот рассказ ждёт вас в приложении Biblyx",
+  "app_points": [
+   "Нажмите на любое слово: увидите его значение в этом предложении, по-русски",
+   "Сохраняйте незнакомые слова и повторяйте их на карточках",
+   "38 коротких рассказов от A1 до B2 на 10 языках, а также ваши собственные книги EPUB, PDF и TXT"
+  ],
+  "app_how": "В приложении: нажмите + и выберите «Рассказы для начала».",
+  "app_shot_alt": "Рассказы для начала в приложении Biblyx"
  }
 }

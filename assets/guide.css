@@ -147,3 +147,12 @@ a.g.open, a.g:focus-visible{background:var(--tint); border-bottom-style:solid; b
 .btn-ghost{border:1.5px solid var(--teal-deep); color:var(--teal-deep); background:transparent; padding:9px 16px;}
 .epub{display:flex; flex-wrap:wrap; align-items:center; gap:10px 14px; margin:18px 0 8px;}
 .epub small{color:var(--muted, inherit); flex:1 1 220px;}
+.app-cta{display:flex; gap:24px; align-items:center; margin:36px 0 8px; padding:24px; background:var(--surface); border:1px solid var(--rule); border-radius:16px;}
+.app-cta .app-shot{width:216px; height:auto; border-radius:12px; box-shadow:0 6px 22px rgba(0,0,0,.16); flex-shrink:0;}
+.app-cta h2{display:flex; gap:12px; align-items:center; margin:0 0 10px; font-size:22px; line-height:1.25;}
+.app-cta h2 img{width:40px; height:auto; border-radius:4px; box-shadow:0 2px 8px rgba(0,0,0,.18); flex-shrink:0;}
+.app-cta ul{margin:0 0 12px; padding-left:20px;}
+.app-cta li{margin:0 0 6px;}
+.app-cta .app-how{margin:0 0 6px; font-weight:600;}
+.app-cta .app-line{margin:0 0 16px; color:var(--dim);}
+@media (max-width:640px){.app-cta{flex-direction:column-reverse; align-items:stretch; padding:20px 18px;} .app-cta .app-shot{width:180px; align-self:center;}}

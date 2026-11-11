@@ -34,7 +34,6 @@ import os
 import re
 import subprocess
 import sys
-import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -765,17 +764,21 @@ def render_story(lang: str, story: dict, stories: dict) -> str:
 {chr(10).join(paras)}
     </div>
     <p class="source">{source}</p>
-    <p class="epub"><a class="btn btn-ghost" href="{epub_path(story)}" download>{esc(lib["epub_btn"])}</a> <small>{esc(lib["epub_hint"])}</small></p>
+    <section class="app-cta" lang="{lang}">
+      <img class="app-shot" src="/assets/app/starter-stories-{lang}.jpg" alt="{esc(lib["app_shot_alt"])}" width="216" height="384" loading="lazy">
+      <div>
+        <h2><img src="{story["cover"]}" alt="" width="40" height="60"> {esc(lib["app_h"])}</h2>
+        <ul>{"".join(f"<li>{esc(t)}</li>" for t in lib["app_points"])}</ul>
+        <p class="app-how">{esc(lib["app_how"])}</p>
+        <p class="app-line">{esc(lib["cta_line"].format(slogan=SLOGAN[lang]))}</p>
+        <a class="btn btn-primary" href="{play}" target="_blank" rel="noopener">{UI[lang]["button"]}</a>
+      </div>
+    </section>
     <section class="vocab">
       <h2>{esc(lib["vocab"])}</h2>
       <div class="table-wrap"><table><thead><tr>{cols}</tr></thead><tbody>{vocab}</tbody></table></div>
     </section>
   </article>
-  <aside class="cta">
-    <h2>{UI[lang]["cta"]}</h2>
-    <p>{esc(lib["cta_line"].format(slogan=SLOGAN[lang]))}</p>
-    <a class="btn btn-primary" href="{play}" target="_blank" rel="noopener">{UI[lang]["button"]}</a>
-  </aside>
   <aside class="also">
     <h2>{esc(lib["shelf"])}</h2>
     <div class="shelf">{shelf}</div>
@@ -942,79 +945,6 @@ def check_html(where: str, page: str, title: str, description: str, warnings: li
         warnings.append(f"{where}: description is {len(description)} characters (aim 120–160)")
 
 
-# ---------------------------------------------------------------------------
-# EPUB per story: English text only, opens in Biblyx (or any e-reader).
-# Deterministic bytes (fixed zip timestamps) so a rebuild does not churn git.
-
-EPUB_TEXT = {
-    "en": dict(end=("Learn languages by reading your own books.",
-                    "More free English stories: https://biblyx.com/english-short-stories/"),
-               own="Retold in simple English by Biblyx.", pd="Text: {src} ({year}), public domain.", level="Level"),
-    "de": dict(end=("Sprachen lernen beim Lesen deiner eigenen Bücher.",
-                    "Weitere kostenlose deutsche Geschichten: https://biblyx.com/tr/almanca-hikayeler/"),
-               own="In einfachem Deutsch nacherzählt von Biblyx.", pd="Text: {src} ({year}), gemeinfrei.", level="Niveau"),
-}
-
-
-def epub_path(story: dict) -> str:
-    return f'/assets/stories/{story["slug"]}.epub'
-
-
-def build_epub(story: dict) -> bytes:
-    import io
-    x = lambda t: html.escape(t, quote=True)
-    slug, title, author = story["slug"], story["title"], story["author"]
-    src = story["src"]
-    T = EPUB_TEXT[src]
-    uid = f"https://biblyx.com{epub_path(story)}"
-    note = T["own"] if is_own(story) else T["pd"].format(src=story.get("source_name", ""), year=story["year"])
-    cover = (ROOT / story["cover"].lstrip("/")).read_bytes()
-    paras = "\n".join(f"<p>{x(t)}</p>" for t in story["paragraphs"])
-    head = ('<?xml version="1.0" encoding="utf-8"?>\n<!DOCTYPE html>\n'
-            f'<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="{src}" lang="{src}">')
-    text = (f'{head}<head><meta charset="utf-8"/><title>{x(title)}</title>'
-            '<style>body{font-family:serif;line-height:1.5} h1{text-align:center} .by{text-align:center;font-style:italic}'
-            ' .end{margin-top:2em;font-size:.9em;text-align:center}</style></head><body>'
-            f'<section epub:type="chapter"><h1>{x(title)}</h1><p class="by">{x(author)} · {T["level"]} {x(story["level"])}</p>'
-            f'{paras}<p class="end">{x(note)}<br/>{x(T["end"][0])}<br/>{x(T["end"][1])}</p></section></body></html>')
-    nav = (f'{head}<head><meta charset="utf-8"/><title>{x(title)}</title></head><body>'
-           f'<nav epub:type="toc" id="toc"><ol><li><a href="text.xhtml">{x(title)}</a></li></ol></nav></body></html>')
-    ncx = ('<?xml version="1.0" encoding="utf-8"?>\n<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">'
-           f'<head><meta name="dtb:uid" content="{x(uid)}"/></head><docTitle><text>{x(title)}</text></docTitle>'
-           f'<navMap><navPoint id="n1" playOrder="1"><navLabel><text>{x(title)}</text></navLabel>'
-           '<content src="text.xhtml"/></navPoint></navMap></ncx>')
-    opf = ('<?xml version="1.0" encoding="utf-8"?>\n'
-           '<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid" xml:lang="{src}">'
-           '<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">'
-           f'<dc:identifier id="uid">{x(uid)}</dc:identifier><dc:title>{x(title)}</dc:title>'
-           f'<dc:creator>{x(author)}</dc:creator><dc:language>{src}</dc:language><dc:publisher>Biblyx</dc:publisher>'
-           f'<dc:description>{x(note)}</dc:description><meta name="cover" content="cover"/>'
-           '<meta property="dcterms:modified">2026-11-11T00:00:00Z</meta></metadata>'
-           '<manifest><item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>'
-           '<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>'
-           '<item id="cover" href="cover.jpg" media-type="image/jpeg" properties="cover-image"/>'
-           '<item id="text" href="text.xhtml" media-type="application/xhtml+xml"/></manifest>'
-           '<spine toc="ncx"><itemref idref="text"/></spine></package>')
-    container = ('<?xml version="1.0" encoding="utf-8"?>\n<container version="1.0" '
-                 'xmlns="urn:oasis:names:tc:opendocument:xmlns:container"><rootfiles>'
-                 '<rootfile full-path="OEBPS/content.opf" media-type="application/oebps-package+xml"/>'
-                 '</rootfiles></container>')
-    buf = io.BytesIO()
-    with zipfile.ZipFile(buf, "w") as z:
-        def put(name, data, deflate=True):
-            info = zipfile.ZipInfo(name, date_time=(2026, 11, 11, 0, 0, 0))
-            info.compress_type = zipfile.ZIP_DEFLATED if deflate else zipfile.ZIP_STORED
-            z.writestr(info, data)
-        put("mimetype", "application/epub+zip", deflate=False)
-        put("META-INF/container.xml", container)
-        put("OEBPS/content.opf", opf)
-        put("OEBPS/nav.xhtml", nav)
-        put("OEBPS/toc.ncx", ncx)
-        put("OEBPS/text.xhtml", text)
-        put("OEBPS/cover.jpg", cover, deflate=False)
-    return buf.getvalue()
-
-
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", help="write into this directory instead of the repo")
@@ -1058,13 +988,6 @@ def main():
                 if page.count(SLOGAN[lang]) != 1:
                     warnings.append(f"{story['slug']}/{lang}: the slogan appears {page.count(SLOGAN[lang])} times (expected once)")
                 emit(story_url(lang, story), page)
-    for story in (s for _, sts in CTX["colls"].values() for s in sts.values()):
-        data = build_epub(story)
-        target = out_root / epub_path(story).lstrip("/")
-        if not args.check and (not target.exists() or target.read_bytes() != data):
-            target.parent.mkdir(parents=True, exist_ok=True)
-            target.write_bytes(data)
-            written.append(epub_path(story).lstrip("/"))
     for lang in LANGS:
         page = home_with_rows(lang)
         if page != home_page(lang) and not args.check:

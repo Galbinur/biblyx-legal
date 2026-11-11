@@ -39,8 +39,14 @@
   "retold": "basit Almancayla yeniden anlatıldı",
   "free": "Ücretsiz",
   "source_own": "Metin: geleneksel masalın bizim yazdığımız basit anlatımı.",
-  "epub_btn": "EPUB indir",
-  "epub_hint": "Ücretsiz dosya, yalnızca Almanca metin. Biblyx'te aç, herhangi bir kelimeye dokun ve Türkçe anlamını gör."
+  "app_h": "Bu hikaye Biblyx uygulamasında seni bekliyor",
+  "app_points": [
+   "Almanca bir kelimeye dokun: bu cümledeki anlamı Türkçe gelir, isimler artikeliyle",
+   "Bilmediğin kelimeleri kaydet, kartlarla tekrar et",
+   "10 dilde A1'den B2'ye 38 kısa hikaye, bir de kendi EPUB, PDF ve TXT kitapların"
+  ],
+  "app_how": "Uygulamada: + simgesine dokun ve “Hazır hikâyeler”i seç.",
+  "app_shot_alt": "Biblyx uygulamasında hazır hikayeler"
  },
  "order": [
   "der-hase-und-der-igel",
