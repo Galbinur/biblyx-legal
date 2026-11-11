@@ -572,7 +572,9 @@ def story_url(lang: str, story: dict) -> str:
 
 def num(lang: str, n: int) -> str:
     s = f"{n:,}"
-    return s if lang == "en" else s.replace(",", ".")
+    if lang == "en":
+        return s
+    return s.replace(",", "\u00a0" if lang in ("fr", "pl", "ru") else ".")
 
 
 def gloss_spans(story: dict):
