@@ -118,8 +118,11 @@ a.g.open, a.g:focus-visible{background:var(--tint); border-bottom-style:solid; b
 .mid-cta .btn{flex-shrink:0;}
 .source{font-size:14px; color:var(--dim); margin:28px 0 0;}
 .vocab .table-wrap table{min-width:0;}
-.vocab td:first-child{font-weight:600; white-space:nowrap;}
-.vocab small{font-weight:400; color:var(--dim); font-size:12.5px;}
+.vocab table{table-layout:fixed;}
+.vocab th:first-child{width:36%;} .vocab th:last-child{width:4.5em;}
+.vocab td{font-size:15px; line-height:1.4; overflow-wrap:anywhere;}
+.vocab td:first-child{font-weight:600;}
+.vocab small{display:block; font-weight:400; color:var(--dim); font-size:12.5px; margin-top:3px;}
 .vocab tr:target{background:var(--tint);}
 .shelf{display:flex; gap:14px; flex-wrap:wrap; margin:12px 0 0;}
 .shelf a{display:flex; gap:12px; align-items:center; text-decoration:none; color:var(--ink); background:var(--surface); border:1px solid var(--rule); border-radius:14px; padding:10px 14px 10px 10px; flex:1 1 220px;}
