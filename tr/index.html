@@ -214,6 +214,13 @@
   .foot-links{display:flex; gap:22px; flex-wrap:wrap;}
   .foot-links a{color:var(--dim); text-decoration:none;}
   .foot-links a:hover{color:var(--ink);}
+  .foot-backed{display:flex; align-items:center; flex-wrap:wrap; gap:14px 22px; padding:22px 0 26px; margin:0 0 22px; border-bottom:1px solid var(--rule);}
+  .foot-backed .lbl{font-size:12.5px; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--dim);}
+  .foot-backed a{display:inline-flex; align-items:center; gap:9px; color:var(--ink); text-decoration:none; opacity:.85; transition:opacity .15s ease;}
+  .foot-backed a:hover{opacity:1;}
+  .foot-backed .el-mark{width:26px; height:26px;}
+  .foot-backed .el-word{font-size:22px; font-weight:700; letter-spacing:-.02em;}
+  .foot-backed .el-sub{font-size:22px; font-weight:400; color:var(--dim); letter-spacing:-.02em;}
   .foot-social{display:flex; flex-wrap:wrap; align-items:center; gap:14px 18px; margin-bottom:22px;}
   .foot-social a{color:var(--dim); display:flex; transition:color .15s ease;}
   .foot-social a:hover{color:var(--teal-deep);}
@@ -605,6 +612,13 @@
 </section>
 
 <footer class="wrap">
+  <div class="foot-backed">
+    <span class="lbl">Destekleyen</span>
+    <a href="https://elevenlabs.io/" target="_blank" rel="noopener" aria-label="ElevenLabs Grants">
+      <svg class="el-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="3" width="3.6" height="18" rx="0.5"></rect><rect x="14.4" y="3" width="3.6" height="18" rx="0.5"></rect></svg>
+      <span class="el-word">ElevenLabs</span><span class="el-sub">Grants</span>
+    </a>
+  </div>
   <div class="foot-social">
     <a href="https://instagram.com/biblyxapp" target="_blank" rel="noopener" aria-label="Instagram'da Biblyx">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
