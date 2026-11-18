@@ -72,4 +72,4 @@ support@biblyx.com adresine yaz. Her mesaj okunur, düzeltmeler genellikle bir s
 
 ### iPhone sürümü var mı?
 
-Henüz yok. Biblyx Google Play'de, Android için; iOS sürümü planlanıyor, tarih yok.
+Evet. Biblyx iPhone için App Store'da, Android için Google Play'de.

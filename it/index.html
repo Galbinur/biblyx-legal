@@ -76,7 +76,7 @@
       "@type": "MobileApplication",
       "name": "Biblyx",
       "description": "Biblyx è un'app per leggere libri con traduzione, pensata per chi studia le lingue. Apri i tuoi libri EPUB, PDF o TXT, tocca qualsiasi parola per vederne il significato in quella frase e salvala come flashcard.",
-      "operatingSystem": "Android",
+      "operatingSystem": "Android, iOS",
       "applicationCategory": "EducationalApplication",
       "offers": {
         "@type": "Offer",
@@ -141,6 +141,12 @@
     font-size:19px; color:var(--dim); max-width:560px; margin:0 auto 34px;
   }
   .cta-row{display:flex; gap:16px; justify-content:center; flex-wrap:wrap;}
+  .store-badges{display:flex; gap:12px; justify-content:center; align-items:center; flex-wrap:wrap;}
+  .store-badges a{display:inline-flex; line-height:0; transition:transform .15s ease;}
+  .store-badges a:hover{transform:translateY(-1px);}
+  .store-badges img{height:52px; width:auto;}
+  @media (max-width:480px){.store-badges img{height:42px;}}
+  .cta-row{align-items:center;}
   .btn{
     display:inline-flex; align-items:center; gap:10px; padding:14px 26px;
     border-radius:12px; font-size:15.5px; font-weight:600; text-decoration:none;
@@ -331,13 +337,13 @@
   <h1>Impara le lingue<br>leggendo libri</h1>
   <p class="lead">Biblyx è un'app per leggere libri con traduzione, pensata per chi studia le lingue. Apri i tuoi libri EPUB, PDF o TXT, tocca qualsiasi parola per vedere cosa significa in quella frase e salvala come flashcard.</p>
   <div class="cta-row">
-    <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.biblyx.app&amp;referrer=utm_source%3Dbiblyx.com%26utm_medium%3Dwebsite%26utm_campaign%3Dlanding_it" target="_blank" rel="noopener">
-      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 3.6v16.8c0 .5.6.8 1 .5l14-8.4c.4-.3.4-.9 0-1.2l-14-8.4c-.4-.3-1 0-1 .5z"/></svg>
-      Disponibile su Google Play
-    </a>
+    <div class="store-badges">
+      <a href="https://play.google.com/store/apps/details?id=com.biblyx.app&amp;referrer=utm_source%3Dbiblyx.com%26utm_medium%3Dwebsite%26utm_campaign%3Dlanding_it" target="_blank" rel="noopener"><img src="/assets/badges/google-play-it.png" alt="Disponibile su Google Play" width="175" height="52"></a>
+      <a href="https://apps.apple.com/app/id6835505938" target="_blank" rel="noopener"><img src="/assets/badges/app-store-it.svg" alt="Scarica su App Store" width="156" height="52"></a>
+    </div>
     <a class="btn btn-secondary" href="#how">Guarda come funziona</a>
   </div>
-  <p class="cta-note">Per Android</p>
+  <p class="cta-note">Per Android e iPhone</p>
 </header>
 
 <section class="showcase wrap">
@@ -361,7 +367,7 @@
     <div class="step">
       <div class="num">1</div>
       <h3>Leggi</h3>
-      <p>Importa i tuoi libri o, per iniziare, scegli tra 29 racconti brevi e fiabe in 10 lingue. Leggi in un lettore essenziale, senza dover passare a un dizionario in un'altra scheda.</p>
+      <p>Importa i tuoi libri o, per iniziare, scegli tra 38 racconti brevi e fiabe in 10 lingue. Leggi in un lettore essenziale, senza dover passare a un dizionario in un'altra scheda.</p>
     </div>
     <div class="step">
       <div class="num">2</div>
@@ -381,7 +387,7 @@
   <div class="feature-grid">
     <div class="feature">
       <h3>I tuoi libri EPUB, PDF e TXT</h3>
-      <p>Importa file EPUB, TXT e PDF in formato testo, oppure aprili con Biblyx da un file manager, dal browser o da un'email. Dall'indice raggiungi qualsiasi capitolo.</p>
+      <p>Importa file EPUB, TXT e PDF in formato testo, oppure, su Android, aprili con Biblyx da un file manager, dal browser o da un'email. Dall'indice raggiungi qualsiasi capitolo.</p>
     </div>
     <div class="feature">
       <h3>Il significato adatto alla frase</h3>
@@ -495,7 +501,7 @@
       </div>
       <div class="faq-item">
         <h3>Biblyx è disponibile su iPhone?</h3>
-        <p>Non ancora. Biblyx è disponibile su Android tramite Google Play. Una versione per iOS è in programma, ma per ora non c'è una data.</p>
+        <p>Sì. Biblyx è sull'App Store per iPhone e su Google Play per Android.</p>
       </div>
       <div class="faq-item">
         <h3>In cosa Biblyx è diverso da un dizionario o da un'app di flashcard?</h3>
@@ -573,7 +579,7 @@
       "name": "Biblyx è disponibile su iPhone?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Non ancora. Biblyx è disponibile su Android tramite Google Play. Una versione per iOS è in programma, ma per ora non c'è una data."
+        "text": "Sì. Biblyx è sull'App Store per iPhone e su Google Play per Android."
       }
     },
     {
@@ -598,11 +604,11 @@
 <section class="facts wrap" id="facts">
   <h2>Biblyx in breve</h2>
   <dl>
-    <dt>Piattaforma</dt><dd>Android, su Google Play. La versione per iPhone è in programma, senza data.</dd>
+    <dt>Piattaforma</dt><dd>Android (Google Play) e iPhone (App Store).</dd>
     <dt>File</dt><dd>EPUB, TXT, PDF con testo e testo incollato. I libri legati a un negozio o a un'app di biblioteca (Kindle, Apple Books, prestiti digitali) non si aprono.</dd>
     <dt>Lingue dei libri</dt><dd>Inglese, tedesco, spagnolo, francese, italiano, russo, polacco, portoghese, turco e azero; svedese, olandese, ucraino e tagico in beta.</dd>
     <dt>Interfaccia</dt><dd>Le stesse 10 lingue. I significati compaiono nella lingua dell'interfaccia.</dd>
-    <dt>Libreria iniziale</dt><dd>29 racconti e fiabe in 10 lingue, già nell'app.</dd>
+    <dt>Libreria iniziale</dt><dd>38 racconti e fiabe in 10 lingue, già nell'app.</dd>
     <dt>Costo</dt><dd>Lettura, Word Lab, esportazione, promemoria e sincronizzazione non richiedono abbonamento; niente pubblicità. Le traduzioni con l'AI hanno una quota giornaliera; Premium toglie il limite giornaliero, con piano mensile, semestrale o annuale.</dd>
     <dt>Offline</dt><dd>Leggere e ripassare le carte funziona offline. Cercare una parola nuova richiede la connessione.</dd>
     <dt>I tuoi dati</dt><dd>I file dei libri restano sul tuo dispositivo. Con un account si sincronizzano parole salvate, progressi, segnalibri ed evidenziazioni; i libri, mai.</dd>

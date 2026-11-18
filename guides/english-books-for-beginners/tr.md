@@ -64,7 +64,7 @@ Klasikler hakkında bir not: ücretsizler, çünkü eskiler; eski İngilizcede b
 
 Klasik sorun şu: bilmediğin bir kelimeye rastlarsın, sözlüğü açarsın, cümleyi kaybedersin, üçüncü kelimede kitabı kapatırsın. Öğrenenler için yapılmış bir okuyucu bunu çözer.
 
-Android'de **Biblyx** ile kendi EPUB, PDF veya TXT dosyanı açarsın ya da herhangi bir metni yapıştırırsın ve kelimeye dokunursun. On sözlük anlamı değil, o cümledeki anlamını görürsün. Bir dokunuşla kelimeyi cümlesiyle birlikte kart olarak kaydedersin; uygulama 1, 3, 7, 14 ve 30 gün sonra tekrar önüne getirir. Kütüphanen boşsa 10 dilde 29 kısa hikâye hazır gelir; İngilizce olanlar *The Selfish Giant*, *The Gift of the Magi* ve *The Tell-Tale Heart*. Okuma ve tekrar internetsiz çalışır; yeni kelimeye bakmak için bağlantı gerekir. Fikir tam olarak bu: **Kendi kitaplarını okuyarak dil öğren**.
+Android'de veya iPhone'da **Biblyx** ile kendi EPUB, PDF veya TXT dosyanı açarsın ya da herhangi bir metni yapıştırırsın ve kelimeye dokunursun. On sözlük anlamı değil, o cümledeki anlamını görürsün. Bir dokunuşla kelimeyi cümlesiyle birlikte kart olarak kaydedersin; uygulama 1, 3, 7, 14 ve 30 gün sonra tekrar önüne getirir. Kütüphanen boşsa 10 dilde 38 kısa hikâye hazır gelir; İngilizce olanlar *The Selfish Giant*, *The Gift of the Magi* ve *The Tell-Tale Heart*. Okuma ve tekrar internetsiz çalışır; yeni kelimeye bakmak için bağlantı gerekir. Fikir tam olarak bu: **Kendi kitaplarını okuyarak dil öğren**.
 
 Hangi uygulamayı kullanırsan kullan, alışkanlık aynı:
 

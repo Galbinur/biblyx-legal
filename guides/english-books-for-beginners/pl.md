@@ -64,7 +64,7 @@ Uwaga o klasyce: jest darmowa, bo jest stara, a dawna angielszczyzna ma słowa, 
 
 Klasyczny problem: nieznane słowo, otwierasz słownik, gubisz zdanie, a przy trzecim słowie zamykasz książkę. Czytnik zrobiony dla uczących się rozwiązuje właśnie to.
 
-W **Biblyx** na Androidzie otwierasz własny plik EPUB, PDF lub TXT albo wklejasz dowolny tekst i dotykasz słowa. Widzisz, co znaczy w tym konkretnym zdaniu, a nie listę dziesięciu znaczeń ze słownika. Jedno dotknięcie więcej zapisuje słowo razem ze zdaniem jako fiszkę, a aplikacja przypomina ją po 1, 3, 7, 14 i 30 dniach. Jeśli biblioteka jest pusta, w aplikacji jest już 29 krótkich opowiadań w 10 językach; po angielsku: *The Selfish Giant*, *The Gift of the Magi* i *The Tell-Tale Heart*. Czytanie i powtórki działają offline; sprawdzanie nowych słów wymaga połączenia. Na tym polega pomysł: **Ucz się języków, czytając własne książki**.
+W **Biblyx** na Androidzie lub iPhonie otwierasz własny plik EPUB, PDF lub TXT albo wklejasz dowolny tekst i dotykasz słowa. Widzisz, co znaczy w tym konkretnym zdaniu, a nie listę dziesięciu znaczeń ze słownika. Jedno dotknięcie więcej zapisuje słowo razem ze zdaniem jako fiszkę, a aplikacja przypomina ją po 1, 3, 7, 14 i 30 dniach. Jeśli biblioteka jest pusta, w aplikacji jest już 38 krótkich opowiadań w 10 językach; po angielsku: *The Selfish Giant*, *The Gift of the Magi* i *The Tell-Tale Heart*. Czytanie i powtórki działają offline; sprawdzanie nowych słów wymaga połączenia. Na tym polega pomysł: **Ucz się języków, czytając własne książki**.
 
 Niezależnie od aplikacji nawyk jest ten sam:
 

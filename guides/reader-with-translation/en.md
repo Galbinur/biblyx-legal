@@ -1,7 +1,7 @@
 ---
 title: English reading app: EPUB reader with translation
 h1: An EPUB, PDF and TXT reader with translation: read your own books and learn the words in them
-description: Biblyx is an EPUB, PDF and TXT reader with tap-to-translate: the meaning in that sentence, flashcards with context and offline review. For Android.
+description: Biblyx is an EPUB, PDF and TXT reader with tap-to-translate: the meaning in that sentence, flashcards with context and offline review. For Android and iPhone.
 path: epub-reader-with-translation
 date: 2026-11-09
 slogan: Learn languages by reading your own books
@@ -23,7 +23,7 @@ Meanings appear in your interface language. Biblyx translates books in ten langu
 - **PDF with real text.** Scanned PDFs are photos of pages; no reader can tap a word in a photo, and Biblyx tells you when you open one.
 - **Pasted text.** Since version 1.3.0 you can paste an article, a story or a long message and read it like a book, with the same tap-to-translate and the same cards.
 
-Files open from the app's "+" button or straight from a file manager, a browser download or an email attachment through "Open with Biblyx". A table of contents takes you to any chapter in EPUB, TXT and PDF books; the reader has search, bookmarks and highlights in four colors, a light and a dark theme, and an auto-scroll mode. If your library is empty, 29 short stories and tales in ten languages are already there, so the first tap takes under a minute.
+Files open from the app's "+" button or, on Android, straight from a file manager, a browser download or an email attachment through "Open with Biblyx". A table of contents takes you to any chapter in EPUB, TXT and PDF books; the reader has search, bookmarks and highlights in four colors, a light and a dark theme, and an auto-scroll mode. If your library is empty, 38 short stories and tales in ten languages are already there, so the first tap takes under a minute.
 
 Locked books are the one honest limitation: books bought in Kindle or Apple Books, or borrowed through a library app, are locked to those apps and won't open in Biblyx or in any other reader.
 
@@ -37,7 +37,7 @@ Nothing is locked in. Word Lab exports your words as an Anki deck (.apkg, with r
 
 Reading and reviewing cards work offline. Looking up a new word or translating a passage needs an internet connection, because the meaning is computed for your sentence rather than read from a file. No account is needed to read and translate; signing in with email or Google syncs saved words, review progress, bookmarks and highlights between devices. Book files stay on your device and are never uploaded.
 
-Reading, Word Lab, export, reminders and sync need no subscription, and there are no ads. AI translations use a daily allowance; Premium removes the daily limit (fair use applies), with a monthly, six-month or yearly plan. The app is on Android through Google Play; an iPhone version is planned, with no date yet.
+Reading, Word Lab, export, reminders and sync need no subscription, and there are no ads. AI translations use a daily allowance; Premium removes the daily limit (fair use applies), with a monthly, six-month or yearly plan. The app is on Google Play for Android and on the App Store for iPhone.
 
 ## Who it is not for
 
@@ -67,7 +67,7 @@ Your own language. Meanings appear in the interface language, so a Turkish speak
 
 ### Is there an iPhone version?
 
-Not yet. Biblyx is on Android through Google Play; an iOS version is planned, with no date.
+Yes. Biblyx is on the App Store for iPhone and on Google Play for Android.
 
 ### How is this different from Kindle's dictionary or Google Translate?
 

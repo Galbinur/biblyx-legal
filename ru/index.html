@@ -76,7 +76,7 @@
       "@type": "MobileApplication",
       "name": "Biblyx",
       "description": "Biblyx — читалка с переводом для тех, кто изучает иностранные языки. Открывайте свои книги в EPUB, PDF или TXT, нажимайте на любое слово, чтобы увидеть его значение в этом предложении, и сохраняйте его как карточку.",
-      "operatingSystem": "Android",
+      "operatingSystem": "Android, iOS",
       "applicationCategory": "EducationalApplication",
       "offers": {
         "@type": "Offer",
@@ -141,6 +141,12 @@
     font-size:19px; color:var(--dim); max-width:560px; margin:0 auto 34px;
   }
   .cta-row{display:flex; gap:16px; justify-content:center; flex-wrap:wrap;}
+  .store-badges{display:flex; gap:12px; justify-content:center; align-items:center; flex-wrap:wrap;}
+  .store-badges a{display:inline-flex; line-height:0; transition:transform .15s ease;}
+  .store-badges a:hover{transform:translateY(-1px);}
+  .store-badges img{height:52px; width:auto;}
+  @media (max-width:480px){.store-badges img{height:42px;}}
+  .cta-row{align-items:center;}
   .btn{
     display:inline-flex; align-items:center; gap:10px; padding:14px 26px;
     border-radius:12px; font-size:15.5px; font-weight:600; text-decoration:none;
@@ -331,13 +337,13 @@
   <h1>Изучайте языки,<br>читая книги</h1>
   <p class="lead">Biblyx — читалка с переводом для тех, кто изучает иностранные языки. Открывайте свои книги в форматах EPUB, PDF и TXT, нажимайте на любое слово, чтобы увидеть его значение именно в этом предложении, и сохраняйте его в виде карточки.</p>
   <div class="cta-row">
-    <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.biblyx.app&amp;referrer=utm_source%3Dbiblyx.com%26utm_medium%3Dwebsite%26utm_campaign%3Dlanding_ru" target="_blank" rel="noopener">
-      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 3.6v16.8c0 .5.6.8 1 .5l14-8.4c.4-.3.4-.9 0-1.2l-14-8.4c-.4-.3-1 0-1 .5z"/></svg>
-      Доступно в Google Play
-    </a>
+    <div class="store-badges">
+      <a href="https://play.google.com/store/apps/details?id=com.biblyx.app&amp;referrer=utm_source%3Dbiblyx.com%26utm_medium%3Dwebsite%26utm_campaign%3Dlanding_ru" target="_blank" rel="noopener"><img src="/assets/badges/google-play-ru.png" alt="Доступно в Google Play" width="175" height="52"></a>
+      <a href="https://apps.apple.com/app/id6835505938" target="_blank" rel="noopener"><img src="/assets/badges/app-store-ru.svg" alt="Загрузите в App Store" width="156" height="52"></a>
+    </div>
     <a class="btn btn-secondary" href="#how">Посмотреть, как это работает</a>
   </div>
-  <p class="cta-note">Для Android</p>
+  <p class="cta-note">Для Android и iPhone</p>
 </header>
 
 <section class="showcase wrap">
@@ -361,7 +367,7 @@
     <div class="step">
       <div class="num">1</div>
       <h3>Читайте</h3>
-      <p>Импортируйте свои книги или начните с одного из 29 рассказов и сказок на 10 языках. Читайте в спокойной читалке, не переключаясь на вкладку со словарём.</p>
+      <p>Импортируйте свои книги или начните с одного из 38 рассказов и сказок на 10 языках. Читайте в спокойной читалке, не переключаясь на вкладку со словарём.</p>
     </div>
     <div class="step">
       <div class="num">2</div>
@@ -381,7 +387,7 @@
   <div class="feature-grid">
     <div class="feature">
       <h3>Ваши книги в EPUB, PDF и TXT</h3>
-      <p>Импортируйте файлы EPUB, TXT и PDF с текстовым слоем или открывайте их с помощью Biblyx из файлового менеджера, браузера или почты. Через оглавление можно перейти к любой главе.</p>
+      <p>Импортируйте файлы EPUB, TXT и PDF с текстовым слоем или на Android открывайте их с помощью Biblyx из файлового менеджера, браузера или почты. Через оглавление можно перейти к любой главе.</p>
     </div>
     <div class="feature">
       <h3>Значение с учётом контекста</h3>
@@ -496,7 +502,7 @@
       </div>
       <div class="faq-item">
         <h3>Есть ли Biblyx для iPhone?</h3>
-        <p>Пока нет. Biblyx доступен на Android через Google Play. Версия для iOS запланирована, но даты выхода ещё нет.</p>
+        <p>Да. Biblyx есть в App Store для iPhone и в Google Play для Android.</p>
       </div>
       <div class="faq-item">
         <h3>Чем Biblyx отличается от словаря или приложения с карточками?</h3>
@@ -574,7 +580,7 @@
       "name": "Есть ли Biblyx для iPhone?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Пока нет. Biblyx доступен на Android через Google Play. Версия для iOS запланирована, но даты выхода ещё нет."
+        "text": "Да. Biblyx есть в App Store для iPhone и в Google Play для Android."
       }
     },
     {
@@ -599,11 +605,11 @@
 <section class="facts wrap" id="facts">
   <h2>Biblyx коротко</h2>
   <dl>
-    <dt>Платформа</dt><dd>Android, в Google Play. Версия для iPhone планируется, даты нет.</dd>
+    <dt>Платформа</dt><dd>Android (Google Play) и iPhone (App Store).</dd>
     <dt>Файлы</dt><dd>EPUB, TXT, PDF с текстовым слоем и вставленный текст. Книги, привязанные к магазину или библиотечному приложению (Kindle, Apple Books, библиотечные выдачи), не открываются.</dd>
     <dt>Языки книг</dt><dd>Английский, немецкий, испанский, французский, итальянский, русский, польский, португальский, турецкий и азербайджанский; шведский, нидерландский, украинский и таджикский в бете.</dd>
     <dt>Интерфейс</dt><dd>Те же 10 языков. Значения показываются на языке интерфейса.</dd>
-    <dt>Стартовая библиотека</dt><dd>29 коротких рассказов и сказок на 10 языках, уже в приложении.</dd>
+    <dt>Стартовая библиотека</dt><dd>38 коротких рассказов и сказок на 10 языках, уже в приложении.</dd>
     <dt>Стоимость</dt><dd>Чтение, Word Lab, экспорт, напоминания и синхронизация не требуют подписки; рекламы нет. У переводов ИИ есть дневной лимит; Premium снимает его на месяц, полгода или год.</dd>
     <dt>Офлайн</dt><dd>Чтение и повторение карточек работают без интернета. Посмотреть новое слово можно только с подключением.</dd>
     <dt>Ваши данные</dt><dd>Файлы книг остаются на устройстве. С аккаунтом синхронизируются сохранённые слова, прогресс, закладки и выделения; книги не синхронизируются никогда.</dd>

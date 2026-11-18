@@ -13,7 +13,7 @@ LingQ si basa sull'imparare una lingua da contenuti reali: migliaia di lezioni c
 ## In breve
 
 - **LingQ** insegna con migliaia di lezioni con audio in più di 55 lingue. Il piano gratuito è limitato (a 20 parole salvate, dice il blog di LingQ) e Premium costa 14,99 $ al mese o 119,99 $ all'anno.
-- **Biblyx** è un'app per Android con cui leggi i tuoi libri in EPUB, TXT e PDF con testo: tocchi una parola e te la spiega per quella frase, conserva la frase nella flashcard e non mostra pubblicità. Premium costa 4,99 $ al mese o 35,99 $ all'anno (Google Play, Stati Uniti), meno dei piani standard mensili e annuali di LingQ, Linga, Beelinguapp e Readlang.
+- **Biblyx** è un'app per Android e iPhone con cui leggi i tuoi libri in EPUB, TXT e PDF con testo: tocchi una parola e te la spiega per quella frase, conserva la frase nella flashcard e non mostra pubblicità. Premium costa 4,99 $ al mese o 35,99 $ all'anno (Google Play, Stati Uniti), meno dei piani standard mensili e annuali di LingQ, Linga, Beelinguapp e Readlang.
 - **Per leggere i tuoi libri** guarda Biblyx, Linga e Smart Book; anche LingQ importa ebook.
 - **Per avere la traduzione accanto al testo**, Beelinguapp va bene per i principianti e Smart Book per i tuoi libri; Smart Book ha i prezzi standard più bassi tra le app che pubblicano i loro piani.
 - **Readable** è solo per l'inglese, e **Readlang** serve a leggere nel browser, al computer.
@@ -31,7 +31,7 @@ LingQ si merita la sua fama. Copre più di 55 lingue, ha migliaia di lezioni con
 | App | Ideale per | Prezzo standard di Premium (Stati Uniti, 9 nov. 2026) | Versione gratuita | Pubblicità nella versione gratuita |
 |---|---|---|---|---|
 | LingQ (Android, iPhone, web) | lezioni con audio in più di 55 lingue, importazione di video e podcast | 14,99 $/mese, 119,99 $/anno | limitata a 20 parole salvate, secondo il blog di LingQ | no |
-| **Biblyx** (Android) | leggere i tuoi libri, con ogni parola spiegata per la sua frase | 4,99 $/mese, 35,99 $/anno | lettura, flashcard, esportazione e sincronizzazione; traduzioni dell'IA con una quota giornaliera | no |
+| **Biblyx** (Android, iPhone) | leggere i tuoi libri, con ogni parola spiegata per la sua frase | 4,99 $/mese, 35,99 $/anno | lettura, flashcard, esportazione e sincronizzazione; traduzioni dell'IA con una quota giornaliera | no |
 | Linga (Android, iPhone) | una biblioteca di oltre 1.000 libri veri, con giochi | 5,49 $/mese, 54,99 $/anno | download gratuito, PRO a pagamento | no |
 | Beelinguapp (Android, iPhone) | principianti: la traduzione accanto al testo, audiolibri | 7,99 $/mese, 49,90 $/anno | download gratuito | sì |
 | Smart Book (Android, iPhone) | una traduzione a fronte dei tuoi libri | 1,99 $/mese, 19,99 $/anno | download gratuito | sì |
@@ -65,7 +65,7 @@ Biblyx non è un corso, ma un lettore per i tuoi libri. Apri un EPUB, un TXT o u
 - **Un significato per la frase:** i modi di dire arrivano con entrambi i significati, i sostantivi tedeschi, spagnoli, francesi, italiani e portoghesi con il loro articolo, e le parole composte vengono divise nelle loro parti.
 - **Flashcard che conservano la tua frase:** le parole salvate tornano dopo 1, 3, 7, 14 e 30 giorni, e puoi esportarle in Anki o CSV.
 - **Offline:** lettura e ripasso delle flashcard funzionano senza connessione; per cercare una parola nuova serve la connessione.
-- **Un primo scaffale:** 29 racconti brevi in 10 lingue per i primi minuti.
+- **Un primo scaffale:** 38 racconti brevi in 10 lingue per i primi minuti.
 
 ![Lettore di Biblyx: la parola toccata fa parte di un modo di dire, con il significato del modo di dire e il significato e la grammatica della parola](/screens/it/play-idioms.jpg)
 
@@ -73,7 +73,7 @@ L'idea sta in una riga: **Impara le lingue leggendo i tuoi libri**.
 
 **Cosa fa bene:** leggere i libri che scegli tu, con significati giusti per la frase e flashcard che la conservano; niente pubblicità, nemmeno nella versione gratuita.
 
-**Cosa fa meno bene:** per ora è solo su Android (una versione per iPhone è in programma, senza data), e non ha lezioni né audiolibri: i testi li porti tu, e parole e frasi le legge la voce del tuo telefono.
+**Cosa fa meno bene:** non ha lezioni né audiolibri: i testi li porti tu, e parole e frasi le legge la voce del tuo telefono.
 
 **Prezzo:** la versione gratuita comprende lettura, flashcard, esportazione e sincronizzazione, con una quota giornaliera di traduzioni dell'IA. Premium toglie il limite giornaliero (con uso ragionevole): 4,99 $ al mese, 24,99 $ per sei mesi o 35,99 $ all'anno su Google Play (Stati Uniti).
 
@@ -146,7 +146,7 @@ Readlang funziona nel browser e come estensione per Chrome. Clicchi su una parol
 | App | I tuoi file | Come ottieni i significati | Esercizio sul lessico | Lettura inclusa | Lingue da studiare |
 |---|---|---|---|---|---|
 | LingQ (Android, iPhone, web) | ebook, articoli web, YouTube, Netflix, podcast | ricerca delle parole nel contesto; strumenti di IA | ripetizione spaziata, contatore di parole conosciute | migliaia di lezioni con audio | 55+ |
-| **Biblyx** (Android) | EPUB, TXT, PDF con testo, testo incollato | significato dell'IA adatto alla frase, modi di dire, articoli dei sostantivi | flashcard con la frase del libro, esportazione in Anki e CSV | 29 racconti brevi | 10, più 4 in beta |
+| **Biblyx** (Android, iPhone) | EPUB, TXT, PDF con testo, testo incollato | significato dell'IA adatto alla frase, modi di dire, articoli dei sostantivi | flashcard con la frase del libro, esportazione in Anki e CSV | 38 racconti brevi | 10, più 4 in beta |
 | Linga (Android, iPhone) | EPUB, PDF, MOBI, FB2, TXT | tocchi una parola o un'espressione: traduzione e voce di dizionario | flashcard a ripetizione spaziata, giochi, serie | oltre 1.000 libri | 6 |
 | Beelinguapp (Android, iPhone) | non indicato nella scheda | traduzione affiancata; tocchi una parola per il significato da dizionario | quiz dopo ogni storia | storie bilingui e audiolibri | 20+ |
 | Smart Book (Android, iPhone) | FB2, EPUB, TXT, sottotitoli .srt | traduzione a fronte; scelta del servizio, chatbot di IA compresi | parole salvate, esportazione in Anki o ReWord | storie bilingui | inglese, tedesco, francese, spagnolo, italiano e altre |
@@ -155,7 +155,7 @@ Readlang funziona nel browser e come estensione per Chrome. Clicchi su una parol
 
 ## In sintesi
 
-Secondo noi LingQ è il sistema più completo di questa lista: se vuoi lezioni, audio e tante lingue e il prezzo ti va bene, è un'ottima scelta. Se vuoi leggere i tuoi libri su Android, con ogni parola spiegata per la sua frase, senza pubblicità e spendendo meno, prova Biblyx. Puoi anche usare due strumenti insieme: LingQ per lezioni e audio, e un lettore come Biblyx per i libri che hai già sul telefono. Linga offre una grande biblioteca di libri veri, Beelinguapp un inizio facile, Smart Book un lettore a fronte economico, Readable l'inglese adattato e Readlang il browser. Il test più semplice: leggi lo stesso capitolo in due app per una settimana e tieni quella che continui ad aprire.
+Secondo noi LingQ è il sistema più completo di questa lista: se vuoi lezioni, audio e tante lingue e il prezzo ti va bene, è un'ottima scelta. Se vuoi leggere i tuoi libri su Android o iPhone, con ogni parola spiegata per la sua frase, senza pubblicità e spendendo meno, prova Biblyx. Puoi anche usare due strumenti insieme: LingQ per lezioni e audio, e un lettore come Biblyx per i libri che hai già sul telefono. Linga offre una grande biblioteca di libri veri, Beelinguapp un inizio facile, Smart Book un lettore a fronte economico, Readable l'inglese adattato e Readlang il browser. Il test più semplice: leggi lo stesso capitolo in due app per una settimana e tieni quella che continui ad aprire.
 
 ## Come abbiamo controllato
 
@@ -193,4 +193,4 @@ La traduzione a fronte mostra tutto il testo nella tua lingua accanto all'origin
 
 ### Biblyx funziona su iPhone?
 
-Non ancora. Biblyx è su Android tramite Google Play; la versione iOS è in programma, senza data.
+Sì. Biblyx è sull'App Store per iPhone e su Google Play per Android.

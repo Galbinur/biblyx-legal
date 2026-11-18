@@ -1,7 +1,7 @@
 ---
 title: Czytnik z tłumaczeniem słów do nauki języka
 h1: Czytnik z tłumaczeniem: otwórz własne książki EPUB, PDF i TXT, dotknij słowa, zobacz jego znaczenie w zdaniu
-description: Biblyx to czytnik EPUB, PDF i TXT z tłumaczeniem słowa po dotknięciu: znaczenie w tym zdaniu, fiszki z kontekstem, powtórki offline. Aplikacja na Androida.
+description: Biblyx to czytnik EPUB, PDF i TXT z tłumaczeniem słowa po dotknięciu: znaczenie w tym zdaniu, fiszki z kontekstem, powtórki offline. Na Androida i iPhone'a.
 path: czytnik-z-tlumaczeniem
 date: 2026-11-09
 slogan: Ucz się języków, czytając własne książki
@@ -23,7 +23,7 @@ Znaczenia pokazują się w języku interfejsu: z polskim interfejsem słowa angi
 - **PDF z prawdziwym tekstem.** Zeskanowane PDF-y to zdjęcia stron; żaden czytnik nie dotknie słowa na zdjęciu, a Biblyx mówi o tym przy otwarciu.
 - **Wklejony tekst.** Od wersji 1.3.0 możesz wkleić artykuł, opowiadanie lub długą wiadomość i czytać jak książkę, z tym samym tłumaczeniem po dotknięciu i tymi samymi fiszkami.
 
-Pliki otwierasz przyciskiem „+” w aplikacji albo prosto z menedżera plików, z plików pobranych w przeglądarce lub z załącznika e-maila, przez „Otwórz w Biblyx”. Spis treści prowadzi do dowolnego rozdziału w książkach EPUB, TXT i PDF; czytnik ma wyszukiwanie, zakładki, zakreślanie w czterech kolorach, jasny i ciemny motyw oraz automatyczne przewijanie. Jeśli biblioteka jest pusta, czeka w niej już 29 krótkich opowiadań i baśni w dziesięciu językach, więc pierwsze dotknięcie zajmuje mniej niż minutę.
+Pliki otwierasz przyciskiem „+” w aplikacji albo na Androidzie prosto z menedżera plików, z plików pobranych w przeglądarce lub z załącznika e-maila, przez „Otwórz w Biblyx”. Spis treści prowadzi do dowolnego rozdziału w książkach EPUB, TXT i PDF; czytnik ma wyszukiwanie, zakładki, zakreślanie w czterech kolorach, jasny i ciemny motyw oraz automatyczne przewijanie. Jeśli biblioteka jest pusta, czeka w niej już 38 krótkich opowiadań i baśni w dziesięciu językach, więc pierwsze dotknięcie zajmuje mniej niż minutę.
 
 Uczciwe ograniczenie: książki kupione w Kindle, Apple Books czy Legimi i te wypożyczone z bibliotek cyfrowych są przypisane do tamtych aplikacji i nie otworzą się ani w Biblyx, ani w żadnym innym czytniku.
 
@@ -37,7 +37,7 @@ Nic nie zostaje uwięzione w aplikacji. Word Lab eksportuje słowa jako talię A
 
 Czytanie i powtarzanie fiszek działa offline. Sprawdzenie nowego słowa lub przetłumaczenie fragmentu wymaga internetu, bo znaczenie jest obliczane dla twojego zdania, a nie odczytywane z pliku. Do czytania i tłumaczenia konto nie jest potrzebne; po zalogowaniu e-mailem lub przez Google zapisane słowa, postęp powtórek, zakładki i zakreślenia synchronizują się między urządzeniami. Pliki książek zostają na twoim urządzeniu i nigdy nie są wysyłane.
 
-Czytanie, Word Lab, eksport, przypomnienia i synchronizacja nie wymagają subskrypcji i nie ma reklam. Tłumaczenia AI mają dzienny limit; Premium znosi dzienny limit (w granicach rozsądnego użycia), w planie miesięcznym, półrocznym lub rocznym. Aplikacja jest na Androida w Google Play; wersja na iPhone'a jest w planach, bez daty.
+Czytanie, Word Lab, eksport, przypomnienia i synchronizacja nie wymagają subskrypcji i nie ma reklam. Tłumaczenia AI mają dzienny limit; Premium znosi dzienny limit (w granicach rozsądnego użycia), w planie miesięcznym, półrocznym lub rocznym. Aplikacja jest w Google Play na Androida i w App Store na iPhone'a.
 
 ## Dla kogo nie jest
 
@@ -67,7 +67,7 @@ W twoim. Znaczenia pokazują się w języku interfejsu: kto czyta angielską ksi
 
 ### Czy jest wersja na iPhone'a?
 
-Jeszcze nie. Biblyx jest na Androida w Google Play; wersja na iOS jest w planach, bez daty.
+Tak. Biblyx jest w App Store na iPhone'a i w Google Play na Androida.
 
 ### Czym to się różni od słownika w Kindle albo Tłumacza Google?
 

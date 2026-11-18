@@ -46,7 +46,7 @@ Classics are free because they are old, and they use the *passé simple* everywh
 
 ## How to read French on your phone
 
-The classic problem: an unknown word, a dictionary tab, a lost sentence, and the book closes at the third word. With **Biblyx** on Android you open your own EPUB, PDF or TXT, or paste a French article, and tap a word. You see what it means in that sentence, with its part of speech, base form and an estimated CEFR level: tap *fut* and you see it is *être*. Nouns come with their article (*le*, *la*), so you learn the gender with the word, and when a word belongs to an expression such as *avoir beau*, you see both meanings. One more tap saves the word with its sentence as a flashcard, which comes back after 1, 3, 7, 14 and 30 days. Reading and review work offline; looking up a new word needs a connection. That is the whole idea: **Learn languages by reading your own books**.
+The classic problem: an unknown word, a dictionary tab, a lost sentence, and the book closes at the third word. With **Biblyx** on Android or iPhone you open your own EPUB, PDF or TXT, or paste a French article, and tap a word. You see what it means in that sentence, with its part of speech, base form and an estimated CEFR level: tap *fut* and you see it is *être*. Nouns come with their article (*le*, *la*), so you learn the gender with the word, and when a word belongs to an expression such as *avoir beau*, you see both meanings. One more tap saves the word with its sentence as a flashcard, which comes back after 1, 3, 7, 14 and 30 days. Reading and review work offline; looking up a new word needs a connection. That is the whole idea: **Learn languages by reading your own books**.
 
 Whatever app you use, the habit is the same:
 

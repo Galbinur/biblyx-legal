@@ -76,7 +76,7 @@
       "@type": "MobileApplication",
       "name": "Biblyx",
       "description": "Biblyx est un lecteur EPUB, PDF et TXT pour apprendre une langue en lisant vos propres livres. Touchez n'importe quel mot pour voir son sens dans la phrase, puis enregistrez-le en flashcard.",
-      "operatingSystem": "Android",
+      "operatingSystem": "Android, iOS",
       "applicationCategory": "EducationalApplication",
       "offers": {
         "@type": "Offer",
@@ -141,6 +141,12 @@
     font-size:19px; color:var(--dim); max-width:560px; margin:0 auto 34px;
   }
   .cta-row{display:flex; gap:16px; justify-content:center; flex-wrap:wrap;}
+  .store-badges{display:flex; gap:12px; justify-content:center; align-items:center; flex-wrap:wrap;}
+  .store-badges a{display:inline-flex; line-height:0; transition:transform .15s ease;}
+  .store-badges a:hover{transform:translateY(-1px);}
+  .store-badges img{height:52px; width:auto;}
+  @media (max-width:480px){.store-badges img{height:42px;}}
+  .cta-row{align-items:center;}
   .btn{
     display:inline-flex; align-items:center; gap:10px; padding:14px 26px;
     border-radius:12px; font-size:15.5px; font-weight:600; text-decoration:none;
@@ -331,13 +337,13 @@
   <h1>Apprendre une langue<br>en lisant des livres</h1>
   <p class="lead">Biblyx est un lecteur EPUB, PDF et TXT pour apprendre une langue en lisant vos propres livres. Touchez n'importe quel mot pour voir ce qu'il veut dire dans la phrase, puis enregistrez-le en flashcard.</p>
   <div class="cta-row">
-    <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.biblyx.app&amp;referrer=utm_source%3Dbiblyx.com%26utm_medium%3Dwebsite%26utm_campaign%3Dlanding_fr" target="_blank" rel="noopener">
-      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 3.6v16.8c0 .5.6.8 1 .5l14-8.4c.4-.3.4-.9 0-1.2l-14-8.4c-.4-.3-1 0-1 .5z"/></svg>
-      Disponible sur Google Play
-    </a>
+    <div class="store-badges">
+      <a href="https://play.google.com/store/apps/details?id=com.biblyx.app&amp;referrer=utm_source%3Dbiblyx.com%26utm_medium%3Dwebsite%26utm_campaign%3Dlanding_fr" target="_blank" rel="noopener"><img src="/assets/badges/google-play-fr.png" alt="Disponible sur Google Play" width="175" height="52"></a>
+      <a href="https://apps.apple.com/app/id6835505938" target="_blank" rel="noopener"><img src="/assets/badges/app-store-fr.svg" alt="Télécharger dans l'App Store" width="164" height="52"></a>
+    </div>
     <a class="btn btn-secondary" href="#how">Voir comment ça marche</a>
   </div>
-  <p class="cta-note">Pour Android</p>
+  <p class="cta-note">Pour Android et iPhone</p>
 </header>
 
 <section class="showcase wrap">
@@ -361,7 +367,7 @@
     <div class="step">
       <div class="num">1</div>
       <h3>Lire</h3>
-      <p>Importez vos propres livres ou choisissez une histoire parmi 29 nouvelles et contes en 10 langues, puis lisez dans un lecteur épuré, sans basculer vers un dictionnaire dans un autre onglet.</p>
+      <p>Importez vos propres livres ou choisissez une histoire parmi 38 nouvelles et contes en 10 langues, puis lisez dans un lecteur épuré, sans basculer vers un dictionnaire dans un autre onglet.</p>
     </div>
     <div class="step">
       <div class="num">2</div>
@@ -381,7 +387,7 @@
   <div class="feature-grid">
     <div class="feature">
       <h3>Vos propres livres EPUB, PDF et TXT</h3>
-      <p>Importez des fichiers EPUB, TXT et PDF au format texte, ou ouvrez-les avec Biblyx depuis un gestionnaire de fichiers, un navigateur ou un e-mail. La table des matières vous mène à n'importe quel chapitre.</p>
+      <p>Importez des fichiers EPUB, TXT et PDF au format texte, ou, sur Android, ouvrez-les avec Biblyx depuis un gestionnaire de fichiers, un navigateur ou un e-mail. La table des matières vous mène à n'importe quel chapitre.</p>
     </div>
     <div class="feature">
       <h3>Un sens adapté à la phrase</h3>
@@ -495,7 +501,7 @@
       </div>
       <div class="faq-item">
         <h3>Biblyx est-il disponible sur iPhone ?</h3>
-        <p>Pas encore. Biblyx est disponible sur Android, via Google Play. Une version iOS est prévue, mais sans date pour le moment.</p>
+        <p>Oui. Biblyx est sur l'App Store pour iPhone et sur Google Play pour Android.</p>
       </div>
       <div class="faq-item">
         <h3>En quoi Biblyx diffère-t-il d'un dictionnaire ou d'une application de flashcards ?</h3>
@@ -573,7 +579,7 @@
       "name": "Biblyx est-il disponible sur iPhone ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Pas encore. Biblyx est disponible sur Android, via Google Play. Une version iOS est prévue, mais sans date pour le moment."
+        "text": "Oui. Biblyx est sur l'App Store pour iPhone et sur Google Play pour Android."
       }
     },
     {
@@ -598,11 +604,11 @@
 <section class="facts wrap" id="facts">
   <h2>Biblyx en bref</h2>
   <dl>
-    <dt>Plateforme</dt><dd>Android, sur Google Play. Une version iPhone est prévue, sans date.</dd>
+    <dt>Plateforme</dt><dd>Android (Google Play) et iPhone (App Store).</dd>
     <dt>Fichiers</dt><dd>EPUB, TXT, PDF avec texte et texte collé. Les livres liés à une boutique ou à une application de bibliothèque (Kindle, Apple Books, prêts numériques) ne s'ouvrent pas.</dd>
     <dt>Langues des livres</dt><dd>Anglais, allemand, espagnol, français, italien, russe, polonais, portugais, turc et azerbaïdjanais ; suédois, néerlandais, ukrainien et tadjik en bêta.</dd>
     <dt>Interface</dt><dd>Les mêmes 10 langues. Les sens s'affichent dans la langue de l'interface.</dd>
-    <dt>Bibliothèque de départ</dt><dd>29 nouvelles et contes en 10 langues, déjà dans l'application.</dd>
+    <dt>Bibliothèque de départ</dt><dd>38 nouvelles et contes en 10 langues, déjà dans l'application.</dd>
     <dt>Prix</dt><dd>La lecture, Word Lab, l'export, les rappels et la synchronisation ne demandent pas d'abonnement ; pas de publicité. Les traductions par IA ont un quota quotidien ; Premium retire la limite quotidienne, avec une formule mensuelle, semestrielle ou annuelle.</dd>
     <dt>Hors ligne</dt><dd>Lire et réviser les cartes fonctionne hors ligne. Chercher un mot nouveau demande une connexion.</dd>
     <dt>Vos données</dt><dd>Les fichiers de livres restent sur votre appareil. Avec un compte, mots enregistrés, progression, signets et surlignages se synchronisent ; les livres, jamais.</dd>

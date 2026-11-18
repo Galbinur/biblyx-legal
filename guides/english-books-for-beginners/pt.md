@@ -64,7 +64,7 @@ Uma observação sobre os clássicos: eles são grátis porque são antigos, e o
 
 O problema clássico: você encontra uma palavra desconhecida, abre o dicionário, perde a frase e, na terceira palavra, fecha o livro. Um leitor feito para quem está aprendendo resolve isso.
 
-Com o **Biblyx**, no Android, você abre seu próprio arquivo EPUB, PDF ou TXT, ou cola qualquer texto, e toca em uma palavra. Você vê o que ela significa naquela frase exata, não uma lista de dez acepções de dicionário. Mais um toque salva a palavra com a frase como um cartão, e o app traz o cartão de volta para revisão depois de 1, 3, 7, 14 e 30 dias. Se a sua biblioteca estiver vazia, 29 contos em 10 idiomas já vêm incluídos; os em inglês são *The Selfish Giant*, *The Gift of the Magi* e *The Tell-Tale Heart*. Ler e revisar funcionam offline; consultar palavras novas precisa de conexão. A ideia é esta: **Aprenda idiomas lendo seus próprios livros**.
+Com o **Biblyx**, no Android ou no iPhone, você abre seu próprio arquivo EPUB, PDF ou TXT, ou cola qualquer texto, e toca em uma palavra. Você vê o que ela significa naquela frase exata, não uma lista de dez acepções de dicionário. Mais um toque salva a palavra com a frase como um cartão, e o app traz o cartão de volta para revisão depois de 1, 3, 7, 14 e 30 dias. Se a sua biblioteca estiver vazia, 38 contos em 10 idiomas já vêm incluídos; os em inglês são *The Selfish Giant*, *The Gift of the Magi* e *The Tell-Tale Heart*. Ler e revisar funcionam offline; consultar palavras novas precisa de conexão. A ideia é esta: **Aprenda idiomas lendo seus próprios livros**.
 
 Seja qual for o app, o hábito é o mesmo:
 

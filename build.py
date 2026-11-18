@@ -44,30 +44,46 @@ LANG_NAMES = {"en": "English", "tr": "Türkçe", "az": "Azərbaycan", "de": "Deu
 OG_LOCALE = {"en": "en_US", "tr": "tr_TR", "az": "az_AZ", "de": "de_DE", "es": "es_ES", "fr": "fr_FR",
              "it": "it_IT", "ru": "ru_RU", "pl": "pl_PL", "pt": "pt_BR"}
 PLAY = "https://play.google.com/store/apps/details?id=com.biblyx.app"
+APP_STORE = "https://apps.apple.com/app/id6835505938"
+# Official store badges (assets/badges/): Apple's SVGs as downloaded, Google's
+# PNGs cropped to the badge edge so both show at the same height.
+APP_STORE_W = {"az": 156.07779, "tr": 151.29018, "fr": 126.50751}  # others 119.66407
+
+
+def store_badges(lang, play, h=44):
+    """The two official store badges side by side, in the page's language."""
+    a_w = round(APP_STORE_W.get(lang, 119.66407) * h / 40)
+    g_w = round(404 * h / 120)
+    ui = UI[lang]
+    return (f'<div class="store-badges">'
+            f'<a href="{play}" target="_blank" rel="noopener"><img src="/assets/badges/google-play-{lang}.png" '
+            f'alt="{esc(ui["button"])}" width="{g_w}" height="{h}"></a>'
+            f'<a href="{APP_STORE}" target="_blank" rel="noopener"><img src="/assets/badges/app-store-{lang}.svg" '
+            f'alt="{esc(ui["appstore"])}" width="{a_w}" height="{h}"></a></div>')
 
 # Short interface strings of the guide pages. Draft translations; a native
 # reader checks them with the first guide of each language.
 UI = {
     "en": dict(home="Home", guides="Guides", updated="Updated", by="By", also="Read next",
-               cta="Try it with your own book", button="Get Biblyx on Google Play", faq="Frequently asked questions"),
+               cta="Try it with your own book", button="Get Biblyx on Google Play", appstore="Download Biblyx on the App Store", faq="Frequently asked questions"),
     "az": dict(home="Ana səhifə", guides="Bələdçilər", updated="Yenilənib", by="Müəllif", also="Bunları da oxu",
-               cta="Öz kitabınla sına", button="Biblyx-i Google Play-dən yüklə", faq="Tez-tez verilən suallar"),
+               cta="Öz kitabınla sına", button="Biblyx-i Google Play-dən yüklə", appstore="Biblyx-i App Store-dan yüklə", faq="Tez-tez verilən suallar"),
     "tr": dict(home="Ana sayfa", guides="Rehberler", updated="Güncellendi", by="Yazar", also="Bunları da oku",
-               cta="Kendi kitabınla dene", button="Biblyx'i Google Play'den indir", faq="Sık sorulan sorular"),
+               cta="Kendi kitabınla dene", button="Biblyx'i Google Play'den indir", appstore="Biblyx'i App Store'dan indir", faq="Sık sorulan sorular"),
     "ru": dict(home="Главная", guides="Руководства", updated="Обновлено", by="Автор", also="Читайте также",
-               cta="Попробуйте со своей книгой", button="Скачать Biblyx в Google Play", faq="Частые вопросы"),
+               cta="Попробуйте со своей книгой", button="Скачать Biblyx в Google Play", appstore="Скачать Biblyx в App Store", faq="Частые вопросы"),
     "de": dict(home="Startseite", guides="Ratgeber", updated="Aktualisiert", by="Von", also="Weiterlesen",
-               cta="Mit dem eigenen Buch ausprobieren", button="Biblyx bei Google Play laden", faq="Häufige Fragen"),
+               cta="Mit dem eigenen Buch ausprobieren", button="Biblyx bei Google Play laden", appstore="Biblyx im App Store laden", faq="Häufige Fragen"),
     "es": dict(home="Inicio", guides="Guías", updated="Actualizado", by="Por", also="Sigue leyendo",
-               cta="Pruébalo con tu propio libro", button="Descargar Biblyx en Google Play", faq="Preguntas frecuentes"),
+               cta="Pruébalo con tu propio libro", button="Descargar Biblyx en Google Play", appstore="Descargar Biblyx en el App Store", faq="Preguntas frecuentes"),
     "fr": dict(home="Accueil", guides="Guides", updated="Mis à jour", by="Par", also="À lire aussi",
-               cta="Essayez avec votre propre livre", button="Télécharger Biblyx sur Google Play", faq="Questions fréquentes"),
+               cta="Essayez avec votre propre livre", button="Télécharger Biblyx sur Google Play", appstore="Télécharger Biblyx dans l'App Store", faq="Questions fréquentes"),
     "it": dict(home="Home", guides="Guide", updated="Aggiornato", by="Di", also="Leggi anche",
-               cta="Provalo con un tuo libro", button="Scarica Biblyx su Google Play", faq="Domande frequenti"),
+               cta="Provalo con un tuo libro", button="Scarica Biblyx su Google Play", appstore="Scarica Biblyx dall'App Store", faq="Domande frequenti"),
     "pl": dict(home="Strona główna", guides="Poradniki", updated="Zaktualizowano", by="Autor", also="Czytaj dalej",
-               cta="Wypróbuj z własną książką", button="Pobierz Biblyx z Google Play", faq="Częste pytania"),
+               cta="Wypróbuj z własną książką", button="Pobierz Biblyx z Google Play", appstore="Pobierz Biblyx z App Store", faq="Częste pytania"),
     "pt": dict(home="Início", guides="Guias", updated="Atualizado", by="Por", also="Leia também",
-               cta="Experimente com o seu próprio livro", button="Baixar o Biblyx no Google Play", faq="Perguntas frequentes"),
+               cta="Experimente com o seu próprio livro", button="Baixar o Biblyx no Google Play", appstore="Baixar o Biblyx na App Store", faq="Perguntas frequentes"),
 }
 
 ALL_GUIDES = {"en": "All guides", "tr": "Tüm rehberler", "az": "Bütün bələdçilər", "de": "Alle Ratgeber",
@@ -356,7 +372,7 @@ def render_guide(slug: str, lang: str, meta: dict, body: str, siblings: dict, al
   <aside class="cta">
     <h2>{ui["cta"]}</h2>
     <p>{esc(meta.get("cta", ""))}</p>
-    <a class="btn btn-primary" href="{play}" target="_blank" rel="noopener">{ui["button"]}</a>
+    {store_badges(lang, play)}
   </aside>
   {also}
 </main>"""
@@ -728,7 +744,7 @@ def render_story(lang: str, story: dict, stories: dict) -> str:
             paras.append(f'<p class="tr" id="t{i + 1}" lang="{lang}" hidden>{html.escape(tr[i], quote=False)}</p>')
         if i + 1 == half:
             paras.append(f'<div class="mid-cta" lang="{lang}"><p>{lib["mid"]}</p>'
-                         f'<a class="btn btn-primary" href="{play}" target="_blank" rel="noopener">Google Play</a></div>')
+                         f'{store_badges(lang, play, 40)}</div>')
     vocab = "".join(
         f'<tr id="w{k}"><td><span lang="{src}">{esc(r["w"])}</span> <small>{esc(r["p"])}</small></td>'
         f'<td>{esc(r["m"])}{f"<br><small>{esc(r["n"])}</small>" if r["n"] else ""}</td><td>{esc(r["l"])}</td></tr>'
@@ -771,7 +787,7 @@ def render_story(lang: str, story: dict, stories: dict) -> str:
         <ul>{"".join(f"<li>{esc(t)}</li>" for t in lib["app_points"])}</ul>
         <p class="app-how">{esc(lib["app_how"])}</p>
         <p class="app-line">{esc(lib["cta_line"].format(slogan=SLOGAN[lang]))}</p>
-        <a class="btn btn-primary" href="{play}" target="_blank" rel="noopener">{UI[lang]["button"]}</a>
+        {store_badges(lang, play)}
       </div>
     </section>
     <section class="vocab">
@@ -840,7 +856,7 @@ def render_library(lang: str, stories: dict, src: str = "en") -> str:
   <aside class="cta">
     <h2>{UI[lang]["cta"]}</h2>
     <p>{esc(lib["cta_line"].format(slogan=SLOGAN[lang]))}</p>
-    <a class="btn btn-primary" href="{play}" target="_blank" rel="noopener">{UI[lang]["button"]}</a>
+    {store_badges(lang, play)}
   </aside>
 </main>"""
     alternates = {l: url_for(l, libof(src, l)["path"]) for l in CTX["colls"][src][0]}

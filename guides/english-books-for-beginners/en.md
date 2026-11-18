@@ -63,7 +63,7 @@ A note on classics: they are free because they are old, and old English has word
 
 The classic problem: you meet an unknown word, open a dictionary, lose the sentence, and after three words you close the book. A reader built for learners solves this.
 
-With **Biblyx** on Android you open your own EPUB, PDF or TXT file, or paste any text, and tap a word. You see what it means in that exact sentence, not a list of ten dictionary meanings. One more tap saves the word with its sentence as a flashcard, and the app brings it back for review after 1, 3, 7, 14 and 30 days. If your library is empty, 29 short stories in 10 languages are built in; the English ones are *The Selfish Giant*, *The Gift of the Magi* and *The Tell-Tale Heart*. Reading and reviewing work offline; looking up new words needs a connection. That is the idea behind Biblyx: **Learn languages by reading your own books**.
+With **Biblyx** on Android or iPhone you open your own EPUB, PDF or TXT file, or paste any text, and tap a word. You see what it means in that exact sentence, not a list of ten dictionary meanings. One more tap saves the word with its sentence as a flashcard, and the app brings it back for review after 1, 3, 7, 14 and 30 days. If your library is empty, 38 short stories in 10 languages are built in; the English ones are *The Selfish Giant*, *The Gift of the Magi* and *The Tell-Tale Heart*. Reading and reviewing work offline; looking up new words needs a connection. That is the idea behind Biblyx: **Learn languages by reading your own books**.
 
 Whatever app you use, the habit is the same:
 

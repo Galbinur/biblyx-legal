@@ -23,7 +23,7 @@ Les sens s'affichent dans la langue de l'interface : avec l'interface en frança
 - **PDF avec du vrai texte.** Les PDF scannés sont des photos de pages ; aucune liseuse ne peut toucher un mot dans une photo, et Biblyx vous le dit à l'ouverture.
 - **Texte collé.** Depuis la version 1.3.0, vous pouvez coller un article, une nouvelle ou un long message et le lire comme un livre, avec la même traduction au toucher et les mêmes cartes.
 
-Les fichiers s'ouvrent depuis le bouton « + » de l'application ou directement depuis le gestionnaire de fichiers, un téléchargement du navigateur ou une pièce jointe, via « Ouvrir avec Biblyx ». La table des matières mène à n'importe quel chapitre dans les livres EPUB, TXT et PDF ; la liseuse propose la recherche, les signets, le surlignage en quatre couleurs, un thème clair et un thème sombre, et le défilement automatique. Si votre bibliothèque est vide, 29 nouvelles et contes en dix langues sont déjà là : le premier toucher prend moins d'une minute.
+Les fichiers s'ouvrent depuis le bouton « + » de l'application ou, sur Android, directement depuis le gestionnaire de fichiers, un téléchargement du navigateur ou une pièce jointe, via « Ouvrir avec Biblyx ». La table des matières mène à n'importe quel chapitre dans les livres EPUB, TXT et PDF ; la liseuse propose la recherche, les signets, le surlignage en quatre couleurs, un thème clair et un thème sombre, et le défilement automatique. Si votre bibliothèque est vide, 38 nouvelles et contes en dix langues sont déjà là : le premier toucher prend moins d'une minute.
 
 Une limite honnête : les livres achetés sur Kindle ou Apple Books et ceux empruntés en bibliothèque numérique sont liés à ces applications ; ils ne s'ouvrent ni dans Biblyx ni dans aucune autre liseuse.
 
@@ -37,7 +37,7 @@ Rien n'est enfermé. Word Lab exporte vos mots en paquet Anki (.apkg, avec carte
 
 Lire et réviser les cartes fonctionne hors ligne. Chercher un mot nouveau ou traduire un passage demande une connexion, parce que le sens est calculé pour votre phrase et non lu dans un fichier. Aucun compte n'est nécessaire pour lire et traduire ; en vous connectant par e-mail ou Google, les mots enregistrés, la progression des révisions, les signets et les surlignages se synchronisent entre vos appareils. Vos fichiers de livres restent sur votre appareil et ne sont jamais envoyés.
 
-La lecture, Word Lab, l'export, les rappels et la synchronisation ne demandent pas d'abonnement, et il n'y a pas de publicité. Les traductions par IA ont un quota quotidien ; Premium retire la limite quotidienne (usage raisonnable), avec une formule mensuelle, semestrielle ou annuelle. L'application est sur Android via Google Play ; une version iPhone est prévue, sans date.
+La lecture, Word Lab, l'export, les rappels et la synchronisation ne demandent pas d'abonnement, et il n'y a pas de publicité. Les traductions par IA ont un quota quotidien ; Premium retire la limite quotidienne (usage raisonnable), avec une formule mensuelle, semestrielle ou annuelle. L'application est sur Google Play pour Android et sur l'App Store pour iPhone.
 
 ## À qui Biblyx ne s'adresse pas
 
@@ -67,7 +67,7 @@ Dans la vôtre. Les sens s'affichent dans la langue de l'interface : qui lit un 
 
 ### Existe-t-il une version iPhone ?
 
-Pas encore. Biblyx est sur Android via Google Play ; une version iOS est prévue, sans date.
+Oui. Biblyx est sur l'App Store pour iPhone et sur Google Play pour Android.
 
 ### Quelle différence avec le dictionnaire du Kindle ou Google Traduction ?
 

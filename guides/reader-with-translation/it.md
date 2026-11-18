@@ -23,7 +23,7 @@ I significati compaiono nella lingua dell'interfaccia: con l'interfaccia in ital
 - **PDF con testo vero.** I PDF scansionati sono foto di pagine; nessun lettore può toccare una parola in una foto, e Biblyx te lo dice quando lo apri.
 - **Testo incollato.** Dalla versione 1.3.0 puoi incollare un articolo, un racconto o un messaggio lungo e leggerlo come un libro, con la stessa traduzione al tocco e le stesse carte.
 
-I file si aprono dal pulsante "+" dell'app oppure direttamente dal gestore file, da un download del browser o da un allegato email con "Apri con Biblyx". L'indice ti porta a qualsiasi capitolo nei libri EPUB, TXT e PDF; il lettore ha ricerca, segnalibri, evidenziazione in quattro colori, tema chiaro e scuro e scorrimento automatico. Se la libreria è vuota, ci sono già 29 racconti e fiabe in dieci lingue, così il primo tocco arriva in meno di un minuto.
+I file si aprono dal pulsante "+" dell'app oppure, su Android, direttamente dal gestore file, da un download del browser o da un allegato email con "Apri con Biblyx". L'indice ti porta a qualsiasi capitolo nei libri EPUB, TXT e PDF; il lettore ha ricerca, segnalibri, evidenziazione in quattro colori, tema chiaro e scuro e scorrimento automatico. Se la libreria è vuota, ci sono già 38 racconti e fiabe in dieci lingue, così il primo tocco arriva in meno di un minuto.
 
 Un limite onesto: i libri comprati su Kindle o Apple Books e quelli presi in prestito tramite MLOL o altre biblioteche digitali sono legati a quelle app e non si aprono né in Biblyx né in nessun altro lettore.
 
@@ -37,7 +37,7 @@ Niente resta chiuso nell'app. Word Lab esporta le tue parole come mazzo Anki (.a
 
 Leggere e ripassare le carte funziona offline. Cercare una parola nuova o tradurre un passaggio richiede la connessione, perché il significato viene calcolato per la tua frase e non letto da un file. Per leggere e tradurre non serve un account; accedendo con email o Google, parole salvate, progressi del ripasso, segnalibri ed evidenziazioni si sincronizzano tra i dispositivi. I file dei libri restano sul tuo dispositivo e non vengono mai caricati.
 
-Lettura, Word Lab, esportazione, promemoria e sincronizzazione non richiedono abbonamento, e non c'è pubblicità. Le traduzioni con l'IA hanno una quota giornaliera; Premium toglie il limite giornaliero (con uso ragionevole), con un piano mensile, semestrale o annuale. L'app è su Android tramite Google Play; la versione per iPhone è in programma, senza data.
+Lettura, Word Lab, esportazione, promemoria e sincronizzazione non richiedono abbonamento, e non c'è pubblicità. Le traduzioni con l'IA hanno una quota giornaliera; Premium toglie il limite giornaliero (con uso ragionevole), con un piano mensile, semestrale o annuale. L'app è su Google Play per Android e sull'App Store per iPhone.
 
 ## Per chi non è
 
@@ -67,7 +67,7 @@ Nella tua. I significati compaiono nella lingua dell'interfaccia: chi legge un l
 
 ### Esiste una versione per iPhone?
 
-Non ancora. Biblyx è su Android tramite Google Play; la versione iOS è in programma, senza data.
+Sì. Biblyx è sull'App Store per iPhone e su Google Play per Android.
 
 ### In cosa è diverso dal dizionario del Kindle o da Google Traduttore?
 

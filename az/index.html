@@ -76,7 +76,7 @@
       "@type": "MobileApplication",
       "name": "Biblyx",
       "description": "Biblyx kitab oxuyaraq dil öyrənənlər üçün EPUB, PDF və TXT oxuyucusudur. Öz kitablarını aç, istənilən sözə toxun, həmin cümlədəki mənasını gör və onu söz kartı kimi saxla.",
-      "operatingSystem": "Android",
+      "operatingSystem": "Android, iOS",
       "applicationCategory": "EducationalApplication",
       "offers": {
         "@type": "Offer",
@@ -141,6 +141,12 @@
     font-size:19px; color:var(--dim); max-width:560px; margin:0 auto 34px;
   }
   .cta-row{display:flex; gap:16px; justify-content:center; flex-wrap:wrap;}
+  .store-badges{display:flex; gap:12px; justify-content:center; align-items:center; flex-wrap:wrap;}
+  .store-badges a{display:inline-flex; line-height:0; transition:transform .15s ease;}
+  .store-badges a:hover{transform:translateY(-1px);}
+  .store-badges img{height:52px; width:auto;}
+  @media (max-width:480px){.store-badges img{height:42px;}}
+  .cta-row{align-items:center;}
   .btn{
     display:inline-flex; align-items:center; gap:10px; padding:14px 26px;
     border-radius:12px; font-size:15.5px; font-weight:600; text-decoration:none;
@@ -331,13 +337,13 @@
   <h1>Kitab oxuyaraq<br>dil öyrən</h1>
   <p class="lead">Biblyx kitab oxuyaraq dil öyrənənlər üçün tərcüməli EPUB, PDF və TXT oxuyucusudur. Öz kitablarını aç, istənilən sözə toxun, həmin cümlədəki mənasını gör və onu söz kartı kimi saxla.</p>
   <div class="cta-row">
-    <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.biblyx.app&amp;referrer=utm_source%3Dbiblyx.com%26utm_medium%3Dwebsite%26utm_campaign%3Dlanding_az" target="_blank" rel="noopener">
-      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 3.6v16.8c0 .5.6.8 1 .5l14-8.4c.4-.3.4-.9 0-1.2l-14-8.4c-.4-.3-1 0-1 .5z"/></svg>
-      Google Play-də əldə et
-    </a>
+    <div class="store-badges">
+      <a href="https://play.google.com/store/apps/details?id=com.biblyx.app&amp;referrer=utm_source%3Dbiblyx.com%26utm_medium%3Dwebsite%26utm_campaign%3Dlanding_az" target="_blank" rel="noopener"><img src="/assets/badges/google-play-az.png" alt="Google Play-də əldə et" width="175" height="52"></a>
+      <a href="https://apps.apple.com/app/id6835505938" target="_blank" rel="noopener"><img src="/assets/badges/app-store-az.svg" alt="App Store-dan yükləyin" width="203" height="52"></a>
+    </div>
     <a class="btn btn-secondary" href="#how">Necə işlədiyinə bax</a>
   </div>
-  <p class="cta-note">Android üçün</p>
+  <p class="cta-note">Android və iPhone üçün</p>
 </header>
 
 <section class="showcase wrap">
@@ -361,7 +367,7 @@
     <div class="step">
       <div class="num">1</div>
       <h3>Oxu</h3>
-      <p>Öz kitablarını əlavə et və ya 10 dildə 29 qısa hekayə və nağıldan biri ilə başla, sonra lüğət tablarına keçmədən sakit oxuyucuda oxu.</p>
+      <p>Öz kitablarını əlavə et və ya 10 dildə 38 qısa hekayə və nağıldan biri ilə başla, sonra lüğət tablarına keçmədən sakit oxuyucuda oxu.</p>
     </div>
     <div class="step">
       <div class="num">2</div>
@@ -381,7 +387,7 @@
   <div class="feature-grid">
     <div class="feature">
       <h3>Öz EPUB, PDF və TXT kitabların</h3>
-      <p>EPUB, TXT və mətnli PDF fayllarını əlavə et və ya onları fayl menecerindən, brauzerdən ya da e-poçtdan Biblyx ilə aç. Mündəricatdan istənilən fəslə keç.</p>
+      <p>EPUB, TXT və mətnli PDF fayllarını əlavə et və ya Android-də onları fayl menecerindən, brauzerdən ya da e-poçtdan Biblyx ilə aç. Mündəricatdan istənilən fəslə keç.</p>
     </div>
     <div class="feature">
       <h3>Cümləyə uyğun məna</h3>
@@ -495,7 +501,7 @@
       </div>
       <div class="faq-item">
         <h3>Biblyx iPhone-da var?</h3>
-        <p>Hələ yox. Biblyx Google Play vasitəsilə Android-də mövcuddur. iOS versiyası planlaşdırılır, amma tarixi hələ müəyyən deyil.</p>
+        <p>Bəli. Biblyx iPhone üçün App Store-da, Android üçün Google Play-dədir.</p>
       </div>
       <div class="faq-item">
         <h3>Biblyx adi lüğət və ya fləş kart tətbiqindən necə fərqlənir?</h3>
@@ -573,7 +579,7 @@
       "name": "Biblyx iPhone-da var?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hələ yox. Biblyx Google Play vasitəsilə Android-də mövcuddur. iOS versiyası planlaşdırılır, amma tarixi hələ müəyyən deyil."
+        "text": "Bəli. Biblyx iPhone üçün App Store-da, Android üçün Google Play-dədir."
       }
     },
     {
@@ -598,11 +604,11 @@
 <section class="facts wrap" id="facts">
   <h2>Biblyx bir baxışda</h2>
   <dl>
-    <dt>Platforma</dt><dd>Android, Google Play-də. iPhone versiyası planlaşdırılır, tarix yoxdur.</dd>
+    <dt>Platforma</dt><dd>Android (Google Play) və iPhone (App Store).</dd>
     <dt>Fayllar</dt><dd>EPUB, TXT, mətnli PDF və yapışdırılan mətn. Mağazaya və ya kitabxana tətbiqinə bağlı kitablar (Kindle, Apple Books, kitabxana icarəsi) açılmır.</dd>
     <dt>Kitab dilləri</dt><dd>İngilis, alman, ispan, fransız, italyan, rus, polyak, portuqal, türk və Azərbaycan dilləri; isveç, niderland, ukrayna və tacik dilləri betada.</dd>
     <dt>İnterfeys</dt><dd>Eyni 10 dil. Mənalar interfeys dilində görünür.</dd>
-    <dt>Başlanğıc kitabxanası</dt><dd>10 dildə 29 qısa hekayə və nağıl, tətbiqin içində hazır.</dd>
+    <dt>Başlanğıc kitabxanası</dt><dd>10 dildə 38 qısa hekayə və nağıl, tətbiqin içində hazır.</dd>
     <dt>Qiymət</dt><dd>Oxumaq, Word Lab, ixrac, xatırlatma və sinxronizasiya üçün abunə lazım deyil; reklam yoxdur. Süni intellekt tərcümələrinin gündəlik həddi var; Premium gündəlik həddi götürür, aylıq, altıaylıq və ya illik planla.</dd>
     <dt>Oflayn</dt><dd>Oxumaq və kart təkrarı internetsiz işləyir. Yeni sözə baxmaq üçün bağlantı lazımdır.</dd>
     <dt>Məlumatların</dt><dd>Kitab faylları cihazında qalır. Hesabla saxlanan sözlər, gedişat, əlfəcinlər və işarələmələr sinxronlaşır; kitablar heç vaxt.</dd>

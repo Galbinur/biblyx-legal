@@ -13,7 +13,7 @@ LingQ opiera się na nauce języka z prawdziwych treści: tysiące lekcji z nagr
 ## Najważniejsze
 
 - **LingQ** uczy przez tysiące lekcji z nagraniami w ponad 55 językach. Plan bezpłatny jest ograniczony (według bloga LingQ do 20 zapisanych słów), a Premium kosztuje 14,99 USD miesięcznie lub 119,99 USD rocznie.
-- **Biblyx** to aplikacja na Androida do czytania własnych książek w EPUB, TXT i PDF z tekstem: dotykasz słowa, a ona wyjaśnia je dla tego zdania, zapisuje zdanie na fiszce i nie wyświetla reklam. Premium kosztuje 4,99 USD miesięcznie lub 35,99 USD rocznie (Google Play, USA), mniej niż standardowe plany miesięczne i roczne LingQ, Linga, Beelinguapp i Readlang.
+- **Biblyx** to aplikacja na Androida i iPhone'a do czytania własnych książek w EPUB, TXT i PDF z tekstem: dotykasz słowa, a ona wyjaśnia je dla tego zdania, zapisuje zdanie na fiszce i nie wyświetla reklam. Premium kosztuje 4,99 USD miesięcznie lub 35,99 USD rocznie (Google Play, USA), mniej niż standardowe plany miesięczne i roczne LingQ, Linga, Beelinguapp i Readlang.
 - **Do czytania własnych książek** sprawdź Biblyx, Linga i Smart Book; LingQ też importuje e-booki.
 - **Jeśli chcesz tłumaczenia obok tekstu**, Beelinguapp pasuje początkującym, a Smart Book własnym książkom; Smart Book ma najniższe standardowe ceny spośród aplikacji, które podają swoje plany.
 - **Readable** jest tylko do angielskiego, a **Readlang** do czytania w przeglądarce na komputerze.
@@ -31,7 +31,7 @@ LingQ zasłużył na swoją renomę. Obejmuje ponad 55 języków, ma tysiące le
 | Aplikacja | Dla kogo | Standardowa cena Premium (USA, 9 lis 2026) | Wersja bezpłatna | Reklamy w wersji bezpłatnej |
 |---|---|---|---|---|
 | LingQ (Android, iPhone, przeglądarka) | lekcje z nagraniami w ponad 55 językach, import filmów i podcastów | 14,99 USD/mies., 119,99 USD/rok | ograniczona do 20 zapisanych słów (według bloga LingQ) | nie |
-| **Biblyx** (Android) | czytanie własnych książek, każde słowo wyjaśnione dla swojego zdania | 4,99 USD/mies., 35,99 USD/rok | czytanie, fiszki, eksport i synchronizacja; tłumaczenia AI z dziennym limitem | nie |
+| **Biblyx** (Android, iPhone) | czytanie własnych książek, każde słowo wyjaśnione dla swojego zdania | 4,99 USD/mies., 35,99 USD/rok | czytanie, fiszki, eksport i synchronizacja; tłumaczenia AI z dziennym limitem | nie |
 | Linga (Android, iPhone) | biblioteka ponad 1000 prawdziwych książek, z grami | 5,49 USD/mies., 54,99 USD/rok | bezpłatne pobranie, PRO płatne | nie |
 | Beelinguapp (Android, iPhone) | początkujący: tłumaczenie obok tekstu, audiobooki | 7,99 USD/mies., 49,90 USD/rok | bezpłatne pobranie | tak |
 | Smart Book (Android, iPhone) | tłumaczenie równoległe własnych książek | 1,99 USD/mies., 19,99 USD/rok | bezpłatne pobranie | tak |
@@ -65,7 +65,7 @@ Biblyx to nie kurs, lecz czytnik twoich własnych książek. Otwierasz plik EPUB
 - **Znaczenie dla zdania:** idiomy pokazują oba znaczenia, niemieckie, hiszpańskie, francuskie, włoskie i portugalskie rzeczowniki mają rodzajnik, a wyrazy złożone są dzielone na części.
 - **Fiszki, które zachowują twoje zdanie:** zapisane słowa wracają po 1, 3, 7, 14 i 30 dniach, a ty możesz je wyeksportować do Anki lub CSV.
 - **Offline:** czytanie i powtórki fiszek działają bez internetu; do sprawdzenia nowego słowa potrzebne jest połączenie.
-- **Pierwsza półka:** na pierwsze minuty czeka 29 krótkich opowiadań w 10 językach.
+- **Pierwsza półka:** na pierwsze minuty czeka 38 krótkich opowiadań w 10 językach.
 
 ![Czytnik Biblyx: dotknięte słowo jest częścią idiomu, ze znaczeniem idiomu oraz znaczeniem i gramatyką samego słowa](/screens/pl/play-idioms.jpg)
 
@@ -73,7 +73,7 @@ Cały pomysł mieści się w jednym zdaniu: **Ucz się języków, czytając wła
 
 **Co robi dobrze:** czytanie wybranych przez ciebie książek ze znaczeniami pasującymi do zdania i fiszkami, które to zdanie zachowują; żadnych reklam, nawet w wersji bezpłatnej.
 
-**Co robi gorzej:** na razie działa tylko na Androidzie (wersja na iPhone'a jest w planach, bez daty), nie ma też lekcji ani audiobooków: teksty przynosisz ty, a słowa i zdania czyta głos twojego telefonu.
+**Co robi gorzej:** nie ma lekcji ani audiobooków: teksty przynosisz ty, a słowa i zdania czyta głos twojego telefonu.
 
 **Cena:** wersja bezpłatna obejmuje czytanie, fiszki, eksport i synchronizację, z dziennym limitem tłumaczeń AI. Premium znosi dzienny limit (obowiązują zasady rozsądnego użytkowania): 4,99 USD miesięcznie, 24,99 USD za pół roku lub 35,99 USD rocznie w Google Play (USA).
 
@@ -146,7 +146,7 @@ Readlang działa w przeglądarce i jako rozszerzenie do Chrome. Klikasz słowo l
 | Aplikacja | Własne pliki | Jak poznajesz znaczenia | Praca ze słówkami | Teksty w aplikacji | Języki do nauki |
 |---|---|---|---|---|---|
 | LingQ (Android, iPhone, przeglądarka) | e-booki, artykuły, YouTube, Netflix, podcasty | sprawdzanie słów w kontekście; narzędzia AI | powtórki w odstępach, licznik znanych słów | tysiące lekcji z nagraniami | 55+ |
-| **Biblyx** (Android) | EPUB, TXT, PDF z tekstem, wklejony tekst | znaczenie od AI dopasowane do zdania, idiomy, rodzajniki rzeczowników | fiszki ze zdaniem z książki, eksport do Anki i CSV | 29 krótkich opowiadań | 10, plus 4 w wersji beta |
+| **Biblyx** (Android, iPhone) | EPUB, TXT, PDF z tekstem, wklejony tekst | znaczenie od AI dopasowane do zdania, idiomy, rodzajniki rzeczowników | fiszki ze zdaniem z książki, eksport do Anki i CSV | 38 krótkich opowiadań | 10, plus 4 w wersji beta |
 | Linga (Android, iPhone) | EPUB, PDF, MOBI, FB2, TXT | dotknięcie słowa lub wyrażenia: tłumaczenie i hasło słownikowe | fiszki z powtórkami w odstępach, gry, serie | ponad 1000 książek | 6 |
 | Beelinguapp (Android, iPhone) | nie wspomina o tym opis | tłumaczenie obok tekstu; dotknięcie słowa pokazuje znaczenie słownikowe | quizy po każdej historii | dwujęzyczne historie i audiobooki | 20+ |
 | Smart Book (Android, iPhone) | FB2, EPUB, TXT, napisy .srt | tłumaczenie równoległe; wybór usługi, w tym czatboty AI | zapisane słowa, eksport do Anki lub ReWord | dwujęzyczne historie | angielski, niemiecki, francuski, hiszpański, włoski i inne |
@@ -155,7 +155,7 @@ Readlang działa w przeglądarce i jako rozszerzenie do Chrome. Klikasz słowo l
 
 ## Podsumowanie
 
-Naszym zdaniem LingQ to najpełniejszy system na tej liście: jeśli chcesz lekcji, nagrań i wielu języków, a cena ci odpowiada, to mocny wybór. Jeśli chcesz czytać własne książki na Androidzie, z każdym słowem wyjaśnionym dla jego zdania, bez reklam i taniej, wypróbuj Biblyx. Możesz też łączyć dwa narzędzia: LingQ do lekcji i nagrań, a czytnik taki jak Biblyx do książek, które już masz w telefonie. Linga daje dużą bibliotekę prawdziwych książek, Beelinguapp łatwy start, Smart Book niedrogi czytnik równoległy, Readable dopasowany angielski, a Readlang przeglądarkę. Najprostszy test: przez tydzień czytaj ten sam rozdział w dwóch aplikacjach i zostaw tę, którą wciąż otwierasz.
+Naszym zdaniem LingQ to najpełniejszy system na tej liście: jeśli chcesz lekcji, nagrań i wielu języków, a cena ci odpowiada, to mocny wybór. Jeśli chcesz czytać własne książki na Androidzie lub iPhonie, z każdym słowem wyjaśnionym dla jego zdania, bez reklam i taniej, wypróbuj Biblyx. Możesz też łączyć dwa narzędzia: LingQ do lekcji i nagrań, a czytnik taki jak Biblyx do książek, które już masz w telefonie. Linga daje dużą bibliotekę prawdziwych książek, Beelinguapp łatwy start, Smart Book niedrogi czytnik równoległy, Readable dopasowany angielski, a Readlang przeglądarkę. Najprostszy test: przez tydzień czytaj ten sam rozdział w dwóch aplikacjach i zostaw tę, którą wciąż otwierasz.
 
 ## Jak sprawdzaliśmy
 
@@ -193,4 +193,4 @@ Tłumaczenie równoległe pokazuje cały tekst w twoim języku obok oryginału. 
 
 ### Czy Biblyx działa na iPhonie?
 
-Jeszcze nie. Biblyx jest na Androida w Google Play; wersja na iOS jest w planach, bez daty.
+Tak. Biblyx jest w App Store na iPhone'a i w Google Play na Androida.

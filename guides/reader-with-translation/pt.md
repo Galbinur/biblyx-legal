@@ -1,7 +1,7 @@
 ---
 title: App para ler livros com tradução ao tocar na palavra
 h1: App para ler livros com tradução: abra seus EPUB, PDF e TXT, toque na palavra, veja o significado na frase
-description: O Biblyx é um leitor de EPUB, PDF e TXT com tradução ao tocar na palavra: o significado naquela frase, flashcards com contexto e revisão offline. Android.
+description: O Biblyx é um leitor de EPUB, PDF e TXT com tradução ao tocar na palavra: o significado naquela frase, flashcards com contexto e revisão offline. Android e iPhone.
 path: app-para-ler-livros-com-traducao
 date: 2026-11-09
 slogan: Aprenda idiomas lendo seus próprios livros
@@ -23,7 +23,7 @@ Os significados aparecem no idioma da interface: com a interface em português, 
 - **PDF com texto de verdade.** PDFs escaneados são fotos de páginas; nenhum leitor consegue tocar numa palavra de uma foto, e o Biblyx avisa quando você abre um.
 - **Texto colado.** Desde a versão 1.3.0 você pode colar um artigo, um conto ou uma mensagem longa e ler como um livro, com a mesma tradução ao tocar e os mesmos cards.
 
-Os arquivos abrem pelo botão "+" do app ou direto do gerenciador de arquivos, de um download do navegador ou de um anexo de e-mail com "Abrir com Biblyx". O sumário leva a qualquer capítulo em livros EPUB, TXT e PDF; o leitor tem busca, marcadores, destaque em quatro cores, tema claro e escuro e rolagem automática. Se a sua biblioteca estiver vazia, já vêm 29 contos e histórias curtas em dez idiomas, então o primeiro toque leva menos de um minuto.
+Os arquivos abrem pelo botão "+" do app ou, no Android, direto do gerenciador de arquivos, de um download do navegador ou de um anexo de e-mail com "Abrir com Biblyx". O sumário leva a qualquer capítulo em livros EPUB, TXT e PDF; o leitor tem busca, marcadores, destaque em quatro cores, tema claro e escuro e rolagem automática. Se a sua biblioteca estiver vazia, já vêm 38 contos e histórias curtas em dez idiomas, então o primeiro toque leva menos de um minuto.
 
 Um limite honesto: livros comprados no Kindle ou no Apple Books e os emprestados por bibliotecas digitais ficam presos a esses aplicativos e não abrem no Biblyx nem em nenhum outro leitor.
 
@@ -37,7 +37,7 @@ Nada fica trancado. O Word Lab exporta suas palavras como baralho do Anki (.apkg
 
 Ler e revisar cards funciona offline. Consultar uma palavra nova ou traduzir um trecho precisa de internet, porque o significado é calculado para a sua frase, e não lido de um arquivo. Não é preciso conta para ler e traduzir; ao entrar com e-mail ou Google, palavras salvas, progresso das revisões, marcadores e destaques sincronizam entre aparelhos. Os arquivos dos livros ficam no seu aparelho e nunca são enviados.
 
-Leitura, Word Lab, exportação, lembretes e sincronização não precisam de assinatura, e não há anúncios. As traduções por IA têm uma cota diária; o Premium remove o limite diário (com uso razoável), em plano mensal, semestral ou anual. O app está no Android pelo Google Play; a versão para iPhone está planejada, sem data.
+Leitura, Word Lab, exportação, lembretes e sincronização não precisam de assinatura, e não há anúncios. As traduções por IA têm uma cota diária; o Premium remove o limite diário (com uso razoável), em plano mensal, semestral ou anual. O app está no Google Play para Android e na App Store para iPhone.
 
 ## Para quem não é
 
@@ -67,7 +67,7 @@ No seu. Os significados aparecem no idioma da interface, então quem lê um livr
 
 ### Tem versão para iPhone?
 
-Ainda não. O Biblyx está no Android pelo Google Play; a versão para iOS está planejada, sem data.
+Sim. O Biblyx está na App Store para iPhone e no Google Play para Android.
 
 ### Qual é a diferença para o dicionário do Kindle ou o Google Tradutor?
 

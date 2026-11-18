@@ -76,7 +76,7 @@
       "@type": "MobileApplication",
       "name": "Biblyx",
       "description": "Biblyx es un lector de libros para quienes aprenden idiomas. Abre tus propios libros EPUB, PDF o TXT, toca cualquier palabra para ver su traducción en esa frase y guárdala como tarjeta de vocabulario.",
-      "operatingSystem": "Android",
+      "operatingSystem": "Android, iOS",
       "applicationCategory": "EducationalApplication",
       "offers": {
         "@type": "Offer",
@@ -141,6 +141,12 @@
     font-size:19px; color:var(--dim); max-width:560px; margin:0 auto 34px;
   }
   .cta-row{display:flex; gap:16px; justify-content:center; flex-wrap:wrap;}
+  .store-badges{display:flex; gap:12px; justify-content:center; align-items:center; flex-wrap:wrap;}
+  .store-badges a{display:inline-flex; line-height:0; transition:transform .15s ease;}
+  .store-badges a:hover{transform:translateY(-1px);}
+  .store-badges img{height:52px; width:auto;}
+  @media (max-width:480px){.store-badges img{height:42px;}}
+  .cta-row{align-items:center;}
   .btn{
     display:inline-flex; align-items:center; gap:10px; padding:14px 26px;
     border-radius:12px; font-size:15.5px; font-weight:600; text-decoration:none;
@@ -331,13 +337,13 @@
   <h1>Aprende idiomas<br>leyendo libros</h1>
   <p class="lead">Biblyx es un lector de libros para quienes aprenden idiomas. Abre tus propios libros EPUB, PDF o TXT, toca cualquier palabra para ver su traducción en esa frase y guárdala como tarjeta de vocabulario.</p>
   <div class="cta-row">
-    <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.biblyx.app&amp;referrer=utm_source%3Dbiblyx.com%26utm_medium%3Dwebsite%26utm_campaign%3Dlanding_es" target="_blank" rel="noopener">
-      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 3.6v16.8c0 .5.6.8 1 .5l14-8.4c.4-.3.4-.9 0-1.2l-14-8.4c-.4-.3-1 0-1 .5z"/></svg>
-      Disponible en Google Play
-    </a>
+    <div class="store-badges">
+      <a href="https://play.google.com/store/apps/details?id=com.biblyx.app&amp;referrer=utm_source%3Dbiblyx.com%26utm_medium%3Dwebsite%26utm_campaign%3Dlanding_es" target="_blank" rel="noopener"><img src="/assets/badges/google-play-es.png" alt="Disponible en Google Play" width="175" height="52"></a>
+      <a href="https://apps.apple.com/app/id6835505938" target="_blank" rel="noopener"><img src="/assets/badges/app-store-es.svg" alt="Descárgalo en el App Store" width="156" height="52"></a>
+    </div>
     <a class="btn btn-secondary" href="#how">Ver cómo funciona</a>
   </div>
-  <p class="cta-note">Para Android</p>
+  <p class="cta-note">Para Android y iPhone</p>
 </header>
 
 <section class="showcase wrap">
@@ -361,7 +367,7 @@
     <div class="step">
       <div class="num">1</div>
       <h3>Lee</h3>
-      <p>Importa tus propios libros o empieza por uno de los 29 relatos breves y cuentos en 10 idiomas, y lee en un lector tranquilo, sin tener que saltar a una pestaña de diccionario.</p>
+      <p>Importa tus propios libros o empieza por uno de los 38 relatos breves y cuentos en 10 idiomas, y lee en un lector tranquilo, sin tener que saltar a una pestaña de diccionario.</p>
     </div>
     <div class="step">
       <div class="num">2</div>
@@ -381,7 +387,7 @@
   <div class="feature-grid">
     <div class="feature">
       <h3>Tus propios libros en EPUB, PDF y TXT</h3>
-      <p>Importa archivos EPUB, TXT y PDF en formato de texto, o ábrelos con Biblyx desde un gestor de archivos, el navegador o el correo. El índice te lleva a cualquier capítulo.</p>
+      <p>Importa archivos EPUB, TXT y PDF en formato de texto, o, en Android, ábrelos con Biblyx desde un gestor de archivos, el navegador o el correo. El índice te lleva a cualquier capítulo.</p>
     </div>
     <div class="feature">
       <h3>El significado que encaja en la frase</h3>
@@ -495,7 +501,7 @@
       </div>
       <div class="faq-item">
         <h3>¿Está Biblyx disponible en iPhone?</h3>
-        <p>Todavía no. Biblyx está disponible para Android a través de Google Play. Está prevista una versión para iOS, pero aún no tiene fecha.</p>
+        <p>Sí. Biblyx está en la App Store para iPhone y en Google Play para Android.</p>
       </div>
       <div class="faq-item">
         <h3>¿En qué se diferencia Biblyx de un diccionario o de una app de tarjetas?</h3>
@@ -573,7 +579,7 @@
       "name": "¿Está Biblyx disponible en iPhone?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Todavía no. Biblyx está disponible para Android a través de Google Play. Está prevista una versión para iOS, pero aún no tiene fecha."
+        "text": "Sí. Biblyx está en la App Store para iPhone y en Google Play para Android."
       }
     },
     {
@@ -598,11 +604,11 @@
 <section class="facts wrap" id="facts">
   <h2>Biblyx de un vistazo</h2>
   <dl>
-    <dt>Plataforma</dt><dd>Android, en Google Play. La versión para iPhone está prevista, sin fecha.</dd>
+    <dt>Plataforma</dt><dd>Android (Google Play) y iPhone (App Store).</dd>
     <dt>Archivos</dt><dd>EPUB, TXT, PDF con texto y texto pegado. Los libros atados a una tienda o a una app de biblioteca (Kindle, Apple Books, préstamos de biblioteca) no se abren.</dd>
     <dt>Idiomas de los libros</dt><dd>Inglés, alemán, español, francés, italiano, ruso, polaco, portugués, turco y azerbaiyano; sueco, neerlandés, ucraniano y tayiko en beta.</dd>
     <dt>Interfaz</dt><dd>Los mismos 10 idiomas. Los significados aparecen en el idioma de la interfaz.</dd>
-    <dt>Biblioteca inicial</dt><dd>29 cuentos y relatos cortos en 10 idiomas, ya dentro de la app.</dd>
+    <dt>Biblioteca inicial</dt><dd>38 cuentos y relatos cortos en 10 idiomas, ya dentro de la app.</dd>
     <dt>Coste</dt><dd>Leer, Word Lab, exportar, los recordatorios y la sincronización no necesitan suscripción; sin anuncios. Las traducciones con IA tienen un cupo diario; Premium elimina el límite diario con un plan mensual, semestral o anual.</dd>
     <dt>Sin conexión</dt><dd>Leer y repasar tarjetas funciona sin conexión. Consultar una palabra nueva necesita internet.</dd>
     <dt>Tus datos</dt><dd>Los archivos de los libros se quedan en tu dispositivo. Con una cuenta se sincronizan palabras guardadas, progreso, marcadores y subrayados; los libros, nunca.</dd>

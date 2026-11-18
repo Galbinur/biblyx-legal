@@ -1,7 +1,7 @@
 ---
 title: E-Book-Reader mit Übersetzung zum Sprachenlernen
 h1: E-Book-Reader mit Übersetzung: eigene EPUB-, PDF- und TXT-Bücher lesen und die Wörter darin lernen
-description: Biblyx ist ein EPUB-, PDF- und TXT-Reader mit Übersetzung per Fingertipp: die Bedeutung im Satz, Karteikarten mit Kontext, Wiederholung offline. Für Android.
+description: Biblyx ist ein EPUB-, PDF- und TXT-Reader mit Übersetzung per Fingertipp: die Bedeutung im Satz, Karteikarten mit Kontext, Wiederholung offline. Für Android und iPhone.
 path: ebook-reader-mit-uebersetzung
 date: 2026-11-09
 slogan: Sprachen lernen beim Lesen deiner eigenen Bücher
@@ -23,7 +23,7 @@ Die Bedeutungen erscheinen in der Sprache deiner Oberfläche. Biblyx übersetzt 
 - **PDF mit echtem Text.** Gescannte PDFs sind Fotos von Seiten; kein Reader kann auf ein Wort in einem Foto tippen, und Biblyx sagt es dir beim Öffnen.
 - **Eingefügter Text.** Seit Version 1.3.0 kannst du einen Artikel, eine Geschichte oder eine lange Nachricht einfügen und wie ein Buch lesen, mit derselben Übersetzung per Tipp und denselben Karten.
 
-Dateien öffnest du über das „+“ in der App oder direkt aus dem Dateimanager, einem Browser-Download oder einem E-Mail-Anhang mit „Öffnen mit Biblyx“. Ein Inhaltsverzeichnis bringt dich in EPUB-, TXT- und PDF-Büchern zu jedem Kapitel; der Reader hat Suche, Lesezeichen, Markierungen in vier Farben, ein helles und ein dunkles Design und automatisches Scrollen. Ist deine Bibliothek leer, liegen schon 29 kurze Geschichten und Märchen in zehn Sprachen bereit, der erste Tipp dauert also keine Minute.
+Dateien öffnest du über das „+“ in der App oder auf Android direkt aus dem Dateimanager, einem Browser-Download oder einem E-Mail-Anhang mit „Öffnen mit Biblyx“. Ein Inhaltsverzeichnis bringt dich in EPUB-, TXT- und PDF-Büchern zu jedem Kapitel; der Reader hat Suche, Lesezeichen, Markierungen in vier Farben, ein helles und ein dunkles Design und automatisches Scrollen. Ist deine Bibliothek leer, liegen schon 38 kurze Geschichten und Märchen in zehn Sprachen bereit, der erste Tipp dauert also keine Minute.
 
 Eine ehrliche Grenze: Bücher aus Kindle oder Apple Books und Leihbücher aus der Onleihe sind an diese Apps gebunden und öffnen sich weder in Biblyx noch in einem anderen Reader.
 
@@ -37,7 +37,7 @@ Nichts bleibt eingesperrt. Word Lab exportiert deine Wörter als Anki-Stapel (.a
 
 Lesen und Karten wiederholen funktionieren offline. Ein neues Wort nachschlagen oder eine Stelle übersetzen braucht eine Internetverbindung, weil die Bedeutung für deinen Satz berechnet und nicht aus einer Datei gelesen wird. Zum Lesen und Übersetzen brauchst du kein Konto; mit einer Anmeldung per E-Mail oder Google werden gespeicherte Wörter, Lernfortschritt, Lesezeichen und Markierungen zwischen Geräten abgeglichen. Deine Buchdateien bleiben auf dem Gerät und werden nie hochgeladen.
 
-Lesen, Word Lab, Export, Erinnerungen und Abgleich brauchen kein Abo, und es gibt keine Werbung. KI-Übersetzungen haben ein tägliches Kontingent; Premium hebt das Tageslimit auf (Fair Use gilt), mit einem Monats-, Sechsmonats- oder Jahresplan. Die App gibt es für Android bei Google Play; eine iPhone-Version ist geplant, ohne Termin.
+Lesen, Word Lab, Export, Erinnerungen und Abgleich brauchen kein Abo, und es gibt keine Werbung. KI-Übersetzungen haben ein tägliches Kontingent; Premium hebt das Tageslimit auf (Fair Use gilt), mit einem Monats-, Sechsmonats- oder Jahresplan. Die App gibt es für Android bei Google Play und fürs iPhone im App Store.
 
 ## Für wen die App nichts ist
 
@@ -67,7 +67,7 @@ In deiner eigenen. Bedeutungen erscheinen in der Sprache der Oberfläche; wer mi
 
 ### Gibt es eine iPhone-Version?
 
-Noch nicht. Biblyx gibt es für Android bei Google Play; eine iOS-Version ist geplant, ein Termin steht nicht fest.
+Ja. Biblyx gibt es im App Store fürs iPhone und bei Google Play für Android.
 
 ### Was ist der Unterschied zum Kindle-Wörterbuch oder zu Google Übersetzer?
 

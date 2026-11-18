@@ -13,7 +13,7 @@ LingQ se basa en aprender un idioma con contenido real: miles de lecciones con a
 ## Lo esencial
 
 - **LingQ** enseña con miles de lecciones con audio en más de 55 idiomas. Su plan gratuito es limitado (a 20 palabras guardadas, según el blog de LingQ), y Premium cuesta 14,99 $ al mes o 119,99 $ al año.
-- **Biblyx** es una app para Android con la que lees tus propios libros en EPUB, TXT y PDF con texto: tocas una palabra y te la explica para esa frase, guarda la frase en la tarjeta y no muestra anuncios. Premium cuesta 4,99 $ al mes o 35,99 $ al año (Google Play, EE. UU.), menos que los planes estándar mensuales y anuales de LingQ, Linga, Beelinguapp y Readlang.
+- **Biblyx** es una app para Android y iPhone con la que lees tus propios libros en EPUB, TXT y PDF con texto: tocas una palabra y te la explica para esa frase, guarda la frase en la tarjeta y no muestra anuncios. Premium cuesta 4,99 $ al mes o 35,99 $ al año (Google Play, EE. UU.), menos que los planes estándar mensuales y anuales de LingQ, Linga, Beelinguapp y Readlang.
 - **Para leer tus propios libros**, mira Biblyx, Linga y Smart Book; LingQ también importa libros electrónicos.
 - **Si quieres la traducción junto al texto**, Beelinguapp encaja con principiantes y Smart Book con tus propios libros; Smart Book tiene los precios estándar más bajos de las apps que publican sus planes.
 - **Readable** es solo para inglés, y **Readlang**, para leer en el navegador del ordenador.
@@ -31,7 +31,7 @@ LingQ se ha ganado su fama. Cubre más de 55 idiomas, tiene miles de lecciones c
 | App | Ideal para | Precio estándar de Premium (EE. UU., 9 nov. 2026) | Versión gratuita | Anuncios en la versión gratuita |
 |---|---|---|---|---|
 | LingQ (Android, iPhone, web) | lecciones con audio en más de 55 idiomas, importación de vídeos y pódcasts | 14,99 $/mes, 119,99 $/año | limitada a 20 palabras guardadas, según el blog de LingQ | no |
-| **Biblyx** (Android) | leer tus propios libros, con cada palabra explicada para su frase | 4,99 $/mes, 35,99 $/año | lectura, tarjetas, exportación y sincronización; traducciones de IA con un cupo diario | no |
+| **Biblyx** (Android, iPhone) | leer tus propios libros, con cada palabra explicada para su frase | 4,99 $/mes, 35,99 $/año | lectura, tarjetas, exportación y sincronización; traducciones de IA con un cupo diario | no |
 | Linga (Android, iPhone) | una biblioteca de más de 1000 libros reales, con juegos | 5,49 $/mes, 54,99 $/año | descarga gratuita, PRO es de pago | no |
 | Beelinguapp (Android, iPhone) | principiantes: la traducción junto al texto, audiolibros | 7,99 $/mes, 49,90 $/año | descarga gratuita | sí |
 | Smart Book (Android, iPhone) | una traducción paralela de tus propios libros | 1,99 $/mes, 19,99 $/año | descarga gratuita | sí |
@@ -65,7 +65,7 @@ Biblyx no es un curso, sino un lector para tus propios libros. Abres un EPUB, un
 - **Un significado para la frase:** los modismos muestran los dos significados, los sustantivos en alemán, español, francés, italiano y portugués aparecen con su artículo y las palabras compuestas se separan en partes.
 - **Tarjetas que conservan tu frase:** las palabras guardadas vuelven al cabo de 1, 3, 7, 14 y 30 días, y puedes exportarlas a Anki o CSV.
 - **Sin conexión:** leer y repasar las tarjetas funcionan sin internet; para consultar una palabra nueva hace falta conexión.
-- **Una primera estantería:** 29 relatos cortos en 10 idiomas para los primeros minutos.
+- **Una primera estantería:** 38 relatos cortos en 10 idiomas para los primeros minutos.
 
 ![Lector de Biblyx: la palabra tocada forma parte de una frase hecha, con el significado de la frase y el significado y la gramática de la palabra](/screens/es/play-idioms.jpg)
 
@@ -73,7 +73,7 @@ La idea cabe en una línea: **Aprende idiomas leyendo tus propios libros**.
 
 **Qué hace bien:** leer los libros que tú eliges, con significados que encajan en la frase y tarjetas que la conservan; sin anuncios, ni siquiera en la versión gratuita.
 
-**Qué no hace tan bien:** por ahora solo está en Android (hay prevista una versión para iPhone, sin fecha), y no tiene lecciones ni audiolibros: los textos los pones tú, y la voz de tu móvil lee las palabras y las frases en voz alta.
+**Qué no hace tan bien:** no tiene lecciones ni audiolibros: los textos los pones tú, y la voz de tu móvil lee las palabras y las frases en voz alta.
 
 **Precio:** la versión gratuita incluye lectura, tarjetas, exportación y sincronización, con un cupo diario de traducciones de IA. Premium quita el límite diario (con uso razonable): 4,99 $ al mes, 24,99 $ por seis meses o 35,99 $ al año en Google Play (EE. UU.).
 
@@ -146,7 +146,7 @@ Readlang funciona en el navegador y como extensión de Chrome. Haces clic en una
 | App | Tus propios archivos | Cómo obtienes los significados | Práctica de vocabulario | Lectura incluida | Idiomas para aprender |
 |---|---|---|---|---|---|
 | LingQ (Android, iPhone, web) | libros electrónicos, artículos web, YouTube, Netflix, pódcasts | buscar palabras en contexto; herramientas de IA | repaso espaciado, contador de palabras conocidas | miles de lecciones con audio | 55+ |
-| **Biblyx** (Android) | EPUB, TXT, PDF con texto, texto pegado | significado de IA ajustado a la frase, modismos, artículos de los sustantivos | tarjetas con la frase del libro, exportación a Anki y CSV | 29 relatos cortos | 10, más 4 en beta |
+| **Biblyx** (Android, iPhone) | EPUB, TXT, PDF con texto, texto pegado | significado de IA ajustado a la frase, modismos, artículos de los sustantivos | tarjetas con la frase del libro, exportación a Anki y CSV | 38 relatos cortos | 10, más 4 en beta |
 | Linga (Android, iPhone) | EPUB, PDF, MOBI, FB2, TXT | tocar una palabra o frase: traducción y entrada de diccionario | tarjetas con repetición espaciada, juegos, rachas | más de 1000 libros | 6 |
 | Beelinguapp (Android, iPhone) | no lo menciona su ficha | traducción en paralelo; tocar una palabra da su significado de diccionario | pruebas tras cada historia | historias bilingües y audiolibros | 20+ |
 | Smart Book (Android, iPhone) | FB2, EPUB, TXT, subtítulos .srt | traducción paralela; elección de servicio, incluidos chatbots de IA | palabras guardadas, exportación a Anki o ReWord | historias bilingües | inglés, alemán, francés, español, italiano y más |
@@ -155,7 +155,7 @@ Readlang funciona en el navegador y como extensión de Chrome. Haces clic en una
 
 ## En resumen
 
-En nuestra opinión, LingQ es el sistema más completo de esta lista: si quieres lecciones, audio y muchos idiomas y el precio te encaja, es una opción sólida. Si quieres leer tus propios libros en Android, con cada palabra explicada para su frase, sin anuncios y por menos dinero, prueba Biblyx. También puedes combinar dos herramientas: LingQ para lecciones y audio, y un lector como Biblyx para los libros que ya tienes en el móvil. Linga aporta una gran biblioteca de libros reales; Beelinguapp, un comienzo fácil; Smart Book, un lector paralelo barato; Readable, inglés adaptado, y Readlang, el navegador. La prueba más sencilla: lee el mismo capítulo en dos apps durante una semana y quédate con la que sigues abriendo.
+En nuestra opinión, LingQ es el sistema más completo de esta lista: si quieres lecciones, audio y muchos idiomas y el precio te encaja, es una opción sólida. Si quieres leer tus propios libros en Android o iPhone, con cada palabra explicada para su frase, sin anuncios y por menos dinero, prueba Biblyx. También puedes combinar dos herramientas: LingQ para lecciones y audio, y un lector como Biblyx para los libros que ya tienes en el móvil. Linga aporta una gran biblioteca de libros reales; Beelinguapp, un comienzo fácil; Smart Book, un lector paralelo barato; Readable, inglés adaptado, y Readlang, el navegador. La prueba más sencilla: lee el mismo capítulo en dos apps durante una semana y quédate con la que sigues abriendo.
 
 ## Cómo lo comprobamos
 
@@ -193,4 +193,4 @@ Una traducción paralela muestra todo el texto en tu idioma junto al original. U
 
 ### ¿Biblyx funciona en iPhone?
 
-Todavía no. Biblyx está en Android a través de Google Play; la versión para iOS está prevista, sin fecha.
+Sí. Biblyx está en la App Store para iPhone y en Google Play para Android.

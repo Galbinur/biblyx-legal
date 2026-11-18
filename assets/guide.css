@@ -164,3 +164,8 @@ a.g.open, a.g:focus-visible{background:var(--tint); border-bottom-style:solid; b
 .foot-backed .el-mark{width:26px; height:26px;}
 .foot-backed .el-word{font-size:22px; font-weight:700; letter-spacing:-.02em;}
 .foot-backed .el-sub{font-size:22px; font-weight:400; color:var(--dim); letter-spacing:-.02em;}
+.store-badges{display:flex; flex-wrap:wrap; gap:12px; align-items:center;}
+.store-badges a{display:inline-flex; line-height:0;}
+.store-badges img{height:44px; width:auto;}
+.mid-cta .store-badges{flex-shrink:0;}
+.mid-cta .store-badges img{height:40px;}

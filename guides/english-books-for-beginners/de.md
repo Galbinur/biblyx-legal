@@ -63,7 +63,7 @@ Ein Hinweis zu Klassikern: Sie sind kostenlos, weil sie alt sind, und altes Engl
 
 Das klassische Problem: Du stößt auf ein unbekanntes Wort, öffnest das Wörterbuch, verlierst den Satz, und nach drei Wörtern klappst du das Buch zu. Ein Reader für Lernende löst genau das.
 
-Mit **Biblyx** auf Android öffnest du deine eigene EPUB-, PDF- oder TXT-Datei oder fügst einen beliebigen Text ein und tippst auf ein Wort. Du siehst, was es in genau diesem Satz bedeutet, nicht zehn Wörterbuchbedeutungen. Ein weiterer Tipp speichert das Wort mit seinem Satz als Karteikarte, und die App bringt es nach 1, 3, 7, 14 und 30 Tagen zur Wiederholung zurück. Ist deine Bibliothek leer, sind 29 Kurzgeschichten in 10 Sprachen schon enthalten; die englischen sind *The Selfish Giant*, *The Gift of the Magi* und *The Tell-Tale Heart*. Lesen und Wiederholen funktionieren offline, für neue Wörter braucht es eine Verbindung. Die Idee hinter alldem: **Sprachen lernen beim Lesen deiner eigenen Bücher**.
+Mit **Biblyx** auf Android oder dem iPhone öffnest du deine eigene EPUB-, PDF- oder TXT-Datei oder fügst einen beliebigen Text ein und tippst auf ein Wort. Du siehst, was es in genau diesem Satz bedeutet, nicht zehn Wörterbuchbedeutungen. Ein weiterer Tipp speichert das Wort mit seinem Satz als Karteikarte, und die App bringt es nach 1, 3, 7, 14 und 30 Tagen zur Wiederholung zurück. Ist deine Bibliothek leer, sind 38 Kurzgeschichten in 10 Sprachen schon enthalten; die englischen sind *The Selfish Giant*, *The Gift of the Magi* und *The Tell-Tale Heart*. Lesen und Wiederholen funktionieren offline, für neue Wörter braucht es eine Verbindung. Die Idee hinter alldem: **Sprachen lernen beim Lesen deiner eigenen Bücher**.
 
 Welche App du auch nutzt, die Gewohnheit ist dieselbe:
 

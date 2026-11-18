@@ -1,7 +1,7 @@
 ---
 title: İngilizce kitap okuma uygulaması: çevirili okuyucu
 h1: İngilizce kitap okuma uygulaması: kendi kitabını aç, kelimeye dokun, anlamını cümlede gör
-description: Biblyx, dil öğrenenler için çevirili kitap okuma uygulaması: EPUB, PDF ve TXT dosyalarını aç, kelimeye dokun, o cümledeki anlamını gör, kelime kartı yap. Android.
+description: Biblyx, dil öğrenenler için çevirili kitap okuma uygulaması: EPUB, PDF ve TXT dosyalarını aç, kelimeye dokun, o cümledeki anlamını gör, kelime kartı yap. Android ve iPhone.
 path: ingilizce-kitap-okuma-uygulamasi
 date: 2026-11-09
 slogan: Kendi kitaplarını okuyarak dil öğren
@@ -23,7 +23,7 @@ Anlamlar uygulamanın dilinde görünür; Türkçe arayüzde İngilizce kitabın
 - **Gerçek metin içeren PDF.** Taranmış PDF sayfanın fotoğrafıdır; hiçbir okuyucu fotoğraftaki kelimeye dokunamaz, Biblyx böyle bir dosyayı açınca bunu söyler.
 - **Yapıştırılan metin.** 1.3.0 sürümünden beri bir makaleyi, hikâyeyi ya da uzun bir mesajı yapıştırıp kitap gibi okuyabilirsin; aynı dokunarak çeviri, aynı kartlar.
 
-Dosyalar uygulamadaki "+" düğmesinden ya da doğrudan dosya yöneticisinden, tarayıcı indirmesinden veya e-posta ekinden "Biblyx ile aç" diyerek açılır. İçindekiler tablosu EPUB, TXT ve PDF kitaplarda istediğin bölüme götürür; okuyucuda arama, yer imi, dört renkte vurgulama, açık ve koyu tema ve otomatik kaydırma var. Kütüphanen boşsa on dilde 29 kısa hikâye ve masal hazır gelir; ilk dokunuş bir dakika sürmez.
+Dosyalar uygulamadaki "+" düğmesinden ya da Android'de doğrudan dosya yöneticisinden, tarayıcı indirmesinden veya e-posta ekinden "Biblyx ile aç" diyerek açılır. İçindekiler tablosu EPUB, TXT ve PDF kitaplarda istediğin bölüme götürür; okuyucuda arama, yer imi, dört renkte vurgulama, açık ve koyu tema ve otomatik kaydırma var. Kütüphanen boşsa on dilde 38 kısa hikâye ve masal hazır gelir; ilk dokunuş bir dakika sürmez.
 
 Dürüst bir sınır: Kindle ya da Apple Books'tan alınan ve dijital kütüphaneden ödünç alınan kitaplar o uygulamalara kilitlidir; Biblyx'te de başka hiçbir okuyucuda da açılmaz.
 
@@ -37,7 +37,7 @@ Hiçbir şey içeride kilitli kalmaz. Word Lab kelimelerini Anki destesi (.apkg,
 
 Okuma ve kart tekrarı çevrimdışı çalışır. Yeni bir kelimeye bakmak ya da pasaj çevirmek internet ister, çünkü anlam bir dosyadan okunmaz, senin cümlen için hesaplanır. Okumak ve çevirmek için hesap gerekmez; e-posta ya da Google ile giriş yaparsan kayıtlı kelimeler, tekrar ilerlemesi, yer imleri ve vurgular cihazlar arasında eşitlenir. Kitap dosyaların telefonunda kalır, hiçbir yere yüklenmez.
 
-Okuma, Word Lab, dışa aktarma, hatırlatıcı ve eşitleme için abonelik gerekmez; reklam yoktur. Yapay zekâ çevirilerinin günlük bir hakkı vardır; Premium günlük sınırı kaldırır (makul kullanım kuralıyla), aylık, altı aylık ya da yıllık planla. Uygulama Google Play'de, Android için; iPhone sürümü planlanıyor, tarih yok.
+Okuma, Word Lab, dışa aktarma, hatırlatıcı ve eşitleme için abonelik gerekmez; reklam yoktur. Yapay zekâ çevirilerinin günlük bir hakkı vardır; Premium günlük sınırı kaldırır (makul kullanım kuralıyla), aylık, altı aylık ya da yıllık planla. Uygulama Android için Google Play'de, iPhone için App Store'da.
 
 ## Kimin için değil
 
@@ -67,7 +67,7 @@ Kendi dilinde. Anlamlar arayüz dilinde görünür; Türkçe arayüzle İngilizc
 
 ### iPhone sürümü var mı?
 
-Henüz yok. Biblyx Google Play'de, Android için; iOS sürümü planlanıyor ama tarih verilmedi.
+Evet. Biblyx iPhone için App Store'da, Android için Google Play'de.
 
 ### Kindle sözlüğünden ya da Google Çeviri'den farkı ne?
 

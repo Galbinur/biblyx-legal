@@ -72,4 +72,4 @@ Non. Mots enregistrés, cartes, progression des révisions, signets et surlignag
 
 ### Existe-t-il une version iPhone ?
 
-Pas encore. Biblyx est sur Android via Google Play ; une version iOS est prévue, sans date.
+Oui. Biblyx est sur l'App Store pour iPhone et sur Google Play pour Android.

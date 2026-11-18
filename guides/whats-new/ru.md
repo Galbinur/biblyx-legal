@@ -72,4 +72,4 @@ Google Play устанавливает обновления сам, если в�
 
 ### Есть ли версия для iPhone?
 
-Пока нет. Biblyx доступен для Android в Google Play; версия для iOS планируется, даты нет.
+Да. Biblyx есть в App Store для iPhone и в Google Play для Android.

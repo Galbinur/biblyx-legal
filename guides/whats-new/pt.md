@@ -72,4 +72,4 @@ Escreva para support@biblyx.com. Toda mensagem é lida, e as correções costuma
 
 ### Tem versão para iPhone?
 
-Ainda não. O Biblyx está no Android pelo Google Play; a versão para iOS está planejada, sem data.
+Sim. O Biblyx está na App Store para iPhone e no Google Play para Android.

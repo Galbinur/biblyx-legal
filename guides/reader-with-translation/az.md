@@ -1,7 +1,7 @@
 ---
 title: Tərcüməli kitab oxuyucu: öz kitabını oxu, söz öyrən
 h1: Tərcüməli kitab oxuyucu: EPUB, PDF və TXT kitabını aç, sözə toxun, mənasını cümlədə gör
-description: Biblyx dil öyrənənlər üçün tərcüməli kitab oxuyucudur: EPUB, PDF və TXT faylını aç, sözə toxun, həmin cümlədəki mənasını gör, kart kimi saxla. Android üçün.
+description: Biblyx dil öyrənənlər üçün tərcüməli kitab oxuyucudur: EPUB, PDF və TXT faylını aç, sözə toxun, həmin cümlədəki mənasını gör, kart kimi saxla. Android və iPhone üçün.
 path: tercumeli-kitab-oxuyucu
 date: 2026-11-09
 slogan: Öz kitablarını oxuyaraq dil öyrən
@@ -23,7 +23,7 @@ Mənalar tətbiqin dilində görünür: Azərbaycan dilində interfeyslə ingili
 - **Həqiqi mətni olan PDF.** Skan edilmiş PDF səhifənin şəklidir; heç bir oxuyucu şəkildəki sözə toxuna bilməz, Biblyx belə faylı açanda bunu deyir.
 - **Yapışdırılan mətn.** 1.3.0 versiyasından bəri məqaləni, hekayəni və ya uzun bir mesajı yapışdırıb kitab kimi oxuya bilərsən; eyni toxunaraq tərcümə, eyni kartlar.
 
-Fayllar tətbiqdəki "+" düyməsindən, ya da birbaşa fayl menecerindən, brauzer yükləməsindən və ya e-poçt qoşmasından "Biblyx ilə aç" deyərək açılır. Mündəricat EPUB, TXT və PDF kitablarda istədiyin fəslə aparır; oxuyucuda axtarış, əlfəcin, dörd rəngdə işarələmə, açıq və qaranlıq tema, avtomatik sürüşmə var. Kitabxanan boşdursa, 10 dildə 29 qısa hekayə və nağıl hazır gəlir; ilk toxunuş bir dəqiqə çəkmir.
+Fayllar tətbiqdəki "+" düyməsindən, ya da Android-də birbaşa fayl menecerindən, brauzer yükləməsindən və ya e-poçt qoşmasından "Biblyx ilə aç" deyərək açılır. Mündəricat EPUB, TXT və PDF kitablarda istədiyin fəslə aparır; oxuyucuda axtarış, əlfəcin, dörd rəngdə işarələmə, açıq və qaranlıq tema, avtomatik sürüşmə var. Kitabxanan boşdursa, 10 dildə 38 qısa hekayə və nağıl hazır gəlir; ilk toxunuş bir dəqiqə çəkmir.
 
 Dürüst bir hədd: Kindle və ya Apple Books-dan alınan və kitabxana tətbiqlərindən götürülən kitablar həmin tətbiqlərə bağlıdır; nə Biblyx-də, nə də başqa oxuyucuda açılmır.
 
@@ -37,7 +37,7 @@ Heç nə içəridə qalmır. Word Lab sözlərini Anki dəsti (.apkg, hazır kar
 
 Oxumaq və kartları təkrar etmək internetsiz işləyir. Yeni sözə baxmaq və ya parça tərcümə etmək üçün bağlantı lazımdır, çünki məna fayldan oxunmur, sənin cümlən üçün hesablanır. Oxumaq və tərcümə üçün hesab lazım deyil; e-poçt və ya Google ilə daxil olsan, saxlanan sözlər, təkrar gedişatı, əlfəcinlər və işarələmələr cihazlar arasında sinxronlaşır. Kitab faylların telefonunda qalır, heç yerə yüklənmir.
 
-Oxumaq, Word Lab, ixrac, xatırlatma və sinxronizasiya üçün abunə lazım deyil, reklam yoxdur. Süni intellekt tərcümələrinin gündəlik həddi var; Premium gündəlik həddi götürür (ağlabatan istifadə qaydası ilə), aylıq, altıaylıq və ya illik planla. Tətbiq Google Play-də, Android üçündür; iPhone versiyası planlaşdırılır, tarix yoxdur.
+Oxumaq, Word Lab, ixrac, xatırlatma və sinxronizasiya üçün abunə lazım deyil, reklam yoxdur. Süni intellekt tərcümələrinin gündəlik həddi var; Premium gündəlik həddi götürür (ağlabatan istifadə qaydası ilə), aylıq, altıaylıq və ya illik planla. Tətbiq Android üçün Google Play-də, iPhone üçün App Store-dadır.
 
 ## Kimin üçün deyil
 
@@ -67,7 +67,7 @@ PDF-də həqiqi mətn varsa, bəli: hər sözə toxuna, mündəricatla fəsillə
 
 ### iPhone versiyası varmı?
 
-Hələ yox. Biblyx Google Play-də, Android üçündür; iOS versiyası planlaşdırılır, amma tarix verilməyib.
+Bəli. Biblyx iPhone üçün App Store-da, Android üçün Google Play-dədir.
 
 ### Kindle lüğətindən və ya Google Tərcümədən fərqi nədir?
 

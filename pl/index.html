@@ -76,7 +76,7 @@
       "@type": "MobileApplication",
       "name": "Biblyx",
       "description": "Biblyx to czytnik książek z tłumaczeniem słów dla osób uczących się języków obcych. Otwórz własne książki EPUB, PDF lub TXT, dotknij dowolnego słowa, by zobaczyć jego znaczenie w tym zdaniu, i zapisz je jako fiszkę.",
-      "operatingSystem": "Android",
+      "operatingSystem": "Android, iOS",
       "applicationCategory": "EducationalApplication",
       "offers": {
         "@type": "Offer",
@@ -141,6 +141,12 @@
     font-size:19px; color:var(--dim); max-width:560px; margin:0 auto 34px;
   }
   .cta-row{display:flex; gap:16px; justify-content:center; flex-wrap:wrap;}
+  .store-badges{display:flex; gap:12px; justify-content:center; align-items:center; flex-wrap:wrap;}
+  .store-badges a{display:inline-flex; line-height:0; transition:transform .15s ease;}
+  .store-badges a:hover{transform:translateY(-1px);}
+  .store-badges img{height:52px; width:auto;}
+  @media (max-width:480px){.store-badges img{height:42px;}}
+  .cta-row{align-items:center;}
   .btn{
     display:inline-flex; align-items:center; gap:10px; padding:14px 26px;
     border-radius:12px; font-size:15.5px; font-weight:600; text-decoration:none;
@@ -331,13 +337,13 @@
   <h1>Ucz się języków,<br>czytając książki</h1>
   <p class="lead">Biblyx to czytnik książek z tłumaczeniem słów dla osób uczących się języków obcych. Otwórz własne książki EPUB, PDF lub TXT, dotknij dowolnego słowa, by zobaczyć, co znaczy w tym zdaniu, i zapisz je jako fiszkę.</p>
   <div class="cta-row">
-    <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.biblyx.app&amp;referrer=utm_source%3Dbiblyx.com%26utm_medium%3Dwebsite%26utm_campaign%3Dlanding_pl" target="_blank" rel="noopener">
-      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 3.6v16.8c0 .5.6.8 1 .5l14-8.4c.4-.3.4-.9 0-1.2l-14-8.4c-.4-.3-1 0-1 .5z"/></svg>
-      Pobierz z Google Play
-    </a>
+    <div class="store-badges">
+      <a href="https://play.google.com/store/apps/details?id=com.biblyx.app&amp;referrer=utm_source%3Dbiblyx.com%26utm_medium%3Dwebsite%26utm_campaign%3Dlanding_pl" target="_blank" rel="noopener"><img src="/assets/badges/google-play-pl.png" alt="Pobierz z Google Play" width="175" height="52"></a>
+      <a href="https://apps.apple.com/app/id6835505938" target="_blank" rel="noopener"><img src="/assets/badges/app-store-pl.svg" alt="Pobierz z App Store" width="156" height="52"></a>
+    </div>
     <a class="btn btn-secondary" href="#how">Zobacz, jak to działa</a>
   </div>
-  <p class="cta-note">Na Androida</p>
+  <p class="cta-note">Na Androida i iPhone'a</p>
 </header>
 
 <section class="showcase wrap">
@@ -361,7 +367,7 @@
     <div class="step">
       <div class="num">1</div>
       <h3>Czytaj</h3>
-      <p>Zaimportuj własne książki albo na początek wybierz coś spośród 29 krótkich opowiadań i baśni w 10 językach. Czytaj w spokojnym czytniku, bez przełączania się na karty ze słownikiem.</p>
+      <p>Zaimportuj własne książki albo na początek wybierz coś spośród 38 krótkich opowiadań i baśni w 10 językach. Czytaj w spokojnym czytniku, bez przełączania się na karty ze słownikiem.</p>
     </div>
     <div class="step">
       <div class="num">2</div>
@@ -381,7 +387,7 @@
   <div class="feature-grid">
     <div class="feature">
       <h3>Własne książki EPUB, PDF i TXT</h3>
-      <p>Importuj pliki EPUB, TXT i PDF z warstwą tekstową albo otwieraj je za pomocą Biblyx z menedżera plików, przeglądarki lub poczty e-mail. Ze spisu treści przejdziesz do dowolnego rozdziału.</p>
+      <p>Importuj pliki EPUB, TXT i PDF z warstwą tekstową albo na Androidzie otwieraj je za pomocą Biblyx z menedżera plików, przeglądarki lub poczty e-mail. Ze spisu treści przejdziesz do dowolnego rozdziału.</p>
     </div>
     <div class="feature">
       <h3>Znaczenie dopasowane do zdania</h3>
@@ -495,7 +501,7 @@
       </div>
       <div class="faq-item">
         <h3>Czy Biblyx jest dostępny na iPhone'a?</h3>
-        <p>Jeszcze nie. Biblyx jest dostępny na Androida w Google Play. Wersja na iOS jest planowana, ale nie ma jeszcze terminu.</p>
+        <p>Tak. Biblyx jest w App Store na iPhone'a i w Google Play na Androida.</p>
       </div>
       <div class="faq-item">
         <h3>Czym Biblyx różni się od słownika lub aplikacji z fiszkami?</h3>
@@ -573,7 +579,7 @@
       "name": "Czy Biblyx jest dostępny na iPhone'a?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Jeszcze nie. Biblyx jest dostępny na Androida w Google Play. Wersja na iOS jest planowana, ale nie ma jeszcze terminu."
+        "text": "Tak. Biblyx jest w App Store na iPhone'a i w Google Play na Androida."
       }
     },
     {
@@ -598,11 +604,11 @@
 <section class="facts wrap" id="facts">
   <h2>Biblyx w skrócie</h2>
   <dl>
-    <dt>Platforma</dt><dd>Android, w Google Play. Wersja na iPhone'a jest w planach, bez daty.</dd>
+    <dt>Platforma</dt><dd>Android (Google Play) i iPhone (App Store).</dd>
     <dt>Pliki</dt><dd>EPUB, TXT, PDF z warstwą tekstową i wklejony tekst. Książki przypisane do sklepu lub aplikacji bibliotecznej (Kindle, Apple Books, Legimi, wypożyczenia biblioteczne) się nie otworzą.</dd>
     <dt>Języki książek</dt><dd>Angielski, niemiecki, hiszpański, francuski, włoski, rosyjski, polski, portugalski, turecki i azerski; szwedzki, niderlandzki, ukraiński i tadżycki w wersji beta.</dd>
     <dt>Interfejs</dt><dd>Te same 10 języków. Znaczenia pokazują się w języku interfejsu.</dd>
-    <dt>Biblioteka startowa</dt><dd>29 krótkich opowiadań i baśni w 10 językach, już w aplikacji.</dd>
+    <dt>Biblioteka startowa</dt><dd>38 krótkich opowiadań i baśni w 10 językach, już w aplikacji.</dd>
     <dt>Koszt</dt><dd>Czytanie, Word Lab, eksport, przypomnienia i synchronizacja nie wymagają subskrypcji; bez reklam. Tłumaczenia AI mają dzienny limit; Premium znosi dzienny limit, w planie miesięcznym, półrocznym lub rocznym.</dd>
     <dt>Offline</dt><dd>Czytanie i powtarzanie fiszek działa offline. Sprawdzenie nowego słowa wymaga połączenia.</dd>
     <dt>Twoje dane</dt><dd>Pliki książek zostają na Twoim urządzeniu. Z kontem synchronizują się zapisane słowa, postępy, zakładki i zakreślenia; książki nigdy.</dd>

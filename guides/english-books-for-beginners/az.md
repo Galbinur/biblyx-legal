@@ -62,7 +62,7 @@ Klassiklər haqqında bir qeyd: pulsuzdurlar, çünki köhnədirlər; köhnə in
 
 Klassik problem budur: naməlum sözə rast gəlirsən, lüğəti açırsan, cümləni itirirsən, üçüncü sözdə kitabı bağlayırsan. Dil öyrənənlər üçün hazırlanmış oxuyucu məhz bunu həll edir.
 
-Android-də **Biblyx** ilə öz EPUB, PDF və ya TXT faylını açırsan, ya da istənilən mətni yapışdırırsan və sözə toxunursan. On lüğət mənası yox, həmin cümlədəki mənasını görürsən. Bir toxunuşla sözü cümləsi ilə birlikdə kart kimi saxlayırsan; tətbiq onu 1, 3, 7, 14 və 30 gün sonra təkrar qarşına çıxarır. Kitabxanan boşdursa, 10 dildə 29 qısa hekayə hazır gəlir; ingiliscə olanlar *The Selfish Giant*, *The Gift of the Magi* və *The Tell-Tale Heart*. Oxumaq və təkrar internetsiz işləyir; yeni sözə baxmaq üçün bağlantı lazımdır. Fikir elə budur: **Öz kitablarını oxuyaraq dil öyrən**.
+Android-də və ya iPhone-da **Biblyx** ilə öz EPUB, PDF və ya TXT faylını açırsan, ya da istənilən mətni yapışdırırsan və sözə toxunursan. On lüğət mənası yox, həmin cümlədəki mənasını görürsən. Bir toxunuşla sözü cümləsi ilə birlikdə kart kimi saxlayırsan; tətbiq onu 1, 3, 7, 14 və 30 gün sonra təkrar qarşına çıxarır. Kitabxanan boşdursa, 10 dildə 38 qısa hekayə hazır gəlir; ingiliscə olanlar *The Selfish Giant*, *The Gift of the Magi* və *The Tell-Tale Heart*. Oxumaq və təkrar internetsiz işləyir; yeni sözə baxmaq üçün bağlantı lazımdır. Fikir elə budur: **Öz kitablarını oxuyaraq dil öyrən**.
 
 Hansı tətbiqi işlətsən də, vərdiş eynidir:
 

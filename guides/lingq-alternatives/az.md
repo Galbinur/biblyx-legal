@@ -13,7 +13,7 @@ LingQ dili real məzmundan öyrənmək üzərində qurulub: 55-dən çox dildə 
 ## Əsas nəticələr
 
 - **LingQ** 55-dən çox dildə səsli minlərlə dərslə öyrədir. Pulsuz planı məhduddur (LingQ-un bloquna görə 20 saxlanmış söz), Premium ayda 14,99 $ və ya ildə 119,99 $-dır.
-- **Biblyx** öz EPUB, TXT və mətnli PDF kitablarını oxumaq üçün Android tətbiqidir: sözə toxunursan, onu həmin cümləyə görə izah edir, cümləni söz kartında saxlayır və reklam göstərmir. Premium ayda 4,99 $ və ya ildə 35,99 $-dır (Google Play, ABŞ); bu, LingQ, Linga, Beelinguapp və Readlang-ın standart aylıq və illik planlarından ucuzdur.
+- **Biblyx** öz EPUB, TXT və mətnli PDF kitablarını oxumaq üçün Android və iPhone tətbiqidir: sözə toxunursan, onu həmin cümləyə görə izah edir, cümləni söz kartında saxlayır və reklam göstərmir. Premium ayda 4,99 $ və ya ildə 35,99 $-dır (Google Play, ABŞ); bu, LingQ, Linga, Beelinguapp və Readlang-ın standart aylıq və illik planlarından ucuzdur.
 - **Öz kitablarını oxumaq üçün** Biblyx, Linga və Smart Book-a bax; LingQ da e-kitab idxal edir.
 - **Mətnin yanında tərcümə istəyirsənsə**, Beelinguapp yeni başlayanlara, Smart Book öz kitablarına uyğundur; planlarını göstərən tətbiqlər arasında ən aşağı standart qiymətlər Smart Book-dadır.
 - **Readable** yalnız ingilis dili üçündür, **Readlang** isə kompüterdə, brauzerdə oxumaq üçün.
@@ -31,7 +31,7 @@ LingQ şöhrətinə layiqdir. 55-dən çox dil, mətni və səsi uyğun gələn 
 | Tətbiq | Kimə uyğundur | Standart Premium qiyməti (ABŞ, 9 noyabr 2026) | Pulsuz versiya | Pulsuz versiyada reklam |
 |---|---|---|---|---|
 | LingQ (Android, iPhone, veb) | 55-dən çox dildə səsli dərslər, video və podkast idxalı | ayda 14,99 $, ildə 119,99 $ | 20 saxlanmış sözlə məhdud (LingQ-un bloquna görə) | yoxdur |
-| **Biblyx** (Android) | öz kitablarını oxumaq, hər söz öz cümləsinə görə izah olunur | ayda 4,99 $, ildə 35,99 $ | oxu, söz kartları, ixrac və sinxronlaşma; süni intellekt tərcümələri gündəlik limitlə | yoxdur |
+| **Biblyx** (Android, iPhone) | öz kitablarını oxumaq, hər söz öz cümləsinə görə izah olunur | ayda 4,99 $, ildə 35,99 $ | oxu, söz kartları, ixrac və sinxronlaşma; süni intellekt tərcümələri gündəlik limitlə | yoxdur |
 | Linga (Android, iPhone) | 1000-dən çox real kitablıq kitabxana, oyunlarla | ayda 5,49 $, ildə 54,99 $ | pulsuz yükləmə, PRO ödənişlidir | yoxdur |
 | Beelinguapp (Android, iPhone) | yeni başlayanlar: mətnin yanında tərcümə, səsli kitablar | ayda 7,99 $, ildə 49,90 $ | pulsuz yükləmə | var |
 | Smart Book (Android, iPhone) | öz kitablarının paralel tərcüməsi | ayda 1,99 $, ildə 19,99 $ | pulsuz yükləmə | var |
@@ -65,7 +65,7 @@ Biblyx kurs deyil, öz kitabların üçün oxuyucudur. EPUB, TXT və ya mətnli 
 - **Cümləyə görə məna:** idiomlar hər iki mənası ilə gəlir; alman, ispan, fransız, italyan və portuqal isimləri artikli ilə gəlir; mürəkkəb sözlər hissələrinə ayrılır.
 - **Cümləni saxlayan kartlar:** saxladığın sözlər 1, 3, 7, 14 və 30 gün sonra yenidən gəlir; onları Anki və ya CSV-yə ixrac edə bilərsən.
 - **Oflayn:** oxu və kart təkrarı internetsiz işləyir; yeni sözə baxmaq üçün internet lazımdır.
-- **İlk rəf:** ilk dəqiqələrin üçün 10 dildə 29 qısa hekayə hazırdır.
+- **İlk rəf:** ilk dəqiqələrin üçün 10 dildə 38 qısa hekayə hazırdır.
 
 ![Biblyx oxuyucusu: toxunulan söz idiomun bir hissəsidir; idiomun mənası, sözün öz mənası və qrammatikası](/screens/az/play-idioms.jpg)
 
@@ -73,7 +73,7 @@ Fikir bir sətrə sığır: **Öz kitablarını oxuyaraq dil öyrən**.
 
 **Nəyi yaxşı edir:** seçdiyin kitabları cümləyə uyğun mənalarla və həmin cümləni saxlayan kartlarla oxumaq; pulsuz versiyada belə reklam yoxdur.
 
-**Nəyi yaxşı etmir:** hələlik yalnız Android-dədir (iPhone versiyası planlaşdırılır, tarix yoxdur); dərs və ya səsli kitab yoxdur: mətnləri sən gətirirsən, söz və cümlələri telefonunun səsi oxuyur.
+**Nəyi yaxşı etmir:** dərs və ya səsli kitab yoxdur: mətnləri sən gətirirsən, söz və cümlələri telefonunun səsi oxuyur.
 
 **Qiymət:** pulsuz versiyada oxu, söz kartları, ixrac və sinxronlaşma var, süni intellekt tərcümələri gündəlik limitlədir. Premium gündəlik limiti götürür (ədalətli istifadə qaydası ilə): Google Play-də (ABŞ) ayda 4,99 $, altı ayda 24,99 $ və ya ildə 35,99 $.
 
@@ -146,7 +146,7 @@ Readlang veb brauzerdə və Chrome əlavəsi kimi işləyir. Mətndə və ya ək
 | Tətbiq | Öz faylların | Mənanı necə görürsən | Söz məşqi | Tətbiqdə oxu | Öyrənilən dillər |
 |---|---|---|---|---|---|
 | LingQ (Android, iPhone, veb) | e-kitab, veb məqalə, YouTube, Netflix, podkast | sözə kontekstdə baxmaq; süni intellekt alətləri | aralıqlı təkrar, bilinən söz sayğacı | səsli minlərlə dərs | 55+ |
-| **Biblyx** (Android) | EPUB, TXT, mətnli PDF, yapışdırılan mətn | cümləyə uyğun süni intellekt mənası, idiomlar, isimlərin artikli | kitab cümləsini saxlayan kartlar, Anki və CSV ixracı | 29 qısa hekayə | 10, üstəlik 4 betada |
+| **Biblyx** (Android, iPhone) | EPUB, TXT, mətnli PDF, yapışdırılan mətn | cümləyə uyğun süni intellekt mənası, idiomlar, isimlərin artikli | kitab cümləsini saxlayan kartlar, Anki və CSV ixracı | 38 qısa hekayə | 10, üstəlik 4 betada |
 | Linga (Android, iPhone) | EPUB, PDF, MOBI, FB2, TXT | sözə və ya ifadəyə toxun: tərcümə və lüğət məlumatı | aralıqlı təkrarlı kartlar, oyunlar, seriyalar | 1000+ kitab | 6 |
 | Beelinguapp (Android, iPhone) | səhifəsində qeyd olunmayıb | yan-yana tərcümə; sözə toxunanda lüğət mənası | hər hekayədən sonra test | ikidilli hekayələr və səsli kitablar | 20+ |
 | Smart Book (Android, iPhone) | FB2, EPUB, TXT, .srt subtitr | paralel tərcümə; süni intellekt çat-botları da daxil xidmət seçimi | saxlanmış sözlər, Anki və ya ReWord-a ixrac | ikidilli hekayələr | ingilis, alman, fransız, ispan, italyan və digərləri |
@@ -155,7 +155,7 @@ Readlang veb brauzerdə və Chrome əlavəsi kimi işləyir. Mətndə və ya ək
 
 ## Yekun
 
-Bizcə, LingQ buradakı ən geniş sistemdir: dərslər, səs və çox dil istəyirsənsə və qiyməti sənə uyğundursa, güclü seçimdir. Öz kitablarını Android-də, hər sözü öz cümləsinə görə izahla, reklamsız və daha aşağı qiymətə oxumaq istəyirsənsə, Biblyx-i sına. İki aləti birlikdə də işlədə bilərsən: dərslər və səs üçün LingQ, telefonundakı kitablar üçün Biblyx kimi oxuyucu. Linga böyük real kitab kitabxanası, Beelinguapp asan başlanğıc, Smart Book münasib qiymətli paralel oxuyucu, Readable uyğunlaşdırılmış ingilis dili, Readlang isə brauzer təklif edir. Ən sadə sınaq: eyni fəsli bir həftə iki tətbiqdə oxu və açmağa davam etdiyini seç.
+Bizcə, LingQ buradakı ən geniş sistemdir: dərslər, səs və çox dil istəyirsənsə və qiyməti sənə uyğundursa, güclü seçimdir. Öz kitablarını Android-də və ya iPhone-da, hər sözü öz cümləsinə görə izahla, reklamsız və daha aşağı qiymətə oxumaq istəyirsənsə, Biblyx-i sına. İki aləti birlikdə də işlədə bilərsən: dərslər və səs üçün LingQ, telefonundakı kitablar üçün Biblyx kimi oxuyucu. Linga böyük real kitab kitabxanası, Beelinguapp asan başlanğıc, Smart Book münasib qiymətli paralel oxuyucu, Readable uyğunlaşdırılmış ingilis dili, Readlang isə brauzer təklif edir. Ən sadə sınaq: eyni fəsli bir həftə iki tətbiqdə oxu və açmağa davam etdiyini seç.
 
 ## Necə yoxladıq
 
@@ -193,4 +193,4 @@ Paralel tərcümə bütün mətni orijinalın yanında sənin dilində göstəri
 
 ### Biblyx iPhone-da işləyirmi?
 
-Hələ yox. Biblyx Google Play-də, Android üçündür; iOS versiyası planlaşdırılır, tarix yoxdur.
+Bəli. Biblyx iPhone üçün App Store-da, Android üçün Google Play-dədir.

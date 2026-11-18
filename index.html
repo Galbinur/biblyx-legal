@@ -76,7 +76,7 @@
       "@type": "MobileApplication",
       "name": "Biblyx",
       "description": "Biblyx is a book reader for language learners. Open your own EPUB, PDF or TXT books, tap any word to see its meaning in that sentence, and save it as a flashcard.",
-      "operatingSystem": "Android",
+      "operatingSystem": "Android, iOS",
       "applicationCategory": "EducationalApplication",
       "offers": {
         "@type": "Offer",
@@ -143,6 +143,12 @@
     font-size:19px; color:var(--dim); max-width:560px; margin:0 auto 34px;
   }
   .cta-row{display:flex; gap:16px; justify-content:center; flex-wrap:wrap;}
+  .store-badges{display:flex; gap:12px; justify-content:center; align-items:center; flex-wrap:wrap;}
+  .store-badges a{display:inline-flex; line-height:0; transition:transform .15s ease;}
+  .store-badges a:hover{transform:translateY(-1px);}
+  .store-badges img{height:52px; width:auto;}
+  @media (max-width:480px){.store-badges img{height:42px;}}
+  .cta-row{align-items:center;}
   .btn{
     display:inline-flex; align-items:center; gap:10px; padding:14px 26px;
     border-radius:12px; font-size:15.5px; font-weight:600; text-decoration:none;
@@ -337,13 +343,13 @@
   <h1>Learn languages<br>by reading books</h1>
   <p class="lead">Biblyx is a book reader for language learners. Open your own EPUB, PDF or TXT books, tap any word to see what it means in that sentence, and save it as a flashcard.</p>
   <div class="cta-row">
-    <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.biblyx.app&amp;referrer=utm_source%3Dbiblyx.com%26utm_medium%3Dwebsite%26utm_campaign%3Dlanding_en" target="_blank" rel="noopener">
-      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 3.6v16.8c0 .5.6.8 1 .5l14-8.4c.4-.3.4-.9 0-1.2l-14-8.4c-.4-.3-1 0-1 .5z"/></svg>
-      Get it on Google Play
-    </a>
+    <div class="store-badges">
+      <a href="https://play.google.com/store/apps/details?id=com.biblyx.app&amp;referrer=utm_source%3Dbiblyx.com%26utm_medium%3Dwebsite%26utm_campaign%3Dlanding_en" target="_blank" rel="noopener"><img src="/assets/badges/google-play-en.png" alt="Get it on Google Play" width="175" height="52"></a>
+      <a href="https://apps.apple.com/app/id6835505938" target="_blank" rel="noopener"><img src="/assets/badges/app-store-en.svg" alt="Download on the App Store" width="156" height="52"></a>
+    </div>
     <a class="btn btn-secondary" href="#how">See how it works</a>
   </div>
-  <p class="cta-note">For Android</p>
+  <p class="cta-note">For Android and iPhone</p>
 </header>
 
 <section class="showcase wrap">
@@ -367,7 +373,7 @@
     <div class="step">
       <div class="num">1</div>
       <h3>Read</h3>
-      <p>Import your own books, or start with one of 29 short stories and tales in 10 languages, and read in a calm reader with no dictionary tabs to switch to.</p>
+      <p>Import your own books, or start with one of 38 short stories and tales in 10 languages, and read in a calm reader with no dictionary tabs to switch to.</p>
     </div>
     <div class="step">
       <div class="num">2</div>
@@ -387,7 +393,7 @@
   <div class="feature-grid">
     <div class="feature">
       <h3>Your own EPUB, PDF and TXT books</h3>
-      <p>Import EPUB, TXT and text-based PDF files, or open them with Biblyx from a file manager, browser or email. A table of contents takes you to any chapter.</p>
+      <p>Import EPUB, TXT and text-based PDF files, or, on Android, open them with Biblyx from a file manager, browser or email. A table of contents takes you to any chapter.</p>
     </div>
     <div class="feature">
       <h3>Meaning that fits the sentence</h3>
@@ -502,7 +508,7 @@
       </div>
       <div class="faq-item">
         <h3>Is Biblyx available on iPhone?</h3>
-        <p>Not yet. Biblyx is available on Android through Google Play. An iOS version is planned, but there is no date yet.</p>
+        <p>Yes. Biblyx is on the App Store for iPhone and on Google Play for Android.</p>
       </div>
       <div class="faq-item">
         <h3>How is Biblyx different from a dictionary or a flashcard app?</h3>
@@ -580,7 +586,7 @@
       "name": "Is Biblyx available on iPhone?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Not yet. Biblyx is available on Android through Google Play. An iOS version is planned, but there is no date yet."
+        "text": "Yes. Biblyx is on the App Store for iPhone and on Google Play for Android."
       }
     },
     {
@@ -605,11 +611,11 @@
 <section class="facts wrap" id="facts">
   <h2>Biblyx at a glance</h2>
   <dl>
-    <dt>Platform</dt><dd>Android, on Google Play. An iPhone version is planned, with no date.</dd>
+    <dt>Platform</dt><dd>Android (Google Play) and iPhone (App Store).</dd>
     <dt>Files</dt><dd>EPUB, TXT, text-based PDF and pasted text. Books locked to a store or library app (Kindle, Apple Books, library loans) don't open.</dd>
     <dt>Book languages</dt><dd>English, German, Spanish, French, Italian, Russian, Polish, Portuguese, Turkish and Azerbaijani; Swedish, Dutch, Ukrainian and Tajik in beta.</dd>
     <dt>Interface</dt><dd>The same 10 languages. Meanings appear in the interface language.</dd>
-    <dt>Starter library</dt><dd>29 short stories and tales in 10 languages, already in the app.</dd>
+    <dt>Starter library</dt><dd>38 short stories and tales in 10 languages, already in the app.</dd>
     <dt>Cost</dt><dd>Reading, Word Lab, export, reminders and sync need no subscription; no ads. AI translations use a daily allowance; Premium removes the daily limit with a monthly, six-month or yearly plan.</dd>
     <dt>Offline</dt><dd>Reading and flashcard review work offline. Looking up a new word needs a connection.</dd>
     <dt>Your data</dt><dd>Book files stay on your device. With an account, saved words, progress, bookmarks and highlights sync; books never do.</dd>
