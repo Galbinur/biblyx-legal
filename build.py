@@ -491,16 +491,17 @@ def _put_block(page: str, marks: tuple, block: str, before: str) -> str:
     return page[:line_start] + "  " + wrapped + "\n" + page[line_start:]
 
 
-# The three story pages per language with the most Google impressions (Search Console, 2026-08-20..11-17).
-POPULAR = {"en": {"en": ["the-gift-of-the-magi", "pinocchio", "goldilocks-and-the-three-bears"]},
-           "es": {"en": ["goldilocks-and-the-three-bears", "pinocchio", "the-three-little-pigs"]},
+# The three most searched stories per language: Keyword Planner volumes (owner, 2026-11-19; "Little Red Riding Hood
+# in <language>" leads everywhere: 5,000/month in es, it, pt, de), ties broken by Search Console impressions.
+POPULAR = {"en": {"en": ["goldilocks-and-the-three-bears", "the-gift-of-the-magi", "pinocchio"]},
+           "es": {"en": ["little-red-riding-hood", "goldilocks-and-the-three-bears", "pinocchio"]},
            "pl": {"en": ["little-red-riding-hood", "pinocchio", "the-ugly-duckling"]},
            "fr": {"en": ["little-red-riding-hood", "goldilocks-and-the-three-bears", "the-three-little-pigs"]},
            "it": {"en": ["little-red-riding-hood", "pinocchio", "goldilocks-and-the-three-bears"]},
            "pt": {"en": ["little-red-riding-hood", "rapunzel", "the-three-little-pigs"]},
-           "ru": {"en": ["goldilocks-and-the-three-bears", "rapunzel", "the-ugly-duckling"]},
-           "de": {"en": ["rapunzel", "the-three-little-pigs", "little-red-riding-hood"]},
-           "tr": {"en": ["the-ugly-duckling", "goldilocks-and-the-three-bears", "little-red-riding-hood"],
+           "ru": {"en": ["little-red-riding-hood", "goldilocks-and-the-three-bears", "rapunzel"]},
+           "de": {"en": ["little-red-riding-hood", "rapunzel", "the-three-little-pigs"]},
+           "tr": {"en": ["little-red-riding-hood", "the-ugly-duckling", "goldilocks-and-the-three-bears"],
                   "de": ["die-bremer-stadtmusikanten", "vor-dem-gesetz", "der-wolf-und-die-sieben-jungen-geisslein"]}}
 
 

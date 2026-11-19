@@ -32,7 +32,7 @@ Empieza por historias que ya conoces en español. Saber el argumento te ayuda a 
 
 **Gratis en este sitio:** seis cuentos de hadas conocidos contados en inglés fácil para A1 y cuentos clásicos hasta B2, completos, con el significado de cada palabra subrayada y la traducción de cada párrafo. Empieza por los [cuentos en inglés](/es/cuentos-en-ingles/).
 
-Cuentos populares: [Ricitos de Oro y los tres osos en inglés](/es/cuentos-en-ingles/ricitos-de-oro-y-los-tres-osos/), [Pinocho en inglés](/es/cuentos-en-ingles/pinocho/), [Los tres cerditos en inglés](/es/cuentos-en-ingles/los-tres-cerditos/).
+Cuentos populares: [Caperucita Roja en inglés](/es/cuentos-en-ingles/caperucita-roja/), [Ricitos de Oro y los tres osos en inglés](/es/cuentos-en-ingles/ricitos-de-oro-y-los-tres-osos/), [Pinocho en inglés](/es/cuentos-en-ingles/pinocho/).
 
 ## B1: historias de verdad con capítulos cortos
 

@@ -32,7 +32,7 @@ cta: Откройте свой EPUB, PDF или TXT или вставьте те
 
 **Бесплатно на этом сайте:** шесть известных сказок, пересказанных на простом английском для уровня A1, и классические рассказы до B2, полностью, со значением каждого подчёркнутого слова и переводом каждого абзаца. Начните с [рассказов на английском](/ru/rasskazy-na-angliyskom/).
 
-Популярные рассказы: [Златовласка и три медведя на английском](/ru/rasskazy-na-angliyskom/zlatovlaska-i-tri-medvedya/), [Рапунцель на английском](/ru/rasskazy-na-angliyskom/rapuntsel/), [Гадкий утёнок на английском](/ru/rasskazy-na-angliyskom/gadkiy-utyonok/).
+Популярные рассказы: [Красная Шапочка на английском](/ru/rasskazy-na-angliyskom/krasnaya-shapochka/), [Златовласка и три медведя на английском](/ru/rasskazy-na-angliyskom/zlatovlaska-i-tri-medvedya/), [Рапунцель на английском](/ru/rasskazy-na-angliyskom/rapuntsel/).
 
 ## B1: настоящие истории с короткими главами
 

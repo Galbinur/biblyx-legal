@@ -32,7 +32,7 @@ Start with stories you may already know in your own language. Knowing the plot l
 
 **Free on this site:** six well-known fairy tales retold in easy English for A1, plus classic stories up to B2, complete and free, with a short meaning behind every underlined word. Start with [English short stories for beginners](/english-short-stories/).
 
-Popular stories: [The Gift of the Magi](/english-short-stories/the-gift-of-the-magi/), [Pinocchio](/english-short-stories/pinocchio/), [Goldilocks and the Three Bears](/english-short-stories/goldilocks-and-the-three-bears/).
+Popular stories: [Goldilocks and the Three Bears](/english-short-stories/goldilocks-and-the-three-bears/), [The Gift of the Magi](/english-short-stories/the-gift-of-the-magi/), [Pinocchio](/english-short-stories/pinocchio/).
 
 ## B1: real stories with short chapters
 
