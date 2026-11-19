@@ -153,5 +153,23 @@
    "level": "A2",
    "en": "something you learn from an experience"
   }
+ ],
+ "questions": [
+  {
+   "q": "What did each pig build his house from?",
+   "a": "The first used straw, the second sticks and the third bricks."
+  },
+  {
+   "q": "What did the wolf say he would do to the houses?",
+   "a": "“I will huff and puff, and I will blow your house down!”"
+  },
+  {
+   "q": "How did the wolf try to get into the brick house?",
+   "a": "Down the chimney, and he fell into a pot of hot water."
+  },
+  {
+   "q": "What lesson did the first two pigs learn?",
+   "a": "That it is good to work hard."
+  }
  ]
 }

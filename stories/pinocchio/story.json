@@ -149,5 +149,23 @@
    "en": "stops sleeping",
    "note_en": "Past form: woke up."
   }
+ ],
+ "questions": [
+  {
+   "q": "What happens to Pinocchio's nose when he tells a lie?",
+   "a": "It grows longer and longer."
+  },
+  {
+   "q": "Who took Pinocchio's gold coins?",
+   "a": "A fox and a cat."
+  },
+  {
+   "q": "Where did Pinocchio find Geppetto?",
+   "a": "Inside a huge whale."
+  },
+  {
+   "q": "Why could Pinocchio become a real boy?",
+   "a": "He worked hard, went to school, took care of his father and always told the truth."
+  }
  ]
 }

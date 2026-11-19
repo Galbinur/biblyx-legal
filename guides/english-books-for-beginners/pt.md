@@ -32,6 +32,8 @@ Comece com histórias que você já conhece em português. Saber o enredo ajuda 
 
 **Grátis neste site:** seis contos de fadas conhecidos recontados em inglês simples para o A1 e contos clássicos até o B2, completos, com o sentido de cada palavra sublinhada e a tradução de cada parágrafo. Comece pelas [histórias em inglês](/pt/historias-em-ingles/).
 
+Histórias populares: [Chapeuzinho Vermelho em inglês](/pt/historias-em-ingles/chapeuzinho-vermelho/), [Rapunzel em inglês](/pt/historias-em-ingles/rapunzel/), [Os Três Porquinhos em inglês](/pt/historias-em-ingles/os-tres-porquinhos/).
+
 ## B1: histórias de verdade, com capítulos curtos
 
 - **The Gift of the Magi**, de O. Henry. Conto famoso com final surpreendente; cerca de 2.000 palavras. Já vem no Biblyx.

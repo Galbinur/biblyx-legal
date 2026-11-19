@@ -153,5 +153,23 @@
    "level": "A2",
    "en": "moved quickly out from inside"
   }
+ ],
+ "questions": [
+  {
+   "q": "Why did the three bears go for a walk?",
+   "a": "Their porridge was too hot to eat."
+  },
+  {
+   "q": "Whose porridge did Goldilocks eat?",
+   "a": "Baby Bear's, from the small bowl, because it was just right."
+  },
+  {
+   "q": "What happened to the small chair?",
+   "a": "It broke, and she fell on the floor."
+  },
+  {
+   "q": "What did Goldilocks do when she woke up and saw the bears?",
+   "a": "She jumped out of the bed and ran all the way home."
+  }
  ]
 }

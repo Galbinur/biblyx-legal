@@ -149,5 +149,23 @@
    "level": "A1",
    "de": "Am gleichen Ort sein."
   }
+ ],
+ "questions": [
+  {
+   "q": "Warum will der Esel nach Bremen?",
+   "a": "Er ist alt, sein Herr will ihn nicht mehr, und er will in Bremen Musikant werden."
+  },
+  {
+   "q": "Welche Tiere gehen mit ihm?",
+   "a": "Ein Hund, eine Katze und ein Hahn."
+  },
+  {
+   "q": "Wie vertreiben die Tiere die Räuber?",
+   "a": "Sie stellen sich am Fenster aufeinander und machen laut Musik."
+  },
+  {
+   "q": "Kommen die Tiere am Ende nach Bremen?",
+   "a": "Nein. Das Haus gefällt ihnen so gut, dass sie dort bleiben."
+  }
  ]
 }

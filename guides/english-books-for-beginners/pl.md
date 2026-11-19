@@ -32,6 +32,8 @@ Zacznij od historii, które znasz już po polsku. Znajomość fabuły pozwala zg
 
 **Za darmo na tej stronie:** sześć znanych baśni opowiedzianych prostym angielskim na poziomie A1 i klasyczne opowiadania aż do B2, w całości, ze znaczeniem każdego podkreślonego słowa i tłumaczeniem każdego akapitu. Zacznij od [opowiadań po angielsku](/pl/opowiadania-po-angielsku/).
 
+Popularne opowiadania: [Czerwony Kapturek po angielsku](/pl/opowiadania-po-angielsku/czerwony-kapturek/), [Pinokio po angielsku](/pl/opowiadania-po-angielsku/pinokio/), [Brzydkie kaczątko po angielsku](/pl/opowiadania-po-angielsku/brzydkie-kaczatko/).
+
 ## B1: prawdziwe historie z krótkimi rozdziałami
 
 - **The Gift of the Magi**, O. Henry. Słynne opowiadanie z zaskakującym zakończeniem, około 2000 słów. Wbudowane w Biblyx.

@@ -157,5 +157,23 @@
    "en": "drops of water from the eyes",
    "note_en": "Noun tear sounds like “teer”, not like the verb tear."
   }
+ ],
+ "questions": [
+  {
+   "q": "What did the husband take from the witch's garden?",
+   "a": "A green plant called rapunzel, for his wife."
+  },
+  {
+   "q": "What did the witch ask for in return?",
+   "a": "The couple's baby."
+  },
+  {
+   "q": "How did the witch get into the tower?",
+   "a": "Rapunzel let down her long hair, and the witch climbed up."
+  },
+  {
+   "q": "How did the prince see again?",
+   "a": "Two of Rapunzel's tears touched his eyes."
+  }
  ]
 }

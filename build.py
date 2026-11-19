@@ -491,6 +491,31 @@ def _put_block(page: str, marks: tuple, block: str, before: str) -> str:
     return page[:line_start] + "  " + wrapped + "\n" + page[line_start:]
 
 
+# The three story pages per language with the most Google impressions (Search Console, 2026-08-20..11-17).
+POPULAR = {"en": {"en": ["the-gift-of-the-magi", "pinocchio", "goldilocks-and-the-three-bears"]},
+           "es": {"en": ["goldilocks-and-the-three-bears", "pinocchio", "the-three-little-pigs"]},
+           "pl": {"en": ["little-red-riding-hood", "pinocchio", "the-ugly-duckling"]},
+           "fr": {"en": ["little-red-riding-hood", "goldilocks-and-the-three-bears", "the-three-little-pigs"]},
+           "it": {"en": ["little-red-riding-hood", "pinocchio", "goldilocks-and-the-three-bears"]},
+           "pt": {"en": ["little-red-riding-hood", "rapunzel", "the-three-little-pigs"]},
+           "ru": {"en": ["goldilocks-and-the-three-bears", "rapunzel", "the-ugly-duckling"]},
+           "de": {"en": ["rapunzel", "the-three-little-pigs", "little-red-riding-hood"]},
+           "tr": {"en": ["the-ugly-duckling", "goldilocks-and-the-three-bears", "little-red-riding-hood"],
+                  "de": ["die-bremer-stadtmusikanten", "vor-dem-gesetz", "der-wolf-und-die-sieben-jungen-geisslein"]}}
+
+
+def popular_links(lang: str, src: str):
+    """[(anchor text, url)] for the popular stories of one collection in this language."""
+    if src not in CTX["colls"] or lang not in CTX["colls"][src][0]:
+        return []
+    stories = CTX["colls"][src][1]
+    out = []
+    for slug in POPULAR.get(lang, {}).get(src, []):
+        st = stories[slug]
+        out.append((local_heading(lang, st) or st["title"], story_url(lang, st)))
+    return out
+
+
 def home_with_rows(lang: str) -> str:
     """The home page with the generated "all guides" line and the footer row (guides index, story library)."""
     if lang in _home_cache:
@@ -510,7 +535,15 @@ def home_with_rows(lang: str) -> str:
     page = _put_block(page, FOOT_MARK, foot_html, '<p class="foot-made">')
     sec = re.search(r'<section class="guides wrap" id="guides">.*?</section>', page, re.S)
     if sec:
-        more_html = ('  <div class="guide-actions" style="display:flex; flex-wrap:wrap; justify-content:center; gap:12px; margin-top:28px;">'
+        pops = []
+        for src in CTX["colls"]:
+            links = popular_links(lang, src)
+            if links:
+                label = libof(src, lang)["popular"]
+                pops.append(f'<p class="popular-stories" style="text-align:center; margin:22px 0 0;">{esc(label)}: '
+                            + " · ".join(f'<a href="{rel(u)}">{esc(t)}</a>' for t, u in links) + "</p>")
+        more_html = ("".join(f"  {p}\n" for p in pops)
+                     + '  <div class="guide-actions" style="display:flex; flex-wrap:wrap; justify-content:center; gap:12px; margin-top:28px;">'
                      + "".join(more) + "</div>")
         new_sec = _put_block(sec.group(0), GUIDES_MARK, more_html, "</section>")
         page = page[:sec.start()] + new_sec + page[sec.end():]
@@ -580,6 +613,8 @@ def load_stories(folder: str = "stories", src: str = "en"):
         story["src"] = src
         story["folder"] = folder
         story["langs"] = {}
+        a = d / "audio.json"
+        story["audio"] = json.loads(a.read_text(encoding="utf-8")) if a.exists() else None
         for lang in LANGS:
             f = d / f"{lang}.json"
             if f.exists() and lang in library:
@@ -699,6 +734,42 @@ STORY_JS = """<script>
     all.setAttribute('aria-pressed', show ? 'true' : 'false');
     document.querySelectorAll('.tr-toggle').forEach(function (b) { setTr(b, show); });
   });
+  var pb = document.getElementById('print-btn');
+  if (pb) pb.addEventListener('click', function () { window.print(); });
+  var au = document.getElementById('story-audio'), cuesEl = document.getElementById('audio-cues');
+  if (au && cuesEl) {
+    var cues = JSON.parse(cuesEl.textContent), play = document.getElementById('listen-play'),
+        seek = document.getElementById('listen-seek'), time = document.getElementById('listen-time'),
+        speed = document.getElementById('listen-speed'), lit = null, dragging = false,
+        calm = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    function fmt(t) { t = Math.max(0, Math.floor(t || 0)); return Math.floor(t / 60) + ':' + ('0' + t % 60).slice(-2); }
+    function paraAt(t) { var p = -1; for (var i = 0; i < cues.length && cues[i][0] <= t + 0.05; i++) p = cues[i][1]; return p; }
+    function light(p) {
+      var el = p >= 0 ? document.getElementById('p' + (p + 1)) : null;
+      if (el === lit) return;
+      if (lit) lit.classList.remove('reading');
+      lit = el;
+      if (!el) return;
+      el.classList.add('reading');
+      var r = el.getBoundingClientRect();
+      if (!au.paused && (r.top < 80 || r.bottom > window.innerHeight - 40))
+        el.scrollIntoView({ block: 'center', behavior: calm ? 'auto' : 'smooth' });
+    }
+    function sync() {
+      if (!dragging) seek.value = au.currentTime;
+      time.textContent = fmt(au.currentTime) + ' / ' + fmt(au.duration || +seek.max);
+      light(au.currentTime > 0 ? paraAt(au.currentTime) : -1);
+    }
+    play.addEventListener('click', function () { if (au.paused) au.play(); else au.pause(); });
+    au.addEventListener('play', function () { play.setAttribute('aria-pressed', 'true'); if (typeof gtag === 'function') gtag('event', 'story_listen'); });
+    au.addEventListener('pause', function () { play.setAttribute('aria-pressed', 'false'); });
+    au.addEventListener('timeupdate', sync);
+    au.addEventListener('ended', function () { light(-1); });
+    seek.addEventListener('input', function () { dragging = true; time.textContent = fmt(+seek.value) + ' / ' + fmt(au.duration || +seek.max); });
+    seek.addEventListener('change', function () { dragging = false; au.currentTime = +seek.value; sync(); });
+    speed.addEventListener('change', function () { au.playbackRate = +speed.value; });
+    au.addEventListener('ratechange', function () { if (+speed.value !== au.playbackRate) au.playbackRate = +speed.value; });
+  }
 })();
 </script>"""
 
@@ -724,6 +795,46 @@ def chips(lang: str, story: dict) -> str:
             f'<span class="chip">{esc(lib["minutes"].format(n=story["minutes"]))}</span>'
             f'<span class="chip">{esc(lib["words"].format(n=num(lang, story["words"])))}</span>'
             f'<span class="chip">{esc(lib["free"] if is_own(story) else lib["pd"])}</span>')
+
+
+def local_heading(lang: str, story: dict) -> str:
+    """'Caperucita Roja en inglés' for a page whose language differs from the story's; '' otherwise."""
+    if lang == story["src"]:
+        return ""
+    lib, name = libof(story, lang), story["langs"][lang]["local_title"]
+    return f"{name} – {lib['in_src']} hikaye" if lang == "tr" else f"{name} {lib['in_src']}"
+
+
+def iso_duration(seconds: float) -> str:
+    m, sec = divmod(int(round(seconds)), 60)
+    return f"PT{m}M{sec}S"
+
+
+def audio_bar(lang: str, story: dict) -> str:
+    au = story.get("audio")
+    if not au:
+        return ""
+    lib = libof(story, lang)
+    m, sec = divmod(int(round(au["duration"])), 60)
+    speeds = "".join(f'<option value="{v}"{" selected" if v == "1" else ""}>{v}×</option>' for v in ("0.75", "1", "1.25"))
+    return f"""<div class="listen" lang="{lang}">
+      <button class="listen-play" id="listen-play" type="button" aria-pressed="false"><span class="ic" aria-hidden="true"></span>{esc(lib["listen"])}</button>
+      <input class="listen-seek" id="listen-seek" type="range" min="0" max="{au["duration"]}" step="0.1" value="0" aria-label="{esc(lib["listen"])}">
+      <span class="listen-time" id="listen-time">0:00 / {m}:{sec:02d}</span>
+      <label class="listen-speed">{esc(lib["speed"])} <select id="listen-speed">{speeds}</select></label>
+      <p class="listen-note">{esc(lib["listen_note"])}</p>
+      <audio id="story-audio" preload="none" src="{au["src"]}"></audio>
+    </div>"""
+
+
+def questions_html(lang: str, story: dict) -> str:
+    qs = story.get("questions") or []
+    if not qs:
+        return ""
+    lib, src = libof(story, lang), story["src"]
+    items = "".join(f'<li><p lang="{src}">{esc(q["q"])}</p><details><summary>{esc(lib["answer"])}</summary>'
+                    f'<p lang="{src}">{esc(q["a"])}</p></details></li>' for q in qs)
+    return f'<section class="questions"><h2>{esc(lib["questions"])}</h2><ol>{items}</ol></section>'
 
 
 def render_story(lang: str, story: dict, stories: dict) -> str:
@@ -755,7 +866,8 @@ def render_story(lang: str, story: dict, stories: dict) -> str:
         f'<a href="{rel(story_url(lang, s))}"><img src="{s["cover"]}" alt="" width="46" height="69" loading="lazy">'
         f'<span><span lang="{s["src"]}">{esc(s["title"])}</span><small>{esc(s["author"])} · {esc(s["level"])}</small></span></a>'
         for s in others)
-    local = "" if lang == src else f' · <span>{esc(loc["local_title"])}</span>'
+    local_h = local_heading(lang, story)
+    h1 = f'<span lang="{src}">{esc(story["title"])}</span>' + (f'<span class="h1-local">{esc(local_h)}</span>' if local_h else "")
     if is_own(story):
         source = esc(lib["source_own"])
     else:
@@ -769,17 +881,19 @@ def render_story(lang: str, story: dict, stories: dict) -> str:
     <header class="story-head">
       <img src="{story["cover"]}" alt="{esc(story["title"])}" width="120" height="180">
       <div>
-        <h1 lang="{src}">{esc(story["title"])}</h1>
-        <p class="author">{byline(lang, story)}{local}</p>
+        <h1>{h1}</h1>
+        <p class="author">{byline(lang, story)}</p>
         <div class="chips">{chips(lang, story)}</div>
       </div>
     </header>
     <p class="lede">{esc(loc["intro"])}</p>
-    <div class="howto"><p>{lib["howto"]}</p>{show_all}</div>
+    {audio_bar(lang, story)}
+    <div class="howto"><p>{lib["howto"]}</p><div class="howto-actions">{show_all}<button class="print-btn" id="print-btn" type="button">{esc(lib["print"])}</button></div></div>
     <div class="story" lang="{src}">
 {chr(10).join(paras)}
     </div>
     <p class="source">{source}</p>
+    {questions_html(lang, story)}
     <section class="app-cta" lang="{lang}">
       <img class="app-shot" src="/assets/app/starter-stories-{lang}.jpg" alt="{esc(lib["app_shot_alt"])}" width="216" height="384" loading="lazy">
       <div>
@@ -800,7 +914,8 @@ def render_story(lang: str, story: dict, stories: dict) -> str:
     <div class="shelf">{shelf}</div>
   </aside>
 </main>
-<script type="application/json" id="gloss-data">{data}</script>"""
+<script type="application/json" id="gloss-data">{data}</script>""" + (
+        f'\n<script type="application/json" id="audio-cues">{json.dumps(story["audio"]["cues"])}</script>' if story.get("audio") else "")
     alternates = {l: story_url(l, story) for l in story["langs"]}
     ld = [{"@type": "WebPage", "@id": url, "name": loc["title"], "description": loc["description"], "inLanguage": lang,
            "isPartOf": {"@type": "CollectionPage", "@id": lib_url},
@@ -810,7 +925,10 @@ def render_story(lang: str, story: dict, stories: dict) -> str:
                           "datePublished": str(story["year"]),
                           **({} if is_own(story) else {"license": "https://creativecommons.org/publicdomain/mark/1.0/",
                                                         "isBasedOn": story["source"]}),
-                          "image": SITE + story["cover"]}},
+                          "image": SITE + story["cover"],
+                          **({"audio": {"@type": "AudioObject", "contentUrl": story["audio"]["src"], "encodingFormat": "audio/mpeg",
+                                        "duration": iso_duration(story["audio"]["duration"]), "inLanguage": src}}
+                             if story.get("audio") else {})}},
           {"@type": "BreadcrumbList", "itemListElement": [
               {"@type": "ListItem", "position": 1, "name": "Biblyx", "item": home_url(lang)},
               {"@type": "ListItem", "position": 2, "name": lib["crumb"], "item": lib_url},

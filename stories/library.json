@@ -56,7 +56,15 @@
    "38 short stories from A1 to B2 in 10 languages, plus your own EPUB, PDF and TXT books"
   ],
   "app_how": "In the app: tap + and choose “Starter stories”.",
-  "app_shot_alt": "Starter stories in the Biblyx app"
+  "app_shot_alt": "Starter stories in the Biblyx app",
+  "listen": "Listen to the story",
+  "listen_note": "A natural voice reads it; the paragraph being read is highlighted.",
+  "questions": "Check your understanding",
+  "answer": "Show answer",
+  "print": "Print or save as PDF",
+  "speed": "Speed",
+  "popular": "Popular stories",
+  "in_src": "in English"
  },
  "tr": {
   "path": "ingilizce-hikayeler",
@@ -104,7 +112,15 @@
    "10 dilde A1'den B2'ye 38 kısa hikaye, bir de kendi EPUB, PDF ve TXT kitapların"
   ],
   "app_how": "Uygulamada: + simgesine dokun ve “Hazır hikâyeler”i seç.",
-  "app_shot_alt": "Biblyx uygulamasında hazır hikayeler"
+  "app_shot_alt": "Biblyx uygulamasında hazır hikayeler",
+  "listen": "Hikayeyi dinle",
+  "listen_note": "Doğal bir ses okur; okunan paragraf vurgulanır.",
+  "questions": "Ne kadar anladın?",
+  "answer": "Cevabı göster",
+  "print": "Yazdır veya PDF olarak kaydet",
+  "speed": "Hız",
+  "popular": "Popüler hikayeler",
+  "in_src": "İngilizce"
  },
  "de": {
   "path": "englische-kurzgeschichten",
@@ -152,7 +168,15 @@
    "38 kurze Geschichten von A1 bis B2 in 10 Sprachen, dazu deine eigenen EPUB-, PDF- und TXT-Bücher"
   ],
   "app_how": "In der App: Tippe auf + und wähle „Geschichten zum Start“.",
-  "app_shot_alt": "Geschichten zum Start in der Biblyx-App"
+  "app_shot_alt": "Geschichten zum Start in der Biblyx-App",
+  "listen": "Geschichte anhören",
+  "listen_note": "Eine natürliche Stimme liest vor; der gelesene Absatz wird hervorgehoben.",
+  "questions": "Hast du alles verstanden?",
+  "answer": "Antwort zeigen",
+  "print": "Drucken oder als PDF speichern",
+  "speed": "Tempo",
+  "popular": "Beliebte Geschichten",
+  "in_src": "auf Englisch"
  },
  "pt": {
   "path": "historias-em-ingles",
@@ -200,7 +224,15 @@
    "38 histórias curtas do A1 ao B2 em 10 idiomas, além dos seus próprios livros EPUB, PDF e TXT"
   ],
   "app_how": "No app: toque em + e escolha “Histórias para começar”.",
-  "app_shot_alt": "Histórias para começar no app Biblyx"
+  "app_shot_alt": "Histórias para começar no app Biblyx",
+  "listen": "Ouvir a história",
+  "listen_note": "Uma voz natural lê; o parágrafo lido fica destacado.",
+  "questions": "Você entendeu?",
+  "answer": "Ver resposta",
+  "print": "Imprimir ou salvar em PDF",
+  "speed": "Velocidade",
+  "popular": "Histórias populares",
+  "in_src": "em inglês"
  },
  "es": {
   "path": "cuentos-en-ingles",
@@ -248,7 +280,15 @@
    "38 historias cortas de A1 a B2 en 10 idiomas, y también tus propios libros EPUB, PDF y TXT"
   ],
   "app_how": "En la app: toca + y elige «Historias para empezar».",
-  "app_shot_alt": "Historias para empezar en la app Biblyx"
+  "app_shot_alt": "Historias para empezar en la app Biblyx",
+  "listen": "Escuchar el cuento",
+  "listen_note": "Una voz natural lo lee; el párrafo que se lee se resalta.",
+  "questions": "¿Lo has entendido?",
+  "answer": "Ver respuesta",
+  "print": "Imprimir o guardar en PDF",
+  "speed": "Velocidad",
+  "popular": "Cuentos populares",
+  "in_src": "en inglés"
  },
  "it": {
   "path": "storie-in-inglese",
@@ -296,7 +336,15 @@
    "38 racconti brevi dal livello A1 al B2 in 10 lingue, più i tuoi libri EPUB, PDF e TXT"
   ],
   "app_how": "Nell'app: tocca + e scegli «Storie per iniziare».",
-  "app_shot_alt": "Storie per iniziare nell'app Biblyx"
+  "app_shot_alt": "Storie per iniziare nell'app Biblyx",
+  "listen": "Ascolta la storia",
+  "listen_note": "Una voce naturale la legge; il paragrafo letto viene evidenziato.",
+  "questions": "Hai capito?",
+  "answer": "Mostra la risposta",
+  "print": "Stampa o salva in PDF",
+  "speed": "Velocità",
+  "popular": "Storie popolari",
+  "in_src": "in inglese"
  },
  "pl": {
   "path": "opowiadania-po-angielsku",
@@ -344,7 +392,15 @@
    "38 krótkich opowiadań od A1 do B2 w 10 językach, a do tego Twoje własne książki EPUB, PDF i TXT"
   ],
   "app_how": "W aplikacji: dotknij + i wybierz „Opowiadania na start”.",
-  "app_shot_alt": "Opowiadania na start w aplikacji Biblyx"
+  "app_shot_alt": "Opowiadania na start w aplikacji Biblyx",
+  "listen": "Posłuchaj opowiadania",
+  "listen_note": "Czyta naturalny głos; czytany akapit jest podświetlony.",
+  "questions": "Sprawdź, czy rozumiesz",
+  "answer": "Pokaż odpowiedź",
+  "print": "Drukuj lub zapisz jako PDF",
+  "speed": "Tempo",
+  "popular": "Popularne opowiadania",
+  "in_src": "po angielsku"
  },
  "fr": {
   "path": "histoires-en-anglais",
@@ -392,7 +448,15 @@
    "38 histoires courtes du niveau A1 au B2 en 10 langues, plus vos propres livres EPUB, PDF et TXT"
   ],
   "app_how": "Dans l'application : touchez + et choisissez « Histoires pour débuter ».",
-  "app_shot_alt": "Histoires pour débuter dans l'application Biblyx"
+  "app_shot_alt": "Histoires pour débuter dans l'application Biblyx",
+  "listen": "Écouter l'histoire",
+  "listen_note": "Une voix naturelle la lit ; le paragraphe lu est surligné.",
+  "questions": "Avez-vous compris ?",
+  "answer": "Voir la réponse",
+  "print": "Imprimer ou enregistrer en PDF",
+  "speed": "Vitesse",
+  "popular": "Histoires populaires",
+  "in_src": "en anglais"
  },
  "ru": {
   "path": "rasskazy-na-angliyskom",
@@ -440,6 +504,14 @@
    "38 коротких рассказов от A1 до B2 на 10 языках, а также ваши собственные книги EPUB, PDF и TXT"
   ],
   "app_how": "В приложении: нажмите + и выберите «Рассказы для начала».",
-  "app_shot_alt": "Рассказы для начала в приложении Biblyx"
+  "app_shot_alt": "Рассказы для начала в приложении Biblyx",
+  "listen": "Слушать рассказ",
+  "listen_note": "Читает естественный голос; читаемый абзац подсвечивается.",
+  "questions": "Проверьте себя",
+  "answer": "Показать ответ",
+  "print": "Распечатать или сохранить в PDF",
+  "speed": "Скорость",
+  "popular": "Популярные рассказы",
+  "in_src": "на английском"
  }
 }

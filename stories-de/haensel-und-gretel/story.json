@@ -287,5 +287,23 @@
    "level": "A2",
    "de": "läuft, rennt"
   }
+ ],
+ "questions": [
+  {
+   "q": "Warum führen die Eltern die Kinder in den Wald?",
+   "a": "Es ist große Teuerung im Land, und der Vater kann das tägliche Brot nicht mehr schaffen."
+  },
+  {
+   "q": "Wie findet Hänsel beim ersten Mal den Weg zurück?",
+   "a": "Mit den weißen Kieselsteinen, die er auf den Weg gestreut hat."
+  },
+  {
+   "q": "Warum klappt es beim zweiten Mal nicht?",
+   "a": "Hänsel streut Brotbröcklein, aber die Vögel picken sie weg."
+  },
+  {
+   "q": "Wie rettet Gretel ihren Bruder?",
+   "a": "Sie stößt die Hexe in den Ofen und macht die Tür zu."
+  }
  ]
 }

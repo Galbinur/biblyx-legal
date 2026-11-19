@@ -181,5 +181,23 @@
    "level": "B1",
    "de": "wieder gesund und stark werden"
   }
+ ],
+ "questions": [
+  {
+   "q": "Was bringt Rotkäppchen der Großmutter?",
+   "a": "Ein Stück Kuchen und eine Flasche Wein."
+  },
+  {
+   "q": "Was soll Rotkäppchen nach dem Willen der Mutter nicht tun?",
+   "a": "Nicht vom Weg abgehen."
+  },
+  {
+   "q": "Wer rettet Rotkäppchen und die Großmutter?",
+   "a": "Der Jäger. Er schneidet dem schlafenden Wolf den Bauch auf."
+  },
+  {
+   "q": "Was legen sie dem Wolf in den Bauch?",
+   "a": "Große Steine."
+  }
  ]
 }

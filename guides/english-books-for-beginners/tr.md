@@ -32,6 +32,8 @@ Kendi dilinde zaten bildiğin hikâyelerle başla. Olay örgüsünü bilmek keli
 
 **Bu sitede ücretsiz:** A1 için basit İngilizceyle anlatılmış altı tanınmış masal ve B2'ye kadar klasik hikayeler; tam metin, altı çizili kelimelerin anlamı ve her paragrafın Türkçe çevirisiyle. [İngilizce hikayeler](/tr/ingilizce-hikayeler/) sayfasından başla.
 
+Popüler hikayeler: [Çirkin Ördek Yavrusu – İngilizce hikaye](/tr/ingilizce-hikayeler/cirkin-ordek-yavrusu/), [Altın Saçlı ve Üç Ayı – İngilizce hikaye](/tr/ingilizce-hikayeler/altin-sacli-ve-uc-ayi/), [Kırmızı Başlıklı Kız – İngilizce hikaye](/tr/ingilizce-hikayeler/kirmizi-baslikli-kiz/).
+
 ## B1: kısa bölümlü gerçek hikâyeler
 
 - **The Gift of the Magi**, O. Henry. Sürprizli, ünlü bir kısa hikâye; yaklaşık 2.000 kelime. Biblyx'te hazır.

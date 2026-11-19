@@ -32,6 +32,8 @@ Commencez par des histoires que vous connaissez déjà en français. Connaître 
 
 **Gratuit sur ce site :** six contes célèbres racontés en anglais simple pour le niveau A1 et des nouvelles classiques jusqu'au B2, complets, avec le sens de chaque mot souligné et la traduction de chaque paragraphe. Commencez par les [histoires en anglais](/fr/histoires-en-anglais/).
 
+Histoires populaires: [Le Petit Chaperon rouge en anglais](/fr/histoires-en-anglais/le-petit-chaperon-rouge/), [Boucle d'or et les trois ours en anglais](/fr/histoires-en-anglais/boucle-d-or-et-les-trois-ours/), [Les Trois Petits Cochons en anglais](/fr/histoires-en-anglais/les-trois-petits-cochons/).
+
 ## B1 : de vraies histoires aux chapitres courts
 
 - **The Gift of the Magi**, d'O. Henry. Une nouvelle célèbre pour sa chute, environ 2 000 mots. Incluse dans Biblyx.

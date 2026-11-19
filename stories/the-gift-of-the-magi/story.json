@@ -436,5 +436,23 @@
    "level": "C1",
    "en": "in a weak, clumsy way"
   }
+ ],
+ "questions": [
+  {
+   "q": "How much money did Della have for Jim's present?",
+   "a": "One dollar and eighty-seven cents."
+  },
+  {
+   "q": "How did Della get more money?",
+   "a": "She had her long hair cut off and sold it."
+  },
+  {
+   "q": "What did she buy for Jim?",
+   "a": "A platinum fob chain for his gold watch."
+  },
+  {
+   "q": "Why couldn't they use their presents?",
+   "a": "Jim had sold his watch to buy Della the combs, and Della had sold the hair the combs were for."
+  }
  ]
 }

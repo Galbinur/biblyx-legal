@@ -63,7 +63,14 @@
      "name": "Biblyx"
     },
     "datePublished": "1812",
-    "image": "https://biblyx.com/assets/stories/little-red-riding-hood.jpg"
+    "image": "https://biblyx.com/assets/stories/little-red-riding-hood.jpg",
+    "audio": {
+     "@type": "AudioObject",
+     "contentUrl": "https://audio.biblyx.com/en/en_little_red_riding_hood/audio.mp3",
+     "encodingFormat": "audio/mpeg",
+     "duration": "PT2M20S",
+     "inLanguage": "en"
+    }
    }
   },
   {
@@ -130,13 +137,21 @@
     <header class="story-head">
       <img src="/assets/stories/little-red-riding-hood.jpg" alt="Little Red Riding Hood" width="120" height="180">
       <div>
-        <h1 lang="en">Little Red Riding Hood</h1>
-        <p class="author">Brothers Grimm · opowiedziane prostym angielskim · <span>Czerwony Kapturek</span></p>
+        <h1><span lang="en">Little Red Riding Hood</span><span class="h1-local">Czerwony Kapturek po angielsku</span></h1>
+        <p class="author">Brothers Grimm · opowiedziane prostym angielskim</p>
         <div class="chips"><span class="chip level">A1</span><span class="chip">3 min czytania</span><span class="chip">Liczba słów: 364</span><span class="chip">Za darmo</span></div>
       </div>
     </header>
     <p class="lede">Dziewczynka niesie jedzenie chorej babci przez las i po drodze spotyka wilka. Zdania są krótkie, a słowa proste, dlatego historia świetnie pasuje dla początkujących.</p>
-    <div class="howto"><p><b>Jak czytać:</b> dotknij podkreślonego słowa, żeby zobaczyć, co znaczy w tym zdaniu. Najpierw przeczytaj akapit samodzielnie; jeśli utkniesz, otwórz tłumaczenie przyciskiem „Po polsku”.</p><button class="show-all" id="tr-all" type="button" aria-pressed="false">Pokaż wszystkie tłumaczenia</button></div>
+    <div class="listen" lang="pl">
+      <button class="listen-play" id="listen-play" type="button" aria-pressed="false"><span class="ic" aria-hidden="true"></span>Posłuchaj opowiadania</button>
+      <input class="listen-seek" id="listen-seek" type="range" min="0" max="139.5" step="0.1" value="0" aria-label="Posłuchaj opowiadania">
+      <span class="listen-time" id="listen-time">0:00 / 2:20</span>
+      <label class="listen-speed">Tempo <select id="listen-speed"><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option></select></label>
+      <p class="listen-note">Czyta naturalny głos; czytany akapit jest podświetlony.</p>
+      <audio id="story-audio" preload="none" src="https://audio.biblyx.com/en/en_little_red_riding_hood/audio.mp3"></audio>
+    </div>
+    <div class="howto"><p><b>Jak czytać:</b> dotknij podkreślonego słowa, żeby zobaczyć, co znaczy w tym zdaniu. Najpierw przeczytaj akapit samodzielnie; jeśli utkniesz, otwórz tłumaczenie przyciskiem „Po polsku”.</p><div class="howto-actions"><button class="show-all" id="tr-all" type="button" aria-pressed="false">Pokaż wszystkie tłumaczenia</button><button class="print-btn" id="print-btn" type="button">Drukuj lub zapisz jako PDF</button></div></div>
     <div class="story" lang="en">
 <p class="en" id="p1">Long ago, a little girl lived near a big forest. She always wore a red coat with a <a class="g" href="#w0" data-k="0" role="button" aria-expanded="false">hood</a>, so everyone called her Little Red Riding Hood.</p>
 <button class="tr-toggle" type="button" lang="pl" aria-expanded="false" aria-controls="t1">Po polsku</button>
@@ -183,6 +198,7 @@
 <p class="tr" id="t14" lang="pl" hidden>Drwal odprowadził ją przez las do domu. Od tamtego dnia zawsze słuchała mamy.</p>
     </div>
     <p class="source">Tekst: nasza własna, prosta wersja tradycyjnej baśni.</p>
+    <section class="questions"><h2>Sprawdź, czy rozumiesz</h2><ol><li><p lang="en">What did her mother give Little Red Riding Hood, and why?</p><details><summary>Pokaż odpowiedź</summary><p lang="en">A basket with bread and butter, because her grandmother was ill.</p></details></li><li><p lang="en">What did the wolf tell her to do in the forest?</p><details><summary>Pokaż odpowiedź</summary><p lang="en">To pick some beautiful flowers for her grandmother.</p></details></li><li><p lang="en">What did the wolf do at the grandmother&#x27;s house?</p><details><summary>Pokaż odpowiedź</summary><p lang="en">He swallowed the grandmother, put on her nightdress and got into her bed.</p></details></li><li><p lang="en">Who saved the grandmother?</p><details><summary>Pokaż odpowiedź</summary><p lang="en">A woodcutter. He killed the wolf and opened its stomach, and she came out alive.</p></details></li></ol></section>
     <section class="app-cta" lang="pl">
       <img class="app-shot" src="/assets/app/starter-stories-pl.jpg" alt="Opowiadania na start w aplikacji Biblyx" width="216" height="384" loading="lazy">
       <div>
@@ -204,6 +220,7 @@
   </aside>
 </main>
 <script type="application/json" id="gloss-data">[{"w": "hood", "p": "rzeczownik", "m": "kaptur", "n": "", "l": "A2"}, {"w": "basket", "p": "rzeczownik", "m": "koszyk", "n": "", "l": "A2"}, {"w": "ill", "p": "przymiotnik", "m": "chora", "n": "", "l": "A2"}, {"w": "stranger", "p": "rzeczownik", "m": "obcy ludzie", "n": "", "l": "A2"}, {"w": "wolf", "p": "rzeczownik", "m": "wilk", "n": "", "l": "A2"}, {"w": "pick", "p": "czasownik", "m": "zrywać", "n": "", "l": "A2"}, {"w": "knock on", "p": "phrasal verb", "m": "zapukał do", "n": "", "l": "A2"}, {"w": "swallow", "p": "czasownik", "m": "połknął", "n": "", "l": "B1"}, {"w": "put on", "p": "phrasal verb", "m": "włożył", "n": "Czas przeszły to też put, bez zmian.", "l": "A2"}, {"w": "at last", "p": "wyrażenie", "m": "w końcu", "n": "", "l": "A2"}, {"w": "jump out of", "p": "phrasal verb", "m": "wyskoczył z", "n": "", "l": "A2"}, {"w": "woodcutter", "p": "rzeczownik", "m": "drwal", "n": "", "l": "B1"}, {"w": "axe", "p": "rzeczownik", "m": "siekiera", "n": "", "l": "B1"}, {"w": "come out", "p": "phrasal verb", "m": "wyszła", "n": "Nieregularny czas przeszły od come: came.", "l": "A2"}]</script>
+<script type="application/json" id="audio-cues">[[0.0, -1], [1.44, 0], [12.48, 1], [22.64, 2], [31.12, 3], [41.6, 4], [51.28, 5], [64.64, 6], [73.44, 7], [82.8, 8], [93.04, 9], [101.12, 10], [110.16, 11], [117.52, 12], [127.72, 13], [134.32, -1]]</script>
 
 <footer class="wrap">
   <div class="foot-backed">
@@ -329,6 +346,42 @@
     all.setAttribute('aria-pressed', show ? 'true' : 'false');
     document.querySelectorAll('.tr-toggle').forEach(function (b) { setTr(b, show); });
   });
+  var pb = document.getElementById('print-btn');
+  if (pb) pb.addEventListener('click', function () { window.print(); });
+  var au = document.getElementById('story-audio'), cuesEl = document.getElementById('audio-cues');
+  if (au && cuesEl) {
+    var cues = JSON.parse(cuesEl.textContent), play = document.getElementById('listen-play'),
+        seek = document.getElementById('listen-seek'), time = document.getElementById('listen-time'),
+        speed = document.getElementById('listen-speed'), lit = null, dragging = false,
+        calm = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    function fmt(t) { t = Math.max(0, Math.floor(t || 0)); return Math.floor(t / 60) + ':' + ('0' + t % 60).slice(-2); }
+    function paraAt(t) { var p = -1; for (var i = 0; i < cues.length && cues[i][0] <= t + 0.05; i++) p = cues[i][1]; return p; }
+    function light(p) {
+      var el = p >= 0 ? document.getElementById('p' + (p + 1)) : null;
+      if (el === lit) return;
+      if (lit) lit.classList.remove('reading');
+      lit = el;
+      if (!el) return;
+      el.classList.add('reading');
+      var r = el.getBoundingClientRect();
+      if (!au.paused && (r.top < 80 || r.bottom > window.innerHeight - 40))
+        el.scrollIntoView({ block: 'center', behavior: calm ? 'auto' : 'smooth' });
+    }
+    function sync() {
+      if (!dragging) seek.value = au.currentTime;
+      time.textContent = fmt(au.currentTime) + ' / ' + fmt(au.duration || +seek.max);
+      light(au.currentTime > 0 ? paraAt(au.currentTime) : -1);
+    }
+    play.addEventListener('click', function () { if (au.paused) au.play(); else au.pause(); });
+    au.addEventListener('play', function () { play.setAttribute('aria-pressed', 'true'); if (typeof gtag === 'function') gtag('event', 'story_listen'); });
+    au.addEventListener('pause', function () { play.setAttribute('aria-pressed', 'false'); });
+    au.addEventListener('timeupdate', sync);
+    au.addEventListener('ended', function () { light(-1); });
+    seek.addEventListener('input', function () { dragging = true; time.textContent = fmt(+seek.value) + ' / ' + fmt(au.duration || +seek.max); });
+    seek.addEventListener('change', function () { dragging = false; au.currentTime = +seek.value; sync(); });
+    speed.addEventListener('change', function () { au.playbackRate = +speed.value; });
+    au.addEventListener('ratechange', function () { if (+speed.value !== au.playbackRate) au.playbackRate = +speed.value; });
+  }
 })();
 </script>
 </body>

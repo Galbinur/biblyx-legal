@@ -32,6 +32,8 @@ Comincia da storie che conosci già in italiano. Sapere la trama ti aiuta a indo
 
 **Gratis su questo sito:** sei fiabe famose raccontate in inglese semplice per l'A1 e racconti classici fino al B2, completi, con il significato di ogni parola sottolineata e la traduzione di ogni paragrafo. Comincia dalle [storie in inglese](/it/storie-in-inglese/).
 
+Storie popolari: [Cappuccetto Rosso in inglese](/it/storie-in-inglese/cappuccetto-rosso/), [Pinocchio in inglese](/it/storie-in-inglese/pinocchio/), [Riccioli d'Oro e i tre orsi in inglese](/it/storie-in-inglese/riccioli-d-oro-e-i-tre-orsi/).
+
 ## B1: storie vere con capitoli brevi
 
 - **The Gift of the Magi**, O. Henry. Un racconto celebre con finale a sorpresa, circa 2.000 parole. Incluso in Biblyx.

@@ -150,5 +150,23 @@
    "level": "A1",
    "en": "part of the body below the head"
   }
+ ],
+ "questions": [
+  {
+   "q": "Why were the other animals unkind to the duckling?",
+   "a": "They said he was too big and too ugly; he looked different."
+  },
+  {
+   "q": "Where did he live after he ran away from the farm?",
+   "a": "Alone among the reeds of a big lake."
+  },
+  {
+   "q": "What happened to him in spring?",
+   "a": "His wings were big and strong, and he flew to a garden with a pond."
+  },
+  {
+   "q": "What did he see when he looked down at the water?",
+   "a": "A beautiful white swan: himself."
+  }
  ]
 }

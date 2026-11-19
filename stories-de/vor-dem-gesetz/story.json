@@ -161,5 +161,23 @@
    "level": "B2",
    "de": "sehr laut zu jemandem sprechen"
   }
+ ],
+ "questions": [
+  {
+   "q": "Wer steht vor dem Gesetz?",
+   "a": "Ein Türhüter."
+  },
+  {
+   "q": "Was möchte der Mann vom Lande?",
+   "a": "Eintritt in das Gesetz."
+  },
+  {
+   "q": "Wie lange wartet er?",
+   "a": "Tage und Jahre, bis an sein Lebensende."
+  },
+  {
+   "q": "Was sagt der Türhüter am Ende?",
+   "a": "Dass dieser Eingang nur für den Mann bestimmt war und dass er ihn jetzt schließt."
+  }
  ]
 }

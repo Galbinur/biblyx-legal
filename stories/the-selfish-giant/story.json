@@ -457,5 +457,23 @@
    "en": "went down on his knees",
    "note_en": "past tense of kneel"
   }
+ ],
+ "questions": [
+  {
+   "q": "Where did the children play every afternoon?",
+   "a": "In the Giant's large, lovely garden."
+  },
+  {
+   "q": "What did the Giant build, and why?",
+   "a": "A high wall, because he wanted the garden only for himself."
+  },
+  {
+   "q": "What happened to the garden after that?",
+   "a": "Spring never came: Snow, Frost, the North Wind and the Hail stayed there."
+  },
+  {
+   "q": "What did the Giant do when he understood?",
+   "a": "He knocked down the wall with an axe and gave the garden to the children."
+  }
  ]
 }

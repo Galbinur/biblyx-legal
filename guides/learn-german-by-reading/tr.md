@@ -32,6 +32,8 @@ Kendi dilinde zaten bildiğin hikâyelerle başla. Olay örgüsünü bilmek, kel
 
 **Bu sitede ücretsiz:** A1 için basit Almancayla anlatılmış masallar (Bremen Mızıkacıları, Kurt ile Yedi Oğlak, Tavşan ile Kirpi) ve Grimm Kardeşler'in ve Kafka'nın orijinal metinleri; tam metin, altı çizili kelimelerin Türkçe anlamı ve her paragrafın Türkçe çevirisiyle. [Almanca hikayeler](/tr/almanca-hikayeler/) sayfasından başla.
 
+Popüler Almanca hikayeler: [Bremen Mızıkacıları – Almanca hikaye](/tr/almanca-hikayeler/bremen-mizikacilari/), [Kanun Önünde – Almanca hikaye](/tr/almanca-hikayeler/kanun-onunde/), [Kurt ile Yedi Oğlak – Almanca hikaye](/tr/almanca-hikayeler/kurt-ile-yedi-oglak/).
+
 ## B1: gerçek kısa hikâyeler
 
 - **Franz Kafka, *Vor dem Gesetz*.** Bir sayfa, basit kelimeler, tuhaf ve ünlü bir hikâye. Biblyx'te hazır gelir.

@@ -65,7 +65,14 @@
     "datePublished": "1888",
     "license": "https://creativecommons.org/publicdomain/mark/1.0/",
     "isBasedOn": "https://www.gutenberg.org/ebooks/902",
-    "image": "https://biblyx.com/assets/stories/the-selfish-giant.jpg"
+    "image": "https://biblyx.com/assets/stories/the-selfish-giant.jpg",
+    "audio": {
+     "@type": "AudioObject",
+     "contentUrl": "https://audio.biblyx.com/en/en_selfish_giant/audio.mp3",
+     "encodingFormat": "audio/mpeg",
+     "duration": "PT9M28S",
+     "inLanguage": "en"
+    }
    }
   },
   {
@@ -132,13 +139,21 @@
     <header class="story-head">
       <img src="/assets/stories/the-selfish-giant.jpg" alt="The Selfish Giant" width="120" height="180">
       <div>
-        <h1 lang="en">The Selfish Giant</h1>
-        <p class="author">Oscar Wilde · 1888 · <span>Bencil Dev</span></p>
+        <h1><span lang="en">The Selfish Giant</span><span class="h1-local">Bencil Dev – İngilizce hikaye</span></h1>
+        <p class="author">Oscar Wilde · 1888</p>
         <div class="chips"><span class="chip level">A2–B1</span><span class="chip">11 dk okuma</span><span class="chip">1.652 kelime</span><span class="chip">Kamu malı</span></div>
       </div>
     </header>
     <p class="lede">Oscar Wilde&#x27;ın bu masalı, çocukları bahçesinden kovan bencil bir devin ve onun bahçesine dönen kışın hikâyesini anlatır. Cümleler kısa ve tekrar eden kalıplarla ilerlediği için A2–B1 seviyesindeki okurlar olayı kolayca takip eder. Eski kullanımlar da var; bunları kelimelere dokunarak öğrenebilirsin.</p>
-    <div class="howto"><p><b>Nasıl okunur:</b> altı çizili kelimeye dokun, bu cümledeki anlamını gör. Önce paragrafı kendin oku; takılırsan altındaki “Türkçesi” düğmesiyle çeviriyi aç.</p><button class="show-all" id="tr-all" type="button" aria-pressed="false">Tüm çevirileri göster</button></div>
+    <div class="listen" lang="tr">
+      <button class="listen-play" id="listen-play" type="button" aria-pressed="false"><span class="ic" aria-hidden="true"></span>Hikayeyi dinle</button>
+      <input class="listen-seek" id="listen-seek" type="range" min="0" max="567.5" step="0.1" value="0" aria-label="Hikayeyi dinle">
+      <span class="listen-time" id="listen-time">0:00 / 9:28</span>
+      <label class="listen-speed">Hız <select id="listen-speed"><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option></select></label>
+      <p class="listen-note">Doğal bir ses okur; okunan paragraf vurgulanır.</p>
+      <audio id="story-audio" preload="none" src="https://audio.biblyx.com/en/en_selfish_giant/audio.mp3"></audio>
+    </div>
+    <div class="howto"><p><b>Nasıl okunur:</b> altı çizili kelimeye dokun, bu cümledeki anlamını gör. Önce paragrafı kendin oku; takılırsan altındaki “Türkçesi” düğmesiyle çeviriyi aç.</p><div class="howto-actions"><button class="show-all" id="tr-all" type="button" aria-pressed="false">Tüm çevirileri göster</button><button class="print-btn" id="print-btn" type="button">Yazdır veya PDF olarak kaydet</button></div></div>
     <div class="story" lang="en">
 <p class="en" id="p1">Every afternoon, as they were coming from school, the children <a class="g" href="#w0" data-k="0" role="button" aria-expanded="false">used to</a> go and play in the Giant’s garden.</p>
 <button class="tr-toggle" type="button" lang="tr" aria-expanded="false" aria-controls="t1">Türkçesi</button>
@@ -233,6 +248,7 @@
 <p class="tr" id="t30" lang="tr" hidden>Çocuklar o öğleden sonra koşarak içeri girdiklerinde Dev'i ağacın altında ölü yatarken buldular; bütün vücudu beyaz çiçeklerle kaplıydı.</p>
     </div>
     <p class="source">Metin: <a href="https://www.gutenberg.org/ebooks/902" rel="noopener">Project Gutenberg, The Happy Prince and Other Tales</a>, kamu malı.</p>
+    <section class="questions"><h2>Ne kadar anladın?</h2><ol><li><p lang="en">Where did the children play every afternoon?</p><details><summary>Cevabı göster</summary><p lang="en">In the Giant&#x27;s large, lovely garden.</p></details></li><li><p lang="en">What did the Giant build, and why?</p><details><summary>Cevabı göster</summary><p lang="en">A high wall, because he wanted the garden only for himself.</p></details></li><li><p lang="en">What happened to the garden after that?</p><details><summary>Cevabı göster</summary><p lang="en">Spring never came: Snow, Frost, the North Wind and the Hail stayed there.</p></details></li><li><p lang="en">What did the Giant do when he understood?</p><details><summary>Cevabı göster</summary><p lang="en">He knocked down the wall with an axe and gave the garden to the children.</p></details></li></ol></section>
     <section class="app-cta" lang="tr">
       <img class="app-shot" src="/assets/app/starter-stories-tr.jpg" alt="Biblyx uygulamasında hazır hikayeler" width="216" height="384" loading="lazy">
       <div>
@@ -254,6 +270,7 @@
   </aside>
 </main>
 <script type="application/json" id="gloss-data">[{"w": "used to", "p": "kalıp", "m": "-erdi, -ardı (geçmiş alışkanlık)", "n": "used to + fiil, geçmişteki alışkanlığı anlatır.", "l": "A2"}, {"w": "break out into", "p": "phrasal verb", "m": "birdenbire çiçeğe durmak", "n": "Burada: ağaçlar birden çiçeklere açıyor.", "l": "B2"}, {"w": "blossom", "p": "isim", "m": "çiçekler (ağaç çiçekleri)", "n": "", "l": "B1"}, {"w": "bear", "p": "fiil", "m": "(meyve) vermek", "n": "bear fiilinin geçmiş zamanı.", "l": "B2"}, {"w": "in order to", "p": "kalıp", "m": "-mek için", "n": "", "l": "A2"}, {"w": "ogre", "p": "isim", "m": "yamyam dev", "n": "", "l": "B2"}, {"w": "determine", "p": "fiil", "m": "karar verdi", "n": "Eski kullanım: bugün decided denir.", "l": "B2"}, {"w": "gruff", "p": "sıfat", "m": "kaba ve boğuk (ses)", "n": "", "l": "B2"}, {"w": "put up", "p": "phrasal verb", "m": "asmak, dikmek", "n": "", "l": "B1"}, {"w": "notice-board", "p": "isim", "m": "ilan tahtası", "n": "", "l": "B1"}, {"w": "trespasser", "p": "kalıp", "m": "izinsiz girenler yasal işleme tabidir", "n": "Özel arazilerde görülen tipik uyarı levhasıdır.", "l": "C1"}, {"w": "wander", "p": "fiil", "m": "dolaşmak, aylak aylak gezmek", "n": "", "l": "B1"}, {"w": "slip back", "p": "phrasal verb", "m": "sessizce geri kaymak", "n": "", "l": "B2"}, {"w": "go off to sleep", "p": "deyim", "m": "uykuya dalmak", "n": "", "l": "B1"}, {"w": "cloak", "p": "isim", "m": "pelerin", "n": "", "l": "B2"}, {"w": "rattle", "p": "fiil", "m": "takırdamak", "n": "", "l": "B2"}, {"w": "linnet", "p": "isim", "m": "ketenkuşu", "n": "", "l": "C2"}, {"w": "cease", "p": "fiil", "m": "durdu, kesildi", "n": "Edebî ve resmî: bugün stopped denir.", "l": "C1"}, {"w": "casement", "p": "isim", "m": "pencere kanadı", "n": "Eski bir sözcük; bugün window denir.", "l": "C2"}, {"w": "creep", "p": "fiil", "m": "sinsice süzüldü", "n": "creep fiilinin düzensiz geçmişi.", "l": "B2"}, {"w": "twitter", "p": "fiil", "m": "cıvıldamak", "n": "", "l": "B2"}, {"w": "bitterly", "p": "zarf", "m": "acı acı", "n": "", "l": "B2"}, {"w": "melt", "p": "fiil", "m": "eridi, yumuşadı", "n": "His heart melted: yüreği acıma ve sevgiyle doldu.", "l": "B1"}, {"w": "knock down", "p": "phrasal verb", "m": "yıkmak", "n": "", "l": "B1"}, {"w": "steal up", "p": "phrasal verb", "m": "sinsice yaklaştı", "n": "stole, steal fiilinin geçmişidir; burada çalmak değil.", "l": "C1"}, {"w": "fling", "p": "fiil", "m": "hızla atmak, fırlatmak", "n": "fling fiilinin düzensiz geçmişi.", "l": "B2"}, {"w": "wicked", "p": "sıfat", "m": "kötü, kötü niyetli", "n": "", "l": "B2"}, {"w": "axe", "p": "isim", "m": "balta", "n": "", "l": "B1"}, {"w": "bid", "p": "fiil", "m": "(veda) etmek", "n": "bid someone good-bye: veda etmek; resmî.", "l": "C1"}, {"w": "companion", "p": "isim", "m": "arkadaş, yoldaş", "n": "", "l": "B2"}, {"w": "be sure and (do something)", "p": "kalıp", "m": "mutlaka gelmek", "n": "be sure and + fiil, be sure to + fiil gibidir; günlük dil.", "l": "B1"}, {"w": "long for", "p": "phrasal verb", "m": "özlemek, hasretini çekmek", "n": "", "l": "B2"}, {"w": "feeble", "p": "sıfat", "m": "güçsüz, halsiz", "n": "", "l": "B2"}, {"w": "admire", "p": "fiil", "m": "hayran hayran bakmak", "n": "", "l": "B1"}, {"w": "merely", "p": "zarf", "m": "sadece, yalnızca", "n": "", "l": "B2"}, {"w": "marvellous", "p": "sıfat", "m": "harika, muhteşem", "n": "", "l": "B2"}, {"w": "hasten", "p": "fiil", "m": "acele etti", "n": "Eski kullanım: bugün hurried denir.", "l": "C1"}, {"w": "hath", "p": "fiil", "m": "has (eski biçim)", "n": "Who hath dared, Who has dared demektir.", "l": "C2"}, {"w": "wound", "p": "fiil", "m": "yaralamak", "n": "woond okunur, wind'in geçmişi gibi değil.", "l": "B2"}, {"w": "thee", "p": "zamir", "m": "seni, sana (eski)", "n": "Eski kullanım: bugün you denir.", "l": "C2"}, {"w": "slay", "p": "fiil", "m": "öldürmek", "n": "Edebî: bugün kill denir.", "l": "C1"}, {"w": "nay", "p": "zarf", "m": "hayır", "n": "Eski kullanım: bugün no denir.", "l": "C2"}, {"w": "awe", "p": "isim", "m": "huşu, korkuyla karışık saygı", "n": "", "l": "C1"}, {"w": "kneel", "p": "fiil", "m": "diz çöktü", "n": "kneel fiilinin düzensiz geçmişi.", "l": "B2"}]</script>
+<script type="application/json" id="audio-cues">[[0.0, -1], [2.4, 0], [8.57, 1], [37.71, 2], [57.97, 3], [63.97, 4], [78.62, 5], [81.42, 6], [84.07, 7], [103.61, 8], [182.59, 9], [195.04, 10], [217.46, 11], [255.88, 12], [258.06, 13], [322.19, 14], [345.17, 15], [406.98, 16], [412.75, 17], [421.26, 18], [425.08, 19], [437.25, 20], [456.78, 21], [475.68, 22], [486.16, 23], [508.5, 24], [531.08, 25], [538.04, 26], [542.82, 27], [549.89, 28], [560.17, 29]]</script>
 
 <footer class="wrap">
   <div class="foot-backed">
@@ -380,6 +397,42 @@
     all.setAttribute('aria-pressed', show ? 'true' : 'false');
     document.querySelectorAll('.tr-toggle').forEach(function (b) { setTr(b, show); });
   });
+  var pb = document.getElementById('print-btn');
+  if (pb) pb.addEventListener('click', function () { window.print(); });
+  var au = document.getElementById('story-audio'), cuesEl = document.getElementById('audio-cues');
+  if (au && cuesEl) {
+    var cues = JSON.parse(cuesEl.textContent), play = document.getElementById('listen-play'),
+        seek = document.getElementById('listen-seek'), time = document.getElementById('listen-time'),
+        speed = document.getElementById('listen-speed'), lit = null, dragging = false,
+        calm = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    function fmt(t) { t = Math.max(0, Math.floor(t || 0)); return Math.floor(t / 60) + ':' + ('0' + t % 60).slice(-2); }
+    function paraAt(t) { var p = -1; for (var i = 0; i < cues.length && cues[i][0] <= t + 0.05; i++) p = cues[i][1]; return p; }
+    function light(p) {
+      var el = p >= 0 ? document.getElementById('p' + (p + 1)) : null;
+      if (el === lit) return;
+      if (lit) lit.classList.remove('reading');
+      lit = el;
+      if (!el) return;
+      el.classList.add('reading');
+      var r = el.getBoundingClientRect();
+      if (!au.paused && (r.top < 80 || r.bottom > window.innerHeight - 40))
+        el.scrollIntoView({ block: 'center', behavior: calm ? 'auto' : 'smooth' });
+    }
+    function sync() {
+      if (!dragging) seek.value = au.currentTime;
+      time.textContent = fmt(au.currentTime) + ' / ' + fmt(au.duration || +seek.max);
+      light(au.currentTime > 0 ? paraAt(au.currentTime) : -1);
+    }
+    play.addEventListener('click', function () { if (au.paused) au.play(); else au.pause(); });
+    au.addEventListener('play', function () { play.setAttribute('aria-pressed', 'true'); if (typeof gtag === 'function') gtag('event', 'story_listen'); });
+    au.addEventListener('pause', function () { play.setAttribute('aria-pressed', 'false'); });
+    au.addEventListener('timeupdate', sync);
+    au.addEventListener('ended', function () { light(-1); });
+    seek.addEventListener('input', function () { dragging = true; time.textContent = fmt(+seek.value) + ' / ' + fmt(au.duration || +seek.max); });
+    seek.addEventListener('change', function () { dragging = false; au.currentTime = +seek.value; sync(); });
+    speed.addEventListener('change', function () { au.playbackRate = +speed.value; });
+    au.addEventListener('ratechange', function () { if (+speed.value !== au.playbackRate) au.playbackRate = +speed.value; });
+  }
 })();
 </script>
 </body>

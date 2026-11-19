@@ -32,6 +32,8 @@ Fang mit Geschichten an, die du aus deiner Sprache schon kennst. Wer die Handlun
 
 **Kostenlos auf dieser Seite:** sechs bekannte Märchen in einfachem Englisch für A1 und klassische Geschichten bis B2, vollständig, mit der Bedeutung jedes unterstrichenen Wortes und deutscher Übersetzung jedes Absatzes. Fang bei den [englischen Kurzgeschichten](/de/englische-kurzgeschichten/) an.
 
+Beliebte Geschichten: [Rapunzel auf Englisch](/de/englische-kurzgeschichten/rapunzel/), [Die drei kleinen Schweinchen auf Englisch](/de/englische-kurzgeschichten/die-drei-kleinen-schweinchen/), [Rotkäppchen auf Englisch](/de/englische-kurzgeschichten/rotkaeppchen/).
+
 ## B1: echte Geschichten mit kurzen Kapiteln
 
 - **The Gift of the Magi** von O. Henry. Eine berühmte Kurzgeschichte mit Pointe, etwa 2.000 Wörter. In Biblyx enthalten.

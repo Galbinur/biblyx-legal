@@ -150,5 +150,23 @@
    "level": "A2",
    "de": "auf den Boden fallen"
   }
+ ],
+ "questions": [
+  {
+   "q": "Worüber lacht der Hase?",
+   "a": "Über die kurzen Beine des Igels."
+  },
+  {
+   "q": "Was bekommt der Gewinner des Rennens?",
+   "a": "Ein Goldstück und eine Flasche Wein."
+  },
+  {
+   "q": "Wer wartet am anderen Ende des Feldes?",
+   "a": "Die Frau des Igels. Sie sieht genau aus wie der Igel."
+  },
+  {
+   "q": "Wie oft läuft der Hase hin und her?",
+   "a": "Siebzig Mal, bis er müde umfällt."
+  }
  ]
 }

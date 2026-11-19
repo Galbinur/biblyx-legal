@@ -150,5 +150,23 @@
    "level": "A2",
    "de": "tiefes Loch mit Wasser"
   }
+ ],
+ "questions": [
+  {
+   "q": "Woran sollen die Kinder den Wolf erkennen?",
+   "a": "An seiner rauen Stimme und seinen schwarzen Füßen."
+  },
+  {
+   "q": "Was isst der Wolf, damit seine Stimme weich wird?",
+   "a": "Kreide."
+  },
+  {
+   "q": "Wo versteckt sich das jüngste Kind?",
+   "a": "In der Uhr."
+  },
+  {
+   "q": "Was legt die Mutter dem Wolf in den Bauch?",
+   "a": "Große Steine. Der Wolf fällt in den Brunnen."
+  }
  ]
 }

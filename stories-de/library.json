@@ -47,7 +47,15 @@
    "10 dilde A1'den B2'ye 38 kısa hikaye, bir de kendi EPUB, PDF ve TXT kitapların"
   ],
   "app_how": "Uygulamada: + simgesine dokun ve “Hazır hikâyeler”i seç.",
-  "app_shot_alt": "Biblyx uygulamasında hazır hikayeler"
+  "app_shot_alt": "Biblyx uygulamasında hazır hikayeler",
+  "listen": "Hikayeyi dinle",
+  "listen_note": "Doğal bir ses okur; okunan paragraf vurgulanır.",
+  "questions": "Ne kadar anladın?",
+  "answer": "Cevabı göster",
+  "print": "Yazdır veya PDF olarak kaydet",
+  "speed": "Hız",
+  "popular": "Popüler Almanca hikayeler",
+  "in_src": "Almanca"
  },
  "order": [
   "der-hase-und-der-igel",
