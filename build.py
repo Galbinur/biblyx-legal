@@ -837,6 +837,15 @@ def questions_html(lang: str, story: dict) -> str:
     return f'<section class="questions"><h2>{esc(lib["questions"])}</h2><ol>{items}</ol></section>'
 
 
+def print_end(lang: str, story: dict, url: str) -> str:
+    """Printed only: the answer key and the page's address, so a printout still names its source."""
+    lib, src = libof(story, lang), story["src"]
+    qs = story.get("questions") or []
+    key = (f'<section class="print-only answer-key"><h2>{esc(lib["answers"])}</h2><ol>'
+           + "".join(f'<li lang="{src}">{esc(q["a"])}</li>' for q in qs) + "</ol></section>") if qs else ""
+    return key + f'<p class="print-only print-source">{esc(url.replace("https://", ""))} · {esc(lib["print_line"])}</p>'
+
+
 def render_story(lang: str, story: dict, stories: dict) -> str:
     lib = libof(story, lang)
     src = story["src"]
@@ -908,6 +917,7 @@ def render_story(lang: str, story: dict, stories: dict) -> str:
       <h2>{esc(lib["vocab"])}</h2>
       <div class="table-wrap"><table><thead><tr>{cols}</tr></thead><tbody>{vocab}</tbody></table></div>
     </section>
+    {print_end(lang, story, url)}
   </article>
   <aside class="also">
     <h2>{esc(lib["shelf"])}</h2>

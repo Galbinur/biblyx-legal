@@ -64,7 +64,9 @@
   "print": "Print or save as PDF",
   "speed": "Speed",
   "popular": "Popular stories",
-  "in_src": "in English"
+  "in_src": "in English",
+  "answers": "Answers",
+  "print_line": "Listen to this story in the Biblyx app"
  },
  "tr": {
   "path": "ingilizce-hikayeler",
@@ -120,7 +122,9 @@
   "print": "Yazdır veya PDF olarak kaydet",
   "speed": "Hız",
   "popular": "Popüler hikayeler",
-  "in_src": "İngilizce"
+  "in_src": "İngilizce",
+  "answers": "Cevaplar",
+  "print_line": "Bu hikayeyi Biblyx uygulamasında dinle"
  },
  "de": {
   "path": "englische-kurzgeschichten",
@@ -176,7 +180,9 @@
   "print": "Drucken oder als PDF speichern",
   "speed": "Tempo",
   "popular": "Beliebte Geschichten",
-  "in_src": "auf Englisch"
+  "in_src": "auf Englisch",
+  "answers": "Antworten",
+  "print_line": "Hör dir diese Geschichte in der Biblyx-App an"
  },
  "pt": {
   "path": "historias-em-ingles",
@@ -232,7 +238,9 @@
   "print": "Imprimir ou salvar em PDF",
   "speed": "Velocidade",
   "popular": "Histórias populares",
-  "in_src": "em inglês"
+  "in_src": "em inglês",
+  "answers": "Respostas",
+  "print_line": "Ouça esta história no app Biblyx"
  },
  "es": {
   "path": "cuentos-en-ingles",
@@ -288,7 +296,9 @@
   "print": "Imprimir o guardar en PDF",
   "speed": "Velocidad",
   "popular": "Cuentos populares",
-  "in_src": "en inglés"
+  "in_src": "en inglés",
+  "answers": "Respuestas",
+  "print_line": "Escucha este cuento en la app Biblyx"
  },
  "it": {
   "path": "storie-in-inglese",
@@ -344,7 +354,9 @@
   "print": "Stampa o salva in PDF",
   "speed": "Velocità",
   "popular": "Storie popolari",
-  "in_src": "in inglese"
+  "in_src": "in inglese",
+  "answers": "Risposte",
+  "print_line": "Ascolta questa storia nell'app Biblyx"
  },
  "pl": {
   "path": "opowiadania-po-angielsku",
@@ -400,7 +412,9 @@
   "print": "Drukuj lub zapisz jako PDF",
   "speed": "Tempo",
   "popular": "Popularne opowiadania",
-  "in_src": "po angielsku"
+  "in_src": "po angielsku",
+  "answers": "Odpowiedzi",
+  "print_line": "Posłuchaj tego opowiadania w aplikacji Biblyx"
  },
  "fr": {
   "path": "histoires-en-anglais",
@@ -456,7 +470,9 @@
   "print": "Imprimer ou enregistrer en PDF",
   "speed": "Vitesse",
   "popular": "Histoires populaires",
-  "in_src": "en anglais"
+  "in_src": "en anglais",
+  "answers": "Réponses",
+  "print_line": "Écoutez cette histoire dans l'application Biblyx"
  },
  "ru": {
   "path": "rasskazy-na-angliyskom",
@@ -512,6 +528,8 @@
   "print": "Распечатать или сохранить в PDF",
   "speed": "Скорость",
   "popular": "Популярные рассказы",
-  "in_src": "на английском"
+  "in_src": "на английском",
+  "answers": "Ответы",
+  "print_line": "Слушайте этот рассказ в приложении Biblyx"
  }
 }

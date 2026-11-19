@@ -55,7 +55,9 @@
   "print": "Yazdır veya PDF olarak kaydet",
   "speed": "Hız",
   "popular": "Popüler Almanca hikayeler",
-  "in_src": "Almanca"
+  "in_src": "Almanca",
+  "answers": "Cevaplar",
+  "print_line": "Bu hikayeyi Biblyx uygulamasında dinle"
  },
  "order": [
   "der-hase-und-der-igel",
