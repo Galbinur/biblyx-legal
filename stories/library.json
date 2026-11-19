@@ -15,8 +15,8 @@
   "title": "English short stories for beginners, with meanings",
   "h1": "English short stories",
   "crumb": "Short stories",
-  "description": "Short English stories for beginners and adult learners, free and complete: tap any underlined word for a simple meaning. Levels A1–B2.",
-  "intro": "Short stories in English for beginners and adult learners, complete and free to read: fairy tales retold in easy English for A1, then classic stories up to B2. Underlined words open a short meaning in simple English, and each story ends with its word list.",
+  "description": "Short English stories for beginners and adult learners, free and complete: tap any underlined word for a simple meaning. A1–B2, with audio in the app.",
+  "intro": "Short stories in English for beginners and adult learners, complete and free to read: fairy tales retold in easy English for A1, then classic stories up to B2. Underlined words open a short meaning in simple English, and each story ends with its word list. They are also stories with audio: in the Biblyx app a natural voice reads each one aloud and highlights the part being read, so you can read along.",
   "howto": "<b>How to read:</b> tap an underlined word to see what it means here. Read each paragraph through first and look words up only when they stop you.",
   "toggle": "",
   "show_all": "",
@@ -52,6 +52,7 @@
   "app_points": [
    "Tap any word: you get its meaning in this sentence, in your language",
    "Save the words you don't know and review them as flashcards",
+   "Listen to it in a natural voice, with the part being read highlighted",
    "38 short stories from A1 to B2 in 10 languages, plus your own EPUB, PDF and TXT books"
   ],
   "app_how": "In the app: tap + and choose “Starter stories”.",
@@ -62,8 +63,8 @@
   "title": "İngilizce hikayeler: Türkçe çevirili, A1–B2",
   "h1": "İngilizce hikayeler, Türkçe çevirili",
   "crumb": "İngilizce hikayeler",
-  "description": "Kısa ve basit İngilizce hikayeler, Türkçe çevirili ve ücretsiz: altı çizili kelimeye dokun, anlamını gör. A1, A2, B1 ve B2 seviyesinde hikayeler.",
-  "intro": "Seviyene göre kısa İngilizce hikayeler, tam metin ve ücretsiz: A1 için basit İngilizceyle anlatılmış masallar, ardından B2'ye kadar klasik hikayeler. Altı çizili kelimeye dokununca hikayedeki anlamı açılır; her paragrafın altında Türkçe çevirisi var.",
+  "description": "Kısa ve basit İngilizce hikayeler, Türkçe çevirili ve ücretsiz: altı çizili kelimeye dokun, anlamını gör. A1, A2, B1 ve B2 seviyesinde, uygulamada sesli.",
+  "intro": "Seviyene göre kısa İngilizce hikayeler, tam metin ve ücretsiz: A1 için basit İngilizceyle anlatılmış masallar, ardından B2'ye kadar klasik hikayeler. Altı çizili kelimeye dokununca hikayedeki anlamı açılır; her paragrafın altında Türkçe çevirisi var. Bunlar aynı zamanda İngilizce sesli hikayeler: Biblyx uygulamasında doğal bir ses okur ve okunan yer vurgulanır, böylece İngilizce hikaye dinlerken metni de takip edersin.",
   "howto": "<b>Nasıl okunur:</b> altı çizili kelimeye dokun, bu cümledeki anlamını gör. Önce paragrafı kendin oku; takılırsan altındaki “Türkçesi” düğmesiyle çeviriyi aç.",
   "toggle": "Türkçesi",
   "show_all": "Tüm çevirileri göster",
@@ -99,6 +100,7 @@
   "app_points": [
    "Herhangi bir kelimeye dokun: bu cümledeki anlamı Türkçe gelir",
    "Bilmediğin kelimeleri kaydet, kartlarla tekrar et",
+   "Doğal bir sesle dinle, okunan yer vurgulanır",
    "10 dilde A1'den B2'ye 38 kısa hikaye, bir de kendi EPUB, PDF ve TXT kitapların"
   ],
   "app_how": "Uygulamada: + simgesine dokun ve “Hazır hikâyeler”i seç.",
@@ -109,8 +111,8 @@
   "title": "Englische Kurzgeschichten für Anfänger (A1–B2)",
   "h1": "Englische Kurzgeschichten für Anfänger",
   "crumb": "Englische Kurzgeschichten",
-  "description": "Englische Kurzgeschichten für Anfänger und Erwachsene, kostenlos: unterstrichenes Wort antippen, Bedeutung sehen, Absatz übersetzen. Niveau A1–B2.",
-  "intro": "Englische Kurzgeschichten für Anfänger und Erwachsene, vollständig und kostenlos: Märchen in einfachem Englisch für A1, danach klassische Geschichten bis B2. Unterstrichene Wörter zeigen ihre Bedeutung im Satz, und unter jedem Absatz steht die deutsche Übersetzung.",
+  "description": "Englische Kurzgeschichten für Anfänger und Erwachsene, kostenlos: unterstrichenes Wort antippen, Bedeutung sehen, Absatz übersetzen. A1–B2, in der App mit Audio.",
+  "intro": "Englische Kurzgeschichten für Anfänger und Erwachsene, vollständig und kostenlos: Märchen in einfachem Englisch für A1, danach klassische Geschichten bis B2. Unterstrichene Wörter zeigen ihre Bedeutung im Satz, und unter jedem Absatz steht die deutsche Übersetzung. In der Biblyx-App gibt es jede Geschichte auch zum Hören: Eine natürliche Stimme liest vor und die gelesene Stelle wird hervorgehoben, so kannst du Englisch gleichzeitig lesen und hören.",
   "howto": "<b>So liest du:</b> Tippe auf ein unterstrichenes Wort, um seine Bedeutung in diesem Satz zu sehen. Lies jeden Absatz zuerst selbst; wenn du hängen bleibst, öffnet „Auf Deutsch“ die Übersetzung.",
   "toggle": "Auf Deutsch",
   "show_all": "Alle Übersetzungen zeigen",
@@ -146,6 +148,7 @@
   "app_points": [
    "Tippe auf ein Wort: Du bekommst seine Bedeutung in diesem Satz, auf Deutsch",
    "Speichere unbekannte Wörter und wiederhole sie als Karteikarten",
+   "Hör sie dir mit natürlicher Stimme an, die gelesene Stelle wird hervorgehoben",
    "38 kurze Geschichten von A1 bis B2 in 10 Sprachen, dazu deine eigenen EPUB-, PDF- und TXT-Bücher"
   ],
   "app_how": "In der App: Tippe auf + und wähle „Geschichten zum Start“.",
@@ -156,8 +159,8 @@
   "title": "Histórias e contos em inglês para iniciantes",
   "h1": "Histórias e contos em inglês",
   "crumb": "Histórias em inglês",
-  "description": "Histórias e contos curtos em inglês para iniciantes, grátis: toque na palavra sublinhada para ver o sentido e abra a tradução de cada parágrafo. A1–B2.",
-  "intro": "Histórias curtas em inglês para iniciantes, completas e grátis: contos de fadas em inglês simples para o nível A1 e, depois, contos clássicos até o B2. As palavras sublinhadas mostram o sentido na frase, e cada parágrafo tem a tradução em português.",
+  "description": "Histórias e contos curtos em inglês para iniciantes, grátis: toque na palavra sublinhada para ver o sentido e a tradução. A1–B2, com áudio no app.",
+  "intro": "Histórias curtas em inglês para iniciantes, completas e grátis: contos de fadas em inglês simples para o nível A1 e, depois, contos clássicos até o B2. As palavras sublinhadas mostram o sentido na frase, e cada parágrafo tem a tradução em português. No app Biblyx, elas também são textos em inglês com áudio: uma voz natural lê cada história e destaca o trecho lido, para ler e ouvir ao mesmo tempo.",
   "howto": "<b>Como ler:</b> toque numa palavra sublinhada para ver o sentido dela nesta frase. Leia cada parágrafo primeiro sozinho; se travar, abra a tradução em “Em português”.",
   "toggle": "Em português",
   "show_all": "Mostrar todas as traduções",
@@ -193,6 +196,7 @@
   "app_points": [
    "Toque em qualquer palavra: o sentido dela nesta frase aparece em português",
    "Salve as palavras que você não conhece e revise com flashcards",
+   "Ouça em uma voz natural, com o trecho lido destacado",
    "38 histórias curtas do A1 ao B2 em 10 idiomas, além dos seus próprios livros EPUB, PDF e TXT"
   ],
   "app_how": "No app: toque em + e escolha “Histórias para começar”.",
@@ -203,8 +207,8 @@
   "title": "Cuentos en inglés para principiantes (A1–B2)",
   "h1": "Cuentos en inglés",
   "crumb": "Cuentos en inglés",
-  "description": "Cuentos cortos en inglés para principiantes, gratis: toca una palabra subrayada para ver su significado y abre la traducción de cada párrafo. A1–B2.",
-  "intro": "Cuentos cortos en inglés para principiantes, completos y gratis: cuentos de hadas en inglés fácil para el nivel A1 y, después, cuentos clásicos hasta B2. Las palabras subrayadas muestran su significado en la frase, y cada párrafo tiene su traducción al español.",
+  "description": "Cuentos cortos en inglés para principiantes, gratis: toca una palabra subrayada para ver su significado y su traducción. A1–B2, con audio en la app.",
+  "intro": "Cuentos cortos en inglés para principiantes, completos y gratis: cuentos de hadas en inglés fácil para el nivel A1 y, después, cuentos clásicos hasta B2. Las palabras subrayadas muestran su significado en la frase, y cada párrafo tiene su traducción al español. En la app Biblyx son también lecturas en inglés con audio: una voz natural lee cada cuento y resalta la parte que se lee, para leer y escuchar a la vez.",
   "howto": "<b>Cómo leer:</b> toca una palabra subrayada para ver qué significa en esta frase. Lee primero cada párrafo por tu cuenta; si te atascas, abre la traducción con “En español”.",
   "toggle": "En español",
   "show_all": "Mostrar todas las traducciones",
@@ -240,6 +244,7 @@
   "app_points": [
    "Toca cualquier palabra: ves su significado en esta frase, en español",
    "Guarda las palabras que no conoces y repásalas con tarjetas",
+   "Escúchala con una voz natural, con la parte que se lee resaltada",
    "38 historias cortas de A1 a B2 en 10 idiomas, y también tus propios libros EPUB, PDF y TXT"
   ],
   "app_how": "En la app: toca + y elige «Historias para empezar».",
@@ -250,8 +255,8 @@
   "title": "Storie in inglese per principianti (A1–B2)",
   "h1": "Storie in inglese",
   "crumb": "Storie in inglese",
-  "description": "Storie e brevi racconti in inglese per principianti, gratis: tocca una parola sottolineata per il significato e apri la traduzione. Livelli A1–B2.",
-  "intro": "Storie brevi in inglese per principianti, complete e gratuite: fiabe in inglese semplice per il livello A1 e poi racconti classici fino al B2. Le parole sottolineate mostrano il loro significato nella frase, e ogni paragrafo ha la sua traduzione in italiano.",
+  "description": "Storie e brevi racconti in inglese per principianti, gratis: tocca una parola sottolineata per il significato e apri la traduzione. A1–B2, con audio nell'app.",
+  "intro": "Storie brevi in inglese per principianti, complete e gratuite: fiabe in inglese semplice per il livello A1 e poi racconti classici fino al B2. Le parole sottolineate mostrano il loro significato nella frase, e ogni paragrafo ha la sua traduzione in italiano. Nell'app Biblyx sono anche racconti in inglese con audio: una voce naturale legge ogni storia ed evidenzia la parte letta, così puoi leggere e ascoltare insieme.",
   "howto": "<b>Come leggere:</b> tocca una parola sottolineata per vedere cosa significa in questa frase. Leggi prima ogni paragrafo da solo; se ti blocchi, apri la traduzione con “In italiano”.",
   "toggle": "In italiano",
   "show_all": "Mostra tutte le traduzioni",
@@ -287,6 +292,7 @@
   "app_points": [
    "Tocca una parola qualsiasi: vedi il suo significato in questa frase, in italiano",
    "Salva le parole che non conosci e ripassale con le flashcard",
+   "Ascoltala con una voce naturale, con la parte letta evidenziata",
    "38 racconti brevi dal livello A1 al B2 in 10 lingue, più i tuoi libri EPUB, PDF e TXT"
   ],
   "app_how": "Nell'app: tocca + e scegli «Storie per iniziare».",
@@ -297,8 +303,8 @@
   "title": "Opowiadania po angielsku dla początkujących",
   "h1": "Opowiadania po angielsku",
   "crumb": "Opowiadania po angielsku",
-  "description": "Krótkie opowiadania po angielsku dla początkujących, za darmo: dotknij podkreślonego słowa, by zobaczyć znaczenie, i otwórz tłumaczenie. Poziom A1–B2.",
-  "intro": "Krótkie opowiadania po angielsku dla początkujących, w całości i za darmo: baśnie opowiedziane prostym angielskim na poziomie A1, a potem klasyczne opowiadania aż do B2. Podkreślone słowa pokazują swoje znaczenie w zdaniu, a każdy akapit ma tłumaczenie na polski.",
+  "description": "Krótkie opowiadania po angielsku dla początkujących, za darmo: dotknij podkreślonego słowa, by zobaczyć znaczenie. A1–B2, z nagraniem w aplikacji.",
+  "intro": "Krótkie opowiadania po angielsku dla początkujących, w całości i za darmo: baśnie opowiedziane prostym angielskim na poziomie A1, a potem klasyczne opowiadania aż do B2. Podkreślone słowa pokazują swoje znaczenie w zdaniu, a każdy akapit ma tłumaczenie na polski. W aplikacji Biblyx opowiadania mają też nagranie: naturalny głos je czyta i podświetla czytany fragment, więc możesz ćwiczyć słuchanie po angielsku z tekstem.",
   "howto": "<b>Jak czytać:</b> dotknij podkreślonego słowa, żeby zobaczyć, co znaczy w tym zdaniu. Najpierw przeczytaj akapit samodzielnie; jeśli utkniesz, otwórz tłumaczenie przyciskiem „Po polsku”.",
   "toggle": "Po polsku",
   "show_all": "Pokaż wszystkie tłumaczenia",
@@ -334,6 +340,7 @@
   "app_points": [
    "Dotknij dowolnego słowa: zobaczysz jego znaczenie w tym zdaniu, po polsku",
    "Zapisuj nieznane słowa i powtarzaj je z fiszkami",
+   "Posłuchaj, jak czyta je naturalny głos, a czytany fragment się podświetla",
    "38 krótkich opowiadań od A1 do B2 w 10 językach, a do tego Twoje własne książki EPUB, PDF i TXT"
   ],
   "app_how": "W aplikacji: dotknij + i wybierz „Opowiadania na start”.",
@@ -344,8 +351,8 @@
   "title": "Histoires en anglais pour débutants (A1–B2)",
   "h1": "Histoires en anglais",
   "crumb": "Histoires en anglais",
-  "description": "Histoires courtes en anglais pour débutants, gratuites : touchez un mot souligné pour voir son sens et ouvrez la traduction de chaque paragraphe. A1–B2.",
-  "intro": "Des histoires courtes en anglais pour débutants, complètes et gratuites : des contes racontés en anglais simple pour le niveau A1, puis des nouvelles classiques jusqu'au B2. Les mots soulignés montrent leur sens dans la phrase, et chaque paragraphe a sa traduction en français.",
+  "description": "Histoires courtes en anglais pour débutants, gratuites : touchez un mot souligné pour voir son sens et sa traduction. A1–B2, avec audio dans l'app.",
+  "intro": "Des histoires courtes en anglais pour débutants, complètes et gratuites : des contes racontés en anglais simple pour le niveau A1, puis des nouvelles classiques jusqu'au B2. Les mots soulignés montrent leur sens dans la phrase, et chaque paragraphe a sa traduction en français. Dans l'application Biblyx, chaque histoire existe aussi avec audio : une voix naturelle la lit et surligne le passage lu, pour lire et écouter en même temps.",
   "howto": "<b>Comment lire :</b> touchez un mot souligné pour voir ce qu'il veut dire dans cette phrase. Lisez d'abord chaque paragraphe seul ; si vous bloquez, ouvrez la traduction avec « En français ».",
   "toggle": "En français",
   "show_all": "Afficher toutes les traductions",
@@ -381,6 +388,7 @@
   "app_points": [
    "Touchez n'importe quel mot : vous voyez son sens dans cette phrase, en français",
    "Enregistrez les mots inconnus et révisez-les avec des cartes",
+   "Écoutez-la avec une voix naturelle, le passage lu est surligné",
    "38 histoires courtes du niveau A1 au B2 en 10 langues, plus vos propres livres EPUB, PDF et TXT"
   ],
   "app_how": "Dans l'application : touchez + et choisissez « Histoires pour débuter ».",
@@ -391,8 +399,8 @@
   "title": "Рассказы на английском для начинающих (A1–B2)",
   "h1": "Рассказы на английском",
   "crumb": "Рассказы на английском",
-  "description": "Короткие рассказы на английском для начинающих, бесплатно: нажмите на подчёркнутое слово, чтобы увидеть значение, и откройте перевод абзаца. A1–B2.",
-  "intro": "Короткие рассказы на английском для начинающих, полностью и бесплатно: сказки на простом английском для уровня A1, а затем классические рассказы до B2. Подчёркнутые слова показывают своё значение в предложении, а у каждого абзаца есть перевод на русский.",
+  "description": "Короткие рассказы на английском для начинающих, бесплатно: нажмите на подчёркнутое слово, чтобы увидеть значение. A1–B2, с аудио в приложении.",
+  "intro": "Короткие рассказы на английском для начинающих, полностью и бесплатно: сказки на простом английском для уровня A1, а затем классические рассказы до B2. Подчёркнутые слова показывают своё значение в предложении, а у каждого абзаца есть перевод на русский. В приложении Biblyx это ещё и рассказы на английском с аудио: естественный голос читает каждый рассказ и подсвечивает читаемый фрагмент, так что это и аудирование с текстом.",
   "howto": "<b>Как читать:</b> нажмите на подчёркнутое слово, чтобы увидеть, что оно значит в этом предложении. Сначала прочитайте абзац сами; если застряли, откройте перевод кнопкой «По-русски».",
   "toggle": "По-русски",
   "show_all": "Показать все переводы",
@@ -428,6 +436,7 @@
   "app_points": [
    "Нажмите на любое слово: увидите его значение в этом предложении, по-русски",
    "Сохраняйте незнакомые слова и повторяйте их на карточках",
+   "Слушайте его: естественный голос читает, а читаемый фрагмент подсвечивается",
    "38 коротких рассказов от A1 до B2 на 10 языках, а также ваши собственные книги EPUB, PDF и TXT"
   ],
   "app_how": "В приложении: нажмите + и выберите «Рассказы для начала».",

@@ -4,8 +4,8 @@
   "title": "Almanca hikayeler: Türkçe çevirili, A1–B2",
   "h1": "Almanca hikayeler, Türkçe çevirili",
   "crumb": "Almanca hikayeler",
-  "description": "Kısa Almanca hikayeler, Türkçe çevirili ve ücretsiz: altı çizili kelimeye dokun, anlamını gör. A1 masallardan Grimm ve Kafka'ya, A1–B2 seviyesinde.",
-  "intro": "Seviyene göre kısa Almanca hikayeler, tam metin ve ücretsiz: A1 için basit Almancayla anlatılmış masallar, ardından Grimm Kardeşler'in ve Kafka'nın orijinal metinleri. Altı çizili kelimeye dokununca hikayedeki anlamı açılır; her paragrafın altında Türkçe çevirisi var.",
+  "description": "Kısa Almanca hikayeler, Türkçe çevirili ve ücretsiz: altı çizili kelimeye dokun, anlamını gör. A1 masallardan Grimm ve Kafka'ya, A1–B2, uygulamada sesli.",
+  "intro": "Seviyene göre kısa Almanca hikayeler, tam metin ve ücretsiz: A1 için basit Almancayla anlatılmış masallar, ardından Grimm Kardeşler'in ve Kafka'nın orijinal metinleri. Altı çizili kelimeye dokununca hikayedeki anlamı açılır; her paragrafın altında Türkçe çevirisi var. Bunlar aynı zamanda Almanca sesli hikayeler: Biblyx uygulamasında doğal bir ses okur ve okunan yer vurgulanır.",
   "howto": "<b>Nasıl okunur:</b> altı çizili kelimeye dokun, bu cümledeki anlamını gör. Önce paragrafı kendin oku; takılırsan altındaki “Türkçesi” düğmesiyle çeviriyi aç.",
   "toggle": "Türkçesi",
   "show_all": "Tüm çevirileri göster",
@@ -43,6 +43,7 @@
   "app_points": [
    "Almanca bir kelimeye dokun: bu cümledeki anlamı Türkçe gelir, isimler artikeliyle",
    "Bilmediğin kelimeleri kaydet, kartlarla tekrar et",
+   "Doğal bir sesle dinle, okunan yer vurgulanır",
    "10 dilde A1'den B2'ye 38 kısa hikaye, bir de kendi EPUB, PDF ve TXT kitapların"
   ],
   "app_how": "Uygulamada: + simgesine dokun ve “Hazır hikâyeler”i seç.",
